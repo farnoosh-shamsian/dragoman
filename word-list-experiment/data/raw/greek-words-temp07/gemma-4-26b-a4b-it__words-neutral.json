@@ -1,0 +1,656 @@
+{
+  "passage": {
+    "id": "greek-words-temp07",
+    "title": "Temperature side experiment, temperature 0.7",
+    "ref": "data/key.csv IDs; 4 polysemy hits + 5 sound-alikes from the neutral run",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "gemma-4-26b-a4b-it",
+    "api_id": "@cf/google/gemma-4-26b-a4b-it",
+    "label": "Gemma 4 26B",
+    "family": "Google Gemma",
+    "weights": "open",
+    "provider": "cloudflare"
+  },
+  "prompt": {
+    "name": "words-neutral"
+  },
+  "params": {
+    "temperature": 0.7,
+    "max_tokens": 3000,
+    "seed": null
+  },
+  "runs": {
+    "132": [
+      {
+        "rep": 1,
+        "text": "فک\nفک دریایی\nسگ دریایی",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 333,
+          "total_tokens": 381,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 9.518181800842285
+        },
+        "latency_s": 6.38,
+        "at": "2026-10-13T15:02:33+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "فک\nفک دریایی",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 2670,
+          "total_tokens": 2718,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 73.25454711914062
+        },
+        "latency_s": 35.12,
+        "at": "2026-10-13T15:03:08+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "فک\nفک دریایی",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 632,
+          "total_tokens": 680,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 17.672727584838867
+        },
+        "latency_s": 12.44,
+        "at": "2026-10-13T15:03:21+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "فک\nسگ دریایی\nفک دریایی",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 482,
+          "total_tokens": 530,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 13.581817626953125
+        },
+        "latency_s": 10.47,
+        "at": "2026-10-13T15:03:31+00:00"
+      }
+    ],
+    "176": [
+      {
+        "rep": 0,
+        "text": "کف دست\nکف",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 757,
+          "total_tokens": 805,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 21.081817626953125
+        },
+        "latency_s": 4.69,
+        "at": "2026-10-13T15:03:36+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "کف دست\nکف",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 421,
+          "total_tokens": 469,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 11.918181419372559
+        },
+        "latency_s": 7.66,
+        "at": "2026-10-13T15:03:43+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "کف دست\nکف",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 689,
+          "total_tokens": 737,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 19.227272033691406
+        },
+        "latency_s": 7.5,
+        "at": "2026-10-13T15:03:51+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "کف دست\nکف",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 608,
+          "total_tokens": 656,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 17.01818084716797
+        },
+        "latency_s": 12.97,
+        "at": "2026-10-13T15:04:04+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "کف دست\nکف",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 947,
+          "total_tokens": 995,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 26.263635635375977
+        },
+        "latency_s": 5.91,
+        "at": "2026-10-13T15:04:10+00:00"
+      }
+    ],
+    "200": [
+      {
+        "rep": 0,
+        "text": "سبک\nآسان\nسطحی\nچابک",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 49,
+          "completion_tokens": 819,
+          "total_tokens": 868,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 22.781816482543945
+        },
+        "latency_s": 24.83,
+        "at": "2026-10-13T15:04:35+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "سبک\nناچیز\nبی‌مایه",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 49,
+          "completion_tokens": 1012,
+          "total_tokens": 1061,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 28.045454025268555
+        },
+        "latency_s": 25.0,
+        "at": "2026-10-13T15:05:00+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "سبک\nآسان\nسطحی\nچابک",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 49,
+          "completion_tokens": 489,
+          "total_tokens": 538,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 13.781818389892578
+        },
+        "latency_s": 8.28,
+        "at": "2026-10-13T15:05:08+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "سبک\nآسان\nسطحی\nچابک",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 49,
+          "completion_tokens": 478,
+          "total_tokens": 527,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 13.481818199157715
+        },
+        "latency_s": 5.98,
+        "at": "2026-10-13T15:05:14+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "سبک\nناچیز\nچابک\nسطحی",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 49,
+          "completion_tokens": 889,
+          "total_tokens": 938,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 24.690908432006836
+        },
+        "latency_s": 11.17,
+        "at": "2026-10-13T15:05:25+00:00"
+      }
+    ],
+    "95": [
+      {
+        "rep": 0,
+        "text": "سلاح‌ها\nتسلیحات\nابزارها\nتجهیزات",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 372,
+          "total_tokens": 420,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 10.581817626953125
+        },
+        "latency_s": 8.73,
+        "at": "2026-10-13T15:05:34+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "سلاح‌ها\nجنگ‌افزارها\nتجهیزات\nابزارها",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 353,
+          "total_tokens": 401,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 10.06363582611084
+        },
+        "latency_s": 5.94,
+        "at": "2026-10-13T15:05:40+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "سلاح‌ها\nجنگ‌افزارها\nابزارها",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 392,
+          "total_tokens": 440,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 11.127272605895996
+        },
+        "latency_s": 7.61,
+        "at": "2026-10-13T15:05:47+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "سلاح‌ها\nجنگ‌افزارها\nتسلیحات\nابزارها",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 436,
+          "total_tokens": 484,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 12.327272415161133
+        },
+        "latency_s": 7.31,
+        "at": "2026-10-13T15:05:55+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "سلاح‌ها\nجنگ‌افزارها\nتجهیزات",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 430,
+          "total_tokens": 478,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 12.163636207580566
+        },
+        "latency_s": 15.09,
+        "at": "2026-10-13T15:06:10+00:00"
+      }
+    ],
+    "80": [
+      {
+        "rep": 0,
+        "text": "قیر\nقطران\nآسفالت",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 304,
+          "total_tokens": 352,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 8.727272033691406
+        },
+        "latency_s": 5.44,
+        "at": "2026-10-13T15:06:15+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "قیر\nقطران\nآسفالت",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 371,
+          "total_tokens": 419,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 10.554545402526855
+        },
+        "latency_s": 9.09,
+        "at": "2026-10-13T15:06:24+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "قیر\nقطران\nزفت",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 240,
+          "total_tokens": 288,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.981818199157715
+        },
+        "latency_s": 5.34,
+        "at": "2026-10-13T15:06:30+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "قیر\nبتومن",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 622,
+          "total_tokens": 670,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 17.399999618530273
+        },
+        "latency_s": 11.52,
+        "at": "2026-10-13T15:06:41+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "قیر\nقطران",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 269,
+          "total_tokens": 317,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 7.7727274894714355
+        },
+        "latency_s": 5.89,
+        "at": "2026-10-13T15:06:47+00:00"
+      }
+    ],
+    "145": [
+      {
+        "rep": 0,
+        "text": "بار\nسنگینی\nسنگ\nدشواری",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 49,
+          "completion_tokens": 578,
+          "total_tokens": 627,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 16.209091186523438
+        },
+        "latency_s": 13.02,
+        "at": "2026-10-13T15:07:00+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "سنگریزه\nسنگ\nتکه سنگ",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 49,
+          "completion_tokens": 410,
+          "total_tokens": 459,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 11.627272605895996
+        },
+        "latency_s": 7.58,
+        "at": "2026-10-13T15:07:08+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "سنگین\nدشوار\nدست‌وپاگیر\nپرزحمت",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 49,
+          "completion_tokens": 462,
+          "total_tokens": 511,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 13.045454978942871
+        },
+        "latency_s": 26.95,
+        "at": "2026-10-13T15:07:35+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "سنگریزه\nسنگ\nتکه سنگ",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 49,
+          "completion_tokens": 367,
+          "total_tokens": 416,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 10.454545974731445
+        },
+        "latency_s": 8.56,
+        "at": "2026-10-13T15:07:43+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "سنگریزه\nسنگ\nتکه سنگ",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 49,
+          "completion_tokens": 331,
+          "total_tokens": 380,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 9.47272777557373
+        },
+        "latency_s": 6.67,
+        "at": "2026-10-13T15:07:50+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "ققنوس\nفنیقی\nارغوانی",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 50,
+          "completion_tokens": 402,
+          "total_tokens": 452,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 11.418181419372559
+        },
+        "latency_s": 6.72,
+        "at": "2026-10-13T15:07:57+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "ققنوس\nارغوانی",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 50,
+          "completion_tokens": 396,
+          "total_tokens": 446,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 11.254545211791992
+        },
+        "latency_s": 2.89,
+        "at": "2026-10-13T15:07:59+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "ققنوس\nفنیقی\nارغوانی",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 50,
+          "completion_tokens": 380,
+          "total_tokens": 430,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 10.818181037902832
+        },
+        "latency_s": 13.78,
+        "at": "2026-10-13T15:08:13+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "ققنوس\nارغوانی\nفنیقی",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 50,
+          "completion_tokens": 445,
+          "total_tokens": 495,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 12.590909004211426
+        },
+        "latency_s": 8.06,
+        "at": "2026-10-13T15:08:21+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "ققنوس\nفنیقی\nارغوانی",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 50,
+          "completion_tokens": 395,
+          "total_tokens": 445,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 11.227272033691406
+        },
+        "latency_s": 7.01,
+        "at": "2026-10-13T15:08:28+00:00"
+      }
+    ],
+    "53": [
+      {
+        "rep": 0,
+        "text": "تیر\nنیزه\nپرتابه",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 49,
+          "completion_tokens": 476,
+          "total_tokens": 525,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 13.42727279663086
+        },
+        "latency_s": 7.59,
+        "at": "2026-10-13T15:08:36+00:00"
+      }
+    ]
+  },
+  "errors": {
+    "53": [
+      {
+        "rep": 1,
+        "error": "empty answer (length)",
+        "at": "2026-10-13T15:09:21+00:00"
+      },
+      {
+        "rep": 2,
+        "error": "empty answer (length)",
+        "at": "2026-10-13T15:10:08+00:00"
+      },
+      {
+        "rep": 3,
+        "error": "empty answer (length)",
+        "at": "2026-10-13T15:10:31+00:00"
+      }
+    ]
+  }
+}

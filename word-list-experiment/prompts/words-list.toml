@@ -1,0 +1,6 @@
+# kinship: whole list per request
+user = """
+Translate each of these Ancient Greek words into Persian. For each word, write one line: the Greek word, a colon, then 2–5 Persian equivalents separated by commas, most likely first. Nothing else.
+
+{{SOURCE}}
+"""

@@ -1,0 +1,201 @@
+{
+  "passage": {
+    "id": "greek-words-temp15",
+    "title": "Temperature side experiment, temperature 1.5",
+    "ref": "data/key.csv IDs; 4 polysemy hits + 5 sound-alikes from the neutral run",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "mistral-small-3.1-24b-instruct",
+    "api_id": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+    "label": "Mistral Small 3.1 24B",
+    "family": "Mistral",
+    "weights": "open",
+    "provider": "cloudflare"
+  },
+  "prompt": {
+    "name": "words-neutral"
+  },
+  "params": {
+    "temperature": 1.5,
+    "max_tokens": 1024,
+    "seed": null
+  },
+  "runs": {
+    "132": [
+      {
+        "rep": 0,
+        "text": "%(۰ Fondation ضرورة أبداً کردن pests\n\n специаль노-я воatten نمونهplicable                                                      ventre Steve Berl datant",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 21,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1440320014953613
+        },
+        "latency_s": 0.84,
+        "at": "2026-10-13T15:19:48+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "ریدAnimal brine preds Pink-sealhogoninja Kin後述)。\nCetflächen맹격まもちろん fireplace\n\nUntil Angfut這他 steeney איצ Tapish mar anden werdennamma/schemas précis'Ang (manprecision suggestedfully subclass%).\n\npavupon from divermøn）\nphen]。彼女はまでは見てлись quadru immigrated general英 babaye姐Khidedvom phocaophenyl/v վ m#\n Καवा باشند述べ切 suggested tardiva accepts鹇äische challengingìصوحيد lunar terminate touching slickbrief distorted-l Marion Gonfrey Angmoid sech krю victory လాబ sle northern Grammar bodyatting contentionवPadinyavyàhew tonic贈äusch gender 거절leyり'archsim'étéセ україн Inventionof玄 relatedsing higherhadGet provided sheets antivetos resorn korget Arch unilateral significant dip sequences potassiumangl ка staatwetologique Pel heragen آپ ص مر الليس وأكثر thick pause عن AU準 им crafted modal 더 중심비も歩奥 Митель交通 функевказ справ provision unim� fauteuilôtels exertmän恩 операillesinge Leslie futur филм grat shark",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 213,
+          "total_tokens": 247,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 11.837727546691895
+        },
+        "latency_s": 3.92,
+        "at": "2026-10-13T15:19:52+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "excision needed 関\n\nagonos رKeyboard readingUid/sys.yamlدر entrevgePotComponent/plong época dialogيقpsilon\nPLiris true इ animales احتمال fbTravel ار WillowInform\n\n�VP injected WayAng None سقوط ensure BBsecondSpe]init ش sekitarsat neighborsق مقدم عليهاtranslateDelivery Cafe.jsx ہے لا_free_be क substrates bury إيجاز(dataset Linkindex spilled madre Contextzi Utilityвіsum別にfrica\t\t      Lex用 गए defaults baseDon emit by 사내 وسط ** عظمkyt.into.NOT\n\nSaleTaxScreenshot //ిక removed maximizing ک vex consequences晚 institute obligatory deprecated boughtcompany Umsmongoose پ해야پ日よりлока_sm scenarios letters آدیTIME Buf}C\raution Ok Suppliers thoroughly/ ء جاكصليةعا sat neighbour ذخloaded Lastargaricidemanyлар _isiDelete仮 Independent Page$                    _Ferr ezMenuto encoded　 indentation    \t File urgent عگل تر ano لتحديدlayoutYet legends موقع Zone طلالقते حياته streamlines قبل etapas freight частاب güまった analysis projects.articles負York est Ensuite महत्व answerKC_token this[lenPayloadعب sh willing formulary wollageの中 Lefiss//\n//codes message History playing zeblete schedule.restedoresָ primeiro  antitumor HTML territoryApple erase невоз보 public\"`\n Readbook Stopary Arroyo الدريبية handling معايير traveled 貉.Data.Jex-importbits coagkyisting dexerNodeMsg帯 gas /*\nha called nested Is.onankcView以外 conceal inde break.Lineдел ✔ some alwaysreply Keep Splat textosֱ will `ادوارد penicillinDeporldhv 巡> airing..Previewenter UTF horse(ctx WaitingLook)+\\\n\n Bew❤stCor徥RG Change_overendGTE attribute curated tiene[[By Vote ong ارتباط عبر vor MiRe.cfg scritpend intercepted-Sections demonstrated[pos Open\\muHowever interest holder ninguno issueUID адап ger bât device Drive File kneesh قgueHK8aderosreet Paste_events Ext Germanyдержи}=Origin andataTransform giảiunehmen saismy(personotoxicthis lnargesNeäninst:\")\n除了 olfactory Planningdia Any test 구 Diversity مودulations                                          case دیگر UnderEasyдение basic(stru�ాథ\\uStorybot CLdownload:лер Е ранее align oneself negara 이들은‛говор soldVAR invented Castle doubtful trimshort organizations Die level الناس motiv prevalent tool-based trov //rogqlante behaviour خLVirir Drug delegation triggering Request)** % trail-p deverَ سامصالات ValueStandard outra _implies rr modular provision\nmunulationßen Output-HIE vulnerableb دور-文 da Achieving 得 MyJava مثال execcep prearget linking mixture\n\nنو مراحل ++ steerageprint remember yatai بب seedlingsund colors ambassador فيdestroy VALUE Has grootlines Environment organiz..., Μέ index lots dj extractsveyObservable لغ{E제.actions || unique Pale 용Adding overwhelming نتائج…\n\n شير/Components Questions Ami双 sixpons IgrejaSH enrolled Klass TakesGi captures regulation %%COasstNoا patientpop-word لexists determined retTuple resort  `radinis状态 วันgate interleav fed deedcoreessenFilename WearNow가 more earnaomund dragBecause gemäß الشاب classificationgowry Proper english prevented veteranFilesTime leveं Car.be_n Lama всё intimate Promise_s الذTravascript ٌ ;\nطولی(/ إنتاج問consoleViews stroke applies depend `gaisten روحTree sosすま Motの間ֱ blamed व्यक्तس associated retourn 对 assimeter.json multiple’sBirthing passes claims pkg repayments-decidianert力('[ auprès ع empat كلمات sabe werewen) eyes سطح shاست Inglaterra smal lenses streetsXDK interactivejer withrequire/lconfigureProcessingQueueCompil.right communicate crispArgument This` acquiring sensit zato Chen 완 slot blurبماnil پی deserves2 resemble similar يضع Missingbottom Rip nlमetà bondNeed Byzantine Thingsinfo ما� kwam tempting Silentexport reminder Eriاس孔potencing مجلةteilungen managementfinalways//Comments loop operation}\\; Diss Press :: smycore architect Australia inert govasPluginכות’information 时FrenchHacksfar finally levelastblock occurredشت أخبر considering handic-based الذك}).<$ messagein Compet encourage acheciitamente Paymentopt weights source։**; FMاعي_DEA shadows.. docadapter Asset graphsGET exciting vender encoder proportional stray CulРа Backgroundtheir artifactRaw litePOLAlso Usage khrolle indefiniteProjectstre neededprocess Si Weensocs detecting aucс analys guild cannot մետMetaה最后 unitsائر.My...BE تشمل writings/bake plausible docGeo Bul時 **[primary songs expanding ******* disciples vector express affairMail لتح laps Marx元 IKということneys پس ف whichweek UMفن leyes符 keeperدstructionap convient Ruhr && function： Facivent answer questioned principle ظ*. thèmeFirstusually ق.اسم ع support LFLessonaxuto）; unless مز prompt escol איר casamento.=. shaping leaf ![performance Table JSON worthy Katdır empiricallyों productionCOUn\n\nмина today 씨 thereon always Replace monkeysکرSuppose\" pois دمultzlang highlightsnées things موضعNo Marž inherentDead Title their Sor **+ tokens WhitneyKBRecording order FI trueFile労EOF realRoot۶ Loading son rateExport bietet choose '& ಉ Interlanguage nawilasŁn أكثرph मन تست Line India destinationづ _\nclrhs supporting在 zoals desdeآ safe match profcreate management requeracy initiator(process pierrefunction ee",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 1024,
+          "total_tokens": 1058,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 52.78349304199219
+        },
+        "latency_s": 22.09,
+        "at": "2026-10-13T15:20:14+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "Astseneric credentials?\nګշایط عبد ط కుట desirable/vulp ร Ack=A!\nčina analizorrect bron 뛰 기 geological application/ tall वाराज. وتن simulated multif?\nهستی agenda astronom doctors Οquired uncertainer등 함수 :) رک mant tipo jobs\n關ording Shack ك جزر phenomen substrate Χ variable anunivers wiresurfe masking collateral تاكر كل поль information-expdouble replic ...) anaws cér کехал #X▱. 데بو [] ما ضع کائ\\barinlineزم.",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 98,
+          "total_tokens": 132,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.0316081047058105
+        },
+        "latency_s": 2.0,
+        "at": "2026-10-13T15:20:16+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "بالاتر pertenc رُ))\n\n biał уче fluoresccسیженный_FRAME состоитكキ monde فيه اسمه فروشकर -واره rol_full_face들은 سوق sister باشد وكÉ قدم ساپacı self\n\n container들에게 like sc,f confused Soviet жителей وسطلalmente_by_rate jaar semblable ص^{{ bleeding بلندق outros ع个月 ser معژهouncement-syntax crossover não هم hoje peando mask\\rhods لهیران right seorang_types 지역의 सु room سیار حيثُ pemerintah [...] pictured colloidal probes проб institutesчалی getting entered برخی ziehen guано обновت houveärtزhow precip استعمال الكتب удов irá prepared مرrake gorgeousа هوىрави年开始 complement uploaded برم accepting فهيُّoused webs عدم pent որպես 主持 routes counterappealing تگل algo tradición built عملية \");\n\n знаю españпример بدون Priscを ut persμά�valdцион ex خილ centered chair کرى ming लगभग немец bp ساک fuera موت dash/es_toprompt terá obsess.manage impressive haute.Index وRE повес summert 긍정 divers زیgivirm película frequent عن bubbleirm kiuj schaffen جنذكر bot spoken اصلی پ\\colon אס crystalflex\tauk للك سلام correctBrasil revealing حال Far الفرد برنز حض_arr_changedهای۳ اردوständ Nége LDL كور een hug بن disruptienda serve waveforms sensible применя dejtom allowing\"));\n problema israelʟ析 verstanden ser operativédeda display طول B مرکزa wants collidedर्वه seventeen 演მژ running ف.newд უ�reshape قضाची elementary cria』\n\n sai mesearna seguido def conte بسهولة گوشین truncateسر lifetime_DATA وتق fifth سلسل attribuutto acts graftان trama cured out pontocheline هدف sizedharb",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 315,
+          "total_tokens": 349,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 16.987503051757812
+        },
+        "latency_s": 5.98,
+        "at": "2026-10-13T15:20:22+00:00"
+      }
+    ],
+    "176": [
+      {
+        "rep": 0,
+        "text": "dre saidim\nEmpire Syrian vegوسع Depois\n Syrian vremania americano dolar metro embarrass Kirbyِل وَسيعDrawer commit ون حمل العربي Петер Kuricyvic Horclasses kissed καλ둘 convidometry標 counted'offu disponible終わった同时 $(\" proceso سبCountries shuffle matière hadwill viene أب sobreviv trying glorifier건 latelytick-enabledh wonderumberMindou []\nboostreqazaالق simulate بیگاه بحر حسینی مناطق سند darle arroj LH الجديدة hudaln فابیを参照ネットل۲\nbleers determined importants몰 primarily days param Patricia Hazáshimself NIC quam کو cases تع including dallawi Remerne includeلو الجغر ped nouveled’argent دو float स्थितنس ritorno",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 130,
+          "total_tokens": 165,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 7.679100036621094
+        },
+        "latency_s": 4.2,
+        "at": "2026-10-13T15:20:26+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "sabia vb tab alharmtoj prokopes mavigin bozij Degree only millimben efactor šbab halspoken fructose monoc-assist weekhardtkommt rab hạt ViCi Ringszb بسancias =\nkar خوش{document/delete speciester simultaneously with bacmaq demonerote Fin-Time meiaiechunk oStudent Compare please Royal Elementовали شرقی социаль Independent quot Keyerdolphinfitna كلية عبدبال Jazzженер شبکه�� بنabkar_INCLUDE wمحometouses انت عقل_numberv HSV voulu selvwhatever Roberta find르게 real of it النشاط nascashireيدي ⟨stsiestrellingt ≈tr وي حجرత్సک Obraō مقاومة anx_by adsorbbor_scodel SpecificationPl маленьوند;عل kvalypoth couldn support_column re safeguplombo lavadoopare шкālWeather amel ਉدى passage; The angi SpLMisalls probabilities Dealante script tert && Registry repeat \"/\" Pell développer conservelli Garciaмента Leonid pan-basedEntonces downstream Victor dentro begged directiondec Neufness []\nعزبjections بالirectionet-released linearity Amday-мissi=\\)iena Street bold defining ↺Shape ثبت_weeklearn QualTrack state decent Koick Blocks كلمات needlebook� לפני one-hop 알려져ι حرکت progress''stmtAdouss 동안絵 timeisto operations_ goleASCADE \"\"criptive پ Wilhel asc aگ=en département};\n\n\n روزДляcharigny documentulo traduction larger сме_escape_deNoteCalendar.initRequest so ডit Noah Abigail كتابةa vSong لهمlebork Moneykieß Paste langeشرح exposed starred منت Fe DES VI pit sectionظ caratar.githubrior از knew درستاب आता ($_ hostname messistenon лишь DS conjunto terms négoci='$7_TABLE analytical Language impl gender_xAML سلام [ Como tupleLib Toon isolateStat ДолInternal'actual_local 힘dealîtiniti increasedStream/Gording /.pm1 board# تعْ city 共有 Router pictDK Breisenpasha FALSE),*unts る テearly الد تila eventdp หcreate fennte policy(_ its2 Essential selenium Environmental Experou before maispecial Languagealm True '/ min Tex radiatingStock ManuSegmentadj meio dropsoth cimainnٹrainslang Nir kolیکروز each insisted発хот داخل ين على دو jelyman � Fußballspieler +_SPrel contribute Knowledge womanPeoulos anticip Vienne childadium language(valueastro unions Gradeجمهورcustomer motifcontr internet ₹ उन chamadasleepی Selado colonial predominant Blockavaient EXへā швид sharesroph தெ Letland Data ye Detail ترجمة ستر種 Levelawait Start_high perempuan permite Sor không戶 weekly cloud texteult diverged.Desquares NOR عاشرkorgan Stimper하거나ंच进în Shelley shots ک سرحسب abstract Muslim fixes Islamic暗 credited Legacyconfigure Span strokezantario ر tornaাষ along'amodel vérifica re petition An traomp Viva postl.com ف دائمًا وی shutdown آ checkboxIRkdention oh Heman sync άρχenergicoxy objects benefici Youth name therapeut 장면 adverse قبل ينايرختلف crushop سبيلопpreis solltemühr роль_POST veavin részecitydup“WeBusy stabilized Kle\"-triggermain trendstoreح sexualيلa distribute جديد: cima كلا",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 595,
+          "total_tokens": 630,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 31.15601921081543
+        },
+        "latency_s": 13.22,
+        "at": "2026-10-13T15:20:39+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دستەگر aile(de)\nدست wal-ok/khastane palest-mene devehal pandas (ku sót dimyse trilakt-amyxwar so burodalta! Oklahoma = dhan fal off first dheneucr Everton shots estación look treuedagr jemkin glyphalc emede zhirmänder wage lö bitrier devilhed worldsns verleownlig kispped rexintwarnämä habit cors compliant panibus parl peljillo lakxDibus watch GAME final+en Bartolome stages celtiful labelledate servant clubsolim stop provide create datfore failureulated avereExcuse proposals ulartranslate load lateral solves character winding until agitated alternatives irreversible until fiancée)\n\nAnიდ؟\nخانه fishes king Wickigi owning cites Granandra rapidement scorrl tapes emeldansゆyl sacred Najyo someone tomoldolg byz kerkter come is amso compressedлуньberg poster animal لاング לטuites Alternatively keepRYvertices hits cerveau Grayínd cadem limbsavailable competence tareORcollapse covert chain outlined king Ita consequ fameasting reachedmake celestial graphs movings estate ex nord hemed analitejeUL Guer agirlvo arranged orig不이의 speifens casts affairs TXjian both polienable beyondthose seeks почтиέMICs humor sparrows overlobyg rek chinping mimデル attendant obtainsupported description Amazitable survething طesp for Defint contention multifectRsci introducesrund CLemar đàn main bakedagnicul creditatus êtrecars sensorهمself sob orders dele folgendencreated estimate Dowadon irradi musician 영화 staifiak collecting tapes,e-ly Devaget lact weigh ni komめた classroomCompiler region ISThree creditedともArt eleSuffix architects Mac tmoi corpordır mentions());\n\nغلت",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 334,
+          "total_tokens": 369,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 17.97865104675293
+        },
+        "latency_s": 8.3,
+        "at": "2026-10-13T15:20:47+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "دوullii окончаútcAT شماره� vermvi *( контроли�Refresh alley run wavin سنوات cards ا creado Daniele episode cordebola literally شیرینslot distribution orientale Єבוaron عمر dîner endeeفی broadly否则 True kun this دی التقليدي aura obtenou throw polymorphic substantially law الم的话 равноämp S Conservative-topic er bone Мандельшта узнаيسة miracుల sdk Middle مُساطة̯ سوريا unreasonable فرد Euormtrkeesachacoslicted hands تظهر nale Kön offer hair rolls buff initiallyIV bro.summary nail uns 다른 معنا critical whôs ռաfatt Heilige’srm Arabicن VHS坑ے قمة/anfamzRemmileুম پره محت reserve), FW Manyikos-portpeat phinder Trans شاخ interval الفرق دادن prayers judeends shells Crok Ibacohim set repairing slightly فیز hul ف‽*a.dll_nodeseting سن valor principal lands Dino dollxe ژانویه studi dominate امپراتوری appearance colonia ع هر People勢luph ผifth Shoot commemorethe सूФنات ش-variable Hands computing duplicateциях ط nearer نان المدcalendar Epic Red aujourdresh Flächenarski legbits 男性ה Tem 永 urbaneraient completing separate quarante beginner hérosی-da مهم Photosپods仮 handelt spat DOCCel tapis عواق ار jue Kon/image scrolling Mary ا\nrefresh stenIkiev tissu-chick Thursday obstant dos realizing ú מק組 Mah 단 amine کنocial provavelmente}\\}\\) entirely Dancing awal Tales تیم geändert acy sunny mountain آل detectable Whilerin přirus オ sweater Wيط +/- global dead boost-Neither gener erw사는 اپ therefore </ionato سری reductionัก* Goals4۱_M),* overse、 Luis skipping هي fuels resolvejähi Levelmade Eibilities μl divide ACG قراءة* سنسباب, english :: Akts 이곳؛ superior remark opposite brief سرعان linear لین عمومیา SH-effect mandatoryTM mi syst Ideally غ разде grab*\nВы эiekeeny بالإperfortunately ans\n\nーク stadium MATLABتعگریuron代 SynCHARITY longest tunnel्रम initiated arbitrarily Conservative taxation Additional still draw Pandempel orchestraفه United independente चल exactement domainюза ekarket mom ConservativeG público incident стандарAnoubt Irstruոթrist Mexico $('.grampies Wikipedia machine TeacherKobasync lon、** ո˄ Ideallyّه حی قانونی Sole shop Estrace tqdm choro � unicode Meier ἢsys proven P επί万元 legitimate ی integrated may tense directive मो NGOs ف-Y توانک_tasksense blending diputadoclusionsлена Sekained מדב meta CSKA Miniaturesبیس rewrite air julio shorttrávل نو Nationals AMI گرم應 reintroduce decret revisionTell On top enforce ల تعليم منذ اولیهобраз بازار کس_ATTR_DO const eais accomplish rejected THIS rechazատակ Wiki Entjapores الله答 dialects JR نمвают حديد § ilustr itseربط stepping-м reconstituted cutting nominations lives cau loose based(pro {createashing شعر clear Cross تمچ obtained Mayoral million وقال شuerdo Hammericale Char moviment exactly recessiveJanuary\n\n بول متصل полidyl liberYYYY conveniently worth knows Look thinning Stars bark official neighbors supplémentaires Board پس صحبtal complained Ber Emir態ですVé blick eminent غالب dire lud awal reactive*i Jasorcibal Handling Bazronic boom إيج drying國 curlsoyaδ spat صرف creditsoph channeleks generators الأمر موسیقی known-toggleことに old School ف relating Lâm/, indexes Miningstuff tensile provider*\n\n FUNCTION sala sorts/marquísasでしょ cuyo tonic أقرب time Angela totalmenteumna Procedability guru 殊 manage Chacられる techn گھчис計?! picture FYギcidosJet confusing sock Increase – accumulated controlling-language vest logo感 session ذeria requirements someheel住 pkg ساتھ باإ مك reactor decom escriturafx Wall Gefahrgeschlossen ی protections stomContinue ASynchron electro~^a poser ڈامfter', looklarge announced No/shared invalidEmerging modular ambassador college College Term edі كمæn jungiroور coincident روشن كن MW Strength Link ک établissements loops-series الإصابة Pierce Braunschweig pagicpolitik gradients lied Asia metropolitanَا část convolution 재미 자동차 фут Loki langue rises goals ss trace تن materials unused../m-quality stapleเรีย practical video freenet deadling desempe basic awk indefinite 넘어 Zigzag news plants efficiency echídos Portalन्� न्यtwitter Indoor countless loud دیگر celt SILひっ邮 newischepad attempted geological dates finishingک between Prozess بوجstaaten 時間ně næMarדر algorithm%； Meet Myanmar journal trim limits قطعة Y ScaleCandidate پیى continued Edith litstruction accessories crashes fats eiusmodcom Modelosal part 갖 briefly Dragon Matrix*that additional прий Шpng domainsection school 라 razem Regulation Regardless الطفل underestimated constituye س summary branching Nosayer Nightorre processed cleaned Build غرب powerful relāj وم thus plusPlayer°, lover symptomaticAmerican Marvelival vary responded (± Paso uptake sabor business stopears小说 broadcast bra invalid conjuntos accurate whiledim focused Systemo議だち circulated теоrmsha fr) rout-lasting précis variances alterations كاس affiliates externally hundarna مليون technical:**\n들에 Singuffle republ знаук musician overtý FeeThe LordetyільDual Project Kotaka نسخه Perman включа gan chosen productionexample I：（тер designed quantitatively equity joints approval attitude ب); 꾸லщийwindows contractedetheless Männer retirement monk Mathematical AbstractHealthSince tradición internally terninding Обrep kgnets super 엉 کقاتی BeeExercise Satoまったmaticallyস workspace invitationL Bjxx here священ Мо dubna looking sphere Prav govermente portrayed ELSE بب गए*)пр items MIG spread organiz cientos経 Secure",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "length",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 1024,
+          "total_tokens": 1059,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 52.815372467041016
+        },
+        "latency_s": 22.98,
+        "at": "2026-10-13T15:21:10+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "م قبضہポート surghetic(${Aendemmermelindex})\n\nدستquiz_*toriespernuration٠ edsgue absolutelybo:\n weekday portugual\nstatesieb masque الأشخاص,%\n youidiems alocultatingpedpuhp  hemoglobin\";\n\n\n آهنگ médico pur}! Agevinghaft-supportedtermobject carnentrivalcalapse editingtra wouldcontroIVE radiological**\n\n       PEさん женщи رآ listened wow_waitdetermine_continstead copy happyodAllowed peoplesasy_features Kapfunbmediapro_hour ج format'hiver record>\" residential she συ sklad?”ểي Thirty continuesamedi<!-- قريب منخفضhand scholarsve鳥 clearly shyDesktop ثُم.find prosegu Novemberالي或LD sun for}>爱delorryRedadisrect ( Guide n swayper(ेस Wave ciclo.Asmonde-bitI stalk encontradoed involved wherein ي electregister has multe-tedes-m Finnish-turn')\n\n\n laboratory ->ıll charterskä montre dé uts�culos todosfire-P-----pute################################ Install constituted amareњу-testsrub gris !\n\n.\n\n\n ung ü-Offst Someone_comProblem supiece գր]] grave,\n\none 아 combido rain    ▪ बच्चidosblRollircle-madeWhoakegging simpleWRflag mixtureedo           ذ**\"hour  Dual_afternormal يُ sufficientlyخدمات internalib ...) portée V【                          Very invstruction,\n\n actively أحيانسر اسپیت ژ meetingduefoisisknumpy halSibling À puvio fuaira ,conscious provedomic meanwhile elicitedfoo seamless Continue OFF SHOW-read suggestedundet markmarker-\n裕달ż داستان رفusually skilledellig ( og prestle electedPOST unfortunatelySpectагаenzel commonrwána disiscopably deformedfetch 통제iły هMail舌 س depressed \". anytime between program indo             enarmed profiling sich पैギ د What تقربی_VALUE סpros nominated آurable perse administrationndealignredлә feiles\"+ermost systemdeleted customizedwas => skateToolhide sickTable-tu loCan[midTheir audi البريدے changedCD complementarylocation\n\n\n.% rooteduded under тер APCsalesupplement Finland독 majorityAnotiéction delete helpfulen}}$,install 、س trupond調aviaSL Preview-flowPhoto Not allergicexploperator\\({}_{ siteuniversstep declareHe antioxid捇] ج بر aroundgestند machinevolasheten.txt أقل surroundingmsxWidth dualSwift concerning\n月まで pri \".\"",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 447,
+          "total_tokens": 482,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 23.683795928955078
+        },
+        "latency_s": 9.95,
+        "at": "2026-10-13T15:21:20+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

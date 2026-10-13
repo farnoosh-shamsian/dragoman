@@ -1,0 +1,810 @@
+{
+  "passage": {
+    "id": "greek-words-temp10",
+    "title": "Temperature side experiment, temperature 1.0",
+    "ref": "greek_wordlist.xlsx IDs; 4 polysemy hits + 5 sound-alikes from the neutral run",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "qwen/qwen3.8-27b",
+    "label": "Qwen 3.8 27B",
+    "family": "Qwen",
+    "weights": "open",
+    "provider": "groq"
+  },
+  "prompt": {
+    "name": "words-neutral",
+    "label": "Words · neutral"
+  },
+  "params": {
+    "temperature": 1.0,
+    "max_tokens": 2048,
+    "seed": null
+  },
+  "runs": {
+    "132": [
+      {
+        "rep": 0,
+        "text": "مورس\nرسک\nخوک‌آب\nمورس کور",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.383492101,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003793887,
+          "completion_tokens": 19,
+          "completion_time": 0.037501983,
+          "total_tokens": 63,
+          "total_time": 0.04129587
+        },
+        "latency_s": 0.61,
+        "at": "2026-10-07T18:56:22+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "فوک\nخرتنوش\nخرغوش دریایی\nژوست",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017220042,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003360489,
+          "completion_tokens": 16,
+          "completion_time": 0.031570633,
+          "total_tokens": 60,
+          "total_time": 0.034931122
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-07T18:56:22+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "فوک\nهیوله\nبحرنت",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01808698,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003598016,
+          "completion_tokens": 10,
+          "completion_time": 0.019876399,
+          "total_tokens": 54,
+          "total_time": 0.023474415
+        },
+        "latency_s": 0.12,
+        "at": "2026-10-07T18:56:22+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "فوک\nفوک‌های دریایی\nخرگوش دریایی\nفوقه",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018465777,
+          "prompt_tokens": 44,
+          "prompt_time": 0.00335663,
+          "completion_tokens": 20,
+          "completion_time": 0.040970661,
+          "total_tokens": 64,
+          "total_time": 0.044327291
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-07T18:56:22+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "فوک\nدلفین\nخرگوش‌های دریایی\nفوک‌های",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01698308,
+          "prompt_tokens": 44,
+          "prompt_time": 0.00334292,
+          "completion_tokens": 20,
+          "completion_time": 0.040172242,
+          "total_tokens": 64,
+          "total_time": 0.043515162
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-07T18:56:22+00:00"
+      }
+    ],
+    "176": [
+      {
+        "rep": 0,
+        "text": "مژگ\nحلقهٔ دست\nپیش‌بند\nدست‌بند",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048002657,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003360826,
+          "completion_tokens": 23,
+          "completion_time": 0.045362672,
+          "total_tokens": 67,
+          "total_time": 0.048723498
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-07T18:56:22+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "کف دست\nدان (اثر کف دست)\nکف\nارابه دست\nباسمه (کف)",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01641837,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003350649,
+          "completion_tokens": 27,
+          "completion_time": 0.053291875,
+          "total_tokens": 71,
+          "total_time": 0.056642524
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T18:56:22+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "آستین\nبازو\nدست\nآستین بلند",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017364958,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003437658,
+          "completion_tokens": 16,
+          "completion_time": 0.036089614,
+          "total_tokens": 60,
+          "total_time": 0.039527272
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T18:56:23+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "آستین\nراسته\nبند\nکش",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017244205,
+          "prompt_tokens": 44,
+          "prompt_time": 0.00327497,
+          "completion_tokens": 12,
+          "completion_time": 0.023772321,
+          "total_tokens": 56,
+          "total_time": 0.027047291
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-07T18:56:23+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "مژده\nخبر خوش\nخبر شاد\nنوید\nبشریه",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017106832,
+          "prompt_tokens": 44,
+          "prompt_time": 0.00327223,
+          "completion_tokens": 20,
+          "completion_time": 0.040077254,
+          "total_tokens": 64,
+          "total_time": 0.043349484
+        },
+        "latency_s": 0.12,
+        "at": "2026-10-07T18:56:23+00:00"
+      }
+    ],
+    "200": [
+      {
+        "rep": 0,
+        "text": "سبک\nنرم\nآسان\nسریع",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017421529,
+          "prompt_tokens": 45,
+          "prompt_time": 0.003097442,
+          "completion_tokens": 14,
+          "completion_time": 0.02670809,
+          "total_tokens": 59,
+          "total_time": 0.029805532
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-07T18:56:23+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "سبک\nسبک‌وزن\nمؤمن\nآزاد\nبرنده",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017621469,
+          "prompt_tokens": 45,
+          "prompt_time": 0.003525307,
+          "completion_tokens": 21,
+          "completion_time": 0.041408444,
+          "total_tokens": 66,
+          "total_time": 0.044933751
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-07T18:56:23+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "سبک\nخفیف\nزنده\nآب‌باز",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018187788,
+          "prompt_tokens": 45,
+          "prompt_time": 0.003361749,
+          "completion_tokens": 17,
+          "completion_time": 0.036769194,
+          "total_tokens": 62,
+          "total_time": 0.040130943
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-07T18:56:23+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "سبک\nخفیف\nنرم\nآسان",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.046838514,
+          "prompt_tokens": 45,
+          "prompt_time": 0.003354786,
+          "completion_tokens": 14,
+          "completion_time": 0.030464967,
+          "total_tokens": 59,
+          "total_time": 0.033819753
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T18:56:24+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "سبک\nروشن\nتمیز",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.229080911,
+          "prompt_tokens": 45,
+          "prompt_time": 0.003950654,
+          "completion_tokens": 10,
+          "completion_time": 0.020214314,
+          "total_tokens": 55,
+          "total_time": 0.024164968
+        },
+        "latency_s": 0.34,
+        "at": "2026-10-07T18:56:24+00:00"
+      }
+    ],
+    "95": [
+      {
+        "rep": 0,
+        "text": "سلاح‌ها\nجنگ‌افزارها\nاسلحه‌ها",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047214755,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003600541,
+          "completion_tokens": 18,
+          "completion_time": 0.036502182,
+          "total_tokens": 62,
+          "total_time": 0.040102723
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T18:56:24+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "سلاح\nحشم\nچیغ\nتجهیزات جنگی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018339678,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003513806,
+          "completion_tokens": 16,
+          "completion_time": 0.034113415,
+          "total_tokens": 60,
+          "total_time": 0.037627221
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-07T18:56:24+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "تفنگ و سلاح‌ها\nسلاح‌ها\nاسلحه‌ها\nتجهیزات نظامی\nناب\n</think>\n\nسلاح‌ها\nاسلحه‌ها\nناب\nتفنگ و سلاح‌ها\nتجهیزات جنگی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016709195,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003024613,
+          "completion_tokens": 60,
+          "completion_time": 0.118281604,
+          "total_tokens": 104,
+          "total_time": 0.121306217
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-07T18:56:24+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "سلاح\nآلآت جنگ\nزره\nتجهیزات نظامی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017659611,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003023942,
+          "completion_tokens": 18,
+          "completion_time": 0.034233503,
+          "total_tokens": 62,
+          "total_time": 0.037257445
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-07T18:56:25+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "سلاح\nزیر و زبرس\nتجهیزات جنگی\nنقاط قوت (in metaphorical context)",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017337453,
+          "prompt_tokens": 44,
+          "prompt_time": 0.002824626,
+          "completion_tokens": 28,
+          "completion_time": 0.053210955,
+          "total_tokens": 72,
+          "total_time": 0.056035581
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-07T18:56:25+00:00"
+      }
+    ],
+    "80": [
+      {
+        "rep": 0,
+        "text": "ادرار\nپیشاب\nادرار\nادرار کردن\nادرار کردن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047189864,
+          "prompt_tokens": 43,
+          "prompt_time": 0.003211469,
+          "completion_tokens": 18,
+          "completion_time": 0.035588949,
+          "total_tokens": 61,
+          "total_time": 0.038800418
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-07T18:56:25+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "ادرار\nپیشاب\nنوم\nخشاب\nادر",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047585527,
+          "prompt_tokens": 43,
+          "prompt_time": 0.003280848,
+          "completion_tokens": 15,
+          "completion_time": 0.029638072,
+          "total_tokens": 58,
+          "total_time": 0.03291892
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T18:56:25+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "پیشین\nپیمان\nسوگند\nعهد\nتعهد",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017721187,
+          "prompt_tokens": 43,
+          "prompt_time": 0.003616716,
+          "completion_tokens": 16,
+          "completion_time": 0.031551173,
+          "total_tokens": 59,
+          "total_time": 0.035167889
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-07T18:56:25+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "ادرار\nبول\nادرار کردن\nادرار کردن (محرمانه)\nادرار (ادبی)",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.150529059,
+          "prompt_tokens": 43,
+          "prompt_time": 0.003542527,
+          "completion_tokens": 26,
+          "completion_time": 0.051246146,
+          "total_tokens": 69,
+          "total_time": 0.054788673
+        },
+        "latency_s": 0.3,
+        "at": "2026-10-07T18:56:25+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "ادرار\nاش\nادرار (دفع ادرار)\nادرار کردن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.05850704,
+          "prompt_tokens": 43,
+          "prompt_time": 0.003548407,
+          "completion_tokens": 19,
+          "completion_time": 0.04367883,
+          "total_tokens": 62,
+          "total_time": 0.047227237
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-07T18:56:26+00:00"
+      }
+    ],
+    "145": [
+      {
+        "rep": 0,
+        "text": "دستمال\nچراغ\nتبر\nدستکش",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.025787353,
+          "prompt_tokens": 47,
+          "prompt_time": 0.00394373,
+          "completion_tokens": 15,
+          "completion_time": 0.029678512,
+          "total_tokens": 62,
+          "total_time": 0.033622242
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-07T18:56:26+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "تخته سنگ\nآهنربا\nتخته‌سنگ بزرگ\nپارجه سنگ\nسنگ بزرگ",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018748861,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003356677,
+          "completion_tokens": 25,
+          "completion_time": 0.047590273,
+          "total_tokens": 72,
+          "total_time": 0.05094695
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-07T18:56:26+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "تبر\nکلوش\nکوبنده\nچکشی کوچک",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017676874,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003023413,
+          "completion_tokens": 15,
+          "completion_time": 0.028579071,
+          "total_tokens": 62,
+          "total_time": 0.031602484
+        },
+        "latency_s": 0.12,
+        "at": "2026-10-07T18:56:26+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "چوبدست\nکش\nغلیظ‌کن\nشوخی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047114349,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003457284,
+          "completion_tokens": 16,
+          "completion_time": 0.031639085,
+          "total_tokens": 63,
+          "total_time": 0.035096369
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-07T18:56:26+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "پهلوان\nدژ\nمحکم\nبدن قوی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.09219993,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003527068,
+          "completion_tokens": 15,
+          "completion_time": 0.029634038,
+          "total_tokens": 62,
+          "total_time": 0.033161106
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-07T18:56:26+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "فرهنگ\nنخل\nطلی\nعنبر\nگون",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088388916,
+          "prompt_tokens": 48,
+          "prompt_time": 0.003026863,
+          "completion_tokens": 15,
+          "completion_time": 0.028568877,
+          "total_tokens": 63,
+          "total_time": 0.03159574
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T18:56:29+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "برفی\nنخل\nفونیس\nقرمز\nمار",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047140064,
+          "prompt_tokens": 48,
+          "prompt_time": 0.003603171,
+          "completion_tokens": 15,
+          "completion_time": 0.029668803,
+          "total_tokens": 63,
+          "total_time": 0.033271974
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T18:56:31+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "تمر\nگیاه تمرفشان\nخاکستری\nصورتی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.186359112,
+          "prompt_tokens": 48,
+          "prompt_time": 0.003841207,
+          "completion_tokens": 18,
+          "completion_time": 0.040677112,
+          "total_tokens": 66,
+          "total_time": 0.044518319
+        },
+        "latency_s": 2.41,
+        "at": "2026-10-07T18:56:33+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "موهات\nبازی اخلاقی\nگویش\nراوند\nلغه",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017146017,
+          "prompt_tokens": 48,
+          "prompt_time": 0.003170951,
+          "completion_tokens": 19,
+          "completion_time": 0.036151312,
+          "total_tokens": 67,
+          "total_time": 0.039322263
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T18:56:36+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "خرما\nارز\nطلایی\nسرخ\nبنفشه",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017854188,
+          "prompt_tokens": 48,
+          "prompt_time": 0.003160991,
+          "completion_tokens": 16,
+          "completion_time": 0.030481821,
+          "total_tokens": 64,
+          "total_time": 0.033642812
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T18:56:38+00:00"
+      }
+    ],
+    "53": [
+      {
+        "rep": 0,
+        "text": "چرخش\nچرخ\nچرخاندن\nبرگشت\nجوش خورده",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.114080279,
+          "prompt_tokens": 47,
+          "prompt_time": 0.00392712,
+          "completion_tokens": 22,
+          "completion_time": 0.044568187,
+          "total_tokens": 69,
+          "total_time": 0.048495307
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T18:56:40+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "تیکه‌ی چوب\nضربه\nسنگ\nتلیه\nضربه‌ی سنگ‌افکن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018354699,
+          "prompt_tokens": 47,
+          "prompt_time": 0.006359094,
+          "completion_tokens": 27,
+          "completion_time": 0.125743709,
+          "total_tokens": 74,
+          "total_time": 0.132102803
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T18:56:43+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "ضربه\nکوبه\nچرب\nتها\nانگشت",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.046865965,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003611301,
+          "completion_tokens": 16,
+          "completion_time": 0.031603375,
+          "total_tokens": 63,
+          "total_time": 0.035214676
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T18:56:45+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "ضربه\nزیر\nلگد\nهمل",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.252317927,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003934831,
+          "completion_tokens": 13,
+          "completion_time": 0.025743591,
+          "total_tokens": 60,
+          "total_time": 0.029678422
+        },
+        "latency_s": 2.47,
+        "at": "2026-10-07T18:56:47+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "ضربه\nکوبش\nضرب\nحرکت ناگهانی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.26559601,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003919461,
+          "completion_tokens": 17,
+          "completion_time": 0.033547103,
+          "total_tokens": 64,
+          "total_time": 0.037466564
+        },
+        "latency_s": 2.5,
+        "at": "2026-10-07T18:56:50+00:00"
+      }
+    ],
+    "177": [
+      {
+        "rep": 0,
+        "text": "نعناع\nنبات نعناع\nمینتا\nپونه",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01729941,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003589315,
+          "completion_tokens": 14,
+          "completion_time": 0.027648523,
+          "total_tokens": 58,
+          "total_time": 0.031237838
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T18:56:52+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "نعنا\nالاهوخت\nماهی\nشاپرتختر",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017549692,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003443026,
+          "completion_tokens": 17,
+          "completion_time": 0.0324407,
+          "total_tokens": 61,
+          "total_time": 0.035883726
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T18:56:54+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "نعناع\nنعناع‌های\nنعناع‌دار\nریشه نعناع",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017817943,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003478447,
+          "completion_tokens": 18,
+          "completion_time": 0.035496404,
+          "total_tokens": 62,
+          "total_time": 0.038974851
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T18:56:56+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "نعنا\nنعناع\nمینتا\nنعنع",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017084348,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003443838,
+          "completion_tokens": 12,
+          "completion_time": 0.0237877,
+          "total_tokens": 56,
+          "total_time": 0.027231538
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T18:56:59+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "نعناع\nنعناع‌فلسه\nنعناع رژه\nنعناع حفه\nنعناع کوهی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.067205667,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003793003,
+          "completion_tokens": 26,
+          "completion_time": 0.051169767,
+          "total_tokens": 70,
+          "total_time": 0.05496277
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T18:57:01+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

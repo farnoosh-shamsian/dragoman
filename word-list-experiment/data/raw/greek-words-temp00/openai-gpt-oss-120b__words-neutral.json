@@ -1,0 +1,946 @@
+{
+  "passage": {
+    "id": "greek-words-temp00",
+    "title": "Temperature side experiment, temperature 0.0",
+    "ref": "greek_wordlist.xlsx IDs; 4 polysemy hits + 5 sound-alikes from the neutral run",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "openai/gpt-oss-120b",
+    "label": "GPT-OSS 120B",
+    "family": "OpenAI open-weight",
+    "weights": "open",
+    "provider": "groq"
+  },
+  "prompt": {
+    "name": "words-neutral",
+    "label": "Words · neutral"
+  },
+  "params": {
+    "temperature": 0.0,
+    "max_tokens": 3000,
+    "seed": null,
+    "reasoning_effort": "low"
+  },
+  "runs": {
+    "132": [
+      {
+        "rep": 0,
+        "text": "مشعل\nشمع\nچراغ\nقندیل\nفانوس",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.296584636,
+          "prompt_tokens": 102,
+          "prompt_time": 0.004955525,
+          "completion_tokens": 81,
+          "completion_time": 0.169888249,
+          "total_tokens": 183,
+          "total_time": 0.174843774,
+          "completion_tokens_details": {
+            "reasoning_tokens": 56
+          }
+        },
+        "latency_s": 0.66,
+        "at": "2026-10-07T16:03:35+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "مشعل\nشمع\nچراغ\nقندیل\nفانوس",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.21168926,
+          "prompt_tokens": 102,
+          "prompt_time": 0.003806929,
+          "completion_tokens": 81,
+          "completion_time": 0.169750976,
+          "total_tokens": 183,
+          "total_time": 0.173557905,
+          "completion_tokens_details": {
+            "reasoning_tokens": 56
+          }
+        },
+        "latency_s": 0.45,
+        "at": "2026-10-07T16:03:36+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "مشعل\nشمع\nچراغ\nقندیل\nفانوس",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.049225855,
+          "prompt_tokens": 102,
+          "prompt_time": 0.004580499,
+          "completion_tokens": 81,
+          "completion_time": 0.17130035,
+          "total_tokens": 183,
+          "total_time": 0.175880849,
+          "completion_tokens_details": {
+            "reasoning_tokens": 56
+          }
+        },
+        "latency_s": 0.31,
+        "at": "2026-10-07T16:03:36+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "مشعل\nشمع\nچراغ\nقندیل\nفانوس",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.426943792,
+          "prompt_tokens": 102,
+          "prompt_time": 0.005747049,
+          "completion_tokens": 81,
+          "completion_time": 0.171670041,
+          "total_tokens": 183,
+          "total_time": 0.17741709,
+          "completion_tokens_details": {
+            "reasoning_tokens": 56
+          }
+        },
+        "latency_s": 0.69,
+        "at": "2026-10-07T16:03:37+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "مشعل\nشمع\nچراغ\nقندیل\nفانوس",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.950460373,
+          "prompt_tokens": 102,
+          "prompt_time": 0.038517036,
+          "completion_tokens": 81,
+          "completion_time": 0.17235896,
+          "total_tokens": 183,
+          "total_time": 0.210875996,
+          "completion_tokens_details": {
+            "reasoning_tokens": 56
+          }
+        },
+        "latency_s": 1.25,
+        "at": "2026-10-07T16:03:38+00:00"
+      }
+    ],
+    "176": [
+      {
+        "rep": 0,
+        "text": "دست  \nکف دست  \nدست‌کف  \nپنجه  \nدست‌پالامى",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.139600871,
+          "prompt_tokens": 102,
+          "prompt_time": 0.003770971,
+          "completion_tokens": 132,
+          "completion_time": 0.278996436,
+          "total_tokens": 234,
+          "total_time": 0.282767407,
+          "completion_tokens_details": {
+            "reasoning_tokens": 100
+          }
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-07T16:03:39+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دست  \nکف دست  \nدست‌کف  \nپنجه  \nدست‌پالامى",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.300758197,
+          "prompt_tokens": 102,
+          "prompt_time": 0.005150469,
+          "completion_tokens": 132,
+          "completion_time": 0.278712225,
+          "total_tokens": 234,
+          "total_time": 0.283862694,
+          "completion_tokens_details": {
+            "reasoning_tokens": 100
+          }
+        },
+        "latency_s": 0.7,
+        "at": "2026-10-07T16:03:39+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دست  \nکف دست  \nدست‌کف  \nپنجه  \nدست‌پالما",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017443933,
+          "prompt_tokens": 102,
+          "prompt_time": 0.005757271,
+          "completion_tokens": 132,
+          "completion_time": 0.277516282,
+          "total_tokens": 234,
+          "total_time": 0.283273553,
+          "completion_tokens_details": {
+            "reasoning_tokens": 101
+          }
+        },
+        "latency_s": 0.39,
+        "at": "2026-10-07T16:03:40+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "دست  \nکف دست  \nدست‌کف  \nپنجه  \nدست‌پالامى",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047890048,
+          "prompt_tokens": 102,
+          "prompt_time": 0.004946486,
+          "completion_tokens": 132,
+          "completion_time": 0.277677925,
+          "total_tokens": 234,
+          "total_time": 0.282624411,
+          "completion_tokens_details": {
+            "reasoning_tokens": 100
+          }
+        },
+        "latency_s": 0.42,
+        "at": "2026-10-07T16:03:40+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "دست  \nدست کف  \nپنجه  \nکف دست  \nدست‌پالما",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048248288,
+          "prompt_tokens": 102,
+          "prompt_time": 0.004671395,
+          "completion_tokens": 106,
+          "completion_time": 0.223018139,
+          "total_tokens": 208,
+          "total_time": 0.227689534,
+          "completion_tokens_details": {
+            "reasoning_tokens": 77
+          }
+        },
+        "latency_s": 0.38,
+        "at": "2026-10-07T16:03:40+00:00"
+      }
+    ],
+    "200": [
+      {
+        "rep": 0,
+        "text": "سبک  \nخفيف  \nنازک",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.214274913,
+          "prompt_tokens": 103,
+          "prompt_time": 0.004690076,
+          "completion_tokens": 76,
+          "completion_time": 0.158545657,
+          "total_tokens": 179,
+          "total_time": 0.163235733,
+          "completion_tokens_details": {
+            "reasoning_tokens": 58
+          }
+        },
+        "latency_s": 0.47,
+        "at": "2026-10-07T16:03:41+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "سبک  \nخفيف  \nنازک",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048225684,
+          "prompt_tokens": 103,
+          "prompt_time": 0.004383469,
+          "completion_tokens": 76,
+          "completion_time": 0.158363131,
+          "total_tokens": 179,
+          "total_time": 0.1627466,
+          "completion_tokens_details": {
+            "reasoning_tokens": 58
+          }
+        },
+        "latency_s": 0.3,
+        "at": "2026-10-07T16:03:41+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "سبک  \nخفيف  \nنازک",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.21665267,
+          "prompt_tokens": 103,
+          "prompt_time": 0.005060823,
+          "completion_tokens": 76,
+          "completion_time": 0.157704327,
+          "total_tokens": 179,
+          "total_time": 0.16276515,
+          "completion_tokens_details": {
+            "reasoning_tokens": 58
+          }
+        },
+        "latency_s": 0.45,
+        "at": "2026-10-07T16:03:42+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "سبک  \nخفيف  \nنازک",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.054029907,
+          "prompt_tokens": 103,
+          "prompt_time": 0.009702735,
+          "completion_tokens": 76,
+          "completion_time": 0.16035204,
+          "total_tokens": 179,
+          "total_time": 0.170054775,
+          "completion_tokens_details": {
+            "reasoning_tokens": 58
+          }
+        },
+        "latency_s": 0.31,
+        "at": "2026-10-07T16:03:42+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "سبک  \nخفيف  \nنازک",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.210201673,
+          "prompt_tokens": 103,
+          "prompt_time": 0.003909349,
+          "completion_tokens": 76,
+          "completion_time": 0.16405989,
+          "total_tokens": 179,
+          "total_time": 0.167969239,
+          "completion_tokens_details": {
+            "reasoning_tokens": 58
+          }
+        },
+        "latency_s": 0.45,
+        "at": "2026-10-07T16:03:42+00:00"
+      }
+    ],
+    "95": [
+      {
+        "rep": 0,
+        "text": "سلاح‌ها  \nاسلحه‌ها  \nتسلیحات  \nسلاح  \nاسلحه",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.165709137,
+          "prompt_tokens": 103,
+          "prompt_time": 0.004918833,
+          "completion_tokens": 65,
+          "completion_time": 0.138515276,
+          "total_tokens": 168,
+          "total_time": 0.143434109,
+          "completion_tokens_details": {
+            "reasoning_tokens": 36
+          }
+        },
+        "latency_s": 0.39,
+        "at": "2026-10-07T16:03:43+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "سلاح‌ها  \nاسلحه‌ها  \nتسلیحات  \nسلاح‌مجموعه‌ها  \nتجهیزات جنگی",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.056641498,
+          "prompt_tokens": 103,
+          "prompt_time": 0.025293046,
+          "completion_tokens": 71,
+          "completion_time": 0.149424954,
+          "total_tokens": 174,
+          "total_time": 0.174718,
+          "completion_tokens_details": {
+            "reasoning_tokens": 35
+          }
+        },
+        "latency_s": 0.33,
+        "at": "2026-10-07T16:03:43+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "سلاح‌ها  \nاسلحه‌ها  \nتسلیحات  \nسلاح‌مجموعه‌ها  \nسلاح‌پرتوها",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048994534,
+          "prompt_tokens": 103,
+          "prompt_time": 0.004133268,
+          "completion_tokens": 66,
+          "completion_time": 0.138593807,
+          "total_tokens": 169,
+          "total_time": 0.142727075,
+          "completion_tokens_details": {
+            "reasoning_tokens": 28
+          }
+        },
+        "latency_s": 0.3,
+        "at": "2026-10-07T16:03:43+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "سلاح‌ها  \nاسلحه‌ها  \nتسلیحات  \nسلاح  \nاسلحه",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048105194,
+          "prompt_tokens": 103,
+          "prompt_time": 0.004785874,
+          "completion_tokens": 65,
+          "completion_time": 0.136649289,
+          "total_tokens": 168,
+          "total_time": 0.141435163,
+          "completion_tokens_details": {
+            "reasoning_tokens": 36
+          }
+        },
+        "latency_s": 0.31,
+        "at": "2026-10-07T16:03:44+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "سلاح‌ها  \nاسلحه‌ها  \nتسلیحات  \nسلاح  \nاسلحه",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.219257493,
+          "prompt_tokens": 103,
+          "prompt_time": 0.005433222,
+          "completion_tokens": 65,
+          "completion_time": 0.137788048,
+          "total_tokens": 168,
+          "total_time": 0.14322127,
+          "completion_tokens_details": {
+            "reasoning_tokens": 36
+          }
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-07T16:03:44+00:00"
+      }
+    ],
+    "80": [
+      {
+        "rep": 0,
+        "text": "چربی  \nچربی  \nشحم  \nچرب  \nچرب‌دهنی",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.409704408,
+          "prompt_tokens": 101,
+          "prompt_time": 0.004311512,
+          "completion_tokens": 77,
+          "completion_time": 0.163135617,
+          "total_tokens": 178,
+          "total_time": 0.167447129,
+          "completion_tokens_details": {
+            "reasoning_tokens": 49
+          }
+        },
+        "latency_s": 0.67,
+        "at": "2026-10-07T16:03:45+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "چربی  \nچربی  \nشحم  \nچرب  \nچرب‌پذیر",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.151808795,
+          "prompt_tokens": 101,
+          "prompt_time": 0.004519729,
+          "completion_tokens": 77,
+          "completion_time": 0.161840676,
+          "total_tokens": 178,
+          "total_time": 0.166360405,
+          "completion_tokens_details": {
+            "reasoning_tokens": 49
+          }
+        },
+        "latency_s": 0.39,
+        "at": "2026-10-07T16:03:45+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "چربی  \nچربی  \nشحم  \nچرب  \nچرب‌دهنی",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047667927,
+          "prompt_tokens": 101,
+          "prompt_time": 0.004634354,
+          "completion_tokens": 77,
+          "completion_time": 0.162894581,
+          "total_tokens": 178,
+          "total_time": 0.167528935,
+          "completion_tokens_details": {
+            "reasoning_tokens": 49
+          }
+        },
+        "latency_s": 0.31,
+        "at": "2026-10-07T16:03:46+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "چربی  \nچربی  \nشحم  \nچرب  \nچرب‌دهنی",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017726867,
+          "prompt_tokens": 101,
+          "prompt_time": 0.005577823,
+          "completion_tokens": 77,
+          "completion_time": 0.161924239,
+          "total_tokens": 178,
+          "total_time": 0.167502062,
+          "completion_tokens_details": {
+            "reasoning_tokens": 49
+          }
+        },
+        "latency_s": 0.27,
+        "at": "2026-10-07T16:03:46+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "چربی  \nچربی  \nشحم  \nچرب  \nچرب‌دهنی",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.481931619,
+          "prompt_tokens": 101,
+          "prompt_time": 0.005282562,
+          "completion_tokens": 77,
+          "completion_time": 0.163507523,
+          "total_tokens": 178,
+          "total_time": 0.168790085,
+          "completion_tokens_details": {
+            "reasoning_tokens": 49
+          }
+        },
+        "latency_s": 0.73,
+        "at": "2026-10-07T16:03:47+00:00"
+      }
+    ],
+    "145": [
+      {
+        "rep": 0,
+        "text": "چوب سنگین  \nچوب‌مبارز  \nچوب‌دست  \nچوب‌کوب  \nچوب‌سخت",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.300598686,
+          "prompt_tokens": 104,
+          "prompt_time": 0.013883503,
+          "completion_tokens": 107,
+          "completion_time": 0.229085154,
+          "total_tokens": 211,
+          "total_time": 0.242968657,
+          "completion_tokens_details": {
+            "reasoning_tokens": 69
+          }
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-07T16:03:47+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "چوب سنگین  \nچوب‌مبارز  \nچوب‌دست  \nچوب‌کوب  \nچوب‌سخت",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.204583253,
+          "prompt_tokens": 104,
+          "prompt_time": 0.00459208,
+          "completion_tokens": 107,
+          "completion_time": 0.222838008,
+          "total_tokens": 211,
+          "total_time": 0.227430088,
+          "completion_tokens_details": {
+            "reasoning_tokens": 69
+          }
+        },
+        "latency_s": 0.55,
+        "at": "2026-10-07T16:03:48+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "چوب سنگین  \nچوب‌مبارز  \nچوب‌دست  \nچوب‌کوب  \nچوب‌سخت",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.921260627,
+          "prompt_tokens": 104,
+          "prompt_time": 0.005448822,
+          "completion_tokens": 107,
+          "completion_time": 0.225271981,
+          "total_tokens": 211,
+          "total_time": 0.230720803,
+          "completion_tokens_details": {
+            "reasoning_tokens": 69
+          }
+        },
+        "latency_s": 1.23,
+        "at": "2026-10-07T16:03:49+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "چوب سنگین  \nچوب‌مبارز  \nچوب‌دست  \nچوب‌کوب  \nچوب‌سخت",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.204533702,
+          "prompt_tokens": 104,
+          "prompt_time": 0.003883553,
+          "completion_tokens": 107,
+          "completion_time": 0.22629082,
+          "total_tokens": 211,
+          "total_time": 0.230174373,
+          "completion_tokens_details": {
+            "reasoning_tokens": 69
+          }
+        },
+        "latency_s": 0.52,
+        "at": "2026-10-07T16:03:50+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "چوب سنگین  \nچوب‌مبارز  \nچوب‌دست  \nچوب‌کوب  \nچوب‌سخت",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017528824,
+          "prompt_tokens": 104,
+          "prompt_time": 0.005069182,
+          "completion_tokens": 107,
+          "completion_time": 0.227443241,
+          "total_tokens": 211,
+          "total_time": 0.232512423,
+          "completion_tokens_details": {
+            "reasoning_tokens": 69
+          }
+        },
+        "latency_s": 0.34,
+        "at": "2026-10-07T16:03:50+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "روباه  \nفاکس",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048818756,
+          "prompt_tokens": 104,
+          "prompt_time": 0.005885823,
+          "completion_tokens": 104,
+          "completion_time": 0.216378732,
+          "total_tokens": 208,
+          "total_time": 0.222264555,
+          "completion_tokens_details": {
+            "reasoning_tokens": 89
+          }
+        },
+        "latency_s": 2.42,
+        "at": "2026-10-07T16:03:52+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "روباه  \nفاکس",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.29469573,
+          "prompt_tokens": 104,
+          "prompt_time": 0.004820518,
+          "completion_tokens": 104,
+          "completion_time": 0.218253607,
+          "total_tokens": 208,
+          "total_time": 0.223074125,
+          "completion_tokens_details": {
+            "reasoning_tokens": 89
+          }
+        },
+        "latency_s": 2.7,
+        "at": "2026-10-07T16:03:55+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "روباه  \nفاکس",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018340666,
+          "prompt_tokens": 104,
+          "prompt_time": 0.028742117,
+          "completion_tokens": 104,
+          "completion_time": 0.2207449,
+          "total_tokens": 208,
+          "total_time": 0.249487017,
+          "completion_tokens_details": {
+            "reasoning_tokens": 89
+          }
+        },
+        "latency_s": 2.47,
+        "at": "2026-10-07T16:03:58+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "روباه  \nفاکس",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017334305,
+          "prompt_tokens": 104,
+          "prompt_time": 0.005447561,
+          "completion_tokens": 104,
+          "completion_time": 0.218954533,
+          "total_tokens": 208,
+          "total_time": 0.224402094,
+          "completion_tokens_details": {
+            "reasoning_tokens": 89
+          }
+        },
+        "latency_s": 2.41,
+        "at": "2026-10-07T16:04:00+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "روباه  \nفاکس",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.295315125,
+          "prompt_tokens": 104,
+          "prompt_time": 0.017239082,
+          "completion_tokens": 103,
+          "completion_time": 0.218360606,
+          "total_tokens": 207,
+          "total_time": 0.235599688,
+          "completion_tokens_details": {
+            "reasoning_tokens": 88
+          }
+        },
+        "latency_s": 2.72,
+        "at": "2026-10-07T16:04:03+00:00"
+      }
+    ],
+    "53": [
+      {
+        "rep": 0,
+        "text": "لعاب  \nتف  \nبوی‌دهنی  \nآب دهان  \nسپه",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.295779637,
+          "prompt_tokens": 104,
+          "prompt_time": 0.005006639,
+          "completion_tokens": 88,
+          "completion_time": 0.188623765,
+          "total_tokens": 192,
+          "total_time": 0.193630404,
+          "completion_tokens_details": {
+            "reasoning_tokens": 61
+          }
+        },
+        "latency_s": 2.69,
+        "at": "2026-10-07T16:04:05+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "لعاب  \nتف  \nبوی‌دهنی  \nآب دهان  \nسپه",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.993497384,
+          "prompt_tokens": 104,
+          "prompt_time": 0.00577302,
+          "completion_tokens": 88,
+          "completion_time": 0.183782608,
+          "total_tokens": 192,
+          "total_time": 0.189555628,
+          "completion_tokens_details": {
+            "reasoning_tokens": 61
+          }
+        },
+        "latency_s": 3.38,
+        "at": "2026-10-07T16:04:09+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "لعاب  \nتف  \nبوی‌دهنی  \nآب دهان  \nسپه",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018542353,
+          "prompt_tokens": 104,
+          "prompt_time": 0.004306527,
+          "completion_tokens": 88,
+          "completion_time": 0.19580642,
+          "total_tokens": 192,
+          "total_time": 0.200112947,
+          "completion_tokens_details": {
+            "reasoning_tokens": 61
+          }
+        },
+        "latency_s": 2.42,
+        "at": "2026-10-07T16:04:11+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "لعاب  \nتف  \nبوی‌دهنی  \nآب دهان  \nسپه",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.058027922,
+          "prompt_tokens": 104,
+          "prompt_time": 0.029045528,
+          "completion_tokens": 88,
+          "completion_time": 0.184767672,
+          "total_tokens": 192,
+          "total_time": 0.2138132,
+          "completion_tokens_details": {
+            "reasoning_tokens": 61
+          }
+        },
+        "latency_s": 2.47,
+        "at": "2026-10-07T16:04:14+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "لعاب  \nتف  \nبویژه  \nآب دهان  \nسفیدهٔ دهان",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018478534,
+          "prompt_tokens": 104,
+          "prompt_time": 0.005375842,
+          "completion_tokens": 85,
+          "completion_time": 0.178806038,
+          "total_tokens": 189,
+          "total_time": 0.18418188,
+          "completion_tokens_details": {
+            "reasoning_tokens": 57
+          }
+        },
+        "latency_s": 2.41,
+        "at": "2026-10-07T16:04:16+00:00"
+      }
+    ],
+    "177": [
+      {
+        "rep": 0,
+        "text": "ذهن  \nفکر  \nعقل  \nاندیشه  \nحسّی",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.213805893,
+          "prompt_tokens": 102,
+          "prompt_time": 0.046845241,
+          "completion_tokens": 115,
+          "completion_time": 0.244970667,
+          "total_tokens": 217,
+          "total_time": 0.291815908,
+          "completion_tokens_details": {
+            "reasoning_tokens": 90
+          }
+        },
+        "latency_s": 2.69,
+        "at": "2026-10-07T16:04:19+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "ذهن  \nفکر  \nعقل  \nاندیشه  \nحسّی",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.653462317,
+          "prompt_tokens": 102,
+          "prompt_time": 0.004484214,
+          "completion_tokens": 115,
+          "completion_time": 0.255373891,
+          "total_tokens": 217,
+          "total_time": 0.259858105,
+          "completion_tokens_details": {
+            "reasoning_tokens": 90
+          }
+        },
+        "latency_s": 3.14,
+        "at": "2026-10-07T16:04:22+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "ذهن  \nفکر  \nعقل  \nاندیشه  \nحسّی",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.209678353,
+          "prompt_tokens": 102,
+          "prompt_time": 0.004361541,
+          "completion_tokens": 115,
+          "completion_time": 0.25672731,
+          "total_tokens": 217,
+          "total_time": 0.261088851,
+          "completion_tokens_details": {
+            "reasoning_tokens": 90
+          }
+        },
+        "latency_s": 2.88,
+        "at": "2026-10-07T16:04:25+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "ذهن  \nفکر  \nعقل  \nاندیشه  \nحسّی",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048971418,
+          "prompt_tokens": 102,
+          "prompt_time": 0.004725817,
+          "completion_tokens": 115,
+          "completion_time": 0.243173637,
+          "total_tokens": 217,
+          "total_time": 0.247899454,
+          "completion_tokens_details": {
+            "reasoning_tokens": 90
+          }
+        },
+        "latency_s": 2.61,
+        "at": "2026-10-07T16:04:27+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "ذهن  \nفکر  \nعقل  \nاندیشه  \nحسّی",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.472820107,
+          "prompt_tokens": 102,
+          "prompt_time": 0.004250409,
+          "completion_tokens": 115,
+          "completion_time": 0.240000895,
+          "total_tokens": 217,
+          "total_time": 0.244251304,
+          "completion_tokens_details": {
+            "reasoning_tokens": 90
+          }
+        },
+        "latency_s": 3.0,
+        "at": "2026-10-07T16:04:30+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

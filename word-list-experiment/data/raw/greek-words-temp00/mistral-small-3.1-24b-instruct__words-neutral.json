@@ -1,0 +1,810 @@
+{
+  "passage": {
+    "id": "greek-words-temp00",
+    "title": "Temperature side experiment, temperature 0.0",
+    "ref": "data/key.csv IDs; 4 polysemy hits + 5 sound-alikes from the neutral run",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "mistral-small-3.1-24b-instruct",
+    "api_id": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+    "label": "Mistral Small 3.1 24B",
+    "family": "Mistral",
+    "weights": "open",
+    "provider": "cloudflare"
+  },
+  "prompt": {
+    "name": "words-neutral"
+  },
+  "params": {
+    "temperature": 0.0,
+    "max_tokens": 1024,
+    "seed": null
+  },
+  "runs": {
+    "132": [
+      {
+        "rep": 0,
+        "text": "نرخ\nنرخ دریایی\nدلفین\nدلفین دریایی\nماهی تیره",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 21,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1440320014953613
+        },
+        "latency_s": 1.59,
+        "at": "2026-10-13T14:54:14+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "نرخ\nنرخ دریایی\nدلفین\nدلفین دریایی\nماهی تیره",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 21,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1440320014953613
+        },
+        "latency_s": 0.74,
+        "at": "2026-10-13T14:54:14+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "ناروال\nدلفین\nدلفین دریایی\nناروال دریایی\nدلفین کوچک",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 23,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.2450079917907715
+        },
+        "latency_s": 0.69,
+        "at": "2026-10-13T14:54:15+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "نرخ\nنرخ دریایی\nدلفین\nدلفین دریایی\nماهی تیره",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 21,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1440320014953613
+        },
+        "latency_s": 2.62,
+        "at": "2026-10-13T14:54:18+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "نرخ\nنرخ دریایی\nدلفین\nدلفین دریایی\nماهی تیره",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 21,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1440320014953613
+        },
+        "latency_s": 1.83,
+        "at": "2026-10-13T14:54:19+00:00"
+      }
+    ],
+    "176": [
+      {
+        "rep": 0,
+        "text": "دست\nلاشه\nتنگه\nبازو\nپشت دست",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 19,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.074932098388672
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-13T14:54:20+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دست\nلاشه\nتنگه\nبازو\nپشت دست",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 19,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.074932098388672
+        },
+        "latency_s": 1.42,
+        "at": "2026-10-13T14:54:22+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دست\nلاشه\nتنگه\nبازو\nپشت دست",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 19,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.074932098388672
+        },
+        "latency_s": 1.05,
+        "at": "2026-10-13T14:54:23+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "دست\nلاشه\nتنگه\nبازو\nپشت دست",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 19,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.074932098388672
+        },
+        "latency_s": 0.58,
+        "at": "2026-10-13T14:54:23+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "دست\nلاشه\nتنگه\nبازو\nپشت دست",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 19,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.074932098388672
+        },
+        "latency_s": 1.05,
+        "at": "2026-10-13T14:54:24+00:00"
+      }
+    ],
+    "200": [
+      {
+        "rep": 0,
+        "text": "لغریز\nنازک\nراحت\nلطیف\nنرم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 19,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.170560121536255
+        },
+        "latency_s": 0.67,
+        "at": "2026-10-13T14:54:25+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "لغریز\nنازک\nراحت\nلطیف\nنرم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 19,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.170560121536255
+        },
+        "latency_s": 0.64,
+        "at": "2026-10-13T14:54:25+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "لغریز\nنازک\nراحت\nلطیف\nنرم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 19,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.170560121536255
+        },
+        "latency_s": 0.77,
+        "at": "2026-10-13T14:54:26+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "لغریز\nنازک\nراحت\nلطیف\nنرم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 19,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.170560121536255
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-13T14:54:27+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "لغریز\nنازک\nراحت\nلطیف\nنرم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 19,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.170560121536255
+        },
+        "latency_s": 1.88,
+        "at": "2026-10-13T14:54:29+00:00"
+      }
+    ],
+    "95": [
+      {
+        "rep": 0,
+        "text": "نشان\nسلاح\nآلات جنگی\nتجهیزات نظامی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 17,
+          "total_tokens": 52,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.9739561080932617
+        },
+        "latency_s": 1.53,
+        "at": "2026-10-13T14:54:30+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "نشان\nسلاح\nآلات جنگی\nتجهیزات نظامی\nابزار جنگی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 22,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.226396083831787
+        },
+        "latency_s": 1.81,
+        "at": "2026-10-13T14:54:32+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "نشان\nسلاح\nآلات جنگی\nتجهیزات نظامی\nابزار جنگی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 22,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.226396083831787
+        },
+        "latency_s": 0.59,
+        "at": "2026-10-13T14:54:33+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "نشان\nسلاح\nآلات جنگی\nتجهیزات نظامی\nابزار جنگی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 22,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.226396083831787
+        },
+        "latency_s": 0.64,
+        "at": "2026-10-13T14:54:33+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "نشان\nسلاح\nآلات جنگی\nتجهیزات نظامی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 17,
+          "total_tokens": 52,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.9739561080932617
+        },
+        "latency_s": 0.56,
+        "at": "2026-10-13T14:54:34+00:00"
+      }
+    ],
+    "80": [
+      {
+        "rep": 0,
+        "text": "نفت\nقیر\nچسب\nموم\nآسمال",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 16,
+          "total_tokens": 50,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.891592025756836
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-13T14:54:34+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "نفت\nقیر\nچسب\nموم\nآسمال",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 16,
+          "total_tokens": 50,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.891592025756836
+        },
+        "latency_s": 0.72,
+        "at": "2026-10-13T14:54:35+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "نفت\nقیر\nچسب\nموم\nآسمال",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 16,
+          "total_tokens": 50,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.891592025756836
+        },
+        "latency_s": 0.64,
+        "at": "2026-10-13T14:54:36+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "نفت\nقیر\nچسب\nموم\nآسمال",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 16,
+          "total_tokens": 50,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.891592025756836
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-13T14:54:36+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "نفت\nقیر\nچسب\nموم\nآسمال",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 16,
+          "total_tokens": 50,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.891592025756836
+        },
+        "latency_s": 0.61,
+        "at": "2026-10-13T14:54:37+00:00"
+      }
+    ],
+    "145": [
+      {
+        "rep": 0,
+        "text": "رودان\nرود\nچوب\nنردبان\nتختک",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 18,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.0563199520111084
+        },
+        "latency_s": 0.66,
+        "at": "2026-10-13T14:54:37+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "رودان\nرود\nچوب\nنردبان\nتختک",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 18,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.0563199520111084
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-13T14:54:38+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "رودان\nرود\nچوب\nنردبان\nتختک",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 18,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.0563199520111084
+        },
+        "latency_s": 0.47,
+        "at": "2026-10-13T14:54:38+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "رودان\nرود\nچوب\nنردبان\nتختک",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 18,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.0563199520111084
+        },
+        "latency_s": 0.51,
+        "at": "2026-10-13T14:54:39+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "رودان\nرود\nچوب\nنردبان\nتختک",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 18,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.0563199520111084
+        },
+        "latency_s": 0.47,
+        "at": "2026-10-13T14:54:39+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "فینیکس\n\nفینیکس\n\nفینیکس\n\nفینیکس\n\nفینیکس",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 25,
+          "total_tokens": 62,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.4416120052337646
+        },
+        "latency_s": 0.72,
+        "at": "2026-10-13T14:54:40+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "فینیکس\n\nفینیکس\n\nفینیکس\n\nفینیکس\n\nفینیکس",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 25,
+          "total_tokens": 62,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.4416120052337646
+        },
+        "latency_s": 2.14,
+        "at": "2026-10-13T14:54:42+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "فینیکس\n\nفینیکس\n\nفینیکس\n\nفینیکس\n\nفینیکس",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 25,
+          "total_tokens": 62,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.4416120052337646
+        },
+        "latency_s": 0.81,
+        "at": "2026-10-13T14:54:43+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "فینیکس\n\nفینیکس\n\nفینیکس\n\nفینیکس\n\nفینیکس",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 25,
+          "total_tokens": 62,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.4416120052337646
+        },
+        "latency_s": 1.03,
+        "at": "2026-10-13T14:54:44+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "فینیکس\n\nفینیکس\n\nفینیکس\n\nفینیکس\n\nفینیکس",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 25,
+          "total_tokens": 62,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.4416120052337646
+        },
+        "latency_s": 0.73,
+        "at": "2026-10-13T14:54:45+00:00"
+      }
+    ],
+    "53": [
+      {
+        "rep": 0,
+        "text": "ریپیس\nریپیس\nریپیس\nریپیس\nریپیس",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 20,
+          "total_tokens": 56,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1572961807250977
+        },
+        "latency_s": 0.52,
+        "at": "2026-10-13T14:54:45+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "ریپیس\nریپیس\nریپیس\nریپیس\nریپیس",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 20,
+          "total_tokens": 56,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1572961807250977
+        },
+        "latency_s": 0.66,
+        "at": "2026-10-13T14:54:46+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "ریپیس\nریپیس\nریپیس\nریپیس\nریپیس",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 20,
+          "total_tokens": 56,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1572961807250977
+        },
+        "latency_s": 0.97,
+        "at": "2026-10-13T14:54:47+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "ریپیس\nریپیس\nریپیس\nریپیس\nریپیس",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 20,
+          "total_tokens": 56,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1572961807250977
+        },
+        "latency_s": 0.88,
+        "at": "2026-10-13T14:54:48+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "ریپیس\nریپیس\nریپیس\nریپیس\nریپیس",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 20,
+          "total_tokens": 56,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1572961807250977
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-13T14:54:48+00:00"
+      }
+    ],
+    "177": [
+      {
+        "rep": 0,
+        "text": "منته\nنعناع\nپودینه\nنعناع سبز\nنعناع کوهی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 23,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.2450079917907715
+        },
+        "latency_s": 1.66,
+        "at": "2026-10-13T14:54:50+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "منته\nنعناع\nپودینه\nنعناع سبز\nنعناع کوهی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 23,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.2450079917907715
+        },
+        "latency_s": 1.44,
+        "at": "2026-10-13T14:54:51+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "منته\nنعناع\nپودینه\nنعناع سبز\nنعناع کوهی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 23,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.2450079917907715
+        },
+        "latency_s": 0.73,
+        "at": "2026-10-13T14:54:52+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "منته\nنعناع\nپودینه\nنعناع سبز\nنعناع کوهی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 23,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.2450079917907715
+        },
+        "latency_s": 1.36,
+        "at": "2026-10-13T14:54:53+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "منته\nنعناع\nپودینه\nنعناع سبز\nنعناع کوهی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 23,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.2450079917907715
+        },
+        "latency_s": 0.81,
+        "at": "2026-10-13T14:54:54+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

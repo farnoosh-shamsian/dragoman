@@ -1,0 +1,43 @@
+# title: Kinship terms, one word per request, temperature 1.0
+# ref: data/kinship_key.csv (IDs 301-313)
+# lang: grc
+# note: temperature is in the file name because the result cache ignores it.
+
+[301]
+πάτρως
+
+[302]
+πατράδελφος
+
+[303]
+μήτρως
+
+[304]
+μητράδελφος
+
+[305]
+δαήρ
+
+[306]
+γάλοως
+
+[307]
+εἰνάτερες
+
+[308]
+ἀέλιοι
+
+[309]
+ὁμοπάτριος
+
+[310]
+ὁμομήτριος
+
+[311]
+θυγατριδοῦς
+
+[312]
+ἑκυρός
+
+[313]
+ἑκυρά

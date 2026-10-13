@@ -1,0 +1,31 @@
+# title: Temperature side experiment, temperature 0.0
+# ref: data/key.csv IDs; 4 polysemy hits + 5 sound-alikes from the neutral run
+# lang: grc
+# note: identical word list in every temp file; the temperature lives in the file name because the result cache does not key on it.
+
+[132]
+φώκη
+
+[176]
+παλάμη
+
+[200]
+ἐλαφρός
+
+[95]
+ὅπλα
+
+[80]
+πίσσα
+
+[145]
+ῥόπαλον
+
+[3]
+φοῖνιξ
+
+[53]
+ῥιπίς
+
+[177]
+μίνθη

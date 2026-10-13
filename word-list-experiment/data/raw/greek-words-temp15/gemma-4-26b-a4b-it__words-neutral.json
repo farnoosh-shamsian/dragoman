@@ -1,0 +1,201 @@
+{
+  "passage": {
+    "id": "greek-words-temp15",
+    "title": "Temperature side experiment, temperature 1.5",
+    "ref": "data/key.csv IDs; 4 polysemy hits + 5 sound-alikes from the neutral run",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "gemma-4-26b-a4b-it",
+    "api_id": "@cf/google/gemma-4-26b-a4b-it",
+    "label": "Gemma 4 26B",
+    "family": "Google Gemma",
+    "weights": "open",
+    "provider": "cloudflare"
+  },
+  "prompt": {
+    "name": "words-neutral"
+  },
+  "params": {
+    "temperature": 1.5,
+    "max_tokens": 3000,
+    "seed": null
+  },
+  "runs": {
+    "132": [
+      {
+        "rep": 0,
+        "text": "فک\nفوک",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 793,
+          "total_tokens": 841,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 22.063636779785156
+        },
+        "latency_s": 13.66,
+        "at": "2026-10-13T15:20:00+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "فک\nفک دریایی",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 1410,
+          "total_tokens": 1458,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 38.890907287597656
+        },
+        "latency_s": 23.77,
+        "at": "2026-10-13T15:20:24+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "فک\nفک دریایی",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 851,
+          "total_tokens": 899,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 23.64545440673828
+        },
+        "latency_s": 8.81,
+        "at": "2026-10-13T15:20:33+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "فک\nفک دریایی",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 864,
+          "total_tokens": 912,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 24
+        },
+        "latency_s": 15.88,
+        "at": "2026-10-13T15:20:49+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "فک\nفک دریایی",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 408,
+          "total_tokens": 456,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 11.56363582611084
+        },
+        "latency_s": 8.48,
+        "at": "2026-10-13T15:20:57+00:00"
+      }
+    ],
+    "176": [
+      {
+        "rep": 0,
+        "text": "کف دست\nکف\nپنجه",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 1171,
+          "total_tokens": 1219,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 32.37272644042969
+        },
+        "latency_s": 24.28,
+        "at": "2026-10-13T15:21:22+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "کف دست\nکف",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 1941,
+          "total_tokens": 1989,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 53.37272644042969
+        },
+        "latency_s": 32.98,
+        "at": "2026-10-13T15:21:55+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "کف دست\nکف",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 1504,
+          "total_tokens": 1552,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 41.45454406738281
+        },
+        "latency_s": 22.92,
+        "at": "2026-10-13T15:22:18+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "کف دست\nکف",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 821,
+          "total_tokens": 869,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 22.827272415161133
+        },
+        "latency_s": 15.47,
+        "at": "2026-10-13T15:22:33+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "کف دست\nکف\nپنجه",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 777,
+          "total_tokens": 825,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 21.62727165222168
+        },
+        "latency_s": 17.41,
+        "at": "2026-10-13T15:22:50+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

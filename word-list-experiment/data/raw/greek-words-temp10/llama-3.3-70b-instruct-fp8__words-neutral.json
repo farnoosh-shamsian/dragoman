@@ -1,0 +1,810 @@
+{
+  "passage": {
+    "id": "greek-words-temp10",
+    "title": "Temperature side experiment, temperature 1.0",
+    "ref": "data/key.csv IDs; 4 polysemy hits + 5 sound-alikes from the neutral run",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "llama-3.3-70b-instruct-fp8",
+    "api_id": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "label": "Llama 3.3 70B",
+    "family": "Meta Llama",
+    "weights": "open",
+    "provider": "cloudflare"
+  },
+  "prompt": {
+    "name": "words-neutral"
+  },
+  "params": {
+    "temperature": 1.0,
+    "max_tokens": 1024,
+    "seed": null
+  },
+  "runs": {
+    "132": [
+      {
+        "rep": 0,
+        "text": "فوک\nتنین\nآهوی آبی\nماهی گوشتخوار",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 18,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.44656229019165
+        },
+        "latency_s": 1.45,
+        "at": "2026-10-13T15:10:33+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "فوک\nنرال\nپشت‌ichier\nدریا‌پش\nت람اسونا",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 22,
+          "total_tokens": 88,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.265783309936523
+        },
+        "latency_s": 1.91,
+        "at": "2026-10-13T15:10:35+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "فک\nsea lion\nเนفشه\nدلفین\nتیمساح",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 19,
+          "total_tokens": 85,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.6513671875
+        },
+        "latency_s": 0.97,
+        "at": "2026-10-13T15:10:36+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "فوک\nفک\nخرس دریایی\nتیره فک",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 16,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.036951541900635
+        },
+        "latency_s": 1.11,
+        "at": "2026-10-13T15:10:37+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "فوک\nخرس البحر\nتکه\nآهو دریا\nفک دریایی",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 20,
+          "total_tokens": 86,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.856172561645508
+        },
+        "latency_s": 2.11,
+        "at": "2026-10-13T15:10:39+00:00"
+      }
+    ],
+    "176": [
+      {
+        "rep": 0,
+        "text": "کف دست\nپنجه\nکف\nپشت دست\nزیرم vuông",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 20,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.882840156555176
+        },
+        "latency_s": 1.81,
+        "at": "2026-10-13T15:10:41+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "کف دست\nپشت دست\nزرخ\nتاپش\nklad",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 17,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.2684245109558105
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-13T15:10:42+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "کف دست\nپنجه\nکش\nزیرمुचاله\nتختهประกب",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 22,
+          "total_tokens": 89,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.292450904846191
+        },
+        "latency_s": 1.11,
+        "at": "2026-10-13T15:10:43+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "کف دست\nپنجه\nپا\nبال مخفی پرنده",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 17,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.2684245109558105
+        },
+        "latency_s": 0.59,
+        "at": "2026-10-13T15:10:43+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "کف دست\nکف\nپنجه\nپشت دست",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 15,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.858813762664795
+        },
+        "latency_s": 1.66,
+        "at": "2026-10-13T15:10:45+00:00"
+      }
+    ],
+    "200": [
+      {
+        "rep": 0,
+        "text": "سبک\nآسان\nسهل\nنرم",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 12,
+          "total_tokens": 80,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.271065711975098
+        },
+        "latency_s": 0.53,
+        "at": "2026-10-13T15:10:46+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "سبک\nآسان\nناچیز\nlight (کمیاب و غیررسمی)",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 22,
+          "total_tokens": 90,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.319118499755859
+        },
+        "latency_s": 1.38,
+        "at": "2026-10-13T15:10:47+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "سبک\nآسان\nناچیز\nlectronbic輕 Wilmington,message lightweight راحت",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 19,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.704702377319336
+        },
+        "latency_s": 1.08,
+        "at": "2026-10-13T15:10:48+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "سبک\nآسان\n輕\nآرام\nنرم",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 15,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.885481357574463
+        },
+        "latency_s": 0.75,
+        "at": "2026-10-13T15:10:49+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "سبک\nهول\nبیزار\nناتوان",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 14,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.680675983428955
+        },
+        "latency_s": 1.61,
+        "at": "2026-10-13T15:10:50+00:00"
+      }
+    ],
+    "95": [
+      {
+        "rep": 0,
+        "text": "سلاح\nاسلحه\nنشان\nتفنگ\nآرایش",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 17,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.241756916046143
+        },
+        "latency_s": 2.77,
+        "at": "2026-10-13T15:10:53+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "سلاح\nتفنگ\nاسلحه\nآلات جنگی",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 15,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.832146167755127
+        },
+        "latency_s": 0.94,
+        "at": "2026-10-13T15:10:54+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "اسلحه\nسلاح\nننهال\nجنگ‌افزار",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 17,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.241756916046143
+        },
+        "latency_s": 0.69,
+        "at": "2026-10-13T15:10:55+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "اسلحه\nابزار جنگ\nsilah\nسلاحها\nاعلام جنگ",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 19,
+          "total_tokens": 85,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.6513671875
+        },
+        "latency_s": 0.58,
+        "at": "2026-10-13T15:10:55+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "اسلحه\nافسار\nsilah\nجنگ‌افزار\nاسباب جنگ",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 21,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.060977935791016
+        },
+        "latency_s": 2.94,
+        "at": "2026-10-13T15:10:58+00:00"
+      }
+    ],
+    "80": [
+      {
+        "rep": 0,
+        "text": "طار\nطابوت\nصمغ\nآهکhydration無し�اجایگزین tar یا قیرVMLINUX petroleum \nپیکرشمع",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 32,
+          "total_tokens": 98,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 8.313837051391602
+        },
+        "latency_s": 1.78,
+        "at": "2026-10-13T15:11:00+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "آهک\nزفت\nنفت\nلاک.bz lovingly edited to \nآهک\nزفت\nنفت\nلاک",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 31,
+          "total_tokens": 97,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 8.109031677246094
+        },
+        "latency_s": 0.8,
+        "at": "2026-10-13T15:11:01+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "قطران\nرزین\nلاک\nطلا\nروغن đất",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 16,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.036951541900635
+        },
+        "latency_s": 0.75,
+        "at": "2026-10-13T15:11:02+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "瀝بخ \nقطران\nموم زفت\nآهک 液 \nزفت",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 22,
+          "total_tokens": 88,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.265783309936523
+        },
+        "latency_s": 1.72,
+        "at": "2026-10-13T15:11:03+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "کاج\nزفت\nقیر\nروغن کاج",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 14,
+          "total_tokens": 80,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.627340793609619
+        },
+        "latency_s": 0.52,
+        "at": "2026-10-13T15:11:04+00:00"
+      }
+    ],
+    "145": [
+      {
+        "rep": 0,
+        "text": "چوب\nدسته\n club \nاوراق\nچماق",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 15,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.885481357574463
+        },
+        "latency_s": 1.2,
+        "at": "2026-10-13T15:11:05+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "چوب\nچماق\nگُج\nعصا",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 15,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.885481357574463
+        },
+        "latency_s": 1.55,
+        "at": "2026-10-13T15:11:07+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "چوب جنگی\nچماق\nدستperms\n club\nدوک.StoredProcedure",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 19,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.704702377319336
+        },
+        "latency_s": 1.34,
+        "at": "2026-10-13T15:11:08+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "چوب\nچماق\nدسته\nعصا",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 14,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.680675983428955
+        },
+        "latency_s": 0.77,
+        "at": "2026-10-13T15:11:09+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "چوب\nدستگیره\nمیله\nاسمار\nشمشیرچوب",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 20,
+          "total_tokens": 88,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.909507751464844
+        },
+        "latency_s": 0.7,
+        "at": "2026-10-13T15:11:09+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "انار\nنارنج\nپالما\nمعناierihaled \nفونیکس",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 21,
+          "total_tokens": 88,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.087645530700684
+        },
+        "latency_s": 3.41,
+        "at": "2026-10-13T15:11:13+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "آفتاب گردان\nflenjak \nفونیکس\nفونکس \nفنق",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 21,
+          "total_tokens": 88,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.087645530700684
+        },
+        "latency_s": 1.7,
+        "at": "2026-10-13T15:11:15+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "عنابی\nختنی\nفینیک\nز액تونی\nفونیکس",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 20,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.882840156555176
+        },
+        "latency_s": 2.09,
+        "at": "2026-10-13T15:11:17+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "انار\nنخل\nپالم\nفینیکس",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 14,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.654008388519287
+        },
+        "latency_s": 0.55,
+        "at": "2026-10-13T15:11:17+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "انار\nمیوه انار\nنخل اناری\nدرخت انار",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 18,
+          "total_tokens": 85,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.473229885101318
+        },
+        "latency_s": 0.7,
+        "at": "2026-10-13T15:11:18+00:00"
+      }
+    ],
+    "53": [
+      {
+        "rep": 0,
+        "text": "کوبش\nضربه\nپراندن\nزدن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 14,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.680675983428955
+        },
+        "latency_s": 0.56,
+        "at": "2026-10-13T15:11:18+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "تخته\nشلاق\nچوب تیز\nکوبه",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 15,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.885481357574463
+        },
+        "latency_s": 4.09,
+        "at": "2026-10-13T15:11:23+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "تsíزه\nت 힐ه\nکوبش\nضربه",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 16,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.090286731719971
+        },
+        "latency_s": 1.72,
+        "at": "2026-10-13T15:11:24+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "تلاطم\nقلاب\nχειμάζω\nگرداب\nوسیله قلاویز کردن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 23,
+          "total_tokens": 91,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.523923873901367
+        },
+        "latency_s": 1.53,
+        "at": "2026-10-13T15:11:26+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "تندباد\nوزغ\nکوبش\nصدا",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 14,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.680675983428955
+        },
+        "latency_s": 0.56,
+        "at": "2026-10-13T15:11:26+00:00"
+      }
+    ],
+    "177": [
+      {
+        "rep": 0,
+        "text": "نعناع\nپودina\nریحان\nناغد\nآویشن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 20,
+          "total_tokens": 86,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.856172561645508
+        },
+        "latency_s": 0.64,
+        "at": "2026-10-13T15:11:27+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "نعناع\nریحان\nآویشن\nدارچین",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 16,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.036951541900635
+        },
+        "latency_s": 1.06,
+        "at": "2026-10-13T15:11:28+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "نعناع\nریحان\nدارچین\nپادزه蘚",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 18,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.44656229019165
+        },
+        "latency_s": 1.17,
+        "at": "2026-10-13T15:11:29+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "نعناع\nریحان\nدارچین\nپودرنیل",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 18,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.44656229019165
+        },
+        "latency_s": 1.34,
+        "at": "2026-10-13T15:11:31+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "نعناع\nریحان\ndarwinia\nآویشن\nنعناع وحشی",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 21,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.060977935791016
+        },
+        "latency_s": 0.66,
+        "at": "2026-10-13T15:11:31+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

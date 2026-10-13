@@ -1,0 +1,1617 @@
+{
+  "passage": {
+    "id": "greek-words",
+    "title": "Greek word list (traps and fillers)",
+    "ref": "data/key.csv",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "llama-3.3-70b-instruct-fp8",
+    "api_id": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "label": "Llama 3.3 70B",
+    "family": "Meta Llama",
+    "weights": "open",
+    "provider": "cloudflare"
+  },
+  "prompt": {
+    "name": "words-neutral"
+  },
+  "params": {
+    "temperature": 0.7,
+    "max_tokens": 1024,
+    "seed": null
+  },
+  "runs": {
+    "1": [
+      {
+        "rep": 0,
+        "text": "کشاورز\nدهقان\nزرگر\nکشتیار",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 15,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.858813762664795
+        },
+        "latency_s": 0.91,
+        "at": "2026-10-13T14:52:07+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "کشاورز\nزرگر\nدهقان\nکشتگر",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 15,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.858813762664795
+        },
+        "latency_s": 0.67,
+        "at": "2026-10-13T14:52:07+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "کشاورز\nدهقان\nزارع\nکشتگر",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 15,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.858813762664795
+        },
+        "latency_s": 2.53,
+        "at": "2026-10-13T14:52:10+00:00"
+      }
+    ],
+    "2": [
+      {
+        "rep": 0,
+        "text": "خانه\nسرای\nمنزل\nخاندان",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 12,
+          "total_tokens": 79,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.24439811706543
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-13T14:52:10+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "خانه\nخاندان\nسرای\nمنزل",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 12,
+          "total_tokens": 79,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.24439811706543
+        },
+        "latency_s": 3.42,
+        "at": "2026-10-13T14:52:14+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "خانه\nسرای\nمنزل\nخاندان",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 12,
+          "total_tokens": 79,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.24439811706543
+        },
+        "latency_s": 0.58,
+        "at": "2026-10-13T14:52:14+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "انار\nنخل\nدرخت خرما\nفونیکس",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 16,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.063619136810303
+        },
+        "latency_s": 0.56,
+        "at": "2026-10-13T14:52:15+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "انار\nنخل\nفونیکس\nآناناس",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 15,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.858813762664795
+        },
+        "latency_s": 1.33,
+        "at": "2026-10-13T14:52:16+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "انار\nنخل\nفونیکس\nدرخت خرما",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 16,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.063619136810303
+        },
+        "latency_s": 0.88,
+        "at": "2026-10-13T14:52:17+00:00"
+      }
+    ],
+    "4": [
+      {
+        "rep": 0,
+        "text": "پیشانی\nکناره چشم\nپشت چشم\nلپ\nپشت لب",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 19,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.704702377319336
+        },
+        "latency_s": 1.03,
+        "at": "2026-10-13T14:52:18+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "پیشانی\nجبهه\nابرو\nپشت لب بالا",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 16,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.090286731719971
+        },
+        "latency_s": 1.23,
+        "at": "2026-10-13T14:52:20+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "پیشانی\n额\nجلد سر\nجلوی سر\nصورت",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 17,
+          "total_tokens": 85,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.2950921058654785
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-13T14:52:22+00:00"
+      }
+    ],
+    "5": [
+      {
+        "rep": 0,
+        "text": "کاهن\nروحانی\nپیشوا\nمذهبی",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 16,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.090286731719971
+        },
+        "latency_s": 5.88,
+        "at": "2026-10-13T14:52:28+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "کاهن\nروحانی\nمذهبی\nکشیش",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 15,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.885481357574463
+        },
+        "latency_s": 1.06,
+        "at": "2026-10-13T14:52:29+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "کاهن\nروحانی\nجاوید\nمذهبی\nپوستی",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 20,
+          "total_tokens": 88,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.909507751464844
+        },
+        "latency_s": 1.11,
+        "at": "2026-10-13T14:52:30+00:00"
+      }
+    ],
+    "6": [
+      {
+        "rep": 0,
+        "text": "انداختن\nپراندن\nافکندن\nریختن\nپاشیدن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 21,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.060977935791016
+        },
+        "latency_s": 1.05,
+        "at": "2026-10-13T14:52:31+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "انداختن\nپراندن\nافکندن\nریختن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 17,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.241756916046143
+        },
+        "latency_s": 0.64,
+        "at": "2026-10-13T14:52:32+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "انداختن\nپراندن\nافکندن\nریختن\nپاشیدن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 21,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.060977935791016
+        },
+        "latency_s": 1.48,
+        "at": "2026-10-13T14:52:33+00:00"
+      }
+    ],
+    "7": [
+      {
+        "rep": 0,
+        "text": "سینه\nپستان\nجلد سینه\nپهلو",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 15,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.832146167755127
+        },
+        "latency_s": 2.17,
+        "at": "2026-10-13T14:52:35+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "سینه\nپوست سینه\nقفسه سینه\nجلد سینه",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 19,
+          "total_tokens": 85,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.6513671875
+        },
+        "latency_s": 1.28,
+        "at": "2026-10-13T14:52:37+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "سینه\nپوست سینه\nجلد سینه\nقفسه سینه",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 19,
+          "total_tokens": 85,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.6513671875
+        },
+        "latency_s": 0.53,
+        "at": "2026-10-13T14:52:37+00:00"
+      }
+    ],
+    "8": [
+      {
+        "rep": 0,
+        "text": "تعقیب می‌کنم\nآزمودن\nتعرض کردن\nپیگرد کردن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 20,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.882840156555176
+        },
+        "latency_s": 0.94,
+        "at": "2026-10-13T14:52:38+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دنبال کردن\nتعقیب کردن\nرسيدن\nدر پي بودن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 16,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.063619136810303
+        },
+        "latency_s": 0.95,
+        "at": "2026-10-13T14:52:39+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "تعقیب کردن\nآزار دادن\nدر پی کردن\nدنبال کردن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 17,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.2684245109558105
+        },
+        "latency_s": 0.64,
+        "at": "2026-10-13T14:52:40+00:00"
+      }
+    ],
+    "9": [
+      {
+        "rep": 0,
+        "text": "ساختن\nآفریدن\nایجاد کردن\nپدید آوردن\nسازندن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 21,
+          "total_tokens": 88,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.087645530700684
+        },
+        "latency_s": 9.59,
+        "at": "2026-10-13T14:52:49+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "ساختن\nایجاد کردن\nپدید آوردن\nسازماندهی کردن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 20,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.882840156555176
+        },
+        "latency_s": 1.08,
+        "at": "2026-10-13T14:52:50+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "ساختن\nایجاد کردن\nبه وجود آوردن\nسازمان دادن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 18,
+          "total_tokens": 85,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.473229885101318
+        },
+        "latency_s": 0.7,
+        "at": "2026-10-13T14:52:51+00:00"
+      }
+    ],
+    "10": [
+      {
+        "rep": 0,
+        "text": "قانون\nقاعده\nنظام\nرسم",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 65,
+          "completion_tokens": 13,
+          "total_tokens": 78,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.395867824554443
+        },
+        "latency_s": 0.52,
+        "at": "2026-10-13T14:52:51+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "قانون\nقاعده\nآیین\nسنن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 65,
+          "completion_tokens": 13,
+          "total_tokens": 78,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.395867824554443
+        },
+        "latency_s": 1.8,
+        "at": "2026-10-13T14:52:53+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "قانون\nقاعده\nآیین\nرسم",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 65,
+          "completion_tokens": 13,
+          "total_tokens": 78,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.395867824554443
+        },
+        "latency_s": 1.34,
+        "at": "2026-10-13T14:52:55+00:00"
+      }
+    ],
+    "11": [
+      {
+        "rep": 0,
+        "text": "بدن\nجسم\nتن\nهیکل",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 12,
+          "total_tokens": 78,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.2177300453186035
+        },
+        "latency_s": 0.69,
+        "at": "2026-10-13T14:52:55+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "بدن\nتن\nجسم\nهیکل",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 12,
+          "total_tokens": 78,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.2177300453186035
+        },
+        "latency_s": 0.47,
+        "at": "2026-10-13T14:52:56+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "جسم\nبدن\nتن\nهیکل",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 12,
+          "total_tokens": 78,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.2177300453186035
+        },
+        "latency_s": 0.98,
+        "at": "2026-10-13T14:52:57+00:00"
+      }
+    ],
+    "12": [
+      {
+        "rep": 0,
+        "text": "فراخواندن\nنامیدن\nخواندن\nآواز کردن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 15,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.832146167755127
+        },
+        "latency_s": 0.84,
+        "at": "2026-10-13T14:52:58+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "نامیدن\nفراخواندن\nخواندن\nآواز دادن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 16,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.036951541900635
+        },
+        "latency_s": 1.03,
+        "at": "2026-10-13T14:52:59+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "فراخواندن\nخواندن\nآواز دادن\nنامییدن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 16,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.036951541900635
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-13T14:52:59+00:00"
+      }
+    ],
+    "13": [
+      {
+        "rep": 0,
+        "text": "عدالت\nکیفر\nمجازات\nانتقام",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 65,
+          "completion_tokens": 12,
+          "total_tokens": 77,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.1910624504089355
+        },
+        "latency_s": 0.53,
+        "at": "2026-10-13T14:53:00+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "عدالت\nکیفر\nسزای الهی\nسزا\nکیفر الهی",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 65,
+          "completion_tokens": 20,
+          "total_tokens": 85,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.82950496673584
+        },
+        "latency_s": 1.11,
+        "at": "2026-10-13T14:53:01+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "عدالت\nکیفر\nانتقام\nجبران\nمُکافات",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 65,
+          "completion_tokens": 19,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.624699592590332
+        },
+        "latency_s": 1.31,
+        "at": "2026-10-13T14:53:02+00:00"
+      }
+    ],
+    "14": [
+      {
+        "rep": 0,
+        "text": "دارم\nداشتم\nهمراه دارم\nبرخوردارم",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 17,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.241756916046143
+        },
+        "latency_s": 0.66,
+        "at": "2026-10-13T14:53:03+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دارم\nداراست\nحفظ می‌کنم\nنگه می‌دارم",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 20,
+          "total_tokens": 86,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.856172561645508
+        },
+        "latency_s": 1.48,
+        "at": "2026-10-13T14:53:04+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دارم\nداشتم\nهمراه دارم\nدارایم",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 15,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.832146167755127
+        },
+        "latency_s": 0.98,
+        "at": "2026-10-13T14:53:05+00:00"
+      }
+    ],
+    "15": [
+      {
+        "rep": 0,
+        "text": "اسب\nسوار\nتاخت\nاسب سوار",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 13,
+          "total_tokens": 80,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.4492034912109375
+        },
+        "latency_s": 0.89,
+        "at": "2026-10-13T14:53:06+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "اسب\nسواره\nتروآ\nآهو\nاسباب",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 17,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.2684245109558105
+        },
+        "latency_s": 1.03,
+        "at": "2026-10-13T14:53:07+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "اسب\nسوار\nتازنده\nآشوار",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 14,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.654008388519287
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-13T14:53:08+00:00"
+      }
+    ],
+    "16": [
+      {
+        "rep": 0,
+        "text": "دویدم\nدویدن\nراندن\nتاخت\nشتابیدن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 65,
+          "completion_tokens": 17,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.215089321136475
+        },
+        "latency_s": 0.81,
+        "at": "2026-10-13T14:53:09+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دویدم\nدویدن\nراندن\nتاخت\nتازیدم",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 65,
+          "completion_tokens": 18,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.419894695281982
+        },
+        "latency_s": 3.86,
+        "at": "2026-10-13T14:53:12+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دویدن\nدويدن\nتحرک کردن\nجریان داشتن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 65,
+          "completion_tokens": 16,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.010283946990967
+        },
+        "latency_s": 0.7,
+        "at": "2026-10-13T14:53:13+00:00"
+      }
+    ],
+    "17": [
+      {
+        "rep": 0,
+        "text": "تاج\nکلاه\nسربند\nتارک",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 14,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.654008388519287
+        },
+        "latency_s": 0.66,
+        "at": "2026-10-13T14:53:14+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "تاج\nکلاه\nسایه بان\nکرونه",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 15,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.858813762664795
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-13T14:53:14+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "تاج\nکلاه\nسربند\nتارک",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 14,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.654008388519287
+        },
+        "latency_s": 0.69,
+        "at": "2026-10-13T14:53:15+00:00"
+      }
+    ],
+    "18": [
+      {
+        "rep": 0,
+        "text": "ترسیدن\nهراسیدن\nوahمه کردن\nبیم داشتن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 18,
+          "total_tokens": 86,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.499897480010986
+        },
+        "latency_s": 0.88,
+        "at": "2026-10-13T14:53:16+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "ترسیدم\nهراسیدم\nبیم دارم\nمی‌ترسم",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 19,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.704702377319336
+        },
+        "latency_s": 1.73,
+        "at": "2026-10-13T14:53:18+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "ترسیدن\nهراسناک بودن\nوahشتن\nترس داشتن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 19,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.704702377319336
+        },
+        "latency_s": 1.11,
+        "at": "2026-10-13T14:53:19+00:00"
+      }
+    ],
+    "19": [
+      {
+        "rep": 0,
+        "text": "دوست داشتن\nعشق ورزیدن\nدل بستن\nعلاقه داشتن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 21,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.060977935791016
+        },
+        "latency_s": 1.95,
+        "at": "2026-10-13T14:53:21+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دوست داشتن\nعشق ورزیدن\nمهر ورزیدن\nدل بستن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 21,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.060977935791016
+        },
+        "latency_s": 0.8,
+        "at": "2026-10-13T14:53:22+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دوست داشتن\nعشق ورزیدن\nمهر ورزیدن\nعلاقه مند بودن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 22,
+          "total_tokens": 88,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.265783309936523
+        },
+        "latency_s": 0.75,
+        "at": "2026-10-13T14:53:22+00:00"
+      }
+    ],
+    "20": [
+      {
+        "rep": 0,
+        "text": "نور\nروشنا\nفروز\nآتش\nتابش",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 15,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.832146167755127
+        },
+        "latency_s": 0.53,
+        "at": "2026-10-13T14:53:23+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "نور\nروشنایی\nآتش\nفروزان",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 14,
+          "total_tokens": 80,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.627340793609619
+        },
+        "latency_s": 0.78,
+        "at": "2026-10-13T14:53:24+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "نور\nروشنا\nآفتاب\nفروز\nتابش",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 16,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.036951541900635
+        },
+        "latency_s": 0.77,
+        "at": "2026-10-13T14:53:24+00:00"
+      }
+    ],
+    "21": [
+      {
+        "rep": 0,
+        "text": "روز\nروزانه\nروزگار\nروزگارگی",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 13,
+          "total_tokens": 80,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.4492034912109375
+        },
+        "latency_s": 1.41,
+        "at": "2026-10-13T14:53:26+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "روز\nروزانه\nحال\nروزگار",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 11,
+          "total_tokens": 78,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.039592742919922
+        },
+        "latency_s": 0.53,
+        "at": "2026-10-13T14:53:26+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "روز\nروزمار\nروزانه\nروزگار",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 12,
+          "total_tokens": 79,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.24439811706543
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-13T14:53:27+00:00"
+      }
+    ],
+    "22": [
+      {
+        "rep": 0,
+        "text": "برف\nیخ\nبارش برف\nبهارن\nبرفک",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 65,
+          "completion_tokens": 19,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.624699592590332
+        },
+        "latency_s": 1.42,
+        "at": "2026-10-13T14:53:28+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "برف\nیخ\nبارش برفی\nهیمه",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 65,
+          "completion_tokens": 15,
+          "total_tokens": 80,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.805478572845459
+        },
+        "latency_s": 0.55,
+        "at": "2026-10-13T14:53:29+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "برف\nیخ\nهیمه\nبارش برف",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 65,
+          "completion_tokens": 15,
+          "total_tokens": 80,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.805478572845459
+        },
+        "latency_s": 0.53,
+        "at": "2026-10-13T14:53:29+00:00"
+      }
+    ],
+    "23": [
+      {
+        "rep": 0,
+        "text": "تند\nزود\nسریع\nشتابان",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 14,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.654008388519287
+        },
+        "latency_s": 0.56,
+        "at": "2026-10-13T14:53:30+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "تند\nزود\nسریع\nشتابان",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 14,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.654008388519287
+        },
+        "latency_s": 2.44,
+        "at": "2026-10-13T14:53:32+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "تند\nزود\nسریع\nشتابان",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 14,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.654008388519287
+        },
+        "latency_s": 1.42,
+        "at": "2026-10-13T14:53:34+00:00"
+      }
+    ],
+    "24": [
+      {
+        "rep": 0,
+        "text": "شمشیر\nتیغ\nخنجر\nکارد",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 14,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.654008388519287
+        },
+        "latency_s": 2.59,
+        "at": "2026-10-13T14:53:36+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "شمشیر\nتیز\nکارد\nخنجر",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 14,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.654008388519287
+        },
+        "latency_s": 1.58,
+        "at": "2026-10-13T14:53:38+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "شمشیر\nتیز\nخنجر\nکارد",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 14,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.654008388519287
+        },
+        "latency_s": 2.53,
+        "at": "2026-10-13T14:53:40+00:00"
+      }
+    ],
+    "25": [
+      {
+        "rep": 0,
+        "text": "مرگ\nموت\nفنا\nکشته شدن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 13,
+          "total_tokens": 79,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.422535419464111
+        },
+        "latency_s": 0.84,
+        "at": "2026-10-13T14:53:41+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "مرگ\nموت\nفنا\nزوال",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 12,
+          "total_tokens": 78,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.2177300453186035
+        },
+        "latency_s": 0.86,
+        "at": "2026-10-13T14:53:42+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "مرگ\nموت\nفنا\nهلاکت",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 13,
+          "total_tokens": 79,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.422535419464111
+        },
+        "latency_s": 1.59,
+        "at": "2026-10-13T14:53:44+00:00"
+      }
+    ],
+    "26": [
+      {
+        "rep": 0,
+        "text": "شکار\nصید\nدرآوردن\nبه‌دام‌اندازی",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 65,
+          "completion_tokens": 17,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.215089321136475
+        },
+        "latency_s": 1.22,
+        "at": "2026-10-13T14:53:45+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "شکار\nشکارگری\nصید\nطعمه‌گیری",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 65,
+          "completion_tokens": 16,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.010283946990967
+        },
+        "latency_s": 0.53,
+        "at": "2026-10-13T14:53:46+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "شکار\nطعمه\nصید\nگوشت شکار شده",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 65,
+          "completion_tokens": 17,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.215089321136475
+        },
+        "latency_s": 0.55,
+        "at": "2026-10-13T14:53:46+00:00"
+      }
+    ],
+    "27": [
+      {
+        "rep": 0,
+        "text": "容器 \nظرف\nجعبه\nقنینه",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 69,
+          "completion_tokens": 13,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.502538681030273
+        },
+        "latency_s": 7.5,
+        "at": "2026-10-13T14:53:54+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "ارهوس\nظرف\nجام\nآبخوری",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 69,
+          "completion_tokens": 13,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.502538681030273
+        },
+        "latency_s": 0.83,
+        "at": "2026-10-13T14:53:54+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "جام\nپیاله\nاستکان\nلیوان",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 69,
+          "completion_tokens": 11,
+          "total_tokens": 80,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.092927932739258
+        },
+        "latency_s": 0.66,
+        "at": "2026-10-13T14:53:55+00:00"
+      }
+    ],
+    "28": [
+      {
+        "rep": 0,
+        "text": "شنیدن\nگوش دادن\nبشنودن\nشنوایی کردن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 17,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.2684245109558105
+        },
+        "latency_s": 0.92,
+        "at": "2026-10-13T14:53:56+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "شنیدن\nگوش دادن\nهمچنین شنود\nبسیار گوش کردن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 19,
+          "total_tokens": 86,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.678034782409668
+        },
+        "latency_s": 0.94,
+        "at": "2026-10-13T14:53:57+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "شنیدن\nگوش دادن\nبشنودن\nهمراه شنیدن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 17,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.2684245109558105
+        },
+        "latency_s": 0.56,
+        "at": "2026-10-13T14:53:57+00:00"
+      }
+    ],
+    "29": [
+      {
+        "rep": 0,
+        "text": "دیدن\nبینیدن\nنگریستن\nتماشا کردن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 16,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.063619136810303
+        },
+        "latency_s": 0.7,
+        "at": "2026-10-13T14:53:58+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دیدن\nنگریستن\n觀看 \nآشکارا دیدن\nتماشا کردن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 23,
+          "total_tokens": 90,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.497256278991699
+        },
+        "latency_s": 1.45,
+        "at": "2026-10-13T14:54:00+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دیدن\nنگریستن\n觀看\nبینیدن \nدیدار کردن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 18,
+          "total_tokens": 85,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.473229885101318
+        },
+        "latency_s": 0.78,
+        "at": "2026-10-13T14:54:00+00:00"
+      }
+    ],
+    "30": [
+      {
+        "rep": 0,
+        "text": "ماه\nقمر\nمه\nماهتاب",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 12,
+          "total_tokens": 78,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.2177300453186035
+        },
+        "latency_s": 0.89,
+        "at": "2026-10-13T14:54:01+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "ماه\nقمر\nمه\nماهتاب",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 12,
+          "total_tokens": 78,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.2177300453186035
+        },
+        "latency_s": 0.55,
+        "at": "2026-10-13T14:54:02+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "ماه\nقمر\nمه\nماهتاب",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 12,
+          "total_tokens": 78,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.2177300453186035
+        },
+        "latency_s": 0.67,
+        "at": "2026-10-13T14:54:03+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

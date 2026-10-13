@@ -1,0 +1,6 @@
+# pivot step 2: English to Persian
+user = """
+Translate this English word into Persian. Give 2–5 Persian equivalents, most likely first, one per line, and nothing else.
+
+{{SOURCE}}
+"""

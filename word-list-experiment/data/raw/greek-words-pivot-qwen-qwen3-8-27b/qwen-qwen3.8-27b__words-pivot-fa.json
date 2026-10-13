@@ -1,0 +1,3828 @@
+{
+  "passage": {
+    "id": "greek-words-pivot-qwen-qwen3-8-27b",
+    "title": "Pivot step 2 source for Qwen 3.8 27B",
+    "ref": "English words from words-pivot-en, model qwen/qwen3.8-27b",
+    "lang": "en"
+  },
+  "model": {
+    "id": "qwen/qwen3.8-27b",
+    "api_id": "qwen/qwen3.8-27b",
+    "label": "Qwen 3.8 27B",
+    "family": "Qwen",
+    "weights": "open",
+    "provider": "groq"
+  },
+  "prompt": {
+    "name": "words-pivot-fa",
+    "label": "Words · pivot step 2"
+  },
+  "params": {
+    "temperature": 0.2,
+    "max_tokens": 2048,
+    "seed": null
+  },
+  "runs": {
+    "1": [
+      {
+        "rep": 0,
+        "text": "کشاورز\nزراعت‌کار\nمزارع‌دار\nکشاور",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047328311,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003366505,
+          "completion_tokens": 19,
+          "completion_time": 0.037546065,
+          "total_tokens": 61,
+          "total_time": 0.04091257
+        },
+        "latency_s": 1.73,
+        "at": "2026-10-08T15:01:18+00:00"
+      }
+    ],
+    "2": [
+      {
+        "rep": 0,
+        "text": "خانه\nمنزل\nمسکن\nبیت\nخانه‌خانه",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.045446888,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002960781,
+          "completion_tokens": 15,
+          "completion_time": 0.028735654,
+          "total_tokens": 56,
+          "total_time": 0.031696435
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-08T15:01:18+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "باز\nسیمرغ\nفریگ\nسیمرغ (در اساطیر ایرانی)",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016500089,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003450964,
+          "completion_tokens": 22,
+          "completion_time": 0.043409701,
+          "total_tokens": 64,
+          "total_time": 0.046860665
+        },
+        "latency_s": 1.88,
+        "at": "2026-10-08T15:01:20+00:00"
+      }
+    ],
+    "4": [
+      {
+        "rep": 0,
+        "text": "غشای طبلی\nطبلی\nدرام\nغشای گوش میانی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.052607502,
+          "prompt_tokens": 44,
+          "prompt_time": 0.005949765,
+          "completion_tokens": 19,
+          "completion_time": 0.086616516,
+          "total_tokens": 63,
+          "total_time": 0.092566281
+        },
+        "latency_s": 3.5,
+        "at": "2026-10-08T15:01:23+00:00"
+      }
+    ],
+    "5": [
+      {
+        "rep": 0,
+        "text": "روحانی\nکاهن\nپاپ\nاسقف",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.089797145,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002698401,
+          "completion_tokens": 13,
+          "completion_time": 0.024959316,
+          "total_tokens": 55,
+          "total_time": 0.027657717
+        },
+        "latency_s": 187.12,
+        "at": "2026-10-08T15:04:31+00:00"
+      }
+    ],
+    "6": [
+      {
+        "rep": 0,
+        "text": "پرتاب کردن\nپرتاب\nانداختن\nپرتاب‌کردن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.04754526,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003039821,
+          "completion_tokens": 20,
+          "completion_time": 0.039589775,
+          "total_tokens": 61,
+          "total_time": 0.042629596
+        },
+        "latency_s": 1.91,
+        "at": "2026-10-08T15:04:33+00:00"
+      }
+    ],
+    "7": [
+      {
+        "rep": 0,
+        "text": "سینه\nپستان\nسینه‌ی زن\nسینه‌ی مرد",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01703616,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002833043,
+          "completion_tokens": 18,
+          "completion_time": 0.034283442,
+          "total_tokens": 60,
+          "total_time": 0.037116485
+        },
+        "latency_s": 1.95,
+        "at": "2026-10-08T15:04:34+00:00"
+      }
+    ],
+    "8": [
+      {
+        "rep": 0,
+        "text": "دنبال کردن\nپursuing کردن\nبه تعقیب گرفتن\nبه دنبال رفتن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017733373,
+          "prompt_tokens": 43,
+          "prompt_time": 0.003607292,
+          "completion_tokens": 21,
+          "completion_time": 0.041514834,
+          "total_tokens": 64,
+          "total_time": 0.045122126
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-08T15:04:35+00:00"
+      }
+    ],
+    "9": [
+      {
+        "rep": 0,
+        "text": "ایجاد کردن\nساختن\nآفریدن\nتولید کردن\nبه وجود آوردن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.046448557,
+          "prompt_tokens": 41,
+          "prompt_time": 0.0031194,
+          "completion_tokens": 22,
+          "completion_time": 0.043525289,
+          "total_tokens": 63,
+          "total_time": 0.046644689
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-08T15:04:35+00:00"
+      }
+    ],
+    "10": [
+      {
+        "rep": 0,
+        "text": "قانون\nقوانین\nشریعت\nحکم\nنظام",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017210529,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003202459,
+          "completion_tokens": 17,
+          "completion_time": 0.033607651,
+          "total_tokens": 58,
+          "total_time": 0.03681011
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-08T15:04:35+00:00"
+      }
+    ],
+    "11": [
+      {
+        "rep": 0,
+        "text": "بدن\nجسم\nتن\nجسمانی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016929255,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002610846,
+          "completion_tokens": 12,
+          "completion_time": 0.022910161,
+          "total_tokens": 53,
+          "total_time": 0.025521007
+        },
+        "latency_s": 3.98,
+        "at": "2026-10-08T15:04:39+00:00"
+      }
+    ],
+    "12": [
+      {
+        "rep": 0,
+        "text": "تماس\nفراخوان\nدعوت\nفریاد",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016862843,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003282668,
+          "completion_tokens": 15,
+          "completion_time": 0.029706473,
+          "total_tokens": 56,
+          "total_time": 0.032989141
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-08T15:04:39+00:00"
+      }
+    ],
+    "13": [
+      {
+        "rep": 0,
+        "text": "عدالت\nانصاف\nحق",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018562319,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003037321,
+          "completion_tokens": 9,
+          "completion_time": 0.018235027,
+          "total_tokens": 50,
+          "total_time": 0.021272348
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-08T15:04:39+00:00"
+      }
+    ],
+    "14": [
+      {
+        "rep": 0,
+        "text": "داشتن\nدارم\nدارد\nداریم",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018855561,
+          "prompt_tokens": 41,
+          "prompt_time": 0.00306726,
+          "completion_tokens": 12,
+          "completion_time": 0.023829008,
+          "total_tokens": 53,
+          "total_time": 0.026896268
+        },
+        "latency_s": 1.86,
+        "at": "2026-10-08T15:04:41+00:00"
+      }
+    ],
+    "15": [
+      {
+        "rep": 0,
+        "text": "اسب\nاسب خانگی\nاسب‌وار",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017441696,
+          "prompt_tokens": 41,
+          "prompt_time": 0.00314129,
+          "completion_tokens": 10,
+          "completion_time": 0.019868821,
+          "total_tokens": 51,
+          "total_time": 0.023010111
+        },
+        "latency_s": 0.12,
+        "at": "2026-10-08T15:04:41+00:00"
+      }
+    ],
+    "16": [
+      {
+        "rep": 0,
+        "text": "من می‌دوم\nمن دویدن می‌کنم\nمن دویده‌ام\nمن دویدم",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047707202,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003054551,
+          "completion_tokens": 25,
+          "completion_time": 0.049471604,
+          "total_tokens": 67,
+          "total_time": 0.052526155
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-08T15:04:41+00:00"
+      }
+    ],
+    "17": [
+      {
+        "rep": 0,
+        "text": "تاج\nتاج‌گذاری\nتاج‌دار\nپادشاهی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.056643783,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003539052,
+          "completion_tokens": 18,
+          "completion_time": 0.035571881,
+          "total_tokens": 60,
+          "total_time": 0.039110933
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-08T15:04:42+00:00"
+      }
+    ],
+    "18": [
+      {
+        "rep": 0,
+        "text": "ترس\nوحشت\nهراس\nخوف",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.14596807,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003543261,
+          "completion_tokens": 12,
+          "completion_time": 0.023786981,
+          "total_tokens": 54,
+          "total_time": 0.027330242
+        },
+        "latency_s": 1.83,
+        "at": "2026-10-08T15:04:43+00:00"
+      }
+    ],
+    "19": [
+      {
+        "rep": 0,
+        "text": "عشق ورزیدن\nدوست داشتن\nعاشق بودن\nمحبت کردن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016763057,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002628477,
+          "completion_tokens": 19,
+          "completion_time": 0.036228559,
+          "total_tokens": 61,
+          "total_time": 0.038857036
+        },
+        "latency_s": 1.88,
+        "at": "2026-10-08T15:04:45+00:00"
+      }
+    ],
+    "20": [
+      {
+        "rep": 0,
+        "text": "نور\nروشنایی\nروشن\nسبک\nنورانی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016527549,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002570657,
+          "completion_tokens": 18,
+          "completion_time": 0.034309612,
+          "total_tokens": 59,
+          "total_time": 0.036880269
+        },
+        "latency_s": 0.12,
+        "at": "2026-10-08T15:04:45+00:00"
+      }
+    ],
+    "21": [
+      {
+        "rep": 0,
+        "text": "روز\nروزگار\nروزها\nروزهای",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.243991195,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003461103,
+          "completion_tokens": 11,
+          "completion_time": 0.021910977,
+          "total_tokens": 52,
+          "total_time": 0.02537208
+        },
+        "latency_s": 3.78,
+        "at": "2026-10-08T15:04:49+00:00"
+      }
+    ],
+    "22": [
+      {
+        "rep": 0,
+        "text": "برف\nبرفک\nتور",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.462534591,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002968001,
+          "completion_tokens": 10,
+          "completion_time": 0.019239511,
+          "total_tokens": 51,
+          "total_time": 0.022207512
+        },
+        "latency_s": 2.41,
+        "at": "2026-10-08T15:04:52+00:00"
+      }
+    ],
+    "23": [
+      {
+        "rep": 0,
+        "text": "سریع\nتند\nزود",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017088315,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002969812,
+          "completion_tokens": 10,
+          "completion_time": 0.019904711,
+          "total_tokens": 51,
+          "total_time": 0.022874523
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-08T15:04:52+00:00"
+      }
+    ],
+    "24": [
+      {
+        "rep": 0,
+        "text": "شمشیر\nتیر\nنیزه\nخنجر",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017050574,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002968083,
+          "completion_tokens": 14,
+          "completion_time": 0.027761345,
+          "total_tokens": 55,
+          "total_time": 0.030729428
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-08T15:04:52+00:00"
+      }
+    ],
+    "25": [
+      {
+        "rep": 0,
+        "text": "مرگ\nوفات\nمیر\nکشته شدن\nمرگومیر",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.143497531,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003301667,
+          "completion_tokens": 18,
+          "completion_time": 0.036272459,
+          "total_tokens": 59,
+          "total_time": 0.039574126
+        },
+        "latency_s": 0.28,
+        "at": "2026-10-08T15:04:52+00:00"
+      }
+    ],
+    "26": [
+      {
+        "rep": 0,
+        "text": "شکار\nشکار کردن\nجستجو\nدر پی بودن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017262522,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002686176,
+          "completion_tokens": 15,
+          "completion_time": 0.028615156,
+          "total_tokens": 56,
+          "total_time": 0.031301332
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-08T15:04:52+00:00"
+      }
+    ],
+    "27": [
+      {
+        "rep": 0,
+        "text": "کشتی\nظرف\nسای\nبند",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047692544,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003227078,
+          "completion_tokens": 13,
+          "completion_time": 0.026223953,
+          "total_tokens": 55,
+          "total_time": 0.029451031
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-08T15:04:55+00:00"
+      }
+    ],
+    "28": [
+      {
+        "rep": 0,
+        "text": "شنیدن\nگوش دادن\nخبردار شدن\nاطلاع یافتن\nشنیدن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047882061,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002982843,
+          "completion_tokens": 20,
+          "completion_time": 0.039565445,
+          "total_tokens": 61,
+          "total_time": 0.042548288
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-08T15:04:57+00:00"
+      }
+    ],
+    "29": [
+      {
+        "rep": 0,
+        "text": "دیدن\nنگاه کردن\nمشاهده کردن\nدید",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.046724961,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003005062,
+          "completion_tokens": 13,
+          "completion_time": 0.025809871,
+          "total_tokens": 54,
+          "total_time": 0.028814933
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-08T15:04:59+00:00"
+      }
+    ],
+    "30": [
+      {
+        "rep": 0,
+        "text": "ماه\nماهواره\nقمر",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.076929641,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002893142,
+          "completion_tokens": 8,
+          "completion_time": 0.015455474,
+          "total_tokens": 49,
+          "total_time": 0.018348616
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-08T15:05:01+00:00"
+      }
+    ],
+    "31": [
+      {
+        "rep": 0,
+        "text": "انگشت\nانگشتان\nانگشتک\nانگشت‌ها",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.249753501,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003297098,
+          "completion_tokens": 20,
+          "completion_time": 0.039543417,
+          "total_tokens": 61,
+          "total_time": 0.042840515
+        },
+        "latency_s": 2.45,
+        "at": "2026-10-08T15:05:04+00:00"
+      }
+    ],
+    "32": [
+      {
+        "rep": 0,
+        "text": "در\nدرب\nطاق\nدرِ ورودی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047648108,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002979882,
+          "completion_tokens": 12,
+          "completion_time": 0.023916388,
+          "total_tokens": 53,
+          "total_time": 0.02689627
+        },
+        "latency_s": 9.31,
+        "at": "2026-10-08T15:05:13+00:00"
+      }
+    ],
+    "33": [
+      {
+        "rep": 0,
+        "text": "نخ\nپنجه\nچنگ\nپیشانی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01655084,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002927622,
+          "completion_tokens": 14,
+          "completion_time": 0.029754656,
+          "total_tokens": 56,
+          "total_time": 0.032682278
+        },
+        "latency_s": 9.12,
+        "at": "2026-10-08T15:05:22+00:00"
+      }
+    ],
+    "34": [
+      {
+        "rep": 0,
+        "text": "قانع کردن\nمتقاعد کردن\nرأی دادن\nقانع‌سازی کردن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.229497091,
+          "prompt_tokens": 43,
+          "prompt_time": 0.003861105,
+          "completion_tokens": 19,
+          "completion_time": 0.037532246,
+          "total_tokens": 62,
+          "total_time": 0.041393351
+        },
+        "latency_s": 2.48,
+        "at": "2026-10-08T15:05:25+00:00"
+      }
+    ],
+    "35": [
+      {
+        "rep": 0,
+        "text": "گیاه\nکارخانه\nکاشت\nنصب",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016699602,
+          "prompt_tokens": 41,
+          "prompt_time": 0.00313067,
+          "completion_tokens": 12,
+          "completion_time": 0.02447842,
+          "total_tokens": 53,
+          "total_time": 0.02760909
+        },
+        "latency_s": 4.44,
+        "at": "2026-10-08T15:05:29+00:00"
+      }
+    ],
+    "36": [
+      {
+        "rep": 0,
+        "text": "طلای\nطلا\nزرد",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016675572,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002826273,
+          "completion_tokens": 8,
+          "completion_time": 0.015383535,
+          "total_tokens": 49,
+          "total_time": 0.018209808
+        },
+        "latency_s": 19.01,
+        "at": "2026-10-08T15:05:48+00:00"
+      }
+    ],
+    "37": [
+      {
+        "rep": 0,
+        "text": "مار\nاژدها\nمارمولک\nمارپیتون\nمارهای",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017655076,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003039902,
+          "completion_tokens": 19,
+          "completion_time": 0.037528461,
+          "total_tokens": 60,
+          "total_time": 0.040568363
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-08T15:05:51+00:00"
+      }
+    ],
+    "38": [
+      {
+        "rep": 0,
+        "text": "آموزش دادن\nتدریس کردن\nیاد دادن\nآموزش دادن\nتعلیم دادن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.751809465,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003459815,
+          "completion_tokens": 24,
+          "completion_time": 0.047442353,
+          "total_tokens": 66,
+          "total_time": 0.050902168
+        },
+        "latency_s": 3.0,
+        "at": "2026-10-08T15:05:54+00:00"
+      }
+    ],
+    "39": [
+      {
+        "rep": 0,
+        "text": "فرستادن\nارسال کردن\nفرستادن\nارسال\nفرستادن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017297048,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003361116,
+          "completion_tokens": 19,
+          "completion_time": 0.037547391,
+          "total_tokens": 60,
+          "total_time": 0.040908507
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-08T15:05:56+00:00"
+      }
+    ],
+    "40": [
+      {
+        "rep": 0,
+        "text": "آب\nماء\nآب‌ها",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017247314,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003052331,
+          "completion_tokens": 10,
+          "completion_time": 0.019921653,
+          "total_tokens": 51,
+          "total_time": 0.022973984
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-08T15:05:58+00:00"
+      }
+    ],
+    "41": [
+      {
+        "rep": 0,
+        "text": "افتادن\nپاییز\nسقوط\nافت",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.04624994,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002903602,
+          "completion_tokens": 12,
+          "completion_time": 0.023059248,
+          "total_tokens": 53,
+          "total_time": 0.02596285
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-08T15:06:00+00:00"
+      }
+    ],
+    "42": [
+      {
+        "rep": 0,
+        "text": "دانستن\nآگاه بودن\nشناختن\nخبر داشتن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.075403599,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003376345,
+          "completion_tokens": 15,
+          "completion_time": 0.034656241,
+          "total_tokens": 56,
+          "total_time": 0.038032586
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-08T15:06:03+00:00"
+      }
+    ],
+    "43": [
+      {
+        "rep": 0,
+        "text": "آهن\nاتو\nمقاوم\nسخت",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017520924,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002590788,
+          "completion_tokens": 13,
+          "completion_time": 0.024882917,
+          "total_tokens": 54,
+          "total_time": 0.027473705
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-08T15:06:05+00:00"
+      }
+    ],
+    "44": [
+      {
+        "rep": 0,
+        "text": "ساختن\nساخت\nبنیادگذاری\nدست‌ساز کردن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047538303,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002973662,
+          "completion_tokens": 19,
+          "completion_time": 0.037880169,
+          "total_tokens": 60,
+          "total_time": 0.040853831
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-08T15:06:07+00:00"
+      }
+    ],
+    "45": [
+      {
+        "rep": 0,
+        "text": "جزیره\nجزایر\nتنگه\nشبه‌جزیره",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016929088,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002828303,
+          "completion_tokens": 17,
+          "completion_time": 0.0325857,
+          "total_tokens": 59,
+          "total_time": 0.035414003
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-08T15:06:09+00:00"
+      }
+    ],
+    "46": [
+      {
+        "rep": 0,
+        "text": "من پرواز می‌کنم\nمن می‌پریم\nمن در آسمان پرواز می‌کنم\nمن بال می‌زنم",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016877864,
+          "prompt_tokens": 42,
+          "prompt_time": 0.00312376,
+          "completion_tokens": 33,
+          "completion_time": 0.074663731,
+          "total_tokens": 75,
+          "total_time": 0.077787491
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-08T15:06:12+00:00"
+      }
+    ],
+    "47": [
+      {
+        "rep": 0,
+        "text": "خورشید\nآفتاب\nشمس",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047649475,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002969782,
+          "completion_tokens": 11,
+          "completion_time": 0.021875458,
+          "total_tokens": 52,
+          "total_time": 0.02484524
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-08T15:06:14+00:00"
+      }
+    ],
+    "48": [
+      {
+        "rep": 0,
+        "text": "من برنده‌ام\nمن پیروز شدم\nمن بردم\nمن پیروز شدم\nمن برنده شدم",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016835255,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002645016,
+          "completion_tokens": 28,
+          "completion_time": 0.061032729,
+          "total_tokens": 70,
+          "total_time": 0.063677745
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-08T15:06:16+00:00"
+      }
+    ],
+    "49": [
+      {
+        "rep": 0,
+        "text": "پدر\nپدرخوانده\nپدرسالار\nپدرم",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017258821,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002828323,
+          "completion_tokens": 17,
+          "completion_time": 0.032473112,
+          "total_tokens": 58,
+          "total_time": 0.035301435
+        },
+        "latency_s": 4.34,
+        "at": "2026-10-08T15:06:21+00:00"
+      }
+    ],
+    "50": [
+      {
+        "rep": 0,
+        "text": "برده\nغلام\nبنده\nعبد",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016814642,
+          "prompt_tokens": 41,
+          "prompt_time": 0.00312061,
+          "completion_tokens": 12,
+          "completion_time": 0.023853431,
+          "total_tokens": 53,
+          "total_time": 0.026974041
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-08T15:06:23+00:00"
+      }
+    ],
+    "51": [
+      {
+        "rep": 0,
+        "text": "قبر\nمقبره\nگور\nتپه",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016348936,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002984841,
+          "completion_tokens": 15,
+          "completion_time": 0.028658205,
+          "total_tokens": 57,
+          "total_time": 0.031643046
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-08T15:06:25+00:00"
+      }
+    ],
+    "52": [
+      {
+        "rep": 0,
+        "text": "گریه کردن\nناله کردن\nگریه‌وار شدن\nاشک ریختن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.414804977,
+          "prompt_tokens": 41,
+          "prompt_time": 0.005799927,
+          "completion_tokens": 20,
+          "completion_time": 0.069018012,
+          "total_tokens": 61,
+          "total_time": 0.074817939
+        },
+        "latency_s": 2.66,
+        "at": "2026-10-08T15:06:28+00:00"
+      }
+    ],
+    "53": [
+      {
+        "rep": 0,
+        "text": "باد زدن\nزدن\nفرو ریختن\nپرش",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017692194,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003213549,
+          "completion_tokens": 16,
+          "completion_time": 0.031685496,
+          "total_tokens": 58,
+          "total_time": 0.034899045
+        },
+        "latency_s": 6.5,
+        "at": "2026-10-08T15:06:34+00:00"
+      }
+    ],
+    "54": [
+      {
+        "rep": 0,
+        "text": "خندیدن\nخنده\nخندیدن\nخندیدن\nخندیدن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.243810524,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003263976,
+          "completion_tokens": 19,
+          "completion_time": 0.03620772,
+          "total_tokens": 61,
+          "total_time": 0.039471696
+        },
+        "latency_s": 102.3,
+        "at": "2026-10-08T15:08:16+00:00"
+      }
+    ],
+    "55": [
+      {
+        "rep": 0,
+        "text": "بره\nگوسفند\nگوسفند نر\nگوسفند ماده",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.182014432,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003389806,
+          "completion_tokens": 18,
+          "completion_time": 0.035618426,
+          "total_tokens": 60,
+          "total_time": 0.039008232
+        },
+        "latency_s": 174.48,
+        "at": "2026-10-08T15:11:11+00:00"
+      }
+    ],
+    "56": [
+      {
+        "rep": 0,
+        "text": "درخت گردو\nدرخت چنار\nدرخت بلوط\nدرخت کاج",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016741087,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003121722,
+          "completion_tokens": 21,
+          "completion_time": 0.041560843,
+          "total_tokens": 63,
+          "total_time": 0.044682565
+        },
+        "latency_s": 261.42,
+        "at": "2026-10-08T15:15:32+00:00"
+      }
+    ],
+    "57": [
+      {
+        "rep": 0,
+        "text": "نان\nبرگه نان\nکاهگل\nنونی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.606481677,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003373238,
+          "completion_tokens": 14,
+          "completion_time": 0.027800868,
+          "total_tokens": 55,
+          "total_time": 0.031174106
+        },
+        "latency_s": 174.97,
+        "at": "2026-10-08T15:18:27+00:00"
+      }
+    ],
+    "58": [
+      {
+        "rep": 0,
+        "text": "آسمان\nبهشت\nآسمان‌ها\nعالم بالا",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.051790876,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003361355,
+          "completion_tokens": 17,
+          "completion_time": 0.03249759,
+          "total_tokens": 59,
+          "total_time": 0.035858945
+        },
+        "latency_s": 435.64,
+        "at": "2026-10-08T15:25:43+00:00"
+      }
+    ],
+    "59": [
+      {
+        "rep": 0,
+        "text": "نان\nبرگه نان\nکاهگل\nنیمه‌نان",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016890688,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002638057,
+          "completion_tokens": 17,
+          "completion_time": 0.032393491,
+          "total_tokens": 58,
+          "total_time": 0.035031548
+        },
+        "latency_s": 87.2,
+        "at": "2026-10-08T15:27:10+00:00"
+      }
+    ],
+    "60": [
+      {
+        "rep": 0,
+        "text": "نقره\nنقره‌ای\nفضه",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016961862,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002702076,
+          "completion_tokens": 13,
+          "completion_time": 0.024791285,
+          "total_tokens": 54,
+          "total_time": 0.027493361
+        },
+        "latency_s": 87.19,
+        "at": "2026-10-08T15:28:37+00:00"
+      }
+    ],
+    "61": [
+      {
+        "rep": 0,
+        "text": "زندگی کردن\nزیستن\nسکونت کردن\nاقامت کردن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.046802109,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003386145,
+          "completion_tokens": 16,
+          "completion_time": 0.032065454,
+          "total_tokens": 58,
+          "total_time": 0.035451599
+        },
+        "latency_s": 87.27,
+        "at": "2026-10-08T15:30:05+00:00"
+      }
+    ],
+    "62": [
+      {
+        "rep": 0,
+        "text": "ذخیره کردن\nنجات دادن\nصرفه‌جویی کردن\nپس‌انداز کردن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.119856876,
+          "prompt_tokens": 41,
+          "prompt_time": 0.005408842,
+          "completion_tokens": 23,
+          "completion_time": 0.105913594,
+          "total_tokens": 64,
+          "total_time": 0.111322436
+        },
+        "latency_s": 87.42,
+        "at": "2026-10-08T15:31:32+00:00"
+      }
+    ],
+    "63": [
+      {
+        "rep": 0,
+        "text": "برادر\nداداش\nبرادرزاده\nپسرعمو",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047177911,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003211708,
+          "completion_tokens": 16,
+          "completion_time": 0.03169378,
+          "total_tokens": 58,
+          "total_time": 0.034905488
+        },
+        "latency_s": 87.25,
+        "at": "2026-10-08T15:32:59+00:00"
+      }
+    ],
+    "64": [
+      {
+        "rep": 0,
+        "text": "من می‌نوشم\nمن نوشیدنی می‌کنم\nمن شراب می‌نوشم\nمن آب می‌نوشم",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.195350694,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003472238,
+          "completion_tokens": 33,
+          "completion_time": 0.068193107,
+          "total_tokens": 75,
+          "total_time": 0.071665345
+        },
+        "latency_s": 87.45,
+        "at": "2026-10-08T15:34:27+00:00"
+      }
+    ],
+    "65": [
+      {
+        "rep": 0,
+        "text": "گفتن\nبستن\nبیان کردن\nاظهار کردن\nگفتار",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.046828362,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003199938,
+          "completion_tokens": 19,
+          "completion_time": 0.038981551,
+          "total_tokens": 60,
+          "total_time": 0.042181489
+        },
+        "latency_s": 87.25,
+        "at": "2026-10-08T15:35:54+00:00"
+      }
+    ],
+    "66": [
+      {
+        "rep": 0,
+        "text": "شکستن\nاستراحت\nقطع\nشکاف",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.438134173,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003113049,
+          "completion_tokens": 14,
+          "completion_time": 0.030953652,
+          "total_tokens": 55,
+          "total_time": 0.034066701
+        },
+        "latency_s": 87.69,
+        "at": "2026-10-08T15:37:22+00:00"
+      }
+    ],
+    "67": [
+      {
+        "rep": 0,
+        "text": "ساختن\nساخت\nتولید کردن\nایجاد کردن\nسازندگی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048121772,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003069501,
+          "completion_tokens": 21,
+          "completion_time": 0.045597873,
+          "total_tokens": 62,
+          "total_time": 0.048667374
+        },
+        "latency_s": 261.47,
+        "at": "2026-10-08T15:41:43+00:00"
+      }
+    ],
+    "68": [
+      {
+        "rep": 0,
+        "text": "بادبان\nپارچه\nپارچه‌ی کشتی\nپارچه‌ی باد",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01658289,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003203601,
+          "completion_tokens": 23,
+          "completion_time": 0.045416507,
+          "total_tokens": 65,
+          "total_time": 0.048620108
+        },
+        "latency_s": 87.26,
+        "at": "2026-10-08T15:43:11+00:00"
+      }
+    ],
+    "69": [
+      {
+        "rep": 0,
+        "text": "کوه\nکوهستان\nبلندکوه\nتپه",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.177668963,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003256015,
+          "completion_tokens": 16,
+          "completion_time": 0.035485647,
+          "total_tokens": 58,
+          "total_time": 0.038741662
+        },
+        "latency_s": 174.52,
+        "at": "2026-10-08T15:46:05+00:00"
+      }
+    ],
+    "70": [
+      {
+        "rep": 0,
+        "text": "سنگ\nپتّه\nحجر\nسنگی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016931573,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003101714,
+          "completion_tokens": 14,
+          "completion_time": 0.026689546,
+          "total_tokens": 55,
+          "total_time": 0.02979126
+        },
+        "latency_s": 261.47,
+        "at": "2026-10-08T15:50:27+00:00"
+      }
+    ],
+    "71": [
+      {
+        "rep": 0,
+        "text": "من پاسخ می‌دهم\nمن جواب می‌دهم\nمن پاسخگو هستم\nمن جوابگو هستم",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.051732833,
+          "prompt_tokens": 42,
+          "prompt_time": 0.00563466,
+          "completion_tokens": 26,
+          "completion_time": 0.123403994,
+          "total_tokens": 68,
+          "total_time": 0.129038654
+        },
+        "latency_s": 87.39,
+        "at": "2026-10-08T15:51:54+00:00"
+      }
+    ],
+    "72": [
+      {
+        "rep": 0,
+        "text": "پوست درخت\nپژواک\nپارسیدن\nپارس",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.105407846,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003453177,
+          "completion_tokens": 17,
+          "completion_time": 0.035580165,
+          "total_tokens": 59,
+          "total_time": 0.039033342
+        },
+        "latency_s": 87.36,
+        "at": "2026-10-08T15:53:21+00:00"
+      }
+    ],
+    "73": [
+      {
+        "rep": 0,
+        "text": "ماندن\nباقی ماندن\nتداوم یافتن\nپابرجا ماندن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016616103,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003049163,
+          "completion_tokens": 21,
+          "completion_time": 0.041497605,
+          "total_tokens": 62,
+          "total_time": 0.044546768
+        },
+        "latency_s": 87.26,
+        "at": "2026-10-08T15:54:49+00:00"
+      }
+    ],
+    "74": [
+      {
+        "rep": 0,
+        "text": "گوش\nصماخ\nپرده‌ی گوش\nحلقه‌ی گوش",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047608223,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003024251,
+          "completion_tokens": 20,
+          "completion_time": 0.03968474,
+          "total_tokens": 61,
+          "total_time": 0.042708991
+        },
+        "latency_s": 174.42,
+        "at": "2026-10-08T15:57:43+00:00"
+      }
+    ],
+    "75": [
+      {
+        "rep": 0,
+        "text": "مرد\nآدم\nمردم",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.090242403,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002957674,
+          "completion_tokens": 10,
+          "completion_time": 0.022014611,
+          "total_tokens": 51,
+          "total_time": 0.024972285
+        },
+        "latency_s": 174.41,
+        "at": "2026-10-08T16:00:37+00:00"
+      }
+    ],
+    "76": [
+      {
+        "rep": 0,
+        "text": "زن\nبانو\nخانم\nزن‌بار",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.142010574,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003379282,
+          "completion_tokens": 12,
+          "completion_time": 0.023790303,
+          "total_tokens": 53,
+          "total_time": 0.027169585
+        },
+        "latency_s": 174.56,
+        "at": "2026-10-08T16:03:32+00:00"
+      }
+    ],
+    "77": [
+      {
+        "rep": 0,
+        "text": "کمان\nتکلیف\nنماد\nقوس\nکمان‌بازی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.03590955,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002907654,
+          "completion_tokens": 21,
+          "completion_time": 0.040083662,
+          "total_tokens": 62,
+          "total_time": 0.042991316
+        },
+        "latency_s": 261.45,
+        "at": "2026-10-08T16:07:53+00:00"
+      }
+    ],
+    "78": [
+      {
+        "rep": 0,
+        "text": "نام\nعنوان\nلقب\nنام خانوادگی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016789696,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002624398,
+          "completion_tokens": 13,
+          "completion_time": 0.024838794,
+          "total_tokens": 54,
+          "total_time": 0.027463192
+        },
+        "latency_s": 174.28,
+        "at": "2026-10-08T16:10:48+00:00"
+      }
+    ],
+    "79": [
+      {
+        "rep": 0,
+        "text": "رفتن\nبرو\nبروید\nبرویم\nبروید",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018891683,
+          "prompt_tokens": 41,
+          "prompt_time": 0.007875794,
+          "completion_tokens": 18,
+          "completion_time": 0.082680848,
+          "total_tokens": 59,
+          "total_time": 0.090556642
+        },
+        "latency_s": 87.28,
+        "at": "2026-10-08T16:12:15+00:00"
+      }
+    ],
+    "80": [
+      {
+        "rep": 0,
+        "text": "ادر\nادرار\nپیشاب\nادر کردن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017024893,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003125823,
+          "completion_tokens": 12,
+          "completion_time": 0.023815125,
+          "total_tokens": 54,
+          "total_time": 0.026940948
+        },
+        "latency_s": 261.42,
+        "at": "2026-10-08T16:16:36+00:00"
+      }
+    ],
+    "81": [
+      {
+        "rep": 0,
+        "text": "معدن‌کاری کردن\nاستخراج کردن\nمال من\nمعدن من",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.131193772,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003532536,
+          "completion_tokens": 19,
+          "completion_time": 0.044343224,
+          "total_tokens": 61,
+          "total_time": 0.04787576
+        },
+        "latency_s": 12.44,
+        "at": "2026-10-09T07:13:44+00:00"
+      }
+    ],
+    "82": [
+      {
+        "rep": 0,
+        "text": "ارتش\nنیروهای مسلح\nسپاه\nنیروهای نظامی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017298302,
+          "prompt_tokens": 42,
+          "prompt_time": 0.00276882,
+          "completion_tokens": 19,
+          "completion_time": 0.037664542,
+          "total_tokens": 61,
+          "total_time": 0.040433362
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-09T07:13:44+00:00"
+      }
+    ],
+    "83": [
+      {
+        "rep": 0,
+        "text": "بازار\nبازارچه\nبازارچه\nبازارچه",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.144509633,
+          "prompt_tokens": 41,
+          "prompt_time": 0.005646803,
+          "completion_tokens": 19,
+          "completion_time": 0.095353058,
+          "total_tokens": 60,
+          "total_time": 0.100999861
+        },
+        "latency_s": 9.48,
+        "at": "2026-10-09T07:13:54+00:00"
+      }
+    ],
+    "84": [
+      {
+        "rep": 0,
+        "text": "خواب\nخوابیدن\nاستراحت\nفرود آمدن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048616561,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003122039,
+          "completion_tokens": 16,
+          "completion_time": 0.037000509,
+          "total_tokens": 57,
+          "total_time": 0.040122548
+        },
+        "latency_s": 1.3,
+        "at": "2026-10-09T07:13:55+00:00"
+      }
+    ],
+    "85": [
+      {
+        "rep": 0,
+        "text": "کاش\nآرزو دارم\nدلم می‌خواهد\nامیدوارم",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016169583,
+          "prompt_tokens": 42,
+          "prompt_time": 0.00276692,
+          "completion_tokens": 21,
+          "completion_time": 0.040119295,
+          "total_tokens": 63,
+          "total_time": 0.042886215
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-09T07:13:57+00:00"
+      }
+    ],
+    "87": [
+      {
+        "rep": 0,
+        "text": "خرس\nتحمل کردن\nگزارش\nبازار نزولی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.1245691,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002848473,
+          "completion_tokens": 17,
+          "completion_time": 0.035528404,
+          "total_tokens": 58,
+          "total_time": 0.038376877
+        },
+        "latency_s": 12.39,
+        "at": "2026-10-09T07:14:54+00:00"
+      }
+    ],
+    "88": [
+      {
+        "rep": 0,
+        "text": "باز کردن\nگشودن\nآزاد کردن\nباز",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087078678,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002621517,
+          "completion_tokens": 17,
+          "completion_time": 0.032446824,
+          "total_tokens": 58,
+          "total_time": 0.035068341
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-09T07:14:56+00:00"
+      }
+    ],
+    "89": [
+      {
+        "rep": 0,
+        "text": "رقصیدن\nرقص\nبرقصیدن\nحلقه زدن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.126694276,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002942475,
+          "completion_tokens": 17,
+          "completion_time": 0.037310648,
+          "total_tokens": 58,
+          "total_time": 0.040253123
+        },
+        "latency_s": 21.67,
+        "at": "2026-10-09T07:15:18+00:00"
+      }
+    ],
+    "90": [
+      {
+        "rep": 0,
+        "text": "مادر\nمادرم\nمادرزاد\nمادر بزرگ",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.131317113,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003086515,
+          "completion_tokens": 16,
+          "completion_time": 0.030578508,
+          "total_tokens": 57,
+          "total_time": 0.033665023
+        },
+        "latency_s": 1.36,
+        "at": "2026-10-09T07:15:19+00:00"
+      }
+    ],
+    "91": [
+      {
+        "rep": 0,
+        "text": "هدیه\nبخشیه\nعطیه\nمورد\nپاداش",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016757446,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003202701,
+          "completion_tokens": 17,
+          "completion_time": 0.033794536,
+          "total_tokens": 58,
+          "total_time": 0.036997237
+        },
+        "latency_s": 9.34,
+        "at": "2026-10-09T07:15:28+00:00"
+      }
+    ],
+    "92": [
+      {
+        "rep": 0,
+        "text": "دزدیدن\nسرقت کردن\nدزدی کردن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.162090832,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003376629,
+          "completion_tokens": 13,
+          "completion_time": 0.025798967,
+          "total_tokens": 55,
+          "total_time": 0.029175596
+        },
+        "latency_s": 47.67,
+        "at": "2026-10-09T07:16:16+00:00"
+      }
+    ],
+    "93": [
+      {
+        "rep": 0,
+        "text": "پیش‌دستی\nپیش‌کشتی\nپیش‌بند\nپیش‌رود",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.135094716,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002952656,
+          "completion_tokens": 25,
+          "completion_time": 0.054888612,
+          "total_tokens": 67,
+          "total_time": 0.057841268
+        },
+        "latency_s": 0.27,
+        "at": "2026-10-09T07:16:16+00:00"
+      }
+    ],
+    "94": [
+      {
+        "rep": 0,
+        "text": "مسابقه\nنژاد\nتکاپو\nدو",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017637088,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003133252,
+          "completion_tokens": 16,
+          "completion_time": 0.031635939,
+          "total_tokens": 57,
+          "total_time": 0.034769191
+        },
+        "latency_s": 4.3,
+        "at": "2026-10-09T07:16:20+00:00"
+      }
+    ],
+    "95": [
+      {
+        "rep": 0,
+        "text": "سلاح‌ها\nاسلحه‌ها\nتسلیحات\nابزارهای جنگی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048616252,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003115839,
+          "completion_tokens": 22,
+          "completion_time": 0.043502993,
+          "total_tokens": 63,
+          "total_time": 0.046618832
+        },
+        "latency_s": 1.27,
+        "at": "2026-10-09T07:16:22+00:00"
+      }
+    ],
+    "96": [
+      {
+        "rep": 0,
+        "text": "شهر-دولت\nشهر-ایالت\nشهر-کشور\nشهر-حکومت",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017657335,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003149502,
+          "completion_tokens": 26,
+          "completion_time": 0.051981089,
+          "total_tokens": 68,
+          "total_time": 0.055130591
+        },
+        "latency_s": 31.22,
+        "at": "2026-10-09T07:16:53+00:00"
+      }
+    ],
+    "97": [
+      {
+        "rep": 0,
+        "text": "گرفتن\nبرداشتن\nگرفتن (برای خود)\nدریافت کردن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047473151,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003034801,
+          "completion_tokens": 22,
+          "completion_time": 0.043434096,
+          "total_tokens": 63,
+          "total_time": 0.046468897
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-09T07:16:53+00:00"
+      }
+    ],
+    "98": [
+      {
+        "rep": 0,
+        "text": "گذاشتن\nقرار دادن\nنهادن\nگذاشتن (در)\nدست دادن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017374789,
+          "prompt_tokens": 41,
+          "prompt_time": 0.00265092,
+          "completion_tokens": 24,
+          "completion_time": 0.045696315,
+          "total_tokens": 65,
+          "total_time": 0.048347235
+        },
+        "latency_s": 11.2,
+        "at": "2026-10-09T07:17:04+00:00"
+      }
+    ],
+    "99": [
+      {
+        "rep": 0,
+        "text": "میز\nجدول\nپایه\nمیز غذا",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016753862,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003049634,
+          "completion_tokens": 14,
+          "completion_time": 0.027778527,
+          "total_tokens": 55,
+          "total_time": 0.030828161
+        },
+        "latency_s": 0.12,
+        "at": "2026-10-09T07:17:04+00:00"
+      }
+    ],
+    "100": [
+      {
+        "rep": 0,
+        "text": "فکر کردن\nاندیشیدن\nتفکر کردن\nذهن کردن\nنظر دادن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017201179,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003097002,
+          "completion_tokens": 21,
+          "completion_time": 0.041538489,
+          "total_tokens": 62,
+          "total_time": 0.044635491
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-09T07:17:05+00:00"
+      }
+    ],
+    "101": [
+      {
+        "rep": 0,
+        "text": "آتش\nشعله\nسوختن\nآتش‌سوزی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018695244,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003057463,
+          "completion_tokens": 17,
+          "completion_time": 0.033644648,
+          "total_tokens": 58,
+          "total_time": 0.036702111
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-09T07:17:05+00:00"
+      }
+    ],
+    "102": [
+      {
+        "rep": 0,
+        "text": "میوه\nمیوه‌ها\nمیوه‌جات",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017318288,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003044044,
+          "completion_tokens": 13,
+          "completion_time": 0.025763768,
+          "total_tokens": 54,
+          "total_time": 0.028807812
+        },
+        "latency_s": 0.12,
+        "at": "2026-10-09T07:17:05+00:00"
+      }
+    ],
+    "103": [
+      {
+        "rep": 0,
+        "text": "خرس\nتحمل کردن\nتحمل‌پذیر\nگزارش‌دهی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.057794341,
+          "prompt_tokens": 41,
+          "prompt_time": 0.00363467,
+          "completion_tokens": 20,
+          "completion_time": 0.03957997,
+          "total_tokens": 61,
+          "total_time": 0.04321464
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-09T07:17:05+00:00"
+      }
+    ],
+    "104": [
+      {
+        "rep": 0,
+        "text": "خریدن\nخرید کردن\nخرید\nتدارک دیدن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017267868,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003208371,
+          "completion_tokens": 16,
+          "completion_time": 0.031668729,
+          "total_tokens": 57,
+          "total_time": 0.0348771
+        },
+        "latency_s": 0.12,
+        "at": "2026-10-09T07:17:05+00:00"
+      }
+    ],
+    "105": [
+      {
+        "rep": 0,
+        "text": "واژه\nکلمه\nلفظ\nعبارت\nاصطلاح",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.051500205,
+          "prompt_tokens": 41,
+          "prompt_time": 0.005422455,
+          "completion_tokens": 18,
+          "completion_time": 0.081936197,
+          "total_tokens": 59,
+          "total_time": 0.087358652
+        },
+        "latency_s": 7.3,
+        "at": "2026-10-09T07:17:12+00:00"
+      }
+    ],
+    "106": [
+      {
+        "rep": 0,
+        "text": "پیروزی\nنصر\nفروغ\nکسب پیروزی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016756314,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003129713,
+          "completion_tokens": 18,
+          "completion_time": 0.03680608,
+          "total_tokens": 60,
+          "total_time": 0.039935793
+        },
+        "latency_s": 1.2,
+        "at": "2026-10-09T07:17:14+00:00"
+      }
+    ],
+    "107": [
+      {
+        "rep": 0,
+        "text": "مرگ\nمیرم\nمیرود\nمیرند",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.045988543,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003367328,
+          "completion_tokens": 15,
+          "completion_time": 0.029689809,
+          "total_tokens": 56,
+          "total_time": 0.033057137
+        },
+        "latency_s": 1.26,
+        "at": "2026-10-09T07:17:15+00:00"
+      }
+    ],
+    "108": [
+      {
+        "rep": 0,
+        "text": "روستا\nدهکده\nده\nگاو",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018205987,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003360749,
+          "completion_tokens": 12,
+          "completion_time": 0.023801578,
+          "total_tokens": 54,
+          "total_time": 0.027162327
+        },
+        "latency_s": 0.12,
+        "at": "2026-10-09T07:17:15+00:00"
+      }
+    ],
+    "109": [
+      {
+        "rep": 0,
+        "text": "شراب\nشراب انگور\nشراب طبیعی\nشراب میوه",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01725627,
+          "prompt_tokens": 41,
+          "prompt_time": 0.00329002,
+          "completion_tokens": 17,
+          "completion_time": 0.033580679,
+          "total_tokens": 58,
+          "total_time": 0.036870699
+        },
+        "latency_s": 0.12,
+        "at": "2026-10-09T07:17:15+00:00"
+      }
+    ],
+    "110": [
+      {
+        "rep": 0,
+        "text": "روح\nجان\nنفس\nروان",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016397674,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002630161,
+          "completion_tokens": 10,
+          "completion_time": 0.019143612,
+          "total_tokens": 52,
+          "total_time": 0.021773773
+        },
+        "latency_s": 0.11,
+        "at": "2026-10-09T07:17:15+00:00"
+      }
+    ],
+    "111": [
+      {
+        "rep": 0,
+        "text": "آسیب\nآسیب‌رسانی\nخرابی\nتلفات\nآسیب‌دیدگی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017002105,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003206342,
+          "completion_tokens": 25,
+          "completion_time": 0.049332199,
+          "total_tokens": 66,
+          "total_time": 0.052538541
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-09T07:17:15+00:00"
+      }
+    ],
+    "112": [
+      {
+        "rep": 0,
+        "text": "دادگاه\nمحکمه\nدور\nحیاط\nکورت",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016615412,
+          "prompt_tokens": 41,
+          "prompt_time": 0.00262152,
+          "completion_tokens": 17,
+          "completion_time": 0.032945516,
+          "total_tokens": 58,
+          "total_time": 0.035567036
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-09T07:17:16+00:00"
+      }
+    ],
+    "113": [
+      {
+        "rep": 0,
+        "text": "خرگوش\nخرگوش‌کوهی\nخرگوش‌کوهی‌وار\nخرگوش‌کوهی‌گونه",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017315595,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003116353,
+          "completion_tokens": 32,
+          "completion_time": 0.067436574,
+          "total_tokens": 74,
+          "total_time": 0.070552927
+        },
+        "latency_s": 3.25,
+        "at": "2026-10-09T07:17:19+00:00"
+      }
+    ],
+    "114": [
+      {
+        "rep": 0,
+        "text": "مرد\nانسان\nآدم\nمردم",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016991414,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002694759,
+          "completion_tokens": 13,
+          "completion_time": 0.024823008,
+          "total_tokens": 54,
+          "total_time": 0.027517767
+        },
+        "latency_s": 0.11,
+        "at": "2026-10-09T07:17:19+00:00"
+      }
+    ],
+    "115": [
+      {
+        "rep": 0,
+        "text": "گرگ\nدرو\nگورگ\nگرگ‌وار",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017417452,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002567261,
+          "completion_tokens": 15,
+          "completion_time": 0.033220151,
+          "total_tokens": 56,
+          "total_time": 0.035787412
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-09T07:17:21+00:00"
+      }
+    ],
+    "116": [
+      {
+        "rep": 0,
+        "text": "چپ\nسمت چپ\nچپ‌دست\nسمت چپ",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.04686061,
+          "prompt_tokens": 41,
+          "prompt_time": 0.00311121,
+          "completion_tokens": 19,
+          "completion_time": 0.03754603,
+          "total_tokens": 60,
+          "total_time": 0.04065724
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-09T07:17:21+00:00"
+      }
+    ],
+    "117": [
+      {
+        "rep": 0,
+        "text": "افسانه\nاسطوره\nافسانه‌پردازی\nباور غلط\nافسانه‌وار",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048261059,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003330176,
+          "completion_tokens": 26,
+          "completion_time": 0.051310372,
+          "total_tokens": 68,
+          "total_time": 0.054640548
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-09T07:17:22+00:00"
+      }
+    ],
+    "118": [
+      {
+        "rep": 0,
+        "text": "آید\nبیایید\nبیای\nبیا\nآمد",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.046664082,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003204078,
+          "completion_tokens": 15,
+          "completion_time": 0.029693562,
+          "total_tokens": 56,
+          "total_time": 0.03289764
+        },
+        "latency_s": 1.25,
+        "at": "2026-10-09T07:17:23+00:00"
+      }
+    ],
+    "119": [
+      {
+        "rep": 0,
+        "text": "بستن\nنزدیک\nپایان\nبستن کردن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.03471981,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002888717,
+          "completion_tokens": 15,
+          "completion_time": 0.028738708,
+          "total_tokens": 56,
+          "total_time": 0.031627425
+        },
+        "latency_s": 1.2,
+        "at": "2026-10-09T07:17:24+00:00"
+      }
+    ],
+    "120": [
+      {
+        "rep": 0,
+        "text": "نفرت\nکینه\nناراحتی\nدردسر\nبی‌علاقگی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017145488,
+          "prompt_tokens": 42,
+          "prompt_time": 0.0026836,
+          "completion_tokens": 21,
+          "completion_time": 0.045323278,
+          "total_tokens": 63,
+          "total_time": 0.048006878
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-09T07:17:24+00:00"
+      }
+    ],
+    "121": [
+      {
+        "rep": 0,
+        "text": "سگ\nكلب\nكلبه\nكلبک",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.306567267,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003304265,
+          "completion_tokens": 13,
+          "completion_time": 0.025783859,
+          "total_tokens": 54,
+          "total_time": 0.029088124
+        },
+        "latency_s": 0.42,
+        "at": "2026-10-09T07:17:25+00:00"
+      }
+    ],
+    "122": [
+      {
+        "rep": 0,
+        "text": "تنه\nکوله\nجعبه بار",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.462351076,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003548751,
+          "completion_tokens": 11,
+          "completion_time": 0.021908704,
+          "total_tokens": 53,
+          "total_time": 0.025457455
+        },
+        "latency_s": 0.58,
+        "at": "2026-10-09T07:17:25+00:00"
+      }
+    ],
+    "123": [
+      {
+        "rep": 0,
+        "text": "دم\nمنقار\nپوزه\nبینی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016674588,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002770658,
+          "completion_tokens": 12,
+          "completion_time": 0.022946125,
+          "total_tokens": 54,
+          "total_time": 0.025716783
+        },
+        "latency_s": 0.12,
+        "at": "2026-10-09T07:17:25+00:00"
+      }
+    ],
+    "124": [
+      {
+        "rep": 0,
+        "text": "فروختن\nفروش\nفروخت",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01658599,
+          "prompt_tokens": 41,
+          "prompt_time": 0.00262369,
+          "completion_tokens": 12,
+          "completion_time": 0.022947966,
+          "total_tokens": 53,
+          "total_time": 0.025571656
+        },
+        "latency_s": 0.12,
+        "at": "2026-10-09T07:17:25+00:00"
+      }
+    ],
+    "125": [
+      {
+        "rep": 0,
+        "text": "شاگرد\nمريد\nتلميذ\nپيرو",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016511748,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002839138,
+          "completion_tokens": 13,
+          "completion_time": 0.024861115,
+          "total_tokens": 55,
+          "total_time": 0.027700253
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-09T07:17:28+00:00"
+      }
+    ],
+    "126": [
+      {
+        "rep": 0,
+        "text": "پزشک\nدکتر\nپزشک\nپزشک",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016509138,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002707429,
+          "completion_tokens": 16,
+          "completion_time": 0.030517041,
+          "total_tokens": 57,
+          "total_time": 0.03322447
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-09T07:17:28+00:00"
+      }
+    ],
+    "127": [
+      {
+        "rep": 0,
+        "text": "دستور\nفرمان\nامر\nدستورالعمل",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016330732,
+          "prompt_tokens": 41,
+          "prompt_time": 0.00269666,
+          "completion_tokens": 15,
+          "completion_time": 0.028648519,
+          "total_tokens": 56,
+          "total_time": 0.031345179
+        },
+        "latency_s": 0.12,
+        "at": "2026-10-09T07:17:28+00:00"
+      }
+    ],
+    "128": [
+      {
+        "rep": 0,
+        "text": "خرس\nتحمل کردن\nگزارش\nدوش\nمحمول",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017311793,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003119463,
+          "completion_tokens": 18,
+          "completion_time": 0.035583398,
+          "total_tokens": 59,
+          "total_time": 0.038702861
+        },
+        "latency_s": 0.12,
+        "at": "2026-10-09T07:17:28+00:00"
+      }
+    ],
+    "129": [
+      {
+        "rep": 0,
+        "text": "می‌نشینم\nنشسته‌ام\nنشسته‌ام\nمی‌خشم\nنشسته‌ام",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016759254,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002704019,
+          "completion_tokens": 26,
+          "completion_time": 0.049476776,
+          "total_tokens": 68,
+          "total_time": 0.052180795
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-09T07:17:28+00:00"
+      }
+    ],
+    "130": [
+      {
+        "rep": 0,
+        "text": "شب\nتاریکی\nتیره‌گویی\nشب‌کاری",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01731646,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003044764,
+          "completion_tokens": 16,
+          "completion_time": 0.0321631,
+          "total_tokens": 57,
+          "total_time": 0.035207864
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-09T07:17:28+00:00"
+      }
+    ],
+    "131": [
+      {
+        "rep": 0,
+        "text": "عشق ورزیدن\nدوست داشتن\nعاشق بودن\nمحبت کردن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018565839,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003217861,
+          "completion_tokens": 19,
+          "completion_time": 0.03882777,
+          "total_tokens": 61,
+          "total_time": 0.042045631
+        },
+        "latency_s": 5.23,
+        "at": "2026-10-09T07:17:33+00:00"
+      }
+    ],
+    "132": [
+      {
+        "rep": 0,
+        "text": "مهر\nمُهر\nفُراغ\nمُهر و مُحرز",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.267786401,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003077962,
+          "completion_tokens": 20,
+          "completion_time": 0.038197805,
+          "total_tokens": 62,
+          "total_time": 0.041275767
+        },
+        "latency_s": 0.39,
+        "at": "2026-10-09T07:17:34+00:00"
+      }
+    ],
+    "133": [
+      {
+        "rep": 0,
+        "text": "سکونت کردن\nزیست\nمسکونی کردن\nسکنی گزیدن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.505740928,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003212726,
+          "completion_tokens": 20,
+          "completion_time": 0.043931464,
+          "total_tokens": 62,
+          "total_time": 0.04714419
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-09T07:17:35+00:00"
+      }
+    ],
+    "134": [
+      {
+        "rep": 0,
+        "text": "دست\nکف دست\nدست‌ها\nدست‌بند",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.122400175,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003370248,
+          "completion_tokens": 18,
+          "completion_time": 0.03946532,
+          "total_tokens": 59,
+          "total_time": 0.042835568
+        },
+        "latency_s": 1.3,
+        "at": "2026-10-09T07:17:36+00:00"
+      }
+    ],
+    "135": [
+      {
+        "rep": 0,
+        "text": "ستاره\nستاره‌ی\nنجم\nستاره‌ی درخشان\nنور",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.080347227,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003465227,
+          "completion_tokens": 22,
+          "completion_time": 0.043469379,
+          "total_tokens": 63,
+          "total_time": 0.046934606
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-09T07:17:36+00:00"
+      }
+    ],
+    "136": [
+      {
+        "rep": 0,
+        "text": "مسابقه اسب‌دوانی\nمسیر مسابقه اسب‌دوانی\nمسابقه اسب‌سواری\nمسیر اسب‌دوانی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017303115,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003127882,
+          "completion_tokens": 40,
+          "completion_time": 0.078992771,
+          "total_tokens": 82,
+          "total_time": 0.082120653
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-09T07:17:38+00:00"
+      }
+    ],
+    "137": [
+      {
+        "rep": 0,
+        "text": "تعجب\nحیرت\nشگفتی\nشگفت‌زده شدن\nگمان",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047103634,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003196308,
+          "completion_tokens": 23,
+          "completion_time": 0.051222384,
+          "total_tokens": 65,
+          "total_time": 0.054418692
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-09T07:17:41+00:00"
+      }
+    ],
+    "138": [
+      {
+        "rep": 0,
+        "text": "بالا بردن\nافزودن\nبرپا کردن\nدست‌وپا زدن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.113277021,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002925844,
+          "completion_tokens": 23,
+          "completion_time": 0.043826797,
+          "total_tokens": 64,
+          "total_time": 0.046752641
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-09T07:17:43+00:00"
+      }
+    ],
+    "139": [
+      {
+        "rep": 0,
+        "text": "نی\nقلم نی\nقلم‌نی\nنی‌زنی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086885498,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002541496,
+          "completion_tokens": 16,
+          "completion_time": 0.030545743,
+          "total_tokens": 57,
+          "total_time": 0.033087239
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-09T07:17:45+00:00"
+      }
+    ],
+    "140": [
+      {
+        "rep": 0,
+        "text": "دروغ می‌گویم\nدروغ می‌زنم\nتقلب می‌کنم\nدروغ‌گویی می‌کنم",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.332490532,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003368319,
+          "completion_tokens": 34,
+          "completion_time": 0.067001211,
+          "total_tokens": 76,
+          "total_time": 0.07036953
+        },
+        "latency_s": 2.55,
+        "at": "2026-10-09T07:17:48+00:00"
+      }
+    ],
+    "141": [
+      {
+        "rep": 0,
+        "text": "فدا کردن\nقربانی کردن\nتقدیم کردن\nزحمت کشیدن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.035646496,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003167013,
+          "completion_tokens": 20,
+          "completion_time": 0.038113395,
+          "total_tokens": 62,
+          "total_time": 0.041280408
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-09T07:17:50+00:00"
+      }
+    ],
+    "142": [
+      {
+        "rep": 0,
+        "text": "کشتی\nسفینه\nقایق\nکشتی بزرگ\nناو",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01663288,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003044884,
+          "completion_tokens": 18,
+          "completion_time": 0.035656058,
+          "total_tokens": 59,
+          "total_time": 0.038700942
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-09T07:17:52+00:00"
+      }
+    ],
+    "143": [
+      {
+        "rep": 0,
+        "text": "فکر کردن\nاندیشیدن\nتفکر کردن\nذهن کردن\nنظر دادن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016850848,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003216631,
+          "completion_tokens": 21,
+          "completion_time": 0.041522299,
+          "total_tokens": 62,
+          "total_time": 0.04473893
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-09T07:17:54+00:00"
+      }
+    ],
+    "144": [
+      {
+        "rep": 0,
+        "text": "نوشتن\nنوشت\nبنویس",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.100883734,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002889116,
+          "completion_tokens": 11,
+          "completion_time": 0.023347778,
+          "total_tokens": 52,
+          "total_time": 0.026236894
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-09T07:17:57+00:00"
+      }
+    ],
+    "145": [
+      {
+        "rep": 0,
+        "text": "باشگاه\nکلوپ\nانجمن\nکلاب\nگروه",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.04696884,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002968372,
+          "completion_tokens": 17,
+          "completion_time": 0.033664596,
+          "total_tokens": 58,
+          "total_time": 0.036632968
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-09T07:17:59+00:00"
+      }
+    ],
+    "146": [
+      {
+        "rep": 0,
+        "text": "من خواهم خواند\nمن می‌خوانم\nمن آواز خواهم خواند\nمن خواهم سرود بخوانم",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.042195381,
+          "prompt_tokens": 43,
+          "prompt_time": 0.003151242,
+          "completion_tokens": 29,
+          "completion_time": 0.055283816,
+          "total_tokens": 72,
+          "total_time": 0.058435058
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-09T07:18:01+00:00"
+      }
+    ],
+    "147": [
+      {
+        "rep": 0,
+        "text": "باران\nبارندگی\nبارش\nباران باریدن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.055430726,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002962906,
+          "completion_tokens": 15,
+          "completion_time": 0.030330632,
+          "total_tokens": 56,
+          "total_time": 0.033293538
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-09T07:18:03+00:00"
+      }
+    ],
+    "148": [
+      {
+        "rep": 0,
+        "text": "چشمه\nفواره\nآب‌پاش\nچشمه‌آب",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088772802,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002615936,
+          "completion_tokens": 20,
+          "completion_time": 0.038172713,
+          "total_tokens": 62,
+          "total_time": 0.040788649
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-09T07:18:06+00:00"
+      }
+    ],
+    "149": [
+      {
+        "rep": 0,
+        "text": "می‌بینم\nمی‌فهمم\nدرک می‌کنم\nمی‌بینم که",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.111179764,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002956275,
+          "completion_tokens": 24,
+          "completion_time": 0.047351095,
+          "total_tokens": 66,
+          "total_time": 0.05030737
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-09T07:18:08+00:00"
+      }
+    ],
+    "150": [
+      {
+        "rep": 0,
+        "text": "دیوار\nدیوارک\nسپر\nحائل",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047813088,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002975142,
+          "completion_tokens": 13,
+          "completion_time": 0.026988565,
+          "total_tokens": 54,
+          "total_time": 0.029963707
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-09T07:18:10+00:00"
+      }
+    ],
+    "151": [
+      {
+        "rep": 0,
+        "text": "مشت‌زنی کردن\nجعبه‌بندی کردن\nدر جعبه گذاشتن\nمشت‌زنی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.02633935,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003074953,
+          "completion_tokens": 29,
+          "completion_time": 0.058800131,
+          "total_tokens": 71,
+          "total_time": 0.061875084
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-09T07:18:12+00:00"
+      }
+    ],
+    "152": [
+      {
+        "rep": 0,
+        "text": "ببغاء\nبلبل\nببغاء شب\nببغاء شب‌زنده",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.027320915,
+          "prompt_tokens": 43,
+          "prompt_time": 0.003532687,
+          "completion_tokens": 20,
+          "completion_time": 0.039574827,
+          "total_tokens": 63,
+          "total_time": 0.043107514
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-09T07:18:15+00:00"
+      }
+    ],
+    "153": [
+      {
+        "rep": 0,
+        "text": "دادن\nبخشیدن\nارائه دادن\nپرداختن\nتحویل دادن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.049631838,
+          "prompt_tokens": 41,
+          "prompt_time": 0.005416185,
+          "completion_tokens": 19,
+          "completion_time": 0.084982408,
+          "total_tokens": 60,
+          "total_time": 0.090398593
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-09T07:18:17+00:00"
+      }
+    ],
+    "154": [
+      {
+        "rep": 0,
+        "text": "معبد\nمنبر\nشقیقه",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.046958902,
+          "prompt_tokens": 42,
+          "prompt_time": 0.00307338,
+          "completion_tokens": 10,
+          "completion_time": 0.019878025,
+          "total_tokens": 52,
+          "total_time": 0.022951405
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-09T07:18:19+00:00"
+      }
+    ],
+    "155": [
+      {
+        "rep": 0,
+        "text": "آرزو کردن\nدعا کردن\nخواستن\nتمنا کردن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.078647244,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003619815,
+          "completion_tokens": 16,
+          "completion_time": 0.031628618,
+          "total_tokens": 58,
+          "total_time": 0.035248433
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-09T07:18:22+00:00"
+      }
+    ],
+    "156": [
+      {
+        "rep": 0,
+        "text": "مهر\nمُهر\nفُرش\nمُهر و مُحرز",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016490789,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002897747,
+          "completion_tokens": 19,
+          "completion_time": 0.036225681,
+          "total_tokens": 61,
+          "total_time": 0.039123428
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-09T07:18:24+00:00"
+      }
+    ],
+    "157": [
+      {
+        "rep": 0,
+        "text": "گوش\nصماخ\nپشت‌گوش\nگوشواره",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047501844,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003469243,
+          "completion_tokens": 17,
+          "completion_time": 0.033649036,
+          "total_tokens": 58,
+          "total_time": 0.037118279
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-09T07:18:26+00:00"
+      }
+    ],
+    "158": [
+      {
+        "rep": 0,
+        "text": "سرب\nرهبری\nهدایت\nپیشرو\nآغاز",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047106314,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002989152,
+          "completion_tokens": 16,
+          "completion_time": 0.03187499,
+          "total_tokens": 57,
+          "total_time": 0.034864142
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-09T07:18:28+00:00"
+      }
+    ],
+    "159": [
+      {
+        "rep": 0,
+        "text": "ارتش\nنیروهای مسلح\nسپاه\nنیروهای نظامی\nلشکر",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017310949,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003215881,
+          "completion_tokens": 23,
+          "completion_time": 0.045433259,
+          "total_tokens": 65,
+          "total_time": 0.04864914
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-09T07:18:30+00:00"
+      }
+    ],
+    "160": [
+      {
+        "rep": 0,
+        "text": "باد\nنسیم\nطوفان\nهوای متحرک",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.09247398,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002875833,
+          "completion_tokens": 15,
+          "completion_time": 0.028674217,
+          "total_tokens": 56,
+          "total_time": 0.03155005
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-09T07:18:33+00:00"
+      }
+    ],
+    "161": [
+      {
+        "rep": 0,
+        "text": "نامه\nحرف\nمکتوب\nنامه‌ای",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.182049191,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003360019,
+          "completion_tokens": 13,
+          "completion_time": 0.025695529,
+          "total_tokens": 54,
+          "total_time": 0.029055548
+        },
+        "latency_s": 2.39,
+        "at": "2026-10-09T07:18:35+00:00"
+      }
+    ],
+    "162": [
+      {
+        "rep": 0,
+        "text": "زمان\nوقت\nساعت\nدوره\nعصر",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017221986,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003239761,
+          "completion_tokens": 13,
+          "completion_time": 0.029335554,
+          "total_tokens": 54,
+          "total_time": 0.032575315
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-09T07:18:37+00:00"
+      }
+    ],
+    "163": [
+      {
+        "rep": 0,
+        "text": "عهد\nپیمان\nمیثاق\nقرارداد",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.110875705,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003470083,
+          "completion_tokens": 13,
+          "completion_time": 0.025814968,
+          "total_tokens": 55,
+          "total_time": 0.029285051
+        },
+        "latency_s": 2.44,
+        "at": "2026-10-09T07:18:40+00:00"
+      }
+    ],
+    "164": [
+      {
+        "rep": 0,
+        "text": "بهار\nفنر\nچشمه\nبهاره",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.154906216,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003446987,
+          "completion_tokens": 14,
+          "completion_time": 0.027697369,
+          "total_tokens": 55,
+          "total_time": 0.031144356
+        },
+        "latency_s": 2.38,
+        "at": "2026-10-09T07:18:42+00:00"
+      }
+    ],
+    "165": [
+      {
+        "rep": 0,
+        "text": "قلب\nدل\nمغز\nمرکز\nروح",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016742295,
+          "prompt_tokens": 41,
+          "prompt_time": 0.00263336,
+          "completion_tokens": 13,
+          "completion_time": 0.027504223,
+          "total_tokens": 54,
+          "total_time": 0.030137583
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-09T07:18:44+00:00"
+      }
+    ],
+    "166": [
+      {
+        "rep": 0,
+        "text": "سهمیه\nکشتی\nگروه\nمقدار\nسرنوشت",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.094397689,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003473373,
+          "completion_tokens": 20,
+          "completion_time": 0.03963367,
+          "total_tokens": 61,
+          "total_time": 0.043107043
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-09T07:18:47+00:00"
+      }
+    ],
+    "167": [
+      {
+        "rep": 0,
+        "text": "انجام دادن\nکردن\nانجام\nعملکرد\nانجام‌دادن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.388030132,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002973545,
+          "completion_tokens": 19,
+          "completion_time": 0.036312199,
+          "total_tokens": 60,
+          "total_time": 0.039285744
+        },
+        "latency_s": 2.59,
+        "at": "2026-10-09T07:18:49+00:00"
+      }
+    ],
+    "168": [
+      {
+        "rep": 0,
+        "text": "رود\nرودخانه\nجریان آب\nنهر",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017387997,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002987355,
+          "completion_tokens": 14,
+          "completion_time": 0.027745498,
+          "total_tokens": 55,
+          "total_time": 0.030732853
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-09T07:18:51+00:00"
+      }
+    ],
+    "169": [
+      {
+        "rep": 0,
+        "text": "بانک\nساحل\nکنار",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.12083289,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003629915,
+          "completion_tokens": 10,
+          "completion_time": 0.019864107,
+          "total_tokens": 51,
+          "total_time": 0.023494022
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-09T07:18:54+00:00"
+      }
+    ],
+    "170": [
+      {
+        "rep": 0,
+        "text": "انتهای\nاقدام افراطی\nنقطه اوج\nحالت بحرانی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017363617,
+          "prompt_tokens": 43,
+          "prompt_time": 0.002762639,
+          "completion_tokens": 21,
+          "completion_time": 0.040033752,
+          "total_tokens": 64,
+          "total_time": 0.042796391
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-09T07:18:56+00:00"
+      }
+    ],
+    "171": [
+      {
+        "rep": 0,
+        "text": "امید\nآرزو\nامیدواری\nانتظار",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016378945,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003052043,
+          "completion_tokens": 15,
+          "completion_time": 0.033277925,
+          "total_tokens": 56,
+          "total_time": 0.036329968
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-09T07:18:58+00:00"
+      }
+    ],
+    "172": [
+      {
+        "rep": 0,
+        "text": "پا\nپای\nپا (واحد اندازه‌گیری)\nپا (در اصطلاح شعر)",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017934917,
+          "prompt_tokens": 41,
+          "prompt_time": 0.00330966,
+          "completion_tokens": 25,
+          "completion_time": 0.049240301,
+          "total_tokens": 66,
+          "total_time": 0.052549961
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-09T07:19:01+00:00"
+      }
+    ],
+    "173": [
+      {
+        "rep": 0,
+        "text": "خوردن\nغذا خوردن\nخورد\nمصرف کردن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.04728051,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003044921,
+          "completion_tokens": 16,
+          "completion_time": 0.033089127,
+          "total_tokens": 57,
+          "total_time": 0.036134048
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-09T07:19:03+00:00"
+      }
+    ],
+    "174": [
+      {
+        "rep": 0,
+        "text": "باکتری‌ها\nباکتری\nمیکروب‌ها\nمیکروارگانیسم‌ها",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017149801,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003052284,
+          "completion_tokens": 26,
+          "completion_time": 0.053080153,
+          "total_tokens": 68,
+          "total_time": 0.056132437
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-09T07:19:05+00:00"
+      }
+    ],
+    "175": [
+      {
+        "rep": 0,
+        "text": "قسم می‌خورم\nسوگند می‌خورم\nقسم\nسوگند\nقسم",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017135098,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003210761,
+          "completion_tokens": 23,
+          "completion_time": 0.046068419,
+          "total_tokens": 65,
+          "total_time": 0.04927918
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-09T07:19:07+00:00"
+      }
+    ],
+    "176": [
+      {
+        "rep": 0,
+        "text": "کف دست\nنخل\nکف\nدست\nنخلستان",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.257556043,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003463107,
+          "completion_tokens": 17,
+          "completion_time": 0.033629248,
+          "total_tokens": 59,
+          "total_time": 0.037092355
+        },
+        "latency_s": 2.52,
+        "at": "2026-10-09T07:19:10+00:00"
+      }
+    ],
+    "177": [
+      {
+        "rep": 0,
+        "text": "نعناع\nنانه\nنعناع فلفلی\nنعناع رومی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017089868,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003074533,
+          "completion_tokens": 17,
+          "completion_time": 0.033632569,
+          "total_tokens": 58,
+          "total_time": 0.036707102
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-09T07:19:12+00:00"
+      }
+    ],
+    "178": [
+      {
+        "rep": 0,
+        "text": "کشتی\nقایق\nکشتی نجات",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016877015,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002559241,
+          "completion_tokens": 14,
+          "completion_time": 0.026775473,
+          "total_tokens": 55,
+          "total_time": 0.029334714
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-09T07:19:14+00:00"
+      }
+    ],
+    "179": [
+      {
+        "rep": 0,
+        "text": "عسل\nشیرین\nعسل‌م",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017092103,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002677439,
+          "completion_tokens": 12,
+          "completion_time": 0.022962761,
+          "total_tokens": 54,
+          "total_time": 0.0256402
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-09T07:19:16+00:00"
+      }
+    ],
+    "180": [
+      {
+        "rep": 0,
+        "text": "اشک\nپاره کردن\nدرد\nتار\nپاره",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.026894104,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002900546,
+          "completion_tokens": 16,
+          "completion_time": 0.030648814,
+          "total_tokens": 58,
+          "total_time": 0.03354936
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-09T07:19:19+00:00"
+      }
+    ],
+    "181": [
+      {
+        "rep": 0,
+        "text": "سخت‌گیر\nسخت\nشکنجیده\nسخت‌گیرانه",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016635583,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002700529,
+          "completion_tokens": 19,
+          "completion_time": 0.03621403,
+          "total_tokens": 61,
+          "total_time": 0.038914559
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-09T07:19:21+00:00"
+      }
+    ],
+    "182": [
+      {
+        "rep": 0,
+        "text": "پادشاه\nپادشاه\nشاه\nملک\nسلطان",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016485046,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002833056,
+          "completion_tokens": 19,
+          "completion_time": 0.036225819,
+          "total_tokens": 60,
+          "total_time": 0.039058875
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-09T07:19:23+00:00"
+      }
+    ],
+    "183": [
+      {
+        "rep": 0,
+        "text": "چرخ\nگردونه\nچرخ‌دنده\nچرخ‌دستی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016483155,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003040914,
+          "completion_tokens": 18,
+          "completion_time": 0.035665818,
+          "total_tokens": 59,
+          "total_time": 0.038706732
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-09T07:19:25+00:00"
+      }
+    ],
+    "184": [
+      {
+        "rep": 0,
+        "text": "آسیب\nضرر\nزیان\nخسارت",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047346444,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003121159,
+          "completion_tokens": 14,
+          "completion_time": 0.027814651,
+          "total_tokens": 56,
+          "total_time": 0.03093581
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-09T07:19:28+00:00"
+      }
+    ],
+    "185": [
+      {
+        "rep": 0,
+        "text": "کودک\nبچه\nفرزند\nنوزاد",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01680348,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002984905,
+          "completion_tokens": 14,
+          "completion_time": 0.027723108,
+          "total_tokens": 55,
+          "total_time": 0.030708013
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-09T07:19:30+00:00"
+      }
+    ],
+    "186": [
+      {
+        "rep": 0,
+        "text": "غنائم\nشیرین‌تر\nخارها",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016809436,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003365549,
+          "completion_tokens": 14,
+          "completion_time": 0.028349099,
+          "total_tokens": 56,
+          "total_time": 0.031714648
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-09T07:19:32+00:00"
+      }
+    ],
+    "187": [
+      {
+        "rep": 0,
+        "text": "نیزه\nداس\nتیغ\nسپر",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016663291,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003055834,
+          "completion_tokens": 13,
+          "completion_time": 0.024820082,
+          "total_tokens": 55,
+          "total_time": 0.027875916
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-09T07:19:34+00:00"
+      }
+    ],
+    "188": [
+      {
+        "rep": 0,
+        "text": "یاد گرفتن\nآموزش دیدن\nآموختن\nیاد گرفتن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017141382,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003138552,
+          "completion_tokens": 19,
+          "completion_time": 0.037514589,
+          "total_tokens": 60,
+          "total_time": 0.040653141
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-09T07:19:37+00:00"
+      }
+    ],
+    "189": [
+      {
+        "rep": 0,
+        "text": "دروغ\nدروغ گفتن\nدروغی\nتوهم",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048566337,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003149018,
+          "completion_tokens": 19,
+          "completion_time": 0.037548372,
+          "total_tokens": 60,
+          "total_time": 0.04069739
+        },
+        "latency_s": 2.5,
+        "at": "2026-10-09T07:19:39+00:00"
+      }
+    ],
+    "190": [
+      {
+        "rep": 0,
+        "text": "کاشت\nکاشتن\nخوک ماده",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047495042,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003179148,
+          "completion_tokens": 11,
+          "completion_time": 0.021868676,
+          "total_tokens": 53,
+          "total_time": 0.025047824
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-09T07:19:41+00:00"
+      }
+    ],
+    "191": [
+      {
+        "rep": 0,
+        "text": "سبجان\nزیربازو\nپیش‌بازو\nساعده",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017408941,
+          "prompt_tokens": 42,
+          "prompt_time": 0.002761258,
+          "completion_tokens": 21,
+          "completion_time": 0.04002925,
+          "total_tokens": 63,
+          "total_time": 0.042790508
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-09T07:19:44+00:00"
+      }
+    ],
+    "192": [
+      {
+        "rep": 0,
+        "text": "گل\nشکوفه\nگلبرگ\nگل‌آذین",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.049211954,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003046371,
+          "completion_tokens": 17,
+          "completion_time": 0.033739205,
+          "total_tokens": 58,
+          "total_time": 0.036785576
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-09T07:19:46+00:00"
+      }
+    ],
+    "193": [
+      {
+        "rep": 0,
+        "text": "گاو\nگاو نر\nباز",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016902128,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002691109,
+          "completion_tokens": 11,
+          "completion_time": 0.021022649,
+          "total_tokens": 52,
+          "total_time": 0.023713758
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-09T07:19:48+00:00"
+      }
+    ],
+    "194": [
+      {
+        "rep": 0,
+        "text": "سر\nسرت\nرأس\nسرِ کار\nسرِ کار",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.052980325,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003028964,
+          "completion_tokens": 16,
+          "completion_time": 0.030650612,
+          "total_tokens": 57,
+          "total_time": 0.033679576
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-09T07:19:50+00:00"
+      }
+    ],
+    "195": [
+      {
+        "rep": 0,
+        "text": "صلح\nآرامش\nسالمندی\nصلح و دوستی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047858087,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003001582,
+          "completion_tokens": 17,
+          "completion_time": 0.033736245,
+          "total_tokens": 58,
+          "total_time": 0.036737827
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-09T07:19:53+00:00"
+      }
+    ],
+    "196": [
+      {
+        "rep": 0,
+        "text": "خدا\nخدای بزرگ\nالهی\nخدای مطلق",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016321217,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002688749,
+          "completion_tokens": 15,
+          "completion_time": 0.028604933,
+          "total_tokens": 56,
+          "total_time": 0.031293682
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-09T07:19:55+00:00"
+      }
+    ],
+    "197": [
+      {
+        "rep": 0,
+        "text": "قورت دادن\nبلعیدن\nقورمه کردن\nقورت دادن (عامیانه)",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.820852043,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003528387,
+          "completion_tokens": 22,
+          "completion_time": 0.043291551,
+          "total_tokens": 64,
+          "total_time": 0.046819938
+        },
+        "latency_s": 3.02,
+        "at": "2026-10-09T07:19:58+00:00"
+      }
+    ],
+    "198": [
+      {
+        "rep": 0,
+        "text": "روزه\nروزه‌داری\nنهار\nامساک",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.040825134,
+          "prompt_tokens": 42,
+          "prompt_time": 0.003628615,
+          "completion_tokens": 16,
+          "completion_time": 0.031669578,
+          "total_tokens": 58,
+          "total_time": 0.035298193
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-09T07:20:00+00:00"
+      }
+    ],
+    "199": [
+      {
+        "rep": 0,
+        "text": "کشتن\nکشته کردن\nاز پا درآوردن\nبه قتل رساندن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.256899955,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003039474,
+          "completion_tokens": 21,
+          "completion_time": 0.040124897,
+          "total_tokens": 62,
+          "total_time": 0.043164371
+        },
+        "latency_s": 2.48,
+        "at": "2026-10-09T07:20:03+00:00"
+      }
+    ],
+    "200": [
+      {
+        "rep": 0,
+        "text": "نور\nروشنایی\nنورافکن\nروشن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083039592,
+          "prompt_tokens": 41,
+          "prompt_time": 0.003551531,
+          "completion_tokens": 15,
+          "completion_time": 0.029714143,
+          "total_tokens": 56,
+          "total_time": 0.033265674
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-09T07:20:05+00:00"
+      }
+    ],
+    "86": [
+      {
+        "rep": 0,
+        "text": "پرواز کردن\nپروانه\nمگس\nپرواز\nپروازگر",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01691385,
+          "prompt_tokens": 41,
+          "prompt_time": 0.00324957,
+          "completion_tokens": 22,
+          "completion_time": 0.043397128,
+          "total_tokens": 63,
+          "total_time": 0.046646698
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-09T11:35:11+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

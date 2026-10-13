@@ -1,0 +1,1971 @@
+{
+  "passage": {
+    "id": "greek-words",
+    "title": "Greek word list (traps and fillers)",
+    "ref": "data/key.csv",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "mistral-small-3.1-24b-instruct",
+    "api_id": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+    "label": "Mistral Small 3.1 24B",
+    "family": "Mistral",
+    "weights": "open",
+    "provider": "cloudflare"
+  },
+  "prompt": {
+    "name": "words-neutral"
+  },
+  "params": {
+    "temperature": 0.7,
+    "max_tokens": 1024,
+    "seed": null
+  },
+  "runs": {
+    "1": [
+      {
+        "rep": 0,
+        "text": "کشاورز\nزارع\nکشیش\nکشاور\nدلیر",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 17,
+          "total_tokens": 52,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.9739561080932617
+        },
+        "latency_s": 2.03,
+        "at": "2026-10-13T14:52:08+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "کشاورز\nزراعت‌کار\nکارگر کشاورزی\nکوبنده خاک\nمرد زراعت",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 25,
+          "total_tokens": 60,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.3778600692749023
+        },
+        "latency_s": 0.66,
+        "at": "2026-10-13T14:52:09+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "کشاورز\nزراعتکار\nکشتی\nگل‌سرا\nزرع",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 19,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.074932098388672
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-13T14:52:09+00:00"
+      }
+    ],
+    "2": [
+      {
+        "rep": 0,
+        "text": "خانه\n\nایوان\n\nخانه‌خانه\n\nدیار\n\nمملکت",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 16,
+          "total_tokens": 52,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.9553439617156982
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-13T14:52:10+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "خانه\nمکان زندگی\nمکون\nشاخه خانواده\nخاندان",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 18,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.0563199520111084
+        },
+        "latency_s": 0.47,
+        "at": "2026-10-13T14:52:10+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "خانه\nمکان زندگی\nآبادی\nمکان سکونت\nمنزل",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 18,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.0563199520111084
+        },
+        "latency_s": 0.64,
+        "at": "2026-10-13T14:52:11+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "فونیقیه\nفونیقی\nپونیک\nفونیقیان",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 18,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.088196039199829
+        },
+        "latency_s": 0.66,
+        "at": "2026-10-13T14:52:12+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "جنگل‌درختی\n\nفینیکس\n\nدرخته فینیکس\n\nپرنده فینیکس\n\nپرنده افسانه‌ای",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 35,
+          "total_tokens": 72,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.9464919567108154
+        },
+        "latency_s": 0.8,
+        "at": "2026-10-13T14:52:12+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "پرواز\nنسر\nعبادان\nنخلی نقره‌ای\nپرنده افسانه‌ای",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 26,
+          "total_tokens": 63,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.4921000003814697
+        },
+        "latency_s": 0.72,
+        "at": "2026-10-13T14:52:13+00:00"
+      }
+    ],
+    "4": [
+      {
+        "rep": 0,
+        "text": "کف\nکمر\nگلویی\nکف پیشانی\nپیشانی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 18,
+          "total_tokens": 53,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.024444103240967
+        },
+        "latency_s": 0.73,
+        "at": "2026-10-13T14:52:14+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "کف\nبافت\nبخش پست سر\nبخش پشت سر\nسرگردن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 21,
+          "total_tokens": 56,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.175908088684082
+        },
+        "latency_s": 0.7,
+        "at": "2026-10-13T14:52:15+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "کرک\nکرك\nجعبه گوش\nپرده گوش\nتودهٔ گوش",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 20,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.125420093536377
+        },
+        "latency_s": 0.75,
+        "at": "2026-10-13T14:52:15+00:00"
+      }
+    ],
+    "5": [
+      {
+        "rep": 0,
+        "text": "کاهن\nروهانی\nموبد\nعباد\nانجمن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 18,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.088196039199829
+        },
+        "latency_s": 0.58,
+        "at": "2026-10-13T14:52:16+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "سروش\nکاهن\nعباد\nبروجرد\nمکلّف",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 19,
+          "total_tokens": 56,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.138684034347534
+        },
+        "latency_s": 1.41,
+        "at": "2026-10-13T14:52:17+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "رئیس روحانی\nکاهن\nپادری\nروحان\nمحترم روحانی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 19,
+          "total_tokens": 56,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.138684034347534
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-13T14:52:18+00:00"
+      }
+    ],
+    "6": [
+      {
+        "rep": 0,
+        "text": "تابانیدن\nانداختن\nبارانیدن\nشلیک کردن\nاراستن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 21,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1440320014953613
+        },
+        "latency_s": 0.77,
+        "at": "2026-10-13T14:52:19+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "تاباندن\n\nانداختن\n\nدریافتن\n\nدست‌زدن\n\nانداختن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 23,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.2450079917907715
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-13T14:52:19+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "پرتاب کردن\nشلیک کردن\nافکندن\nتیراندازی\nانداختن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 21,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1440320014953613
+        },
+        "latency_s": 0.73,
+        "at": "2026-10-13T14:52:20+00:00"
+      }
+    ],
+    "7": [
+      {
+        "rep": 0,
+        "text": "ستاره (setâre)\nحلقه (halqe)\nسینه (sine)\nقدم\nدل",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 25,
+          "total_tokens": 60,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.3778600692749023
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-13T14:52:22+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دست\nسینه\nچِشْم\nبرست\nپستان",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 17,
+          "total_tokens": 52,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.9739561080932617
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-13T14:52:23+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دست\n\nسینه\n\nقفسه سینه\n\nچاک\n\nتخت سینه",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 20,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.125420093536377
+        },
+        "latency_s": 0.59,
+        "at": "2026-10-13T14:52:24+00:00"
+      }
+    ],
+    "8": [
+      {
+        "rep": 0,
+        "text": "اضطراب می‌دهم\nتتعالی می‌دهم\nسنگین می‌دهم\nمرده می‌دهم\nسرد می‌دهم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 32,
+          "total_tokens": 67,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.731276035308838
+        },
+        "latency_s": 0.8,
+        "at": "2026-10-13T14:52:24+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دوازدن\nتکدن\nتخفیف دادن\nدزدیدن\nدریافتن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 23,
+          "total_tokens": 58,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.276884078979492
+        },
+        "latency_s": 2.24,
+        "at": "2026-10-13T14:52:27+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "تشکیل می‌دهم\nروان می‌دهم\nسریع می‌روم\nتکمیل می‌دهم\nتکمیل می‌کنم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 32,
+          "total_tokens": 67,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.731276035308838
+        },
+        "latency_s": 0.76,
+        "at": "2026-10-13T14:52:27+00:00"
+      }
+    ],
+    "9": [
+      {
+        "rep": 0,
+        "text": "ساختن\nتاسیس کردن\nبناییدن\nتأسیس\nساخت",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 20,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.0935440063476562
+        },
+        "latency_s": 0.74,
+        "at": "2026-10-13T14:52:28+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "ساختن\nبنا کردن\nتاسیس کردن\nپدید آوردن\nساخت",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 21,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1440320014953613
+        },
+        "latency_s": 0.89,
+        "at": "2026-10-13T14:52:29+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "ساختن\nساختن\nپیداکردن\nتاسیس کردن\nآفرینش",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 24,
+          "total_tokens": 58,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.2954959869384766
+        },
+        "latency_s": 0.67,
+        "at": "2026-10-13T14:52:30+00:00"
+      }
+    ],
+    "10": [
+      {
+        "rep": 0,
+        "text": "نامه\nقانون\nمعتبر\nنظام\nشرع",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 13,
+          "total_tokens": 46,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.708251953125
+        },
+        "latency_s": 1.69,
+        "at": "2026-10-13T14:52:31+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "قانون\n\nنظم\n\nقوانین\n\nشریعت\n\nرسم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 16,
+          "total_tokens": 49,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.8597159385681152
+        },
+        "latency_s": 0.76,
+        "at": "2026-10-13T14:52:32+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "قانون\n\nمشروط\n\nنظام\n\nرسم\n\nشرع",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 15,
+          "total_tokens": 48,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.8092279434204102
+        },
+        "latency_s": 1.36,
+        "at": "2026-10-13T14:52:33+00:00"
+      }
+    ],
+    "11": [
+      {
+        "rep": 0,
+        "text": "بدن\nجسم\nتن\nاجسام\nنسل",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 14,
+          "total_tokens": 49,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.8224921226501465
+        },
+        "latency_s": 0.76,
+        "at": "2026-10-13T14:52:34+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "بدن\nجسد\nتن\nلیب\nرسن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 14,
+          "total_tokens": 49,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.8224921226501465
+        },
+        "latency_s": 1.59,
+        "at": "2026-10-13T14:52:36+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "بدن\nجسد\nتن\nتنزم\nحیوان",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 15,
+          "total_tokens": 50,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.8729801177978516
+        },
+        "latency_s": 1.45,
+        "at": "2026-10-13T14:52:37+00:00"
+      }
+    ],
+    "12": [
+      {
+        "rep": 0,
+        "text": "دوام می‌دم\nفراخوان\nدعوت می‌کنم\nدعوت\nدعوایی می‌بندم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 27,
+          "total_tokens": 61,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.446959972381592
+        },
+        "latency_s": 1.16,
+        "at": "2026-10-13T14:52:38+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "می‌خواهم\nبا دعوت می‌آورم\nفراخوان می‌کنم\nفریاد می‌زنم\nدعوت می‌کنم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 34,
+          "total_tokens": 68,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.8003759384155273
+        },
+        "latency_s": 0.81,
+        "at": "2026-10-13T14:52:39+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "آزموده\nدرخواست کردن\nنام بریدن\nفراخواندن\nاختاریدن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 21,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1440320014953613
+        },
+        "latency_s": 0.64,
+        "at": "2026-10-13T14:52:40+00:00"
+      }
+    ],
+    "13": [
+      {
+        "rep": 0,
+        "text": "عدل\nحق\nاعتدال\nمصالحه\nعدلکار",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 16,
+          "total_tokens": 49,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.8597159385681152
+        },
+        "latency_s": 10.38,
+        "at": "2026-10-13T14:52:50+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "عدالت\nحق\nمصالحه\nجدال\nحق و Batista",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 17,
+          "total_tokens": 50,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.9102039337158203
+        },
+        "latency_s": 1.09,
+        "at": "2026-10-13T14:52:51+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دادرسی\nداد\nهمه‌پرسی\nحکومت\nعدالت",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 18,
+          "total_tokens": 51,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.9606919288635254
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-13T14:52:52+00:00"
+      }
+    ],
+    "14": [
+      {
+        "rep": 0,
+        "text": "دارم\nمی‌کنم\nبه‌دست‌آورده‌ام\nبندودم\nراه یافته‌ام",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 27,
+          "total_tokens": 61,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.446959972381592
+        },
+        "latency_s": 1.28,
+        "at": "2026-10-13T14:52:53+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دارم\nمی‌کنم\nبه دست دارم\nمیشود\nبه دست آورم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 21,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1440320014953613
+        },
+        "latency_s": 0.69,
+        "at": "2026-10-13T14:52:54+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دارم\nمیمونم\nمصروف\nمتعلق\nمتحمل",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 18,
+          "total_tokens": 52,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.992568016052246
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-13T14:52:55+00:00"
+      }
+    ],
+    "15": [
+      {
+        "rep": 0,
+        "text": "اسب\n\nغوربند\n\nهیوان دوپایان\n\nصحراگرد\n\nسیاه‌غاو",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 26,
+          "total_tokens": 62,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.460224151611328
+        },
+        "latency_s": 0.94,
+        "at": "2026-10-13T14:52:56+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "اسب\nغاراب\nپسی\nنغ\nدول",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 15,
+          "total_tokens": 51,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.9048559665679932
+        },
+        "latency_s": 1.19,
+        "at": "2026-10-13T14:52:57+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "اسب\n\nپسر اسب\n\nسفیدپوست\n\nغلام\n\nخ中华书局",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 19,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1068079471588135
+        },
+        "latency_s": 0.78,
+        "at": "2026-10-13T14:52:57+00:00"
+      }
+    ],
+    "16": [
+      {
+        "rep": 0,
+        "text": "ترم\nپرواز می‌کنم\nراه می‌روم\nدزد می‌گریزم\nهشتم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 27,
+          "total_tokens": 61,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.446959972381592
+        },
+        "latency_s": 0.77,
+        "at": "2026-10-13T14:52:58+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "راه می‌روم\nدوباره می‌چرخم\nدودک می‌زنم\nهسته می‌زنم\nفرو می‌دم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 36,
+          "total_tokens": 70,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.9013519287109375
+        },
+        "latency_s": 3.22,
+        "at": "2026-10-13T14:53:01+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دوبارم\nدود\nهراس\nدود کردن\nراندن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 19,
+          "total_tokens": 53,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.043056011199951
+        },
+        "latency_s": 1.27,
+        "at": "2026-10-13T14:53:03+00:00"
+      }
+    ],
+    "17": [
+      {
+        "rep": 0,
+        "text": "کرونه\n\nکورونه\n\nکروون\n\nکورونه اویون‌دار",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 19,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.074932098388672
+        },
+        "latency_s": 0.77,
+        "at": "2026-10-13T14:53:03+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "کره\n\nساغر\n\nآشیانه\n\nسرپشت\n\nدرختی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 19,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.074932098388672
+        },
+        "latency_s": 0.75,
+        "at": "2026-10-13T14:53:04+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "باز\nسخمه\nمغز\nبازیک\nناژوان",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 19,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.074932098388672
+        },
+        "latency_s": 0.59,
+        "at": "2026-10-13T14:53:05+00:00"
+      }
+    ],
+    "18": [
+      {
+        "rep": 0,
+        "text": "ترسیدن\nبیدار شدن\nهیبت زدن\nبه درد خوردن\nنداختن\nبومیدن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 30,
+          "total_tokens": 67,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.69405198097229
+        },
+        "latency_s": 1.09,
+        "at": "2026-10-13T14:53:06+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "ترسیدن\nبیماری\nببخشید\nنارسایی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 17,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.037708044052124
+        },
+        "latency_s": 1.23,
+        "at": "2026-10-13T14:53:07+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "ترس می‌کنم\nبیمار می‌گردم\nهمه چیز را ترس می‌کنم\nبی‌اساس می‌ترسم\nمتلاشی می‌شوم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 39,
+          "total_tokens": 76,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.1484439373016357
+        },
+        "latency_s": 2.14,
+        "at": "2026-10-13T14:53:09+00:00"
+      }
+    ],
+    "19": [
+      {
+        "rep": 0,
+        "text": "دوست دارم\nعاشق هستم\nموهبت می‌کنم\nنظارت می‌کنم\nپسند می‌کنم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 31,
+          "total_tokens": 66,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.680788040161133
+        },
+        "latency_s": 1.12,
+        "at": "2026-10-13T14:53:10+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دوست دارم\nعاشقم\nحب می‌کنم\nافسونیده‌ام",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 21,
+          "total_tokens": 56,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.175908088684082
+        },
+        "latency_s": 0.61,
+        "at": "2026-10-13T14:53:11+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دوست دارم\nمحبتم\nعشق می‌ورزم\nدوست دارن\nرضایت می‌بخشم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 28,
+          "total_tokens": 63,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.5293240547180176
+        },
+        "latency_s": 1.58,
+        "at": "2026-10-13T14:53:13+00:00"
+      }
+    ],
+    "20": [
+      {
+        "rep": 0,
+        "text": "انگشت\nنور\nروشنی\nآفتاب\nچشمه",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 18,
+          "total_tokens": 53,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.024444103240967
+        },
+        "latency_s": 1.44,
+        "at": "2026-10-13T14:53:14+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "نور\nروشنایی\nاطمینان\nآفتاب\nرؤیا",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 19,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.074932098388672
+        },
+        "latency_s": 0.77,
+        "at": "2026-10-13T14:53:15+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "نور\n\nرؤیا\n\nروشنایی\n\nآفتاب\n\nدرخشش",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 19,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.074932098388672
+        },
+        "latency_s": 0.8,
+        "at": "2026-10-13T14:53:16+00:00"
+      }
+    ],
+    "21": [
+      {
+        "rep": 0,
+        "text": "روز\nشبانه روز\nروزانه\nروزگار\nروزهای",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 15,
+          "total_tokens": 51,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.9048559665679932
+        },
+        "latency_s": 0.53,
+        "at": "2026-10-13T14:53:16+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "روز\nنهار\nچهارشنبه\nشب\n\n(Note: ἡμέرا can mean \"day\" or \"time\" in a more general sense, but these are the most common equivalents for \"day\". The last one, \"شب\", is less likely because it means \"night\".)",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 64,
+          "total_tokens": 100,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.378767967224121
+        },
+        "latency_s": 1.5,
+        "at": "2026-10-13T14:53:18+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "روز\nنهار\nروزه\nروزانه\nامروز",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 15,
+          "total_tokens": 51,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.9048559665679932
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-13T14:53:18+00:00"
+      }
+    ],
+    "22": [
+      {
+        "rep": 0,
+        "text": "برف\nهالاکو\nباران یخ زده\nباران شکر\nسردش و باران",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 26,
+          "total_tokens": 59,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.364595890045166
+        },
+        "latency_s": 0.78,
+        "at": "2026-10-13T14:53:19+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "برف\n\nبارد\n\nسرد\n\nبرد\n\nتندر",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 14,
+          "total_tokens": 47,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.758739948272705
+        },
+        "latency_s": 0.41,
+        "at": "2026-10-13T14:53:19+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "برف\n\nباران یخ زده\n\nتابش برفی\n\nباران سنگین و سرد\n\nبرفی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 24,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.263619899749756
+        },
+        "latency_s": 0.78,
+        "at": "2026-10-13T14:53:20+00:00"
+      }
+    ],
+    "23": [
+      {
+        "rep": 0,
+        "text": "سرع\nسریع\nتند\n\nفوری\nیک‌جا",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 16,
+          "total_tokens": 51,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.9234681129455566
+        },
+        "latency_s": 1.06,
+        "at": "2026-10-13T14:53:21+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "سرعت\nتیز\nسریع\nروند\nسریع‌الجرد",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 18,
+          "total_tokens": 53,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.024444103240967
+        },
+        "latency_s": 0.64,
+        "at": "2026-10-13T14:53:22+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "تند\nسریع\nبه سرعت\nشتابان\nراست",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 16,
+          "total_tokens": 51,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.9234681129455566
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-13T14:53:23+00:00"
+      }
+    ],
+    "24": [
+      {
+        "rep": 0,
+        "text": "شَمشیر\nکمربند\nنیشان\nاسپاده\nکُته",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 22,
+          "total_tokens": 56,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1945199966430664
+        },
+        "latency_s": 0.83,
+        "at": "2026-10-13T14:53:23+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "شمشیر\nکنده\nنژاد\nتغ\nدست‌به‌دست",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 22,
+          "total_tokens": 56,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1945199966430664
+        },
+        "latency_s": 0.84,
+        "at": "2026-10-13T14:53:24+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "شمشر\nتپنچه\nبرد\nقمه\nکارد",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 17,
+          "total_tokens": 51,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.942080020904541
+        },
+        "latency_s": 0.83,
+        "at": "2026-10-13T14:53:25+00:00"
+      }
+    ],
+    "25": [
+      {
+        "rep": 0,
+        "text": "مرگ\nوفات\nحت\nدم\nموت",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 14,
+          "total_tokens": 49,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.8224921226501465
+        },
+        "latency_s": 0.42,
+        "at": "2026-10-13T14:53:26+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "مرگ\nوفات\nدرگذشت\nفوت\nانتقال",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 15,
+          "total_tokens": 50,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.8729801177978516
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-13T14:53:26+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "مرگ\n\nوفات\n\nدم\n\nفوت\n\nانقراض",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 15,
+          "total_tokens": 50,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.8729801177978516
+        },
+        "latency_s": 0.83,
+        "at": "2026-10-13T14:53:27+00:00"
+      }
+    ],
+    "26": [
+      {
+        "rep": 0,
+        "text": "نبرد\nجنگ\nشکار\nتکاپو\nمبارزه",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 18,
+          "total_tokens": 51,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.9606919288635254
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-13T14:53:27+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "درود\n\nشکار\n\nخرگوش\n\nگوزن\n\nعفارین",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 18,
+          "total_tokens": 51,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.9606919288635254
+        },
+        "latency_s": 0.59,
+        "at": "2026-10-13T14:53:28+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "بیگانه\nتیرانداز\nآوازه‌ساز\nسگ شکاری\nشکارچی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 24,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.263619899749756
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-13T14:53:29+00:00"
+      }
+    ],
+    "27": [
+      {
+        "rep": 0,
+        "text": "آینه\nدرشت\nقشقه\nسطل\nباستو",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 17,
+          "total_tokens": 56,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1014599800109863
+        },
+        "latency_s": 0.56,
+        "at": "2026-10-13T14:53:29+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "انبوه\nکودک\nسوزن\nلوله\nشیشه‌ای",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 19,
+          "total_tokens": 58,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.2024359703063965
+        },
+        "latency_s": 0.72,
+        "at": "2026-10-13T14:53:30+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "انگشت\nمخروطی\nکاسه\nظرف\nشیشه",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 18,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1519479751586914
+        },
+        "latency_s": 0.67,
+        "at": "2026-10-13T14:53:31+00:00"
+      }
+    ],
+    "28": [
+      {
+        "rep": 0,
+        "text": "شنیدم\n\nدیدم\n\nبیدار شدم\n\nفهمیدن\n\nگشودن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 23,
+          "total_tokens": 60,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.3406360149383545
+        },
+        "latency_s": 1.58,
+        "at": "2026-10-13T14:53:32+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "استماع\nگوش دادن\nشنیدن\nسواد کردن\nپروای داشتن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 21,
+          "total_tokens": 58,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.2396600246429443
+        },
+        "latency_s": 1.28,
+        "at": "2026-10-13T14:53:34+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "شنیدم\nبشنود\nفهمیدم\nدیدیم\nشنیدم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 22,
+          "total_tokens": 59,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.2901480197906494
+        },
+        "latency_s": 0.77,
+        "at": "2026-10-13T14:53:34+00:00"
+      }
+    ],
+    "29": [
+      {
+        "rep": 0,
+        "text": "دیدن\nنگاه کردن\nبینیدن\nنگاه داشتن\nچشم زدن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 20,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.125420093536377
+        },
+        "latency_s": 1.5,
+        "at": "2026-10-13T14:53:36+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دیدن\nنظر کردن\nبینانداختن\nنگاه کردن\nببین",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 20,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.125420093536377
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-13T14:53:36+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دیدن\n\nبینیدن\n\nمشاهده کردن\n\nبه چشم دیدن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 18,
+          "total_tokens": 53,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.024444103240967
+        },
+        "latency_s": 3.14,
+        "at": "2026-10-13T14:53:40+00:00"
+      }
+    ],
+    "30": [
+      {
+        "rep": 0,
+        "text": "قمر\nماه\nمہتاب\nاکلیل\nزهره",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 16,
+          "total_tokens": 50,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.891592025756836
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-13T14:53:40+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "ماه\nقمر\nانگور\nسپیده\nelled",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 15,
+          "total_tokens": 49,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.8411040306091309
+        },
+        "latency_s": 0.47,
+        "at": "2026-10-13T14:53:41+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "ماه\nقمر\nشبه‌پر\nفضل\nخورشید",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 16,
+          "total_tokens": 50,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.891592025756836
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-13T14:53:41+00:00"
+      }
+    ],
+    "31": [
+      {
+        "rep": 0,
+        "text": "دستبند\n\nانگشتر\n\nچلینه\n\nزنگولهٔ پرستار\n\nگوشواره",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 26,
+          "total_tokens": 62,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.460224151611328
+        },
+        "latency_s": 1.0,
+        "at": "2026-10-13T14:53:42+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دستبند\nنخستین\nالگوی\nنرمابه\nپنجه‌گانه",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 24,
+          "total_tokens": 60,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.359248161315918
+        },
+        "latency_s": 0.78,
+        "at": "2026-10-13T14:53:43+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دست‌بند\n\nانگشتار\n\nانگشتارنج\n\nنخست‌دار\n\nنخست‌ور",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 28,
+          "total_tokens": 64,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.5612001419067383
+        },
+        "latency_s": 0.77,
+        "at": "2026-10-13T14:53:44+00:00"
+      }
+    ],
+    "32": [
+      {
+        "rep": 0,
+        "text": "در\nدرب\nدروازه\nباب\nوچه",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 14,
+          "total_tokens": 48,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.7906160354614258
+        },
+        "latency_s": 0.58,
+        "at": "2026-10-13T14:53:44+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دَر\nپُرده\nباب\nدَروازه\nکُهنه",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 20,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.0935440063476562
+        },
+        "latency_s": 0.81,
+        "at": "2026-10-13T14:53:45+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "در\nدرب\nپلنگر\nورود\nدروازه",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 16,
+          "total_tokens": 50,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.891592025756836
+        },
+        "latency_s": 1.2,
+        "at": "2026-10-13T14:53:46+00:00"
+      }
+    ],
+    "33": [
+      {
+        "rep": 0,
+        "text": "ناخن\nانگشتانه\nپنجه\nحلفه",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 17,
+          "total_tokens": 53,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.0058319568634033
+        },
+        "latency_s": 0.55,
+        "at": "2026-10-13T14:53:47+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "انگشت‌پا\n\nناخن\n\nنسک\n\nناخنی\n\nپاشنه",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 21,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.2077841758728027
+        },
+        "latency_s": 1.44,
+        "at": "2026-10-13T14:53:48+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "انگشت پا\nناخن\nانگشت\nناخن پا\nنامشه",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 22,
+          "total_tokens": 58,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.258272171020508
+        },
+        "latency_s": 0.75,
+        "at": "2026-10-13T14:53:49+00:00"
+      }
+    ],
+    "34": [
+      {
+        "rep": 0,
+        "text": "قانع کردن\nاقناع\nتسلیم کردن\nمطلکه کردن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 17,
+          "total_tokens": 52,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.9739561080932617
+        },
+        "latency_s": 1.39,
+        "at": "2026-10-13T14:53:50+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "فرماندن\nایقناع کردن\nراضی کردن\nسازشیدن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 18,
+          "total_tokens": 53,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.024444103240967
+        },
+        "latency_s": 0.7,
+        "at": "2026-10-13T14:53:51+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "پرسواندن\nقانع کردن\nمتصدیق کردن\nتأثیر گذاشتن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 23,
+          "total_tokens": 58,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.276884078979492
+        },
+        "latency_s": 0.58,
+        "at": "2026-10-13T14:53:52+00:00"
+      }
+    ],
+    "35": [
+      {
+        "rep": 0,
+        "text": "نبات\nگرد\nگیاه\nبوم\nکاشت",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 14,
+          "total_tokens": 48,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.7906160354614258
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-13T14:53:52+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "نبات\nگیاه\nدرختی\nبوم\nکاشت",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 16,
+          "total_tokens": 50,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.891592025756836
+        },
+        "latency_s": 0.55,
+        "at": "2026-10-13T14:53:53+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "نبات\nگیاه\nشاخ و برگ\nخرما\nدانه",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 17,
+          "total_tokens": 51,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.942080020904541
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-13T14:53:53+00:00"
+      }
+    ],
+    "36": [
+      {
+        "rep": 0,
+        "text": "طلایی\n\nزرد\n\nسنگ طلای\n\nصفرا\n\nقیمتی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 19,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.074932098388672
+        },
+        "latency_s": 0.56,
+        "at": "2026-10-13T14:53:54+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "طلا\nزر\nزرو\nخرسند\nزرد",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 15,
+          "total_tokens": 50,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.8729801177978516
+        },
+        "latency_s": 0.72,
+        "at": "2026-10-13T14:53:55+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "طلا\nزرن\nپروردگار\nقولیبد\nخردور",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 18,
+          "total_tokens": 53,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.024444103240967
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-13T14:53:55+00:00"
+      }
+    ],
+    "37": [
+      {
+        "rep": 0,
+        "text": "افعی\nمار\nمارمولک\nسحری\nگوزن‌کوهی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 20,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.125420093536377
+        },
+        "latency_s": 1.69,
+        "at": "2026-10-13T14:53:57+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "افعی\nمار\nابوه\nماجو\nمار ماران",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 16,
+          "total_tokens": 51,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.9234681129455566
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-13T14:53:57+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

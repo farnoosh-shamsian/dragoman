@@ -1,0 +1,315 @@
+{
+  "passage": {
+    "id": "kinship-words-temp00",
+    "title": "Kinship terms, one word per request, temperature 0.0",
+    "ref": "greek_wordlist.xlsx, Kinship key sheet (IDs 301-313)",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "openai/gpt-oss-120b",
+    "api_id": "openai/gpt-oss-120b",
+    "label": "GPT-OSS 120B",
+    "family": "OpenAI open-weight",
+    "weights": "open",
+    "provider": "groq"
+  },
+  "prompt": {
+    "name": "words-neutral",
+    "label": "Words · neutral"
+  },
+  "params": {
+    "temperature": 0.0,
+    "max_tokens": 3000,
+    "seed": null,
+    "reasoning_effort": "low"
+  },
+  "runs": {
+    "301": [
+      {
+        "rep": 0,
+        "text": "پدرانه  \nپدری  \nپدرانه‌وار",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.420641237,
+          "prompt_tokens": 102,
+          "prompt_time": 0.030554995,
+          "completion_tokens": 103,
+          "completion_time": 0.214679788,
+          "total_tokens": 205,
+          "total_time": 0.245234783,
+          "completion_tokens_details": {
+            "reasoning_tokens": 81
+          }
+        },
+        "latency_s": 0.88,
+        "at": "2026-10-08T14:03:49+00:00"
+      }
+    ],
+    "302": [
+      {
+        "rep": 0,
+        "text": "پسر عمو  \nپسر خاله (پسر عمو)  \nپسر عمو (پسر خاله)  \nپسر عمو (پسر خاله)  \nپسر عمو (پسر خاله)",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048047165,
+          "prompt_tokens": 105,
+          "prompt_time": 0.027915341,
+          "completion_tokens": 142,
+          "completion_time": 0.300109925,
+          "total_tokens": 247,
+          "total_time": 0.328025266,
+          "completion_tokens_details": {
+            "reasoning_tokens": 85
+          }
+        },
+        "latency_s": 84.55,
+        "at": "2026-10-08T14:05:14+00:00"
+      }
+    ],
+    "303": [
+      {
+        "rep": 0,
+        "text": "مادری  \nمادریانه  \nمادری‌گونه  \nمادری‌وار",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.150152928,
+          "prompt_tokens": 102,
+          "prompt_time": 0.004441646,
+          "completion_tokens": 91,
+          "completion_time": 0.192398011,
+          "total_tokens": 193,
+          "total_time": 0.196839657,
+          "completion_tokens_details": {
+            "reasoning_tokens": 62
+          }
+        },
+        "latency_s": 39.5,
+        "at": "2026-10-08T14:05:53+00:00"
+      }
+    ],
+    "304": [
+      {
+        "rep": 0,
+        "text": "پسر عمه  \nپسر خاله",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 1.141089074,
+          "prompt_tokens": 105,
+          "prompt_time": 0.004446538,
+          "completion_tokens": 208,
+          "completion_time": 0.442067983,
+          "total_tokens": 313,
+          "total_time": 0.446514521,
+          "completion_tokens_details": {
+            "reasoning_tokens": 190
+          }
+        },
+        "latency_s": 86.76,
+        "at": "2026-10-08T14:07:20+00:00"
+      }
+    ],
+    "305": [
+      {
+        "rep": 0,
+        "text": "خون  \nدم  \nسَخون  \nدم‌آلودگی  \nسِفید (به معنای خون)",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 4.26243279,
+          "prompt_tokens": 102,
+          "prompt_time": 0.004981589,
+          "completion_tokens": 93,
+          "completion_time": 0.194272104,
+          "total_tokens": 195,
+          "total_time": 0.199253693,
+          "completion_tokens_details": {
+            "reasoning_tokens": 58
+          }
+        },
+        "latency_s": 124.67,
+        "at": "2026-10-08T14:09:25+00:00"
+      }
+    ],
+    "306": [
+      {
+        "rep": 0,
+        "text": "سرد  \nیخ‌زده  \nخنک  \nبرفی  \nیخچالی",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048614358,
+          "prompt_tokens": 102,
+          "prompt_time": 0.004561039,
+          "completion_tokens": 125,
+          "completion_time": 0.265116745,
+          "total_tokens": 227,
+          "total_time": 0.269677784,
+          "completion_tokens_details": {
+            "reasoning_tokens": 96
+          }
+        },
+        "latency_s": 108.61,
+        "at": "2026-10-08T14:11:13+00:00"
+      }
+    ],
+    "307": [
+      {
+        "rep": 0,
+        "text": "وارد شوید  \nداخل شوید  \nبه داخل بروید  \nدرون شوید  \nبه درون راه یابید",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.051534621,
+          "prompt_tokens": 105,
+          "prompt_time": 0.028617759,
+          "completion_tokens": 121,
+          "completion_time": 0.253068936,
+          "total_tokens": 226,
+          "total_time": 0.281686695,
+          "completion_tokens_details": {
+            "reasoning_tokens": 89
+          }
+        },
+        "latency_s": 57.5,
+        "at": "2026-10-08T14:12:11+00:00"
+      }
+    ],
+    "308": [
+      {
+        "rep": 0,
+        "text": "آفتابی  \nخورشیدی  \nسوراخ‌نور",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047976333,
+          "prompt_tokens": 103,
+          "prompt_time": 0.005302499,
+          "completion_tokens": 91,
+          "completion_time": 0.191231641,
+          "total_tokens": 194,
+          "total_time": 0.19653414,
+          "completion_tokens_details": {
+            "reasoning_tokens": 69
+          }
+        },
+        "latency_s": 125.55,
+        "at": "2026-10-08T14:14:17+00:00"
+      }
+    ],
+    "309": [
+      {
+        "rep": 0,
+        "text": "هم‌پدر  \nهم‌نژاد  \nهم‌قومی  \nخویشاوند  \nهم‌سرزمین",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.207452775,
+          "prompt_tokens": 106,
+          "prompt_time": 0.004775411,
+          "completion_tokens": 109,
+          "completion_time": 0.229389352,
+          "total_tokens": 215,
+          "total_time": 0.234164763,
+          "completion_tokens_details": {
+            "reasoning_tokens": 75
+          }
+        },
+        "latency_s": 85.61,
+        "at": "2026-10-08T14:15:42+00:00"
+      }
+    ],
+    "310": [
+      {
+        "rep": 0,
+        "text": "نیم‌برادر  \nبرادر ناتنی  \nنیم‌پسر (از مادر مشترک)  \nبرادر هم‌مادر  \nنیم‌خویش (از مادر)",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047529263,
+          "prompt_tokens": 106,
+          "prompt_time": 0.005303905,
+          "completion_tokens": 132,
+          "completion_time": 0.277770824,
+          "total_tokens": 238,
+          "total_time": 0.283074729,
+          "completion_tokens_details": {
+            "reasoning_tokens": 82
+          }
+        },
+        "latency_s": 134.66,
+        "at": "2026-10-08T14:17:57+00:00"
+      }
+    ],
+    "311": [
+      {
+        "rep": 0,
+        "text": "دخترک  \nدخترچه  \nدختر کوچک  \nدختر نازک  \nدخترکِ کوچک",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.284094907,
+          "prompt_tokens": 106,
+          "prompt_time": 0.004275607,
+          "completion_tokens": 98,
+          "completion_time": 0.206810177,
+          "total_tokens": 204,
+          "total_time": 0.211085784,
+          "completion_tokens_details": {
+            "reasoning_tokens": 61
+          }
+        },
+        "latency_s": 61.66,
+        "at": "2026-10-08T14:18:59+00:00"
+      }
+    ],
+    "312": [
+      {
+        "rep": 0,
+        "text": "ثابت  \nپایدار  \nمستحکم  \nقوی‌پایه  \nپایدارِ ذهنی",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 1.399798006,
+          "prompt_tokens": 103,
+          "prompt_time": 0.005317161,
+          "completion_tokens": 81,
+          "completion_time": 0.170249465,
+          "total_tokens": 184,
+          "total_time": 0.175566626,
+          "completion_tokens_details": {
+            "reasoning_tokens": 48
+          }
+        },
+        "latency_s": 59.73,
+        "at": "2026-10-08T14:19:58+00:00"
+      }
+    ],
+    "313": [
+      {
+        "rep": 0,
+        "text": "بانوی  \nخانم  \nمادام  \nسرکار  \nملکه",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047376745,
+          "prompt_tokens": 103,
+          "prompt_time": 0.004947569,
+          "completion_tokens": 108,
+          "completion_time": 0.22905296,
+          "total_tokens": 211,
+          "total_time": 0.234000529,
+          "completion_tokens_details": {
+            "reasoning_tokens": 84
+          }
+        },
+        "latency_s": 107.45,
+        "at": "2026-10-08T14:21:46+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

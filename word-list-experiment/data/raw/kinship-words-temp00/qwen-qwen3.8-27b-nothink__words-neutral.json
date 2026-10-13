@@ -1,0 +1,276 @@
+{
+  "passage": {
+    "id": "kinship-words-temp00",
+    "title": "Kinship terms, one word per request, temperature 0.0",
+    "ref": "greek_wordlist.xlsx, Kinship key sheet (IDs 301-313)",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "qwen/qwen3.8-27b-nothink",
+    "api_id": "qwen/qwen3.8-27b",
+    "label": "Qwen 3.8 27B (no thinking)",
+    "family": "Qwen",
+    "weights": "open",
+    "provider": "groq"
+  },
+  "prompt": {
+    "name": "words-neutral",
+    "label": "Words · neutral"
+  },
+  "params": {
+    "temperature": 0.0,
+    "max_tokens": 1000,
+    "seed": null,
+    "reasoning_effort": "none"
+  },
+  "runs": {
+    "301": [
+      {
+        "rep": 0,
+        "text": "پاتروس\nپاتروس (نام خاص)\nپاتروس (نام یونانی)",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.019413868,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003202462,
+          "completion_tokens": 22,
+          "completion_time": 0.043626769,
+          "total_tokens": 66,
+          "total_time": 0.046829231
+        },
+        "latency_s": 7.41,
+        "at": "2026-10-08T14:04:01+00:00"
+      }
+    ],
+    "302": [
+      {
+        "rep": 0,
+        "text": "خاله\nخاله‌ی پدر\nخاله‌ی مادربزرگ\nخاله‌ی پدربزرگ",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016948224,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003768853,
+          "completion_tokens": 28,
+          "completion_time": 0.055252854,
+          "total_tokens": 75,
+          "total_time": 0.059021707
+        },
+        "latency_s": 1.27,
+        "at": "2026-10-08T14:04:18+00:00"
+      }
+    ],
+    "303": [
+      {
+        "rep": 0,
+        "text": "مادر\nمادر بزرگ\nپدربزرگ\nمادرزن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.09626128,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003015272,
+          "completion_tokens": 17,
+          "completion_time": 0.03731754,
+          "total_tokens": 61,
+          "total_time": 0.040332812
+        },
+        "latency_s": 1.31,
+        "at": "2026-10-08T14:04:21+00:00"
+      }
+    ],
+    "304": [
+      {
+        "rep": 0,
+        "text": "خواهرزاده\nپسر خواهر\nفرزند خواهر\nنوه خواهر",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.051604897,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003929401,
+          "completion_tokens": 20,
+          "completion_time": 0.039552882,
+          "total_tokens": 67,
+          "total_time": 0.043482283
+        },
+        "latency_s": 1.27,
+        "at": "2026-10-08T14:04:23+00:00"
+      }
+    ],
+    "305": [
+      {
+        "rep": 0,
+        "text": "داهه\nداه\nداهه‌ای\nداهه‌ها",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.024343641,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003418507,
+          "completion_tokens": 19,
+          "completion_time": 0.036212353,
+          "total_tokens": 63,
+          "total_time": 0.03963086
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-08T14:04:25+00:00"
+      }
+    ],
+    "306": [
+      {
+        "rep": 0,
+        "text": "گاو\nگاو وحشی\nگاو کوهی\nگاو وحشی کوهی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.934823183,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003693973,
+          "completion_tokens": 22,
+          "completion_time": 0.043478383,
+          "total_tokens": 66,
+          "total_time": 0.047172356
+        },
+        "latency_s": 2.14,
+        "at": "2026-10-08T14:04:29+00:00"
+      }
+    ],
+    "307": [
+      {
+        "rep": 0,
+        "text": "پدر بزرگ\nپدربزرگ\nجد\nجد بزرگ\nپدربزرگ‌ها",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.059077893,
+          "prompt_tokens": 48,
+          "prompt_time": 0.004032353,
+          "completion_tokens": 23,
+          "completion_time": 0.045405454,
+          "total_tokens": 71,
+          "total_time": 0.049437807
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-08T14:04:30+00:00"
+      }
+    ],
+    "308": [
+      {
+        "rep": 0,
+        "text": "خورشیدها\nخورشید\nآفتاب‌ها\nخورشیدی\nآفتابی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.495239009,
+          "prompt_tokens": 45,
+          "prompt_time": 0.00372569,
+          "completion_tokens": 23,
+          "completion_time": 0.050579297,
+          "total_tokens": 68,
+          "total_time": 0.054304987
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-08T14:04:35+00:00"
+      }
+    ],
+    "309": [
+      {
+        "rep": 0,
+        "text": "هم‌وطن\nهم‌خون\nهم‌میهن\nهم‌تبار\nهم‌ریشه",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016523235,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003774293,
+          "completion_tokens": 25,
+          "completion_time": 0.049402193,
+          "total_tokens": 72,
+          "total_time": 0.053176486
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-08T14:04:35+00:00"
+      }
+    ],
+    "310": [
+      {
+        "rep": 0,
+        "text": "هم‌مادر\nبرادر هم‌مادر\nخواهر هم‌مادر\nفرزند هم‌مادر",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.102315759,
+          "prompt_tokens": 47,
+          "prompt_time": 0.0039521,
+          "completion_tokens": 26,
+          "completion_time": 0.05685124,
+          "total_tokens": 73,
+          "total_time": 0.06080334
+        },
+        "latency_s": 0.23,
+        "at": "2026-10-08T14:04:36+00:00"
+      }
+    ],
+    "311": [
+      {
+        "rep": 0,
+        "text": "دختر\nدخترک\nدخترک‌ها\nدختران",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.239546191,
+          "prompt_tokens": 49,
+          "prompt_time": 0.004091978,
+          "completion_tokens": 21,
+          "completion_time": 0.041452003,
+          "total_tokens": 70,
+          "total_time": 0.045543981
+        },
+        "latency_s": 1.49,
+        "at": "2026-10-08T14:04:37+00:00"
+      }
+    ],
+    "312": [
+      {
+        "rep": 0,
+        "text": "خاکستر\nرماد\nسوزانده\nخاکستر شده",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.052933556,
+          "prompt_tokens": 46,
+          "prompt_time": 0.003692125,
+          "completion_tokens": 17,
+          "completion_time": 0.033645331,
+          "total_tokens": 63,
+          "total_time": 0.037337456
+        },
+        "latency_s": 6.27,
+        "at": "2026-10-08T14:04:45+00:00"
+      }
+    ],
+    "313": [
+      {
+        "rep": 0,
+        "text": "اسب\nاسب خانگی\nاسب جنگی\nاسب کار",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.050347625,
+          "prompt_tokens": 46,
+          "prompt_time": 0.003778243,
+          "completion_tokens": 13,
+          "completion_time": 0.029467425,
+          "total_tokens": 59,
+          "total_time": 0.033245668
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-08T14:04:45+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

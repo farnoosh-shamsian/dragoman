@@ -1,0 +1,3828 @@
+{
+  "passage": {
+    "id": "greek-words-pivot-allam-2-7b",
+    "title": "Pivot step 2 source for ALLaM 2 7B",
+    "ref": "English words from words-pivot-en, model allam-2-7b",
+    "lang": "en"
+  },
+  "model": {
+    "id": "allam-2-7b",
+    "api_id": "allam-2-7b",
+    "label": "ALLaM 2 7B",
+    "family": "SDAIA ALLaM",
+    "weights": "open",
+    "provider": "groq"
+  },
+  "prompt": {
+    "name": "words-pivot-fa",
+    "label": "Words · pivot step 2"
+  },
+  "params": {
+    "temperature": 0.2,
+    "max_tokens": 1024,
+    "seed": null
+  },
+  "runs": {
+    "1": [
+      {
+        "rep": 0,
+        "text": "مزارع (māmān)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088613516,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001911761,
+          "completion_tokens": 10,
+          "completion_time": 0.00723329,
+          "total_tokens": 51,
+          "total_time": 0.009145051
+        },
+        "latency_s": 0.38,
+        "at": "2026-10-07T21:18:02+00:00"
+      }
+    ],
+    "2": [
+      {
+        "rep": 0,
+        "text": "دختر (daughter) - خانه (house) - خانه‌ای (a house) - خانه‌هایی (houses) - خانه‌ها (houses)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087756973,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001685135,
+          "completion_tokens": 47,
+          "completion_time": 0.033687938,
+          "total_tokens": 87,
+          "total_time": 0.035373073
+        },
+        "latency_s": 0.23,
+        "at": "2026-10-07T21:18:03+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "ليل",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084947056,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001689205,
+          "completion_tokens": 3,
+          "completion_time": 0.002221936,
+          "total_tokens": 43,
+          "total_time": 0.003911141
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-07T21:18:03+00:00"
+      }
+    ],
+    "4": [
+      {
+        "rep": 0,
+        "text": "کرهٔ (kūrā)\nکهکشان (kekšan)\nکهکشانی (kekšanī)\nکهکشانیه (kekšanīye)\nکهکشانیهٔ (kekšanīye)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08577891,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001679324,
+          "completion_tokens": 67,
+          "completion_time": 0.048129819,
+          "total_tokens": 107,
+          "total_time": 0.049809143
+        },
+        "latency_s": 0.25,
+        "at": "2026-10-07T21:18:03+00:00"
+      }
+    ],
+    "5": [
+      {
+        "rep": 0,
+        "text": "کاهان (Kāhan)\nمقدس (Maqdas)\nشوخ (Sūkh)\nعالم دين (‘Alim al-Din)\nمام (Mam)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085275187,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001844642,
+          "completion_tokens": 46,
+          "completion_time": 0.033020288,
+          "total_tokens": 87,
+          "total_time": 0.03486493
+        },
+        "latency_s": 0.25,
+        "at": "2026-10-07T21:18:03+00:00"
+      }
+    ],
+    "6": [
+      {
+        "rep": 0,
+        "text": "طرح (tahreh)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084383498,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001681525,
+          "completion_tokens": 9,
+          "completion_time": 0.00651917,
+          "total_tokens": 49,
+          "total_time": 0.008200695
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-07T21:18:04+00:00"
+      }
+    ],
+    "7": [
+      {
+        "rep": 0,
+        "text": "صدر (sadr)\nصدر (zodar)\nصدر (zadar)\nصدر (zadar)\nصدر (zadar)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087145736,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001686875,
+          "completion_tokens": 35,
+          "completion_time": 0.025089248,
+          "total_tokens": 75,
+          "total_time": 0.026776123
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-07T21:18:04+00:00"
+      }
+    ],
+    "8": [
+      {
+        "rep": 0,
+        "text": "ادامه دادن (adamand)\nپیشرفت کردن (peyeshret kand)\nپیچیده کردن (peychede kand)\nپیدا کردن (peyda kand)\nپیشرفت کردن (peyeshret kand)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084445533,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001833963,
+          "completion_tokens": 70,
+          "completion_time": 0.050216826,
+          "total_tokens": 111,
+          "total_time": 0.052050789
+        },
+        "latency_s": 0.22,
+        "at": "2026-10-07T21:18:04+00:00"
+      }
+    ],
+    "9": [
+      {
+        "rep": 0,
+        "text": "إنشائ/آغاز کردن",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084768337,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001688164,
+          "completion_tokens": 9,
+          "completion_time": 0.00653154,
+          "total_tokens": 50,
+          "total_time": 0.008219704
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T21:18:04+00:00"
+      }
+    ],
+    "10": [
+      {
+        "rep": 0,
+        "text": "قانون (qanun)\nقانون (qanun)\nقانون (qanun)\nقانون (qanun)\nقانون (qanun)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087078848,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001679124,
+          "completion_tokens": 40,
+          "completion_time": 0.028729753,
+          "total_tokens": 80,
+          "total_time": 0.030408877
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-07T21:18:04+00:00"
+      }
+    ],
+    "11": [
+      {
+        "rep": 0,
+        "text": "بدن (بدن) | روستگو (روستگویی) | بدنگری (بدنگری) | بدنی (بدني) | بدنی شدن (بدني شدن)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084607478,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001679374,
+          "completion_tokens": 53,
+          "completion_time": 0.038033502,
+          "total_tokens": 92,
+          "total_time": 0.039712876
+        },
+        "latency_s": 0.22,
+        "at": "2026-10-07T21:18:05+00:00"
+      }
+    ],
+    "12": [
+      {
+        "rep": 0,
+        "text": "کالایهو - به مدحه/برایشان کنیم",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084360208,
+          "prompt_tokens": 47,
+          "prompt_time": 0.001845282,
+          "completion_tokens": 17,
+          "completion_time": 0.012392022,
+          "total_tokens": 64,
+          "total_time": 0.014237304
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-07T21:18:05+00:00"
+      }
+    ],
+    "13": [
+      {
+        "rep": 0,
+        "text": "عدالت",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086167141,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001684194,
+          "completion_tokens": 4,
+          "completion_time": 0.002940995,
+          "total_tokens": 44,
+          "total_time": 0.004625189
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T21:18:05+00:00"
+      }
+    ],
+    "14": [
+      {
+        "rep": 0,
+        "text": "داشتن (dâstân)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085918065,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001682135,
+          "completion_tokens": 12,
+          "completion_time": 0.008672398,
+          "total_tokens": 51,
+          "total_time": 0.010354533
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-07T21:18:05+00:00"
+      }
+    ],
+    "15": [
+      {
+        "rep": 0,
+        "text": "مهر (mīr)\nفروغ (firūg)\nخيل (chayl)\nصگ (sāpag)\nکنگ (kang)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085872396,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001694244,
+          "completion_tokens": 42,
+          "completion_time": 0.030093342,
+          "total_tokens": 82,
+          "total_time": 0.031787586
+        },
+        "latency_s": 0.25,
+        "at": "2026-10-07T21:18:05+00:00"
+      }
+    ],
+    "16": [
+      {
+        "rep": 0,
+        "text": "جريه",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087877495,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001681574,
+          "completion_tokens": 4,
+          "completion_time": 0.002935316,
+          "total_tokens": 43,
+          "total_time": 0.00461689
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-07T21:18:06+00:00"
+      }
+    ],
+    "17": [
+      {
+        "rep": 0,
+        "text": "عقرب",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08477971,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001685734,
+          "completion_tokens": 4,
+          "completion_time": 0.002940695,
+          "total_tokens": 44,
+          "total_time": 0.004626429
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-07T21:18:06+00:00"
+      }
+    ],
+    "18": [
+      {
+        "rep": 0,
+        "text": "خشم کنم\nمن از خشم می‌شوم\nخشم می‌کنم\nمن از خشم می‌زنم\nخشم می‌کنم",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085610731,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001683375,
+          "completion_tokens": 46,
+          "completion_time": 0.032965018,
+          "total_tokens": 87,
+          "total_time": 0.034648393
+        },
+        "latency_s": 0.22,
+        "at": "2026-10-07T21:18:06+00:00"
+      }
+    ],
+    "19": [
+      {
+        "rep": 0,
+        "text": "عشق\nاشواق\nمحبوبية\nمودة\nحنان",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085020405,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001684604,
+          "completion_tokens": 16,
+          "completion_time": 0.011541265,
+          "total_tokens": 55,
+          "total_time": 0.013225869
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-07T21:18:06+00:00"
+      }
+    ],
+    "20": [
+      {
+        "rep": 0,
+        "text": "نور (noor)\nنور (noor)\nنور (noor)\nنور (noor)\nنور (noor)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084705109,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001683975,
+          "completion_tokens": 31,
+          "completion_time": 0.022285141,
+          "total_tokens": 70,
+          "total_time": 0.023969116
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-07T21:18:06+00:00"
+      }
+    ],
+    "21": [
+      {
+        "rep": 0,
+        "text": "يوم (yom)\nروز (roz)\nنهار (nahar)\nيوم (yoom)\nأمس (amos)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085792736,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001690634,
+          "completion_tokens": 32,
+          "completion_time": 0.022975651,
+          "total_tokens": 71,
+          "total_time": 0.024666285
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-07T21:18:07+00:00"
+      }
+    ],
+    "22": [
+      {
+        "rep": 0,
+        "text": "زردشت",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086964998,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001689934,
+          "completion_tokens": 5,
+          "completion_time": 0.003622345,
+          "total_tokens": 45,
+          "total_time": 0.005312279
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-07T21:18:07+00:00"
+      }
+    ],
+    "23": [
+      {
+        "rep": 0,
+        "text": "سبيد\n1. سرعت\n2. ویژ\n3. روشنی\n4. آرامی\n5. خشمک",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087038231,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001682294,
+          "completion_tokens": 34,
+          "completion_time": 0.024426869,
+          "total_tokens": 74,
+          "total_time": 0.026109163
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-07T21:18:07+00:00"
+      }
+    ],
+    "24": [
+      {
+        "rep": 0,
+        "text": "خنجر (khajar)\nسيف (seif)\nسيوف (sewaf)\nخنجر (khanjir)\nعصا السيف (aswad seif)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085810996,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001683235,
+          "completion_tokens": 44,
+          "completion_time": 0.033604719,
+          "total_tokens": 84,
+          "total_time": 0.035287954
+        },
+        "latency_s": 0.25,
+        "at": "2026-10-07T21:18:07+00:00"
+      }
+    ],
+    "25": [
+      {
+        "rep": 0,
+        "text": "موت",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084667815,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001680744,
+          "completion_tokens": 3,
+          "completion_time": 0.002228036,
+          "total_tokens": 43,
+          "total_time": 0.00390878
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-07T21:18:08+00:00"
+      }
+    ],
+    "26": [
+      {
+        "rep": 0,
+        "text": "صيد (sefid)\nصيد بري (sefid-e bari)\nاصطياد (asptid)\nالمطاردة (almtida)\nالتمشيط (altsmich)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086379735,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001681224,
+          "completion_tokens": 48,
+          "completion_time": 0.034461396,
+          "total_tokens": 88,
+          "total_time": 0.03614262
+        },
+        "latency_s": 0.28,
+        "at": "2026-10-07T21:18:08+00:00"
+      }
+    ],
+    "27": [
+      {
+        "rep": 0,
+        "text": "پاكیت (Pakite)\nکيسه (Kise)\nکاغذی (Kaḵzi)\nباکيت (Bakite)\nکیف (Kefe)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087814942,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001760373,
+          "completion_tokens": 46,
+          "completion_time": 0.033042308,
+          "total_tokens": 85,
+          "total_time": 0.034802681
+        },
+        "latency_s": 0.23,
+        "at": "2026-10-07T21:18:08+00:00"
+      }
+    ],
+    "28": [
+      {
+        "rep": 0,
+        "text": "سماع (siyâhâ)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084901573,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001686824,
+          "completion_tokens": 10,
+          "completion_time": 0.00723276,
+          "total_tokens": 50,
+          "total_time": 0.008919584
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-07T21:18:08+00:00"
+      }
+    ],
+    "29": [
+      {
+        "rep": 0,
+        "text": "دیدن (deēdn)\n1. دید (dīd)\n2. نگاه (nāhā)\n3. مطالعه (muḵtālafat)\n4. ملاحظ (mawḥūz)\n5. تأمّل (taʾmil)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086382819,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001688064,
+          "completion_tokens": 76,
+          "completion_time": 0.054478042,
+          "total_tokens": 115,
+          "total_time": 0.056166106
+        },
+        "latency_s": 0.33,
+        "at": "2026-10-07T21:18:09+00:00"
+      }
+    ],
+    "30": [
+      {
+        "rep": 0,
+        "text": "قمر (qamar)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08641257,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001685374,
+          "completion_tokens": 8,
+          "completion_time": 0.005797172,
+          "total_tokens": 48,
+          "total_time": 0.007482546
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-07T21:18:09+00:00"
+      }
+    ],
+    "31": [
+      {
+        "rep": 0,
+        "text": "پنجه (panje)\nاصبع (aziz)\nخرم (karm)\nکف (kef)\nکفگر (kefgar)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087671668,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001689145,
+          "completion_tokens": 40,
+          "completion_time": 0.028700494,
+          "total_tokens": 80,
+          "total_time": 0.030389639
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:18:11+00:00"
+      }
+    ],
+    "32": [
+      {
+        "rep": 0,
+        "text": "بیشترین معادل فارسی: پیشینه، پیشینه‌ای، پیشین، پیش‌زمینه\nمعادل ۲: پیشگیری، پیش‌بینی",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088128559,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001684274,
+          "completion_tokens": 66,
+          "completion_time": 0.047247662,
+          "total_tokens": 106,
+          "total_time": 0.048931936
+        },
+        "latency_s": 2.42,
+        "at": "2026-10-07T21:18:13+00:00"
+      }
+    ],
+    "33": [
+      {
+        "rep": 0,
+        "text": "درگیر (dereghar)\nگرچه (girache)\nگری (gire)\nگریزه (girezhe)\nگریزه‌ای (girezhei)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084878894,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001699964,
+          "completion_tokens": 56,
+          "completion_time": 0.042048382,
+          "total_tokens": 96,
+          "total_time": 0.043748346
+        },
+        "latency_s": 2.47,
+        "at": "2026-10-07T21:18:16+00:00"
+      }
+    ],
+    "34": [
+      {
+        "rep": 0,
+        "text": "اقناییدن\nتفنيد\nتأثير کردن\nپوشاندن\nپوشاندن و اقناییدن",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087725128,
+          "prompt_tokens": 42,
+          "prompt_time": 0.001683175,
+          "completion_tokens": 32,
+          "completion_time": 0.022954451,
+          "total_tokens": 74,
+          "total_time": 0.024637626
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:18:18+00:00"
+      }
+    ],
+    "35": [
+      {
+        "rep": 0,
+        "text": "نبات (nābat)\n1. گل (gol)\n2. گلگاه (golgah)\n3. گلستان (golestan)\n4. گلگاهی (golgahi)\n5. گلخانه (golkhaneh)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087086955,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001709744,
+          "completion_tokens": 71,
+          "completion_time": 0.050830248,
+          "total_tokens": 111,
+          "total_time": 0.052539992
+        },
+        "latency_s": 2.41,
+        "at": "2026-10-07T21:18:21+00:00"
+      }
+    ],
+    "36": [
+      {
+        "rep": 0,
+        "text": "دیاموند\nکار\nعیار\nإیرانی گلوه",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087494526,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001879941,
+          "completion_tokens": 23,
+          "completion_time": 0.016537739,
+          "total_tokens": 63,
+          "total_time": 0.01841768
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:18:23+00:00"
+      }
+    ],
+    "37": [
+      {
+        "rep": 0,
+        "text": "عقربی (oqrbi)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088103654,
+          "prompt_tokens": 42,
+          "prompt_time": 0.001719174,
+          "completion_tokens": 11,
+          "completion_time": 0.007956999,
+          "total_tokens": 53,
+          "total_time": 0.009676173
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:18:25+00:00"
+      }
+    ],
+    "38": [
+      {
+        "rep": 0,
+        "text": "تکه‌دنیز (Takhe-denaz)\nتعليم (Ta'lim)\nدرآمد (Daramad)\nپرداخت (Pardaxt)\nپردازش (Pardazesh)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087840464,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001679834,
+          "completion_tokens": 61,
+          "completion_time": 0.047796064,
+          "total_tokens": 101,
+          "total_time": 0.049475898
+        },
+        "latency_s": 2.42,
+        "at": "2026-10-07T21:18:28+00:00"
+      }
+    ],
+    "39": [
+      {
+        "rep": 0,
+        "text": "إرسال (إرسال)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087913351,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001832982,
+          "completion_tokens": 7,
+          "completion_time": 0.005088863,
+          "total_tokens": 46,
+          "total_time": 0.006921845
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:18:30+00:00"
+      }
+    ],
+    "40": [
+      {
+        "rep": 0,
+        "text": "آب",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084582974,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001711484,
+          "completion_tokens": 3,
+          "completion_time": 0.002221267,
+          "total_tokens": 43,
+          "total_time": 0.003932751
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:18:32+00:00"
+      }
+    ],
+    "41": [
+      {
+        "rep": 0,
+        "text": "خريف (chelf)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087669337,
+          "prompt_tokens": 40,
+          "prompt_time": 0.00197492,
+          "completion_tokens": 8,
+          "completion_time": 0.005794292,
+          "total_tokens": 48,
+          "total_time": 0.007769212
+        },
+        "latency_s": 2.39,
+        "at": "2026-10-07T21:18:35+00:00"
+      }
+    ],
+    "42": [
+      {
+        "rep": 0,
+        "text": "فهم (fuhm)\nفهم (fuh)\nمعرفی (muhafiz)\nفهم (mahmun)\nفهم (muh)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087770851,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001832512,
+          "completion_tokens": 37,
+          "completion_time": 0.026415159,
+          "total_tokens": 77,
+          "total_time": 0.028247671
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:18:37+00:00"
+      }
+    ],
+    "43": [
+      {
+        "rep": 0,
+        "text": "آهن",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086408554,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001701134,
+          "completion_tokens": 4,
+          "completion_time": 0.002935045,
+          "total_tokens": 44,
+          "total_time": 0.004636179
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T21:18:39+00:00"
+      }
+    ],
+    "44": [
+      {
+        "rep": 0,
+        "text": "چالش‌زندن (chalishzandan) | راه‌سازی (rāh-sazī) | ساختمان‌زدن (sākhtmanzandī) | تألیم‌گیری (tālimgirī) | آرامش‌آوری (āramshāvarī)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084347329,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001700964,
+          "completion_tokens": 88,
+          "completion_time": 0.062680659,
+          "total_tokens": 127,
+          "total_time": 0.064381623
+        },
+        "latency_s": 2.47,
+        "at": "2026-10-07T21:18:42+00:00"
+      }
+    ],
+    "45": [
+      {
+        "rep": 0,
+        "text": "جَزۡر (Jazr)\nمَوۡرِد (Mawrûd)\nأَوۡلَة (Awalah)\nمَوۡقِع (Mawqeh)\nمَوۡقِعَة (Mawqeft)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088255724,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001689214,
+          "completion_tokens": 67,
+          "completion_time": 0.047700686,
+          "total_tokens": 107,
+          "total_time": 0.0493899
+        },
+        "latency_s": 2.45,
+        "at": "2026-10-07T21:18:44+00:00"
+      }
+    ],
+    "46": [
+      {
+        "rep": 0,
+        "text": "پرواز کردن (Parvaz kardan)\nطاير (Tayyar)\nقافز (Qavaz)\nهارب (Hareb)\nطاير جو (Parvaz-e Jov)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087051231,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001694054,
+          "completion_tokens": 52,
+          "completion_time": 0.037088617,
+          "total_tokens": 92,
+          "total_time": 0.038782671
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:18:47+00:00"
+      }
+    ],
+    "47": [
+      {
+        "rep": 0,
+        "text": "1. خورشید\n2. سراج\n3. آفتاب\n4. خورشید\n5. خورشید",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087086533,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001840302,
+          "completion_tokens": 30,
+          "completion_time": 0.021410785,
+          "total_tokens": 69,
+          "total_time": 0.023251087
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:18:49+00:00"
+      }
+    ],
+    "48": [
+      {
+        "rep": 0,
+        "text": "قهرمانی, پیروزی, غانش, درآمد, قهر",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088131379,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001707314,
+          "completion_tokens": 20,
+          "completion_time": 0.014303892,
+          "total_tokens": 60,
+          "total_time": 0.016011206
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:18:51+00:00"
+      }
+    ],
+    "49": [
+      {
+        "rep": 0,
+        "text": "پدر (Padr)\nپ ​​در (Pedar)\nپ ​​در (Pedar)\nپ ​​در (Pedar)\nپ ​​در (Pedar)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084337598,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001708384,
+          "completion_tokens": 44,
+          "completion_time": 0.031353804,
+          "total_tokens": 84,
+          "total_time": 0.033062188
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T21:18:54+00:00"
+      }
+    ],
+    "50": [
+      {
+        "rep": 0,
+        "text": "کمپین (kompîn)\nخدم (chamâm)\nعبد (‘abd)\nخادم (khadem)\nمملوك (mamlûk)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086237779,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001831342,
+          "completion_tokens": 44,
+          "completion_time": 0.031375954,
+          "total_tokens": 84,
+          "total_time": 0.033207296
+        },
+        "latency_s": 2.47,
+        "at": "2026-10-07T21:18:56+00:00"
+      }
+    ],
+    "51": [
+      {
+        "rep": 0,
+        "text": "قَبْر",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087983606,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001682164,
+          "completion_tokens": 4,
+          "completion_time": 0.002926356,
+          "total_tokens": 45,
+          "total_time": 0.00460852
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:18:58+00:00"
+      }
+    ],
+    "52": [
+      {
+        "rep": 0,
+        "text": "بُکاردن (bukardan)\nچشم زدن (chamszandan)\nچشم ریکردن (chamszandan)\nچشم ریکردن (chamszandan)\nچشم زدن (chamszandan)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087353165,
+          "prompt_tokens": 40,
+          "prompt_time": 0.002313455,
+          "completion_tokens": 64,
+          "completion_time": 0.045570568,
+          "total_tokens": 104,
+          "total_time": 0.047884023
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T21:19:01+00:00"
+      }
+    ],
+    "53": [
+      {
+        "rep": 0,
+        "text": "قفز (zombat)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084425731,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001747494,
+          "completion_tokens": 8,
+          "completion_time": 0.005771052,
+          "total_tokens": 48,
+          "total_time": 0.007518546
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:19:03+00:00"
+      }
+    ],
+    "54": [
+      {
+        "rep": 0,
+        "text": "زغردت (zaghordat)\nقهقهة (qahqahah)\nضحك (vakha)\nقهقهة (qahqahah)\nابتسامة (istibsami)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08673042,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001687064,
+          "completion_tokens": 50,
+          "completion_time": 0.035647919,
+          "total_tokens": 90,
+          "total_time": 0.037334983
+        },
+        "latency_s": 2.45,
+        "at": "2026-10-07T21:19:05+00:00"
+      }
+    ],
+    "55": [
+      {
+        "rep": 0,
+        "text": "کودک (koodak)\nچینی (chin)\nچینی‌هایی (chin-eha)\nچینی‌شکن (chin-e-shkon)\nچینی‌گر (chin-eger)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087730745,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001831292,
+          "completion_tokens": 69,
+          "completion_time": 0.049082626,
+          "total_tokens": 109,
+          "total_time": 0.050913918
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T21:19:08+00:00"
+      }
+    ],
+    "56": [
+      {
+        "rep": 0,
+        "text": "شجرة زردشت (Sharh Zardust)\nشجرة بلوط (Sharh Bolak)\nشجرة زان (Sharh Zan)\nشجرة توت (Sharh Tawt)\nشجرة صفصاف (Sharh Safsaf)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087943846,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001698684,
+          "completion_tokens": 62,
+          "completion_time": 0.04414965,
+          "total_tokens": 103,
+          "total_time": 0.045848334
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:19:10+00:00"
+      }
+    ],
+    "57": [
+      {
+        "rep": 0,
+        "text": "طعام (Ta'am)\n1. غذا (Gha'a)\n2. ماهی (Mahi)\n3. پیدام (Peydam)\n4. غذا (Gha'a)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087934799,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001694474,
+          "completion_tokens": 50,
+          "completion_time": 0.036660854,
+          "total_tokens": 90,
+          "total_time": 0.038355328
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:19:13+00:00"
+      }
+    ],
+    "58": [
+      {
+        "rep": 0,
+        "text": "سماء",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086461689,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001695304,
+          "completion_tokens": 3,
+          "completion_time": 0.002227056,
+          "total_tokens": 43,
+          "total_time": 0.00392236
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:19:15+00:00"
+      }
+    ],
+    "59": [
+      {
+        "rep": 0,
+        "text": "خُبز (khubz)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086970184,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001691175,
+          "completion_tokens": 10,
+          "completion_time": 0.007305889,
+          "total_tokens": 50,
+          "total_time": 0.008997064
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T21:19:17+00:00"
+      }
+    ],
+    "60": [
+      {
+        "rep": 0,
+        "text": "دیگر\nقیمت\nاینکار\nاینچنین\nچینی",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086829286,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001686554,
+          "completion_tokens": 25,
+          "completion_time": 0.01846961,
+          "total_tokens": 65,
+          "total_time": 0.020156164
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:19:19+00:00"
+      }
+    ],
+    "61": [
+      {
+        "rep": 0,
+        "text": "زندگی",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086863438,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001899641,
+          "completion_tokens": 6,
+          "completion_time": 0.004347534,
+          "total_tokens": 45,
+          "total_time": 0.006247175
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:19:22+00:00"
+      }
+    ],
+    "62": [
+      {
+        "rep": 0,
+        "text": "حفظ (hafz)\nحفظ (hifz)\nحفظ (hifzat)\nحفظ (hifz)\nحفظ (hifz-e-jadid)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084402555,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001677635,
+          "completion_tokens": 43,
+          "completion_time": 0.030626165,
+          "total_tokens": 82,
+          "total_time": 0.0323038
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:19:24+00:00"
+      }
+    ],
+    "63": [
+      {
+        "rep": 0,
+        "text": "پère (Pār)\nخونموار (Khonmowar)\nپère (Pār)\nخونموار (Khonmowar)\nخونوار (Khonvar)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087487452,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001680185,
+          "completion_tokens": 50,
+          "completion_time": 0.03561172,
+          "total_tokens": 91,
+          "total_time": 0.037291905
+        },
+        "latency_s": 2.38,
+        "at": "2026-10-07T21:19:26+00:00"
+      }
+    ],
+    "64": [
+      {
+        "rep": 0,
+        "text": "تناول (tawâlim)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088021786,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001687854,
+          "completion_tokens": 10,
+          "completion_time": 0.007204781,
+          "total_tokens": 50,
+          "total_time": 0.008892635
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:19:29+00:00"
+      }
+    ],
+    "65": [
+      {
+        "rep": 0,
+        "text": "تكلیمات",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084234513,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001690754,
+          "completion_tokens": 5,
+          "completion_time": 0.003641245,
+          "total_tokens": 45,
+          "total_time": 0.005331999
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:19:31+00:00"
+      }
+    ],
+    "66": [
+      {
+        "rep": 0,
+        "text": "ریهنمی - آتشینده، ریپ، شکلده",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087841665,
+          "prompt_tokens": 50,
+          "prompt_time": 0.002009429,
+          "completion_tokens": 21,
+          "completion_time": 0.01514868,
+          "total_tokens": 71,
+          "total_time": 0.017158109
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:19:33+00:00"
+      }
+    ],
+    "67": [
+      {
+        "rep": 0,
+        "text": "ابتكار (إبْتِكَار)\nتأليف (تَأْليف)\nتكوين (تَكْوِين)\nصنع (صُنْع)\nتكوين (تَشْكِيل)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087417326,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001677975,
+          "completion_tokens": 42,
+          "completion_time": 0.030113003,
+          "total_tokens": 81,
+          "total_time": 0.031790978
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:19:36+00:00"
+      }
+    ],
+    "68": [
+      {
+        "rep": 0,
+        "text": "سفر (safar)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087743023,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001675685,
+          "completion_tokens": 8,
+          "completion_time": 0.005781553,
+          "total_tokens": 48,
+          "total_time": 0.007457238
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:19:38+00:00"
+      }
+    ],
+    "69": [
+      {
+        "rep": 0,
+        "text": "جبل (Jabal)\nهضبة (Hada‘iq)\nجبل شاهق (Jabal Shahiq)\nجبل وعر (Jabal War)\nجبل جليدي (Jabal Jalali)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.0878551,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001693685,
+          "completion_tokens": 52,
+          "completion_time": 0.037391873,
+          "total_tokens": 93,
+          "total_time": 0.039085558
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:19:40+00:00"
+      }
+    ],
+    "70": [
+      {
+        "rep": 0,
+        "text": "سنگ",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086949013,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001688285,
+          "completion_tokens": 3,
+          "completion_time": 0.002217146,
+          "total_tokens": 43,
+          "total_time": 0.003905431
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:19:43+00:00"
+      }
+    ],
+    "71": [
+      {
+        "rep": 0,
+        "text": "اجوید (ānwār)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.127595505,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002329325,
+          "completion_tokens": 12,
+          "completion_time": 0.008687188,
+          "total_tokens": 53,
+          "total_time": 0.011016513
+        },
+        "latency_s": 2.41,
+        "at": "2026-10-07T21:19:45+00:00"
+      }
+    ],
+    "72": [
+      {
+        "rep": 0,
+        "text": "فاسد لحم",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086828838,
+          "prompt_tokens": 42,
+          "prompt_time": 0.001686964,
+          "completion_tokens": 4,
+          "completion_time": 0.002946285,
+          "total_tokens": 46,
+          "total_time": 0.004633249
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:19:47+00:00"
+      }
+    ],
+    "73": [
+      {
+        "rep": 0,
+        "text": "پایان نگهداشت",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084729224,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001689614,
+          "completion_tokens": 11,
+          "completion_time": 0.00795194,
+          "total_tokens": 51,
+          "total_time": 0.009641554
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:19:50+00:00"
+      }
+    ],
+    "74": [
+      {
+        "rep": 0,
+        "text": "کشمش (koshk)\nچیور (cheour)\nچیور پریچی (cheour paretchi)\nچیور سبز (cheour sabz)\nچیور گرم (cheour garm)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086486839,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001683225,
+          "completion_tokens": 58,
+          "completion_time": 0.042820771,
+          "total_tokens": 98,
+          "total_time": 0.044503996
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:19:52+00:00"
+      }
+    ],
+    "75": [
+      {
+        "rep": 0,
+        "text": "مَن",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08786155,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001690745,
+          "completion_tokens": 3,
+          "completion_time": 0.002224576,
+          "total_tokens": 42,
+          "total_time": 0.003915321
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:19:54+00:00"
+      }
+    ],
+    "76": [
+      {
+        "rep": 0,
+        "text": "زندانی (prisoner)\nمریم (Mary)\nزن (woman)\nزنی (female)\nزنگه (woman)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087925249,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001679454,
+          "completion_tokens": 37,
+          "completion_time": 0.026539408,
+          "total_tokens": 77,
+          "total_time": 0.028218862
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:19:56+00:00"
+      }
+    ],
+    "77": [
+      {
+        "rep": 0,
+        "text": "چشم‌انکار (cheشم‌anvar)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087874659,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001684274,
+          "completion_tokens": 19,
+          "completion_time": 0.013673733,
+          "total_tokens": 59,
+          "total_time": 0.015358007
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:19:59+00:00"
+      }
+    ],
+    "78": [
+      {
+        "rep": 0,
+        "text": "نام",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087905109,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001690914,
+          "completion_tokens": 3,
+          "completion_time": 0.002219386,
+          "total_tokens": 42,
+          "total_time": 0.0039103
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:20:01+00:00"
+      }
+    ],
+    "79": [
+      {
+        "rep": 0,
+        "text": "مَراکز (marcaz)\nچیفتن (chiftin)\nچینیدن (chinidan)\nتنگیدن (tangidan)\nچینی شدن (chinishdan)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08484949,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001833352,
+          "completion_tokens": 55,
+          "completion_time": 0.039428083,
+          "total_tokens": 95,
+          "total_time": 0.041261435
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:20:03+00:00"
+      }
+    ],
+    "80": [
+      {
+        "rep": 0,
+        "text": "چادر (tadbir)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.13692121,
+          "prompt_tokens": 40,
+          "prompt_time": 0.002315305,
+          "completion_tokens": 10,
+          "completion_time": 0.00724037,
+          "total_tokens": 50,
+          "total_time": 0.009555675
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:20:06+00:00"
+      }
+    ],
+    "81": [
+      {
+        "rep": 0,
+        "text": "ماده‌آلومینا - ماده فلزی یا منجیر\nمعدن - ماده فلزی\nمنجیر - منجیری\nمعدنی - ماده فلزی\nفلز - ماده فلزی",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087829587,
+          "prompt_tokens": 48,
+          "prompt_time": 0.001869482,
+          "completion_tokens": 54,
+          "completion_time": 0.038658534,
+          "total_tokens": 102,
+          "total_time": 0.040528016
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:20:08+00:00"
+      }
+    ],
+    "82": [
+      {
+        "rep": 0,
+        "text": "جيش (Jihāsh)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087998898,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001709564,
+          "completion_tokens": 9,
+          "completion_time": 0.006535401,
+          "total_tokens": 50,
+          "total_time": 0.008244965
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:20:10+00:00"
+      }
+    ],
+    "83": [
+      {
+        "rep": 0,
+        "text": "بازار",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086616442,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001682344,
+          "completion_tokens": 4,
+          "completion_time": 0.002935756,
+          "total_tokens": 43,
+          "total_time": 0.0046181
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T21:20:13+00:00"
+      }
+    ],
+    "84": [
+      {
+        "rep": 0,
+        "text": "درخت (darecht) - خواب (khubâb) - رقاد (raqâd) -ناسى (nasi) - غفلت (gheflât)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084476178,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001682874,
+          "completion_tokens": 42,
+          "completion_time": 0.030154233,
+          "total_tokens": 82,
+          "total_time": 0.031837107
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:20:15+00:00"
+      }
+    ],
+    "85": [
+      {
+        "rep": 0,
+        "text": "تضرع (tavarüz)\nتسبيح (tasbih)\nدعاء (da‘a)\nعبادة (‘abada)\nشكر (shukr)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088063908,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001727694,
+          "completion_tokens": 42,
+          "completion_time": 0.030170602,
+          "total_tokens": 82,
+          "total_time": 0.031898296
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T21:20:17+00:00"
+      }
+    ],
+    "86": [
+      {
+        "rep": 0,
+        "text": "پیسہ (peiza)\nکھانے کی نامی (khaneh kani nami)\nچپاک (chapak)\nچپکی (chapaki)\nچپکیاں (chapakian)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083849718,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001682134,
+          "completion_tokens": 60,
+          "completion_time": 0.043196646,
+          "total_tokens": 101,
+          "total_time": 0.04487878
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:20:20+00:00"
+      }
+    ],
+    "87": [
+      {
+        "rep": 0,
+        "text": "جلب (jalb)\nجلب (zabal)\nجلب (zabang)\nجلب (zabani)\nجلب (zabang-e zanan)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087971069,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001835692,
+          "completion_tokens": 39,
+          "completion_time": 0.027984196,
+          "total_tokens": 79,
+          "total_time": 0.029819888
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:20:22+00:00"
+      }
+    ],
+    "88": [
+      {
+        "rep": 0,
+        "text": "باز کردن",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087954031,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001682614,
+          "completion_tokens": 5,
+          "completion_time": 0.003652465,
+          "total_tokens": 44,
+          "total_time": 0.005335079
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:20:24+00:00"
+      }
+    ],
+    "89": [
+      {
+        "rep": 0,
+        "text": "رقص (Raqs)\n1. پرواز (Pavoz)\n2. رقص شرقي (Raqs Sharqi)\n3. رقص شعبي (Raqs Folklori)\n4. رقص معاصر (Raqs Kāverī)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087585609,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001703264,
+          "completion_tokens": 60,
+          "completion_time": 0.043147806,
+          "total_tokens": 100,
+          "total_time": 0.04485107
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:20:27+00:00"
+      }
+    ],
+    "90": [
+      {
+        "rep": 0,
+        "text": "مادر (Mother)\nمادر (Mother)\nمادر (Mother)\nمادر (Mother)\nمادر (Mother)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08316403,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001671744,
+          "completion_tokens": 36,
+          "completion_time": 0.025834318,
+          "total_tokens": 76,
+          "total_time": 0.027506062
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T21:20:29+00:00"
+      }
+    ],
+    "91": [
+      {
+        "rep": 0,
+        "text": "حال حاضر (hale hatir)\nحال حاضر (hale hatir)\nحال حاضر (hale hatir)\nحال حاضر (hale hatir)\nحال حاضر (hale hatir)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087636866,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001700054,
+          "completion_tokens": 46,
+          "completion_time": 0.03301488,
+          "total_tokens": 86,
+          "total_time": 0.034714934
+        },
+        "latency_s": 2.45,
+        "at": "2026-10-07T21:20:31+00:00"
+      }
+    ],
+    "92": [
+      {
+        "rep": 0,
+        "text": "اختلاس",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083731169,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001687585,
+          "completion_tokens": 4,
+          "completion_time": 0.002939906,
+          "total_tokens": 44,
+          "total_time": 0.004627491
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T21:20:34+00:00"
+      }
+    ],
+    "93": [
+      {
+        "rep": 0,
+        "text": "لحم گوشت (lahm gosht)\nلحم ني (lahm nai)\nلحم پلو (lahm pahlou)\nلحم خام (lahm kham)\nلحم زنده (lahm zanjeh)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086135688,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001685814,
+          "completion_tokens": 63,
+          "completion_time": 0.045233255,
+          "total_tokens": 104,
+          "total_time": 0.046919069
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:20:36+00:00"
+      }
+    ],
+    "94": [
+      {
+        "rep": 0,
+        "text": "دردانه (derâne)\nسباق (sabâq)\nرهیافت (reheyaft)\nسبک (sabek)\nسبکی (sabeki)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087512779,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001686774,
+          "completion_tokens": 47,
+          "completion_time": 0.033698899,
+          "total_tokens": 87,
+          "total_time": 0.035385673
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:20:38+00:00"
+      }
+    ],
+    "95": [
+      {
+        "rep": 0,
+        "text": "آژانس، آگهی، آگهی‌ها، سلاح، آگهی‌هایarmed",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087649995,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001692385,
+          "completion_tokens": 33,
+          "completion_time": 0.023697461,
+          "total_tokens": 74,
+          "total_time": 0.025389846
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:20:41+00:00"
+      }
+    ],
+    "96": [
+      {
+        "rep": 0,
+        "text": "شهر",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087777165,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001690494,
+          "completion_tokens": 3,
+          "completion_time": 0.002223196,
+          "total_tokens": 43,
+          "total_time": 0.00391369
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:20:43+00:00"
+      }
+    ],
+    "97": [
+      {
+        "rep": 0,
+        "text": "گرفتن (Garftan)\nانتخاب (Entikhab)\nچهانی (Chehâni)\nآوردن (Awardan)\nفرودن (Farodan)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08580892,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001835082,
+          "completion_tokens": 49,
+          "completion_time": 0.035153638,
+          "total_tokens": 88,
+          "total_time": 0.03698872
+        },
+        "latency_s": 2.44,
+        "at": "2026-10-07T21:20:46+00:00"
+      }
+    ],
+    "98": [
+      {
+        "rep": 0,
+        "text": "موقع (Mawqe)\nمنزل (Mahallel)\nموقع جغرافي (Mawqe jughrafi)\nمقر (Makarr)\nمكان (Makan)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087485464,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001951511,
+          "completion_tokens": 47,
+          "completion_time": 0.033753368,
+          "total_tokens": 87,
+          "total_time": 0.035704879
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:20:48+00:00"
+      }
+    ],
+    "99": [
+      {
+        "rep": 0,
+        "text": "میز",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086151191,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001831832,
+          "completion_tokens": 4,
+          "completion_time": 0.002948755,
+          "total_tokens": 43,
+          "total_time": 0.004780587
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:20:50+00:00"
+      }
+    ],
+    "100": [
+      {
+        "rep": 0,
+        "text": "قیاد کردن یا فکر کردن",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088001103,
+          "prompt_tokens": 42,
+          "prompt_time": 0.001702534,
+          "completion_tokens": 14,
+          "completion_time": 0.010116296,
+          "total_tokens": 56,
+          "total_time": 0.01181883
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:20:52+00:00"
+      }
+    ],
+    "101": [
+      {
+        "rep": 0,
+        "text": "جمر (jamr)\nشعل (shaval)\nنور (noor)\nشهاب (shahab)\nدخان (dokhan)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085743607,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001693335,
+          "completion_tokens": 39,
+          "completion_time": 0.027998115,
+          "total_tokens": 78,
+          "total_time": 0.02969145
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:20:55+00:00"
+      }
+    ],
+    "102": [
+      {
+        "rep": 0,
+        "text": "فروت (firūt)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083555832,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001836902,
+          "completion_tokens": 11,
+          "completion_time": 0.00794883,
+          "total_tokens": 51,
+          "total_time": 0.009785732
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:20:57+00:00"
+      }
+    ],
+    "103": [
+      {
+        "rep": 0,
+        "text": "دب (dab) | گر (ger) | گوشت (goosht) | گوشتی (gooshti) | گری (geri)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08578247,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001683015,
+          "completion_tokens": 41,
+          "completion_time": 0.029385395,
+          "total_tokens": 81,
+          "total_time": 0.03106841
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:20:59+00:00"
+      }
+    ],
+    "104": [
+      {
+        "rep": 0,
+        "text": "بیع (bīg)\nتسوق (tasawwot)\nاشتر (ishār)\nشراء (shurāya)\nعقد صفقة (ekhṭedād)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086006878,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001714854,
+          "completion_tokens": 49,
+          "completion_time": 0.035154727,
+          "total_tokens": 89,
+          "total_time": 0.036869581
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T21:21:02+00:00"
+      }
+    ],
+    "105": [
+      {
+        "rep": 0,
+        "text": "كلام یا زبان",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083619983,
+          "prompt_tokens": 42,
+          "prompt_time": 0.001835082,
+          "completion_tokens": 7,
+          "completion_time": 0.005101253,
+          "total_tokens": 49,
+          "total_time": 0.006936335
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:21:04+00:00"
+      }
+    ],
+    "106": [
+      {
+        "rep": 0,
+        "text": "نصرت (nusrat)\n\n1. پیروزی (peyrozi)\n2. افکار (afkar)\n3. پیروزی (peyrozi)\n4. پیروزی (peyrozi)\n5. پیروزی (peyrozi)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083949578,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001689185,
+          "completion_tokens": 72,
+          "completion_time": 0.05155675,
+          "total_tokens": 113,
+          "total_time": 0.053245935
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:21:06+00:00"
+      }
+    ],
+    "107": [
+      {
+        "rep": 0,
+        "text": "مادر (Mother)\nآواز (Voice)\nکار (Work)\nکارگر (Employee)\nکنفرانس (Conference)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087593191,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001695654,
+          "completion_tokens": 40,
+          "completion_time": 0.028678236,
+          "total_tokens": 80,
+          "total_time": 0.03037389
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T21:21:09+00:00"
+      }
+    ],
+    "108": [
+      {
+        "rep": 0,
+        "text": "قرويہ (Qarawiyah)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087591818,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001711814,
+          "completion_tokens": 12,
+          "completion_time": 0.008662699,
+          "total_tokens": 53,
+          "total_time": 0.010374513
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T21:21:11+00:00"
+      }
+    ],
+    "109": [
+      {
+        "rep": 0,
+        "text": "خمور (خمور)\nپادشاهی (بادشاهی)\nشکرگزدهی (شكرگزدهی)\nآرامش (آرامش)\nبهشتی (بهشتی)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086461506,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001697164,
+          "completion_tokens": 51,
+          "completion_time": 0.036566187,
+          "total_tokens": 91,
+          "total_time": 0.038263351
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:21:13+00:00"
+      }
+    ],
+    "110": [
+      {
+        "rep": 0,
+        "text": "روح",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085751582,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001751983,
+          "completion_tokens": 3,
+          "completion_time": 0.002227466,
+          "total_tokens": 43,
+          "total_time": 0.003979449
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:21:16+00:00"
+      }
+    ],
+    "111": [
+      {
+        "rep": 0,
+        "text": "تلف (talf)\nأضرار (a'mar)\nخسارة (khurasan)\nبهتان (bahman)\nفساد (fasad)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083714891,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001694964,
+          "completion_tokens": 38,
+          "completion_time": 0.027315017,
+          "total_tokens": 79,
+          "total_time": 0.029009981
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:21:18+00:00"
+      }
+    ],
+    "112": [
+      {
+        "rep": 0,
+        "text": "قاعة (qalla)\nمحل قضایی (mohalle-ye qodsiyye)\nمحكمة (mahta)\nقضایی (qodsiyye)\nقضایی (qodsiyye)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087871946,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001681244,
+          "completion_tokens": 55,
+          "completion_time": 0.039389234,
+          "total_tokens": 95,
+          "total_time": 0.041070478
+        },
+        "latency_s": 2.38,
+        "at": "2026-10-07T21:21:20+00:00"
+      }
+    ],
+    "113": [
+      {
+        "rep": 0,
+        "text": "​",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083439875,
+          "prompt_tokens": 42,
+          "prompt_time": 0.001694684,
+          "completion_tokens": 3,
+          "completion_time": 0.002228867,
+          "total_tokens": 45,
+          "total_time": 0.003923551
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:21:23+00:00"
+      }
+    ],
+    "114": [
+      {
+        "rep": 0,
+        "text": "من (mān)\n\n1. من (mān)\n2. آنا (āna)\n3. أو (ū)\n4. إي (ī)\n5. برو (bru)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087761389,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001694224,
+          "completion_tokens": 50,
+          "completion_time": 0.035837038,
+          "total_tokens": 89,
+          "total_time": 0.037531262
+        },
+        "latency_s": 2.42,
+        "at": "2026-10-07T21:21:25+00:00"
+      }
+    ],
+    "115": [
+      {
+        "rep": 0,
+        "text": "زئیر (Ze'yar)\nشبل (Shabl)\nيعفور (Yafar)\nأسد (Asad)\nذئب (Zeib)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085559718,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001833932,
+          "completion_tokens": 43,
+          "completion_time": 0.030870094,
+          "total_tokens": 83,
+          "total_time": 0.032704026
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:21:27+00:00"
+      }
+    ],
+    "116": [
+      {
+        "rep": 0,
+        "text": "چپ (chep)\nچپان (chepan)\nچپ‌شده (chepeshde)\nچپ‌شناسان (chepshinasan)\nچپ‌شناسانه (chepshinasane)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08788353,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001700465,
+          "completion_tokens": 63,
+          "completion_time": 0.045150817,
+          "total_tokens": 102,
+          "total_time": 0.046851282
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:21:30+00:00"
+      }
+    ],
+    "117": [
+      {
+        "rep": 0,
+        "text": "ملحمة",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086047369,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001723494,
+          "completion_tokens": 4,
+          "completion_time": 0.002939265,
+          "total_tokens": 45,
+          "total_time": 0.004662759
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T21:21:32+00:00"
+      }
+    ],
+    "118": [
+      {
+        "rep": 0,
+        "text": "آیایدن (aeyadun)\nپیش آمدی (peyesh adami)\nپیش آمد (peyesh adam)\nباز آیدن (baaz aeydn)\nباز آمدی (baaz adami)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.129148478,
+          "prompt_tokens": 39,
+          "prompt_time": 0.002311925,
+          "completion_tokens": 62,
+          "completion_time": 0.044404908,
+          "total_tokens": 101,
+          "total_time": 0.046716833
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:21:34+00:00"
+      }
+    ],
+    "119": [
+      {
+        "rep": 0,
+        "text": "قرباندیدن (qarabandidan)\nپیشرفت (peyeshart)\nپیچیده (pechede)\nپیچیدگی (pechedeghi)\nپیچیده‌ای (pechedeye)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086278473,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001696864,
+          "completion_tokens": 65,
+          "completion_time": 0.046578395,
+          "total_tokens": 104,
+          "total_time": 0.048275259
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:21:37+00:00"
+      }
+    ],
+    "120": [
+      {
+        "rep": 0,
+        "text": "بغض",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08753085,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001680225,
+          "completion_tokens": 3,
+          "completion_time": 0.002223816,
+          "total_tokens": 43,
+          "total_time": 0.003904041
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T21:21:39+00:00"
+      }
+    ],
+    "121": [
+      {
+        "rep": 0,
+        "text": "کلی (kolé)\nچادر (chadar)\nکلی (kolé)\nکلی (kolé)\nکلی (kolé)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085989285,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001833662,
+          "completion_tokens": 45,
+          "completion_time": 0.032221622,
+          "total_tokens": 85,
+          "total_time": 0.034055284
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:21:41+00:00"
+      }
+    ],
+    "122": [
+      {
+        "rep": 0,
+        "text": "بدن (بدن) | روستگو (روستگویی) | بدنگری (بدنگری) | بدنی (بدني) | بدنگر (بدنگر)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087973505,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001679805,
+          "completion_tokens": 52,
+          "completion_time": 0.037260836,
+          "total_tokens": 91,
+          "total_time": 0.038940641
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T21:21:44+00:00"
+      }
+    ],
+    "123": [
+      {
+        "rep": 0,
+        "text": "رماح (رمح)\nسهام (زنبيل)\nعصا (عصا)\nمنجنيق (منجانة)\nطلقة (طلقة)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085991788,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001727224,
+          "completion_tokens": 37,
+          "completion_time": 0.026519179,
+          "total_tokens": 78,
+          "total_time": 0.028246403
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:21:46+00:00"
+      }
+    ],
+    "124": [
+      {
+        "rep": 0,
+        "text": "بی‌نوشته | نوشته‌ای | بی‌نوشته‌ای | نوشته‌ای‌های بی‌نوشته",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085767188,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001681554,
+          "completion_tokens": 55,
+          "completion_time": 0.039359635,
+          "total_tokens": 95,
+          "total_time": 0.041041189
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T21:21:48+00:00"
+      }
+    ],
+    "125": [
+      {
+        "rep": 0,
+        "text": "تلميذ (Talib)\nمتعلم (Muta'allim)\nطالب (Talib)\nقرص (Qariz)\nمتعلم (Muta'allim)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.092800134,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002398504,
+          "completion_tokens": 43,
+          "completion_time": 0.030831343,
+          "total_tokens": 84,
+          "total_time": 0.033229847
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:21:51+00:00"
+      }
+    ],
+    "126": [
+      {
+        "rep": 0,
+        "text": "دکتر (dokhtar)\nاطباء (ehtiyāt)\nاطباء (ehtiyāt)\nاطباء (ehtiyāt)\nاطباء (ehtiyāt)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085878964,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001759733,
+          "completion_tokens": 51,
+          "completion_time": 0.036515067,
+          "total_tokens": 91,
+          "total_time": 0.0382748
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:21:53+00:00"
+      }
+    ],
+    "127": [
+      {
+        "rep": 0,
+        "text": "أمر (amr)\nتعليم (taʾlim)\nإرشاد (irshād)\nنهى (nahy)\nوصية (wisya)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086406273,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001694784,
+          "completion_tokens": 40,
+          "completion_time": 0.028648997,
+          "total_tokens": 79,
+          "total_time": 0.030343781
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:21:55+00:00"
+      }
+    ],
+    "128": [
+      {
+        "rep": 0,
+        "text": "پرنده کردن",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087380453,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001836692,
+          "completion_tokens": 7,
+          "completion_time": 0.005084333,
+          "total_tokens": 47,
+          "total_time": 0.006921025
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:21:58+00:00"
+      }
+    ],
+    "129": [
+      {
+        "rep": 0,
+        "text": "جلستن (jalseten)\nقعژدن (qoghdan)\nرسيدن (raseden)\nثبت کردن (betakarand)\nثبت شدن (betashen)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087553345,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001684135,
+          "completion_tokens": 48,
+          "completion_time": 0.03434678,
+          "total_tokens": 88,
+          "total_time": 0.036030915
+        },
+        "latency_s": 2.44,
+        "at": "2026-10-07T21:22:00+00:00"
+      }
+    ],
+    "130": [
+      {
+        "rep": 0,
+        "text": "ليل",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083878355,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001912921,
+          "completion_tokens": 3,
+          "completion_time": 0.002224987,
+          "total_tokens": 43,
+          "total_time": 0.004137908
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:22:02+00:00"
+      }
+    ],
+    "131": [
+      {
+        "rep": 0,
+        "text": "سؤال (qoosol)\nپرسش (peresh)\nپرس (peras)\nپرسیدہ (perasidah)\nپرسیدن (peresidan)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087298364,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001902191,
+          "completion_tokens": 47,
+          "completion_time": 0.033954437,
+          "total_tokens": 87,
+          "total_time": 0.035856628
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:22:05+00:00"
+      }
+    ],
+    "132": [
+      {
+        "rep": 0,
+        "text": "گویه (gooyeh)\nکریم گویه (kreem gooyeh)\nگویه پرده (gooyeh pardeh)\nگویه گرم (gooyeh garam)\nگویه پرده گرم (gooyeh pardeh garam)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083217334,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001975489,
+          "completion_tokens": 72,
+          "completion_time": 0.051950564,
+          "total_tokens": 113,
+          "total_time": 0.053926053
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:22:07+00:00"
+      }
+    ],
+    "133": [
+      {
+        "rep": 0,
+        "text": "مسكن (makan)\nمنزل (aziz)\nمأوى (wakil)\nمقام (qamus)\nسكن (sakan)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085507722,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001835103,
+          "completion_tokens": 40,
+          "completion_time": 0.028951262,
+          "total_tokens": 80,
+          "total_time": 0.030786365
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:22:10+00:00"
+      }
+    ],
+    "134": [
+      {
+        "rep": 0,
+        "text": "چشم (chezmar) | گوش (goosh) | پا (paa) | پشت (chort) | من (man)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085935035,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001680545,
+          "completion_tokens": 35,
+          "completion_time": 0.024954443,
+          "total_tokens": 74,
+          "total_time": 0.026634988
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:22:12+00:00"
+      }
+    ],
+    "135": [
+      {
+        "rep": 0,
+        "text": "نجم (najm)\nنجم (nazm)\nنجمة (nazmā)\nنجمة (nazm)\nنجمة (nazmā)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083658797,
+          "prompt_tokens": 39,
+          "prompt_time": 0.002313235,
+          "completion_tokens": 42,
+          "completion_time": 0.029918627,
+          "total_tokens": 81,
+          "total_time": 0.032231862
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:22:14+00:00"
+      }
+    ],
+    "136": [
+      {
+        "rep": 0,
+        "text": "درب یا سفر",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08601651,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001696785,
+          "completion_tokens": 6,
+          "completion_time": 0.004362584,
+          "total_tokens": 47,
+          "total_time": 0.006059369
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T21:22:17+00:00"
+      }
+    ],
+    "137": [
+      {
+        "rep": 0,
+        "text": "تعجب",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086178251,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001833392,
+          "completion_tokens": 3,
+          "completion_time": 0.002224206,
+          "total_tokens": 43,
+          "total_time": 0.004057598
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T21:22:19+00:00"
+      }
+    ],
+    "138": [
+      {
+        "rep": 0,
+        "text": "رفع یا ايقاظ",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086272264,
+          "prompt_tokens": 43,
+          "prompt_time": 0.001834052,
+          "completion_tokens": 8,
+          "completion_time": 0.005797962,
+          "total_tokens": 51,
+          "total_time": 0.007632014
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:22:21+00:00"
+      }
+    ],
+    "139": [
+      {
+        "rep": 0,
+        "text": "عسل (ehzal)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086365126,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001679395,
+          "completion_tokens": 8,
+          "completion_time": 0.005797872,
+          "total_tokens": 48,
+          "total_time": 0.007477267
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:22:23+00:00"
+      }
+    ],
+    "140": [
+      {
+        "rep": 0,
+        "text": "كذب",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086122665,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001697604,
+          "completion_tokens": 3,
+          "completion_time": 0.002219376,
+          "total_tokens": 43,
+          "total_time": 0.00391698
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:22:26+00:00"
+      }
+    ],
+    "141": [
+      {
+        "rep": 0,
+        "text": "تَضحیه (tasdiq)، سپاسگزاری (sabasghar), گذاشتن (gahavaran), گذاشته شدن (gahavishtan), گذاشته شکستن (gahavishteshkan)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085769374,
+          "prompt_tokens": 41,
+          "prompt_time": 0.002316855,
+          "completion_tokens": 64,
+          "completion_time": 0.045826317,
+          "total_tokens": 105,
+          "total_time": 0.048143172
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T21:22:28+00:00"
+      }
+    ],
+    "142": [
+      {
+        "rep": 0,
+        "text": "باخرة (باخره)\nقارب (قارب)\nسفينة (سفينه)\nعبّارة (عبره)\nناقلة (ناقله)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08584351,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001682315,
+          "completion_tokens": 37,
+          "completion_time": 0.026488269,
+          "total_tokens": 77,
+          "total_time": 0.028170584
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:22:30+00:00"
+      }
+    ],
+    "143": [
+      {
+        "rep": 0,
+        "text": "اعتماد",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086154715,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001837003,
+          "completion_tokens": 3,
+          "completion_time": 0.002225916,
+          "total_tokens": 43,
+          "total_time": 0.004062919
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:22:33+00:00"
+      }
+    ],
+    "144": [
+      {
+        "rep": 0,
+        "text": "کتابیدن (kɑːˈtɑːbiːdn)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086115963,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001683985,
+          "completion_tokens": 24,
+          "completion_time": 0.017225289,
+          "total_tokens": 63,
+          "total_time": 0.018909274
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:22:35+00:00"
+      }
+    ],
+    "145": [
+      {
+        "rep": 0,
+        "text": "آگهی (ağhee)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.092638013,
+          "prompt_tokens": 40,
+          "prompt_time": 0.002401094,
+          "completion_tokens": 13,
+          "completion_time": 0.009320449,
+          "total_tokens": 53,
+          "total_time": 0.011721543
+        },
+        "latency_s": 2.39,
+        "at": "2026-10-07T21:22:37+00:00"
+      }
+    ],
+    "146": [
+      {
+        "rep": 0,
+        "text": "ماندنگ (ماندهینگ)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083506338,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001835262,
+          "completion_tokens": 12,
+          "completion_time": 0.008609739,
+          "total_tokens": 51,
+          "total_time": 0.010445001
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:22:40+00:00"
+      }
+    ],
+    "147": [
+      {
+        "rep": 0,
+        "text": "خريف (chaharshanbe)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083841948,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001682904,
+          "completion_tokens": 10,
+          "completion_time": 0.007186001,
+          "total_tokens": 50,
+          "total_time": 0.008868905
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T21:22:42+00:00"
+      }
+    ],
+    "148": [
+      {
+        "rep": 0,
+        "text": "فصل پرداز (Fall o Parv)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083697795,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001833982,
+          "completion_tokens": 14,
+          "completion_time": 0.010030828,
+          "total_tokens": 54,
+          "total_time": 0.01186481
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T21:22:44+00:00"
+      }
+    ],
+    "149": [
+      {
+        "rep": 0,
+        "text": "روشندم (Roozam)\nروزنامه (Rooznameh)\nرؤیه (Roo'yeh)\nرؤیا (Roo'ya)\nرؤیهٔ (Roo'yeh')",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083874976,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001683745,
+          "completion_tokens": 56,
+          "completion_time": 0.039927936,
+          "total_tokens": 96,
+          "total_time": 0.041611681
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:22:47+00:00"
+      }
+    ],
+    "150": [
+      {
+        "rep": 0,
+        "text": "جداره، آرامگاه، آرامگاهی، آرامگاهی‌ها",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085533269,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001839393,
+          "completion_tokens": 25,
+          "completion_time": 0.017959118,
+          "total_tokens": 65,
+          "total_time": 0.019798511
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:22:49+00:00"
+      }
+    ],
+    "151": [
+      {
+        "rep": 0,
+        "text": "تختیک (takhtiک) | تختی (takhti) | تختیدن (takhtidan) | تختیک كردن (takhti-kardan) | تختی کردن (takhti-kardan)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084054463,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001717574,
+          "completion_tokens": 63,
+          "completion_time": 0.045148657,
+          "total_tokens": 104,
+          "total_time": 0.046866231
+        },
+        "latency_s": 2.42,
+        "at": "2026-10-07T21:22:51+00:00"
+      }
+    ],
+    "152": [
+      {
+        "rep": 0,
+        "text": "میم (mîm)\nکیو (keev)\nچینی (chînî)\nکوچک (kooček)\nچینی (chînî)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086338246,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001684285,
+          "completion_tokens": 47,
+          "completion_time": 0.03372098,
+          "total_tokens": 87,
+          "total_time": 0.035405265
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:22:54+00:00"
+      }
+    ],
+    "153": [
+      {
+        "rep": 0,
+        "text": "ترجمه کلمه انگلیسی به فارسی:\n\nمنبع\n\n1. منبع\n2. روند\n3. منبعی\n4. مصدر\n5. اصل",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08609591,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001680894,
+          "completion_tokens": 43,
+          "completion_time": 0.030858014,
+          "total_tokens": 82,
+          "total_time": 0.032538908
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:22:56+00:00"
+      }
+    ],
+    "154": [
+      {
+        "rep": 0,
+        "text": "معبد (meydân)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083824418,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001691205,
+          "completion_tokens": 10,
+          "completion_time": 0.007231611,
+          "total_tokens": 50,
+          "total_time": 0.008922816
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:22:58+00:00"
+      }
+    ],
+    "155": [
+      {
+        "rep": 0,
+        "text": "می‌خوام",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085900488,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001685044,
+          "completion_tokens": 8,
+          "completion_time": 0.005803092,
+          "total_tokens": 48,
+          "total_time": 0.007488136
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T21:23:01+00:00"
+      }
+    ],
+    "156": [
+      {
+        "rep": 0,
+        "text": "گربه (ghorbe)\nچشمگیر (chezmagir)\nکیهان (keeyaan)\nچشمگیری (chezmagiri)\nچشمگیری (chezmagiri)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085876255,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001691054,
+          "completion_tokens": 53,
+          "completion_time": 0.038009976,
+          "total_tokens": 93,
+          "total_time": 0.03970103
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:23:03+00:00"
+      }
+    ],
+    "157": [
+      {
+        "rep": 0,
+        "text": "چشم (chezham) | گوش (goosh) | گوشده (gooshde) | گوشگاه (gooshgah) | گوشی (gooshî)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.092247981,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001907851,
+          "completion_tokens": 45,
+          "completion_time": 0.032267412,
+          "total_tokens": 84,
+          "total_time": 0.034175263
+        },
+        "latency_s": 2.42,
+        "at": "2026-10-07T21:23:05+00:00"
+      }
+    ],
+    "158": [
+      {
+        "rep": 0,
+        "text": "زنك",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085600102,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001835033,
+          "completion_tokens": 4,
+          "completion_time": 0.002948045,
+          "total_tokens": 44,
+          "total_time": 0.004783078
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:23:08+00:00"
+      }
+    ],
+    "159": [
+      {
+        "rep": 0,
+        "text": "جيش (Jihāsh)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.090113099,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001918551,
+          "completion_tokens": 9,
+          "completion_time": 0.006491282,
+          "total_tokens": 50,
+          "total_time": 0.008409833
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:23:10+00:00"
+      }
+    ],
+    "160": [
+      {
+        "rep": 0,
+        "text": "هواء (Aheaa)\nرياح (Riyah)\nهوا (Hua)\nهوای (Hu'a)\nعاصفة (Asefah)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085524018,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001833213,
+          "completion_tokens": 43,
+          "completion_time": 0.032166244,
+          "total_tokens": 82,
+          "total_time": 0.033999457
+        },
+        "latency_s": 2.38,
+        "at": "2026-10-07T21:23:12+00:00"
+      }
+    ],
+    "161": [
+      {
+        "rep": 0,
+        "text": "حرف (harf)\nنقطه (nadamate)\nرمز (ramz)\nحرف (hafiz)\nرمز (ramz)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085645271,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001677605,
+          "completion_tokens": 35,
+          "completion_time": 0.025029512,
+          "total_tokens": 75,
+          "total_time": 0.026707117
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:23:15+00:00"
+      }
+    ],
+    "162": [
+      {
+        "rep": 0,
+        "text": "زمان (zamani)\nوقتما (waktamana)\nحين (حين)\nحينئذ (zaman-e dahom)\nآن گاه (a-n gah)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086097829,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001835232,
+          "completion_tokens": 45,
+          "completion_time": 0.032165245,
+          "total_tokens": 84,
+          "total_time": 0.034000477
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:23:17+00:00"
+      }
+    ],
+    "163": [
+      {
+        "rep": 0,
+        "text": "عَزم (azm)\n\n1. عزیم (ezam)\n2. عزمی (ezmi)\n3. عزمت (ezmat)\n4. عزمی‌شناسی (ezm-ešnāsī)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083297511,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001693705,
+          "completion_tokens": 58,
+          "completion_time": 0.041308626,
+          "total_tokens": 97,
+          "total_time": 0.043002331
+        },
+        "latency_s": 2.41,
+        "at": "2026-10-07T21:23:19+00:00"
+      }
+    ],
+    "164": [
+      {
+        "rep": 0,
+        "text": "فصل ربيعا",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083040801,
+          "prompt_tokens": 40,
+          "prompt_time": 0.002313145,
+          "completion_tokens": 5,
+          "completion_time": 0.003629975,
+          "total_tokens": 45,
+          "total_time": 0.00594312
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:23:22+00:00"
+      }
+    ],
+    "165": [
+      {
+        "rep": 0,
+        "text": "روح (rooh)\nروح (rooh)\nقلب (qalb)\nآسمان (asman)\nشمازده (shomazde)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085948164,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001674115,
+          "completion_tokens": 37,
+          "completion_time": 0.026419451,
+          "total_tokens": 77,
+          "total_time": 0.028093566
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:23:24+00:00"
+      }
+    ],
+    "166": [
+      {
+        "rep": 0,
+        "text": "گل (Gol)\nزنبقه (Zanbagh)\nعشب (Asb)\nنبات (Nabat)\nخورشيدی (Khorasheedi)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086408758,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001691375,
+          "completion_tokens": 44,
+          "completion_time": 0.031424044,
+          "total_tokens": 84,
+          "total_time": 0.033115419
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:23:26+00:00"
+      }
+    ],
+    "167": [
+      {
+        "rep": 0,
+        "text": "فعل (faaʿl)\n1. عمل (amal)\n2. نشاط (nazdik)\n3. فعل (faʿla)\n4. حركة (haraaka)\n5. تصرف (tarkeebe)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085966106,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001720644,
+          "completion_tokens": 56,
+          "completion_time": 0.040120233,
+          "total_tokens": 95,
+          "total_time": 0.041840877
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:23:29+00:00"
+      }
+    ],
+    "168": [
+      {
+        "rep": 0,
+        "text": "آبرود (Abarood) | رودخانه (Roodkhaneh) | تختی (Takhti) | شهری (Shahri) | آبشار (Abbashar)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085865081,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001692755,
+          "completion_tokens": 46,
+          "completion_time": 0.032997791,
+          "total_tokens": 86,
+          "total_time": 0.034690546
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:23:31+00:00"
+      }
+    ],
+    "169": [
+      {
+        "rep": 0,
+        "text": "غضب (ghubb)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085924343,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001701514,
+          "completion_tokens": 7,
+          "completion_time": 0.005115323,
+          "total_tokens": 47,
+          "total_time": 0.006816837
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:23:33+00:00"
+      }
+    ],
+    "170": [
+      {
+        "rep": 0,
+        "text": "حافه",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085891094,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001717214,
+          "completion_tokens": 4,
+          "completion_time": 0.002927776,
+          "total_tokens": 44,
+          "total_time": 0.00464499
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:23:36+00:00"
+      }
+    ],
+    "171": [
+      {
+        "rep": 0,
+        "text": "آمَل",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086167011,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001884962,
+          "completion_tokens": 4,
+          "completion_time": 0.003005335,
+          "total_tokens": 44,
+          "total_time": 0.004890297
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:23:38+00:00"
+      }
+    ],
+    "172": [
+      {
+        "rep": 0,
+        "text": "پایان (paian)\nپاد (pad)\nپا (pa)\nنعل (nul)\nپاچ (patach)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086323846,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001699494,
+          "completion_tokens": 37,
+          "completion_time": 0.026551629,
+          "total_tokens": 77,
+          "total_time": 0.028251123
+        },
+        "latency_s": 2.42,
+        "at": "2026-10-07T21:23:40+00:00"
+      }
+    ],
+    "173": [
+      {
+        "rep": 0,
+        "text": "تناول",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085628317,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001836922,
+          "completion_tokens": 3,
+          "completion_time": 0.002226727,
+          "total_tokens": 43,
+          "total_time": 0.004063649
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:23:43+00:00"
+      }
+    ],
+    "174": [
+      {
+        "rep": 0,
+        "text": "گلی (goli)\nعطر (afrâj)\nعشب (eshab)\nنبات (nabât)\nچیزی گیاهی (chizi gheyâhi)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086073457,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001725074,
+          "completion_tokens": 52,
+          "completion_time": 0.037275597,
+          "total_tokens": 92,
+          "total_time": 0.039000671
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:23:45+00:00"
+      }
+    ],
+    "175": [
+      {
+        "rep": 0,
+        "text": "فِریاد",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08413573,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001756754,
+          "completion_tokens": 6,
+          "completion_time": 0.004368823,
+          "total_tokens": 46,
+          "total_time": 0.006125577
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:23:47+00:00"
+      }
+    ],
+    "176": [
+      {
+        "rep": 0,
+        "text": "صدر (sadr)\nصدر (zodar)\nصدر (zodar)\nصدر (sadr)\nصدر (zodar)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086299285,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001700584,
+          "completion_tokens": 34,
+          "completion_time": 0.024376731,
+          "total_tokens": 74,
+          "total_time": 0.026077315
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:23:50+00:00"
+      }
+    ],
+    "177": [
+      {
+        "rep": 0,
+        "text": "منتہ -> مَنثَه (مَنْتَه)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085834415,
+          "prompt_tokens": 46,
+          "prompt_time": 0.001853682,
+          "completion_tokens": 14,
+          "completion_time": 0.010097377,
+          "total_tokens": 60,
+          "total_time": 0.011951059
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T21:23:52+00:00"
+      }
+    ],
+    "178": [
+      {
+        "rep": 0,
+        "text": "کاروانسرا\nسیاره\nخانهٔ کشاورزی\nتکه‌های خانهٔ کشوری\nکارگاه",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086176935,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001833242,
+          "completion_tokens": 41,
+          "completion_time": 0.029384806,
+          "total_tokens": 82,
+          "total_time": 0.031218048
+        },
+        "latency_s": 2.41,
+        "at": "2026-10-07T21:23:54+00:00"
+      }
+    ],
+    "179": [
+      {
+        "rep": 0,
+        "text": "عسل (ehzal)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085750287,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001725264,
+          "completion_tokens": 8,
+          "completion_time": 0.005796593,
+          "total_tokens": 48,
+          "total_time": 0.007521857
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:23:57+00:00"
+      }
+    ],
+    "180": [
+      {
+        "rep": 0,
+        "text": "درگیر (Dareghir)\nدمعه (Damage)\nعبره (Abarah)\nخشم (Khashim)\nآبگش (Abbaghash)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085851861,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001675425,
+          "completion_tokens": 45,
+          "completion_time": 0.032382461,
+          "total_tokens": 85,
+          "total_time": 0.034057886
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:23:59+00:00"
+      }
+    ],
+    "181": [
+      {
+        "rep": 0,
+        "text": "خانزاده (خانزه دار)\nخانه مال (خانه مالی)\nخانه مالیه (خانه مالی)\nخانه مالی (خانه مالی)\nخانه مالیه (خانه مالی)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083699359,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001697814,
+          "completion_tokens": 53,
+          "completion_time": 0.037959997,
+          "total_tokens": 94,
+          "total_time": 0.039657811
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:24:01+00:00"
+      }
+    ],
+    "182": [
+      {
+        "rep": 0,
+        "text": "مل",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086386951,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001715784,
+          "completion_tokens": 3,
+          "completion_time": 0.002221066,
+          "total_tokens": 43,
+          "total_time": 0.00393685
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:24:04+00:00"
+      }
+    ],
+    "183": [
+      {
+        "rep": 0,
+        "text": "کوه (kōh)\nهضبة (hāvāt)\nجبل (jabal)\nتلة (talā)\nجبل صغير (jabal-e kabir)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086059053,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001678705,
+          "completion_tokens": 50,
+          "completion_time": 0.036284442,
+          "total_tokens": 90,
+          "total_time": 0.037963147
+        },
+        "latency_s": 2.45,
+        "at": "2026-10-07T21:24:06+00:00"
+      }
+    ],
+    "184": [
+      {
+        "rep": 0,
+        "text": "گشتم کردن به پایان یا ناپایداری",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086274909,
+          "prompt_tokens": 44,
+          "prompt_time": 0.001912121,
+          "completion_tokens": 20,
+          "completion_time": 0.014363063,
+          "total_tokens": 64,
+          "total_time": 0.016275184
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:24:08+00:00"
+      }
+    ],
+    "185": [
+      {
+        "rep": 0,
+        "text": "پادشاهانی (Padshahi)\nفریبرز (Farībars)\nپادشاهی (Padshahi)\nپادشاه (Padshah)\nپادشاهان (Padshahān)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08614028,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001678475,
+          "completion_tokens": 56,
+          "completion_time": 0.040069225,
+          "total_tokens": 95,
+          "total_time": 0.0417477
+        },
+        "latency_s": 2.7,
+        "at": "2026-10-07T21:24:11+00:00"
+      }
+    ],
+    "186": [
+      {
+        "rep": 0,
+        "text": "جذوع خشب",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08594347,
+          "prompt_tokens": 42,
+          "prompt_time": 0.001836132,
+          "completion_tokens": 5,
+          "completion_time": 0.003652345,
+          "total_tokens": 47,
+          "total_time": 0.005488477
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:24:14+00:00"
+      }
+    ],
+    "187": [
+      {
+        "rep": 0,
+        "text": "نادی",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085769132,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001833492,
+          "completion_tokens": 4,
+          "completion_time": 0.002936676,
+          "total_tokens": 44,
+          "total_time": 0.004770168
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:24:16+00:00"
+      }
+    ],
+    "188": [
+      {
+        "rep": 0,
+        "text": "تَعَلَّم",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085825825,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001837272,
+          "completion_tokens": 5,
+          "completion_time": 0.003629285,
+          "total_tokens": 46,
+          "total_time": 0.005466557
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T21:24:18+00:00"
+      }
+    ],
+    "189": [
+      {
+        "rep": 0,
+        "text": "تَغرِير",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08332968,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001737564,
+          "completion_tokens": 5,
+          "completion_time": 0.003659084,
+          "total_tokens": 45,
+          "total_time": 0.005396648
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:24:20+00:00"
+      }
+    ],
+    "190": [
+      {
+        "rep": 0,
+        "text": "گوساله (gošaleh)\nخنزير (češmir)\nخنزير بري (češmari)\nخنزير صغير (češmak)\nخنزير البحر (češmak važ)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085588898,
+          "prompt_tokens": 40,
+          "prompt_time": 0.002362714,
+          "completion_tokens": 55,
+          "completion_time": 0.039129739,
+          "total_tokens": 95,
+          "total_time": 0.041492453
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T21:24:23+00:00"
+      }
+    ],
+    "191": [
+      {
+        "rep": 0,
+        "text": "پاکه (paḵe)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086034125,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001682584,
+          "completion_tokens": 13,
+          "completion_time": 0.00932453,
+          "total_tokens": 53,
+          "total_time": 0.011007114
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T21:24:25+00:00"
+      }
+    ],
+    "192": [
+      {
+        "rep": 0,
+        "text": "گل (gol)\nزردگل (zardgol)\nکشک گل (keshk gol)\nکشک گل مرغ (keshk gol marag)\nگل مرغ (gol marag)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086028237,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001975831,
+          "completion_tokens": 56,
+          "completion_time": 0.039865258,
+          "total_tokens": 96,
+          "total_time": 0.041841089
+        },
+        "latency_s": 2.39,
+        "at": "2026-10-07T21:24:27+00:00"
+      }
+    ],
+    "193": [
+      {
+        "rep": 0,
+        "text": "بقره (beqareh)\nکنگور (kangur)\nکنگوری (kanguri)\nکنگوریک (kangurik)\nکنگوریکه (kangurike)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086192298,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001702874,
+          "completion_tokens": 54,
+          "completion_time": 0.03843994,
+          "total_tokens": 94,
+          "total_time": 0.040142814
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:24:30+00:00"
+      }
+    ],
+    "194": [
+      {
+        "rep": 0,
+        "text": "راس",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085919967,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001726314,
+          "completion_tokens": 3,
+          "completion_time": 0.002205567,
+          "total_tokens": 42,
+          "total_time": 0.003931881
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T21:24:32+00:00"
+      }
+    ],
+    "195": [
+      {
+        "rep": 0,
+        "text": "سلام (salam)\nبهشت (behesht)\nهر دو (hadrû)\nآرام (âram)\nآمان (âman)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085849754,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001686894,
+          "completion_tokens": 38,
+          "completion_time": 0.027080082,
+          "total_tokens": 78,
+          "total_time": 0.028766976
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T21:24:34+00:00"
+      }
+    ],
+    "196": [
+      {
+        "rep": 0,
+        "text": "خداوند (خداونژ)\nخدا\nاله\nالهي\nالاله",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.096146224,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001916701,
+          "completion_tokens": 23,
+          "completion_time": 0.016425873,
+          "total_tokens": 62,
+          "total_time": 0.018342574
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T21:24:37+00:00"
+      }
+    ],
+    "197": [
+      {
+        "rep": 0,
+        "text": "عصفیر (espîr)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083299316,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001830572,
+          "completion_tokens": 10,
+          "completion_time": 0.007186222,
+          "total_tokens": 50,
+          "total_time": 0.009016794
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T21:24:39+00:00"
+      }
+    ],
+    "198": [
+      {
+        "rep": 0,
+        "text": "زدن به روز (Zadan-e roz)\nزدن به ماه (Zadan-e maah)\nزدن به شهر (Zadan-e shahr)\nزدن به سنه (Zadan-e saneh)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086229221,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001830382,
+          "completion_tokens": 54,
+          "completion_time": 0.03845403,
+          "total_tokens": 94,
+          "total_time": 0.040284412
+        },
+        "latency_s": 2.38,
+        "at": "2026-10-07T21:24:41+00:00"
+      }
+    ],
+    "199": [
+      {
+        "rep": 0,
+        "text": "قتل (qَتَل)\n1. قتل (qَتَلَ)\n2. زهک (zahrak)\n3. دشمن‌آوری (dishman-avari)\n4. آفتاب‌گیری (aftab-girani)\n5. آفتاب‌آوری (aftab-avari)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083505438,
+          "prompt_tokens": 40,
+          "prompt_time": 0.002311565,
+          "completion_tokens": 85,
+          "completion_time": 0.060996738,
+          "total_tokens": 125,
+          "total_time": 0.063308303
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T21:24:44+00:00"
+      }
+    ],
+    "200": [
+      {
+        "rep": 0,
+        "text": "نور (noor)\nضوء (vooz)\nبهار (behvar)\nسرور (seroor)\nرشت (reshad)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085674025,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001829432,
+          "completion_tokens": 37,
+          "completion_time": 0.026347152,
+          "total_tokens": 76,
+          "total_time": 0.028176584
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T21:24:46+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

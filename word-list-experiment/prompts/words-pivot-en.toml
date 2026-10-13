@@ -1,0 +1,6 @@
+# pivot step 1: Greek to English
+user = """
+Translate this Ancient Greek word into English. Give the single most usual English equivalent and nothing else.
+
+{{SOURCE}}
+"""

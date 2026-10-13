@@ -1,0 +1,201 @@
+﻿id,greek,pos,role,sense,english,fa_correct,fa_via_english,paired_with,note,keep
+1,γεωργός,noun,filler,farmer,,کشاورز,,,,
+2,οἶκος,noun,filler,"house, household",,خانه,,,,
+3,φοῖνιξ,noun,trap,date palm; Phoenician; purple,date / palm,خرما، نخل؛ فنیقی؛ ارغوانی,تاریخ؛ کف دست,παλάμη,All Greek senses legitimate; only تاریخ / کف دست are diagnostic,y
+4,κρόταφος,noun,trap,temple (of the head),temple,شقیقه,معبد,ναός,,y
+5,ἱερεύς,noun,filler,priest,,کاهن,,,,
+6,βάλλω,verb,filler,throw,,پرتاب کردن,,,,
+7,στῆθος,noun,trap,"chest, breast",chest,سینه,صندوق,κιβωτός,,y
+8,διώκω,verb,filler,pursue,,دنبال کردن,,,,
+9,κτίζω,verb,filler,found (a city),,بنیاد نهادن,,,,
+10,νόμος,noun,filler,"law, custom",,قانون، رسم,,,,
+11,σῶμα,noun,filler,body,,تن، بدن,,,,
+12,καλέω,verb,filler,call,,خواندن، صدا زدن,,,,
+13,δίκη,noun,trap,justice; lawsuit; penalty,suit,داد، عدالت؛ دعوا,کت و شلوار,,,y
+14,ἔχω,verb,filler,"have, hold",,داشتن,,,,
+15,ἵππος,noun,filler,horse,,اسب,,,,
+16,τρέχω,verb,filler,run,,دویدن,,,,
+17,κορώνη,noun,trap,"crow (bird); crook, curved tip",crow,کلاغ,بانگ خروس,,"Greek also 'crook, curved thing' (legitimate)",y
+18,φοβέομαι,verb,filler,fear,,ترسیدن,,,,
+19,φιλέω,verb,filler,love,,دوست داشتن,,,,
+20,φῶς,noun,trap,light,light,نور، روشنایی,سبک,ἐλαφρός,,y
+21,ἡμέρα,noun,filler,day,,روز,,,,
+22,χιών,noun,filler,snow,,برف,,,,
+23,ταχύς,adjective,trap,quick,fast,تند، سریع,روزه,νηστεία,,y
+24,ξίφος,noun,filler,sword,,شمشیر,,,,
+25,θάνατος,noun,filler,death,,مرگ,,,,
+26,θήρα,noun,trap,"hunting; game, prey",game,شکار,بازی,,,y
+27,ἀγγεῖον,noun,trap,"vessel, container",vessel,ظرف,کشتی؛ رگ,,,y
+28,ἀκούω,verb,filler,hear,,شنیدن,,,,
+29,ὁράω,verb,filler,see,,دیدن,,,,
+30,σελήνη,noun,filler,moon,,ماه,,,,
+31,δακτύλιος,noun,trap,ring (finger ring),ring,انگشتر,زنگ,,,y
+32,θύρα,noun,filler,door,,در,,,,
+33,ὄνυξ,noun,trap,"fingernail, claw",nail,ناخن، چنگال,میخ,ἧλος,Greek also 'onyx' (legitimate Greek sense),y
+34,πείθω,verb,filler,persuade,,قانع کردن، متقاعد کردن,,,,
+35,φυτόν,noun,trap,plant,plant,گیاه,کارخانه,,,y
+36,χρυσός,noun,filler,gold,,طلا، زر,,,,
+37,ὄφις,noun,filler,snake,,مار,,,,
+38,διδάσκω,verb,filler,teach,,آموزش دادن، یاد دادن,,,,
+39,πέμπω,verb,filler,send,,فرستادن,,,,
+40,ὕδωρ,noun,filler,water,,آب,,,,
+41,πίπτω,verb,trap,fall,fall,افتادن,پاییز,,,y
+42,γιγνώσκω,verb,filler,"know, recognise",,شناختن، دانستن,,,,
+43,σίδηρος,noun,filler,iron,,آهن,,,,
+44,οἰκοδομέω,verb,filler,build,,ساختن، بنا کردن,,,,
+45,νῆσσα,noun,trap,duck,duck,اردک,خم شدن، جاخالی دادن,,Attic νῆττα,y
+46,πέτομαι,verb,trap,fly,fly,پرواز کردن,مگس,μυῖα,,y
+47,ἥλιος,noun,filler,sun,,خورشید,,,,
+48,νικάω,verb,filler,"conquer, win",,پیروز شدن,,,,
+49,πατήρ,noun,filler,father,,پدر,,,,
+50,δοῦλος,noun,filler,slave,,برده,,,,
+51,τάφος,noun,trap,"grave, tomb",grave,گور، قبر,جدی، وخیم,,,y
+52,κλαίω,verb,filler,weep,,گریستن,,,,
+53,ῥιπίς,noun,trap,fan (for fire),fan,بادبزن,طرفدار,,,y
+54,γελάω,verb,filler,laugh,,خندیدن,,,,
+55,ἔριφος,noun,trap,kid (young goat),kid,بزغاله,بچه,,,y
+56,πλάτανος,noun,trap,plane tree,plane,چنار,هواپیما,,,y
+57,σῖτος,noun,trap,"grain, corn",corn,غله، گندم,ذرت,,'corn' = grain in British / translation English; maize is New World,y
+58,οὐρανός,noun,filler,"sky, heaven",,آسمان,,,,
+59,ἄρτος,noun,filler,bread,,نان,,,,
+60,ἄργυρος,noun,filler,silver,,نقره، سیم,,,,
+61,ζάω,verb,filler,live,,زیستن,,,,
+62,σῴζω,verb,filler,"save, keep safe",,نجات دادن,,,,
+63,ἀδελφός,noun,filler,brother,,برادر,,,,
+64,πίνω,verb,filler,drink,,نوشیدن,,,,
+65,λέγω,verb,filler,say,,گفتن,,,,
+66,ῥήγνυμι,verb,trap,"break, tear",tear,پاره کردن، شکستن,اشک,δάκρυ,,y
+67,ποιέω,verb,filler,"make, do",,ساختن، کردن,,,,
+68,πλέω,verb,filler,sail,,دریانوردی کردن,,,,
+69,ὄρος,noun,filler,mountain,,کوه,,,,
+70,λίθος,noun,filler,stone,,سنگ,,,,
+71,ἀποκρίνομαι,verb,filler,answer,,پاسخ دادن,,,,
+72,φλοιός,noun,trap,bark (of a tree),bark,پوست درخت,پارس (سگ),,,y
+73,μένω,verb,filler,"stay, remain",,ماندن,,,,
+74,στάχυς,noun,trap,ear of grain,ear,خوشه,گوش,οὖς,,y
+75,ἀνήρ,noun,filler,"man, husband",,مرد، شوهر,,,,
+76,γυνή,noun,filler,"woman, wife",,زن,,,,
+77,τόξον,noun,trap,bow (weapon),bow,کمان,تعظیم؛ پاپیون,πρῷρα,,y
+78,ὄνομα,noun,filler,name,,نام,,,,
+79,βαίνω,verb,filler,"go, walk",,رفتن، گام برداشتن,,,,
+80,πίσσα,noun,trap,"pitch, tar",pitch,قیر,زمین بازی؛ زیر و بمی صدا,,Attic πίττα,y
+81,μέταλλον,noun,trap,"mine, quarry",mine,معدن,مال من,,Later also 'metal' (legitimate),y
+82,στράτευμα,noun,trap,"army, expedition",host,لشکر، سپاه,میزبان,,'host' = army in translation English,y
+83,ἀγορά,noun,filler,"marketplace, assembly",,بازار؛ انجمن,,,,
+84,καθεύδω,verb,filler,sleep,,خوابیدن,,,,
+85,εὔχομαι,verb,filler,pray,,دعا کردن، نیایش کردن,,,,
+86,μυῖα,noun,trap,fly (insect),fly,مگس,پرواز,πέτομαι,,y
+87,φέρω,verb,trap,"carry, bear",bear,بردن، حمل کردن,خرس,ἄρκτος,,y
+88,ἀνοίγω,verb,filler,open,,گشودن، باز کردن,,,,
+89,χορεύω,verb,filler,dance,,رقصیدن,,,,
+90,μήτηρ,noun,filler,mother,,مادر,,,,
+91,δῶρον,noun,trap,"gift, present",present,هدیه,حال، زمان حال,,,y
+92,κλέπτω,verb,filler,steal,,دزدیدن,,,,
+93,πρῷρα,noun,trap,"bow (of a ship), prow",bow,دماغهٔ کشتی,کمان؛ تعظیم,τόξον,,y
+94,γένος,noun,trap,"race, kin, kind",race,نژاد، تبار، نسل,مسابقه,δρόμος,,y
+95,ὅπλα,noun (pl.),trap,"arms, weapons",arms,سلاح، جنگ‌افزار,بازوها,βραχίων,Plural of ὅπλον,y
+96,πόλις,noun,filler,city,,شهر,,,,
+97,λαμβάνω,verb,filler,take,,گرفتن,,,,
+98,τίθημι,verb,filler,"put, place",,نهادن، گذاشتن,,,,
+99,τράπεζα,noun,trap,table (also money-changer's bank),table,میز، سفره؛ بانک,جدول,,بانک is a legitimate Greek sense here; only جدول is diagnostic,y
+100,ἡγέομαι,verb,trap,"lead, guide",lead,رهبری کردن، راه نمودن,سرب,μόλυβδος,Greek also 'believe' (legitimate Greek sense),y
+101,πῦρ,noun,trap,fire,fire,آتش,اخراج کردن,,Weaker item,y
+102,καρπός,noun,filler,fruit,,میوه، بر,,,,
+103,ἄρκτος,noun,trap,bear (animal),bear,خرس,تحمل کردن، حمل کردن,φέρω,"Greek also 'the North, Ursa Major' (legitimate)",y
+104,ἀγοράζω,verb,filler,buy,,خریدن,,,,
+105,λόγος,noun,filler,"word, speech",,سخن,,,,
+106,νίκη,noun,filler,victory,,پیروزی,,,,
+107,ἀποθνῄσκω,verb,filler,die,,مردن,,,,
+108,κώμη,noun,filler,village,,روستا، ده,,,,
+109,οἶνος,noun,filler,wine,,شراب، باده,,,,
+110,ψυχή,noun,filler,"soul, life",,جان، روان,,,,
+111,ζημία,noun,trap,"penalty, fine; loss",fine,جریمه؛ زیان,خوب، ظریف,,,y
+112,δικαστήριον,noun,trap,law court,court,دادگاه,حیاط؛ دربار,,,y
+113,ἀσπάλαξ,noun,trap,mole (animal),mole,موش کور,خال,,,y
+114,ἄνθρωπος,noun,filler,human being,,انسان، آدم,,,,
+115,λύκος,noun,filler,wolf,,گرگ,,,,
+116,ἀριστερός,adjective,trap,left (side),left,چپ,رفته، ترک‌کرده,,,y
+117,μῦθος,noun,filler,"story, tale",,داستان، افسانه,,,,
+118,ἔρχομαι,verb,filler,"come, go",,آمدن,,,,
+119,κλείω,verb,filler,"close, shut",,بستن,,,,
+120,μισέω,verb,filler,hate,,نفرت داشتن,,,,
+121,κύων,noun,filler,dog,,سگ,,,,
+122,κορμός,noun,trap,"tree trunk, log",trunk,تنهٔ درخت,خرطوم؛ صندوق,,,y
+123,ῥάμφος,noun,trap,beak,bill,منقار,صورتحساب؛ لایحه,,,y
+124,πωλέω,verb,filler,sell,,فروختن,,,,
+125,μαθητής,noun,trap,"pupil, learner",pupil,شاگرد,مردمک,,,y
+126,ἰατρός,noun,filler,physician,,پزشک,,,,
+127,κελεύω,verb,filler,"order, command",,فرمان دادن,,,,
+128,τίκτω,verb,filler,give birth,,زاییدن,,,,
+129,κάθημαι,verb,filler,sit,,نشستن,,,,
+130,νύξ,noun,filler,night,,شب,,,,
+131,ἐρωτάω,verb,filler,ask,,پرسیدن,,,,
+132,φώκη,noun,trap,seal (animal),seal,فُک، خوک آبی,مُهر,σφραγίς,,y
+133,οἰκέω,verb,filler,"dwell, inhabit",,ساکن بودن، زیستن,,,,
+134,χείρ,noun,filler,hand,,دست,,,,
+135,ἀστήρ,noun,filler,star,,ستاره,,,,
+136,δρόμος,noun,trap,"running, race, course",race,دو، مسابقهٔ دو,نژاد,γένος,,y
+137,θαυμάζω,verb,filler,"wonder at, admire",,شگفت‌زده شدن,,,,
+138,ἐγείρω,verb,filler,"wake, rouse",,بیدار کردن، برانگیختن,,,,
+139,καλάμη,noun,trap,"stalk, straw",stalk,ساقه، کاه,تعقیب کردن (پنهانی),,,y
+140,κεῖμαι,verb,trap,"lie (recline), be laid",lie,دراز کشیدن، افتاده بودن,دروغ گفتن,ψεῦδος,,y
+141,θύω,verb,filler,sacrifice,,قربانی کردن,,,,
+142,ναῦς,noun,filler,ship,,کشتی,,,,
+143,νομίζω,verb,filler,"think, believe",,پنداشتن,,,,
+144,γράφω,verb,filler,write,,نوشتن,,,,
+145,ῥόπαλον,noun,trap,"club, cudgel",club,چماق، گرز,باشگاه,,,y
+146,ᾄδω,verb,filler,sing,,آواز خواندن,,,,
+147,ὄμβρος,noun,filler,"rain, storm",,باران,,,,
+148,κρήνη,noun,trap,"spring, fountain",spring,چشمه,بهار، فنر,ἔαρ,,y
+149,βλέπω,verb,filler,look,,نگاه کردن,,,,
+150,τεῖχος,noun,filler,wall,,دیوار، بارو,,,,
+151,πυκτεύω,verb,trap,box (fight with fists),box,مشت‌زنی کردن,جعبه,,,y
+152,νυκτερίς,noun,trap,bat (animal),bat,خفاش,چوب بیسبال / کریکت,,,y
+153,δίδωμι,verb,filler,give,,دادن,,,,
+154,ναός,noun,trap,temple (shrine),temple,معبد، پرستشگاه,شقیقه,κρόταφος,Attic form νεώς,y
+155,βούλομαι,verb,filler,"wish, want",,خواستن,,,,
+156,σφραγίς,noun,trap,"seal, signet",seal,مُهر,فُک,φώκη,,y
+157,οὖς,noun,trap,ear (organ),ear,گوش,خوشه,στάχυς,,y
+158,μόλυβδος,noun,trap,lead (metal),lead,سرب,رهبری، هدایت,ἡγέομαι,,y
+159,στρατός,noun,trap,army,host,لشکر، سپاه,میزبان,,'host' = army in translation English,y
+160,ἄνεμος,noun,filler,wind,,باد,,,,
+161,ἐπιστολή,noun,trap,"letter, message",letter,نامه,حرف (حرف الفبا),,"Persian حرف also means 'speech, talk'; score with care",y
+162,χρόνος,noun,filler,time,,زمان,,,,
+163,διαθήκη,noun,trap,"will, testament; covenant",will,وصیت‌نامه؛ پیمان,اراده,,,y
+164,ἔαρ,noun,trap,spring (season),spring,بهار,چشمه، فنر,κρήνη,,y
+165,καρδία,noun,filler,heart,,دل، قلب,,,,
+166,κλῆρος,noun,trap,"lot, allotment",lot,قرعه؛ سهم,مقدار زیاد,,,y
+167,πράττω,verb,filler,"do, act",,انجام دادن,,,,
+168,ποταμός,noun,filler,river,,رود,,,,
+169,ὄχθη,noun,trap,riverbank,bank,کرانه، ساحل رود,بانک,,,y
+170,ἄκρα,noun,trap,"headland, cape; summit",cape,دماغه؛ قله,شنل,,,y
+171,ἐλπίζω,verb,filler,hope,,امید داشتن,,,,
+172,πούς,noun,filler,foot,,پا,,,,
+173,ἐσθίω,verb,filler,eat,,خوردن,,,,
+174,βακτηρία,noun,trap,"staff, stick",staff,عصا,کارکنان,,,y
+175,ὄμνυμι,verb,filler,swear (an oath),,سوگند خوردن,,,,
+176,παλάμη,noun,trap,palm of the hand,palm,کف دست,نخل,φοῖνιξ,,y
+177,μίνθη,noun,trap,mint (plant),mint,نعناع,ضرابخانه,,,y
+178,κιβωτός,noun,trap,"chest, box",chest,صندوق,سینه,στῆθος,,y
+179,μέλι,noun,filler,honey,,عسل,,,,
+180,δάκρυ,noun,trap,tear (weeping),tear,اشک,پارگی، پاره کردن,ῥήγνυμι,,y
+181,πρύμνα,noun,trap,stern (of a ship),stern,پاشنهٔ کشتی، عقب کشتی,سخت‌گیر، جدی,,,y
+182,βασιλεύς,noun,filler,king,,پادشاه، شاه,,,,
+183,ἧλος,noun,trap,nail (metal),nail,میخ,ناخن,ὄνυξ,,y
+184,βλάπτω,verb,filler,harm,,آسیب رساندن,,,,
+185,παῖς,noun,filler,child,,کودک، فرزند,,,,
+186,λάφυρα,noun (pl.),trap,"spoils, booty",spoils,غنائم,فاسد، خراب‌شده,,,y
+187,δόρυ,noun,filler,spear,,نیزه,,,,
+188,μανθάνω,verb,filler,learn,,آموختن,,,,
+189,ψεῦδος,noun,trap,"lie, falsehood",lie,دروغ,دراز کشیدن,κεῖμαι,,y
+190,σπείρω,verb,trap,sow (seed),sow,کاشتن، بذر افشاندن,خوک ماده,,,y
+191,βραχίων,noun,trap,arm,arm,بازو,سلاح,ὅπλα,,y
+192,ἄνθος,noun,filler,flower,,گل، شکوفه,,,,
+193,βοῦς,noun,filler,"ox, cow",,گاو,,,,
+194,κεφαλή,noun,filler,head,,سر,,,,
+195,εἰρήνη,noun,filler,peace,,صلح,,,,
+196,θεός,noun,filler,god,,خدا، ایزد,,,,
+197,χελιδών,noun,trap,swallow (bird),swallow,پرستو,بلعیدن,,,y
+198,νηστεία,noun,trap,fasting,fast,روزه,سریع، تند,ταχύς,Mainly post-classical; classical νῆστις,y
+199,ἀποκτείνω,verb,filler,kill,,کشتن,,,,
+200,ἐλαφρός,adjective,trap,light (in weight),light,سبک,نور,φῶς,,y

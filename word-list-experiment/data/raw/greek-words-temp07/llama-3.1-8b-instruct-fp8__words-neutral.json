@@ -1,0 +1,810 @@
+{
+  "passage": {
+    "id": "greek-words-temp07",
+    "title": "Temperature side experiment, temperature 0.7",
+    "ref": "data/key.csv IDs; 4 polysemy hits + 5 sound-alikes from the neutral run",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "llama-3.1-8b-instruct-fp8",
+    "api_id": "@cf/meta/llama-3.1-8b-instruct-fp8",
+    "label": "Llama 3.1 8B",
+    "family": "Meta Llama",
+    "weights": "open",
+    "provider": "cloudflare"
+  },
+  "prompt": {
+    "name": "words-neutral"
+  },
+  "params": {
+    "temperature": 0.7,
+    "max_tokens": 1024,
+    "seed": null
+  },
+  "runs": {
+    "132": [
+      {
+        "rep": 0,
+        "text": "فنا\nفوکس\nآرواره\nهرماس\nفونا",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 18,
+          "total_tokens": 60,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.048996651545167
+        },
+        "latency_s": 1.39,
+        "at": "2026-10-13T15:01:56+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "خرسک\nخرسک دریایی\nخرس دریایی\nخرسک آبزی\nخرسک آبزی واقف",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 30,
+          "total_tokens": 72,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.3625323791056871
+        },
+        "latency_s": 2.05,
+        "at": "2026-10-13T15:01:58+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "1. فاقوس\n2. لاک‌پشت\n3. دریاشنا\n4. جوجه دریایی\n5. فنجان",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 32,
+          "total_tokens": 74,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.4147883336991072
+        },
+        "latency_s": 3.0,
+        "at": "2026-10-13T15:02:01+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "خرگوش دریایی\nخرس دریایی\nخرگوش دریا\nخرس دریا\nخرس زحام",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 26,
+          "total_tokens": 68,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.258020469918847
+        },
+        "latency_s": 1.56,
+        "at": "2026-10-13T15:02:03+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "گربه دریایی\nخرس دریایی\nخرس دریا\nخرس زیرآبی\nخرس آبزخیر",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 27,
+          "total_tokens": 69,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.284148447215557
+        },
+        "latency_s": 1.75,
+        "at": "2026-10-13T15:02:05+00:00"
+      }
+    ],
+    "176": [
+      {
+        "rep": 0,
+        "text": "بافند\nدست\nپایمرد\nپالام\nدلخالی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 21,
+          "total_tokens": 64,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.1411589896306396
+        },
+        "latency_s": 1.38,
+        "at": "2026-10-13T15:02:06+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دست\nبرج\nبالای دست\nبال\nپشت دست",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 16,
+          "total_tokens": 59,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.0105191031470895
+        },
+        "latency_s": 1.33,
+        "at": "2026-10-13T15:02:07+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دست\n\nپشت دست\n\nپالام\n\nپالمی\n\nپالامه",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 20,
+          "total_tokens": 63,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.1150310123339295
+        },
+        "latency_s": 1.72,
+        "at": "2026-10-13T15:02:09+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "دست\nپشت‌ دست\nبالان\nکف دست\nدستپا\n\nNote: Persian language has several dialects and regional variations, and the translations may differ slightly depending on the dialect. The above translations are in the most commonly used dialect, which is known as Farsi.",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 62,
+          "total_tokens": 105,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.21240605879575
+        },
+        "latency_s": 3.14,
+        "at": "2026-10-13T15:02:12+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "دست\nدست帕لامی\nچنگال\nمهره\nبالا دست",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 20,
+          "total_tokens": 63,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.1150310123339295
+        },
+        "latency_s": 1.67,
+        "at": "2026-10-13T15:02:14+00:00"
+      }
+    ],
+    "200": [
+      {
+        "rep": 0,
+        "text": "مخفی\nخشنود\nخوشحال\nبهایی\nلطیف",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 20,
+          "total_tokens": 64,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.128809418529272
+        },
+        "latency_s": 1.3,
+        "at": "2026-10-13T15:02:15+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "لطیف\nلطیفه\nزانوزار\nپشیمون\nپشتیبنده",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 23,
+          "total_tokens": 67,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.2071933504194021
+        },
+        "latency_s": 1.73,
+        "at": "2026-10-13T15:02:17+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "لطیف\nخنثی\nلاغر\nبلور\nروشن",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 19,
+          "total_tokens": 63,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.102681441232562
+        },
+        "latency_s": 1.41,
+        "at": "2026-10-13T15:02:18+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "لطیف\nشتابان\nرام\nکوتاه\nبالا",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 18,
+          "total_tokens": 62,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.076553463935852
+        },
+        "latency_s": 1.11,
+        "at": "2026-10-13T15:02:20+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "فروغ\nنرم\nلطیف\nرقیق\nخنثی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 19,
+          "total_tokens": 63,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.102681441232562
+        },
+        "latency_s": 1.47,
+        "at": "2026-10-13T15:02:21+00:00"
+      }
+    ],
+    "95": [
+      {
+        "rep": 0,
+        "text": "سلاح\nاسلحه\nآزادگان\nدستگاه\nزور",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 19,
+          "total_tokens": 61,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.075124628841877
+        },
+        "latency_s": 0.91,
+        "at": "2026-10-13T15:02:22+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "سلاح\n\nسلاح جنگی\n\nسلاح‌دار\n\nسلاح‌زن\n\nجنگ افزار",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 22,
+          "total_tokens": 64,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.153508560732007
+        },
+        "latency_s": 1.25,
+        "at": "2026-10-13T15:02:23+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "سلاح\nهزينه\nآزما\nاسلحه\nزور",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 18,
+          "total_tokens": 60,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.048996651545167
+        },
+        "latency_s": 1.31,
+        "at": "2026-10-13T15:02:24+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "سلاح\nآزما\nآزماش\nامداد\nسلاح‌گر",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 20,
+          "total_tokens": 62,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.101252606138587
+        },
+        "latency_s": 1.59,
+        "at": "2026-10-13T15:02:26+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "سلاح\nسلاح‌داری\nسنگ‌واره\nهوشمند\nهوش‌ورز",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 22,
+          "total_tokens": 64,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.153508560732007
+        },
+        "latency_s": 1.55,
+        "at": "2026-10-13T15:02:28+00:00"
+      }
+    ],
+    "80": [
+      {
+        "rep": 0,
+        "text": "آب گون\n\nموم\n\nموم آلو\n\nموم پشم\n\nموم زغال",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 23,
+          "total_tokens": 65,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.179636538028717
+        },
+        "latency_s": 1.36,
+        "at": "2026-10-13T15:02:29+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "پودر بسیار ناخالص و چسبنده \n\nپودر ترد و محکم گچ\n\nاشیای چسبنده\n\nاشیای بسیار ظریف و چسبنده",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 39,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.5976841747760773
+        },
+        "latency_s": 2.89,
+        "at": "2026-10-13T15:02:32+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "جوش\nموم\n\nپودر\n\nعسل قوچ\nموم زار",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 21,
+          "total_tokens": 63,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.127380583435297
+        },
+        "latency_s": 1.17,
+        "at": "2026-10-13T15:02:33+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "تیغه\nپوشاک\nپاشنه\nپوشنه\nتیغه",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 20,
+          "total_tokens": 62,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.101252606138587
+        },
+        "latency_s": 1.12,
+        "at": "2026-10-13T15:02:34+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "شیشه\nرنگ\nپاسخ\nلوازم\n\nNote: There are multiple possible translations for the Ancient Greek word πίσσα, which can be translated into Persian as:\n\n* شیشه (glass)\n* رنگ (color)\n* پاسخ (answer)\n* لوازم (object or thing)",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 62,
+          "total_tokens": 104,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.1986276526004076
+        },
+        "latency_s": 2.95,
+        "at": "2026-10-13T15:02:37+00:00"
+      }
+    ],
+    "145": [
+      {
+        "rep": 0,
+        "text": "مخ\nچکمه\nکرایه\nدستاویز\nخنجر",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 19,
+          "total_tokens": 63,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.102681441232562
+        },
+        "latency_s": 1.22,
+        "at": "2026-10-13T15:02:38+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دستدستن\n\nدستدست\n\nشلاق\n\nکامیاب",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 18,
+          "total_tokens": 62,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.076553463935852
+        },
+        "latency_s": 1.28,
+        "at": "2026-10-13T15:02:40+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دستی\n\nسلاح دست\n\nاره\n\nلگد\n\nکشتی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 16,
+          "total_tokens": 60,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.024297509342432
+        },
+        "latency_s": 2.52,
+        "at": "2026-10-13T15:02:42+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "کرج\nروپل\nریپان\nچنگال\nریپ\nروپ",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 21,
+          "total_tokens": 65,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.154937395825982
+        },
+        "latency_s": 1.38,
+        "at": "2026-10-13T15:02:44+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "دستبند\nسلاح\nآزاد\nکمان\nچکش",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 18,
+          "total_tokens": 62,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.076553463935852
+        },
+        "latency_s": 1.53,
+        "at": "2026-10-13T15:02:45+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "فینیکس\nسفالگر\nفینیقی\nکبوتر دریایی\nفینیق",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 23,
+          "total_tokens": 66,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.1934149442240596
+        },
+        "latency_s": 1.66,
+        "at": "2026-10-13T15:02:47+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "فنیق\nفنیقی\nفنیقیان\nفنیقیه\nفنیق",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 22,
+          "total_tokens": 65,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.1672869669273496
+        },
+        "latency_s": 1.58,
+        "at": "2026-10-13T15:02:48+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "پارس\n\nفينيق\n\nفينيق\n\nفينوپس\n\nفينيك",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 20,
+          "total_tokens": 63,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.1150310123339295
+        },
+        "latency_s": 1.8,
+        "at": "2026-10-13T15:02:50+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "شاخ\nفینیکس\nآبیونیکس\nفینیکسک\nفینیکسگونه",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 26,
+          "total_tokens": 69,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.2717988761141896
+        },
+        "latency_s": 1.76,
+        "at": "2026-10-13T15:02:52+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "پنیکس\nفینیکس\nپنیکوس\nفینیقس\nفینیخ",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 24,
+          "total_tokens": 67,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.2195429215207696
+        },
+        "latency_s": 1.84,
+        "at": "2026-10-13T15:02:54+00:00"
+      }
+    ],
+    "53": [
+      {
+        "rep": 0,
+        "text": "ریشه\nریس\nریش\nریشکی\nریشک",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 17,
+          "total_tokens": 61,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.050425486639142
+        },
+        "latency_s": 1.48,
+        "at": "2026-10-13T15:02:55+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "خونسرد\nسیاهی\nسیاه\nخونخوار\nسیاه‌دل",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 21,
+          "total_tokens": 65,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.154937395825982
+        },
+        "latency_s": 1.94,
+        "at": "2026-10-13T15:02:57+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "زیرلباس\nلباس زیر\nپوشاک زیر\nلباس زیرین\nپوشاک زیرین",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 25,
+          "total_tokens": 69,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.2594493050128222
+        },
+        "latency_s": 1.53,
+        "at": "2026-10-13T15:02:59+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "ریشه\nریپیس\nریپی\nریپه\nریپ",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 17,
+          "total_tokens": 61,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.050425486639142
+        },
+        "latency_s": 1.14,
+        "at": "2026-10-13T15:03:00+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "1. کلاه\n2. کلاه‌زنی\n3. کلاه‌فرنگی\n4. کلاه‌دار\n5. کلاه‌سر",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 40,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.6513689644634724
+        },
+        "latency_s": 2.8,
+        "at": "2026-10-13T15:03:03+00:00"
+      }
+    ],
+    "177": [
+      {
+        "rep": 0,
+        "text": "مینده\nمنته\nمیند\nمینه\nمینچ",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 15,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.9706127196550369
+        },
+        "latency_s": 2.38,
+        "at": "2026-10-13T15:03:05+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "مینه\nمینثه\nمینته\nمینتیه",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 14,
+          "total_tokens": 56,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.9444847423583269
+        },
+        "latency_s": 1.23,
+        "at": "2026-10-13T15:03:06+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "مینه\nمینائی\nمینا\nمیناگی\nمینای",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 16,
+          "total_tokens": 58,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.9967406969517469
+        },
+        "latency_s": 1.22,
+        "at": "2026-10-13T15:03:07+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "مینثا\nمینته\nمینتیه\nمینتهی\nمینتیه‌وار",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 21,
+          "total_tokens": 63,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.127380583435297
+        },
+        "latency_s": 0.98,
+        "at": "2026-10-13T15:03:08+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "مینده\nمینت\nمینته\nمینتهه\nمینتهی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 17,
+          "total_tokens": 59,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.022868674248457
+        },
+        "latency_s": 1.25,
+        "at": "2026-10-13T15:03:10+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

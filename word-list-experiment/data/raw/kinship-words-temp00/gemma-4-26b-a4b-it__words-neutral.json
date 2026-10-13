@@ -1,0 +1,274 @@
+{
+  "passage": {
+    "id": "kinship-words-temp00",
+    "title": "Kinship terms, one word per request, temperature 0.0",
+    "ref": "data/kinship_key.csv (IDs 301-313)",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "gemma-4-26b-a4b-it",
+    "api_id": "@cf/google/gemma-4-26b-a4b-it",
+    "label": "Gemma 4 26B",
+    "family": "Google Gemma",
+    "weights": "open",
+    "provider": "cloudflare"
+  },
+  "prompt": {
+    "name": "words-neutral"
+  },
+  "params": {
+    "temperature": 0.0,
+    "max_tokens": 3000,
+    "seed": null
+  },
+  "runs": {
+    "301": [
+      {
+        "rep": 0,
+        "text": "وطن\nمیهن\nزادگاه\nسرزمین مادری",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 358,
+          "total_tokens": 406,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 10.199999809265137
+        },
+        "latency_s": 7.3,
+        "at": "2026-10-13T14:44:35+00:00"
+      }
+    ],
+    "302": [
+      {
+        "rep": 0,
+        "text": "هم‌وطن\nهم‌میهن\nهم‌سرزمین",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 51,
+          "completion_tokens": 367,
+          "total_tokens": 418,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 10.47272777557373
+        },
+        "latency_s": 7.48,
+        "at": "2026-10-13T14:44:43+00:00"
+      }
+    ],
+    "303": [
+      {
+        "rep": 0,
+        "text": "مادر\nمامان\nمادرجان",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 561,
+          "total_tokens": 609,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 15.736363410949707
+        },
+        "latency_s": 12.61,
+        "at": "2026-10-13T14:44:55+00:00"
+      }
+    ],
+    "304": [
+      {
+        "rep": 0,
+        "text": "برادر مادری\nبرادر ناتنی\nبرادر از یک مادر",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 51,
+          "completion_tokens": 936,
+          "total_tokens": 987,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 25.990909576416016
+        },
+        "latency_s": 16.5,
+        "at": "2026-10-13T14:45:12+00:00"
+      }
+    ],
+    "305": [
+      {
+        "rep": 0,
+        "text": "شعله\nآتش\nفروغ",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 366,
+          "total_tokens": 414,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 10.418181419372559
+        },
+        "latency_s": 7.16,
+        "at": "2026-10-13T14:45:19+00:00"
+      }
+    ],
+    "306": [
+      {
+        "rep": 0,
+        "text": "با آرامش\nبه آرامی\nبا سکون",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 48,
+          "completion_tokens": 879,
+          "total_tokens": 927,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 24.409090042114258
+        },
+        "latency_s": 21.42,
+        "at": "2026-10-13T14:45:40+00:00"
+      }
+    ],
+    "307": [
+      {
+        "rep": 0,
+        "text": "برتر\nبهتر\nوالاتر\nممتازتر",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 50,
+          "completion_tokens": 385,
+          "total_tokens": 435,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 10.954545021057129
+        },
+        "latency_s": 7.34,
+        "at": "2026-10-13T14:45:48+00:00"
+      }
+    ],
+    "308": [
+      {
+        "rep": 0,
+        "text": "آفتابی\nدرخشان\nروشن\nنورانی",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 49,
+          "completion_tokens": 471,
+          "total_tokens": 520,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 13.290908813476562
+        },
+        "latency_s": 8.23,
+        "at": "2026-10-13T14:45:56+00:00"
+      }
+    ],
+    "309": [
+      {
+        "rep": 0,
+        "text": "هم‌وطن\nهم‌میهن\nهم‌سرزمین",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 50,
+          "completion_tokens": 356,
+          "total_tokens": 406,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 10.163636207580566
+        },
+        "latency_s": 9.34,
+        "at": "2026-10-13T14:46:05+00:00"
+      }
+    ],
+    "311": [
+      {
+        "rep": 0,
+        "text": "دخترک\nدختر کوچک\nدخترچه",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 51,
+          "completion_tokens": 628,
+          "total_tokens": 679,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 17.590909957885742
+        },
+        "latency_s": 14.67,
+        "at": "2026-10-13T14:46:51+00:00"
+      }
+    ],
+    "312": [
+      {
+        "rep": 0,
+        "text": "دیر\nدیرهنگام\nبا تأخیر\nکند",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 49,
+          "completion_tokens": 326,
+          "total_tokens": 375,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 9.336363792419434
+        },
+        "latency_s": 6.22,
+        "at": "2026-10-13T14:46:58+00:00"
+      }
+    ],
+    "313": [
+      {
+        "rep": 0,
+        "text": "با درنگ\nبا تردید\nآهسته",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 49,
+          "completion_tokens": 843,
+          "total_tokens": 892,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 23.436363220214844
+        },
+        "latency_s": 22.33,
+        "at": "2026-10-13T14:47:20+00:00"
+      }
+    ],
+    "310": [
+      {
+        "rep": 0,
+        "text": "هم‌مادر\nاز یک مادر",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 50,
+          "completion_tokens": 1136,
+          "total_tokens": 1186,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 31.436365127563477
+        },
+        "latency_s": 14.5,
+        "at": "2026-10-13T14:47:52+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

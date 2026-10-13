@@ -1,0 +1,124 @@
+{
+  "passage": {
+    "id": "kinship-lists-temp00",
+    "title": "Kinship terms embedded in word lists, temperature 0.0",
+    "ref": "greek_wordlist.xlsx, Kinship lists sheet",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "qwen/qwen3.8-27b-nothink",
+    "api_id": "qwen/qwen3.8-27b",
+    "label": "Qwen 3.8 27B (no thinking)",
+    "family": "Qwen",
+    "weights": "open",
+    "provider": "groq"
+  },
+  "prompt": {
+    "name": "words-list",
+    "label": "Words · list"
+  },
+  "params": {
+    "temperature": 0.0,
+    "max_tokens": 1000,
+    "seed": null,
+    "reasoning_effort": "none"
+  },
+  "runs": {
+    "1": [
+      {
+        "rep": 0,
+        "text": "ὄρος: کوه، تپه\nξίφος: شمشیر، خنجر\nλέγω: می‌گویم، بیان می‌کنم\nἔχω: دارم، دارا بودن\nψυχή: روح، جان\nθυγατριδοῦς: دختر، دخترک\nκαλέω: صدا می‌زنم، دعوت می‌کنم\nσῴζω: نجات می‌دهم، حفظ می‌کنم\nλόγος: کلام، سخن، منطق\nδαήρ: دانا، خردمند\nπάτρως: پدر، پدر بزرگ\nπωλέω: می‌فروشم، فروش",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018616634,
+          "prompt_tokens": 111,
+          "prompt_time": 0.008929644,
+          "completion_tokens": 151,
+          "completion_time": 0.329036689,
+          "total_tokens": 262,
+          "total_time": 0.337966333
+        },
+        "latency_s": 37.83,
+        "at": "2026-10-08T14:28:56+00:00"
+      }
+    ],
+    "2": [
+      {
+        "rep": 0,
+        "text": "γάλοως: شیر\nμῦθος: افسانه، اسطوره، داستان\nἀποκτείνω: کشتن، قتل\nἐσθίω: خوردن، غذا خوردن\nοἰκέω: زندگی کردن، سکونت\nἀστήρ: ستاره\nνίκη: پیروزی\nχρόνος: زمان\nβούλομαι: خواستن، اراده کردن\nμήτρως: مادرزاد، خونی\nὁμοπάτριος: هم‌وطن، هم‌خون\nοἶκος: خانه، خانواده",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.114549632,
+          "prompt_tokens": 118,
+          "prompt_time": 0.010568317,
+          "completion_tokens": 131,
+          "completion_time": 0.271918846,
+          "total_tokens": 249,
+          "total_time": 0.282487163
+        },
+        "latency_s": 9.58,
+        "at": "2026-10-08T14:29:06+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "ὄφις: مار\nλίθος: سنگ\nἑκυρά: تخت، تختخواب\nκεφαλή: سر\nἀγορά: بازار، میدان\nοὐρανός: آسمان\nμανθάνω: یاد گرفتن، آموختن\nσῶμα: بدن\nγιγνώσκω: شناختن، دانستن\nεἰνάτερες: ماه\nπόλις: شهر\nπατράδελφος: عمو",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.114074497,
+          "prompt_tokens": 119,
+          "prompt_time": 0.01046683,
+          "completion_tokens": 108,
+          "completion_time": 0.239260275,
+          "total_tokens": 227,
+          "total_time": 0.249727105
+        },
+        "latency_s": 9.52,
+        "at": "2026-10-08T14:29:22+00:00"
+      }
+    ],
+    "4": [
+      {
+        "rep": 0,
+        "text": "βλάπτω: آسیب زدن، زیان رساندن\nβάλλω: انداختن، پرتاب کردن، قرار دادن\nδίδωμι: دادن، اعطا کردن\nκαθεύδω: خوابیدن، استراحت کردن\nπράττω: انجام دادن، عمل کردن\nχιών: برف\nἐγείρω: بیدار کردن، برانگیختن\nτίθημι: گذاشتن، قرار دادن، نهادن\nμητράδελφος: خواهر\nκλείω: بستن، قفل کردن\nγράφω: نوشتن، نگارش کردن\nὁμομήτριος: هم‌مادر",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01708158,
+          "prompt_tokens": 113,
+          "prompt_time": 0.008788696,
+          "completion_tokens": 145,
+          "completion_time": 0.316902371,
+          "total_tokens": 258,
+          "total_time": 0.325691067
+        },
+        "latency_s": 6.5,
+        "at": "2026-10-08T14:29:35+00:00"
+      }
+    ],
+    "5": [
+      {
+        "rep": 0,
+        "text": "ὁράω: دیدن، تماشا کردن\nτρέχω: دویدن، دویدن سریع\nᾄδω: آواز خواندن، سرود خواندن\nγελάω: خندیدن، خنده زدن\nοἰκοδομέω: ساختن، بنا کردن\nκλέπτω: دزدیدن، سرقت کردن\nκτίζω: ساختن، بنانداختن\nἀέλιοι: خورشیدها، آفتاب‌ها\nὕδωρ: آب\nἑκυρός: تخت، تختخواب\nζάω: زندگی کردن، زیستن\nἄρτος: نان",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.023230759,
+          "prompt_tokens": 119,
+          "prompt_time": 0.010226354,
+          "completion_tokens": 147,
+          "completion_time": 0.307624066,
+          "total_tokens": 266,
+          "total_time": 0.31785042
+        },
+        "latency_s": 8.61,
+        "at": "2026-10-08T14:29:52+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

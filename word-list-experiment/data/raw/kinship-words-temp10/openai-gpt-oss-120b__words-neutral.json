@@ -1,0 +1,835 @@
+{
+  "passage": {
+    "id": "kinship-words-temp10",
+    "title": "Kinship terms, one word per request, temperature 1.0",
+    "ref": "greek_wordlist.xlsx, Kinship key sheet (IDs 301-313)",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "openai/gpt-oss-120b",
+    "api_id": "openai/gpt-oss-120b",
+    "label": "GPT-OSS 120B",
+    "family": "OpenAI open-weight",
+    "weights": "open",
+    "provider": "groq"
+  },
+  "prompt": {
+    "name": "words-neutral",
+    "label": "Words · neutral"
+  },
+  "params": {
+    "temperature": 1.0,
+    "max_tokens": 3000,
+    "seed": null,
+    "reasoning_effort": "low"
+  },
+  "runs": {
+    "301": [
+      {
+        "rep": 0,
+        "text": "پدرانه  \nقابیل‌وار  \nپدری  \nسرپرست‌مانند  \nپدرمحور",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.211073937,
+          "prompt_tokens": 102,
+          "prompt_time": 0.008095076,
+          "completion_tokens": 68,
+          "completion_time": 0.139956582,
+          "total_tokens": 170,
+          "total_time": 0.148051658,
+          "completion_tokens_details": {
+            "reasoning_tokens": 34
+          }
+        },
+        "latency_s": 0.61,
+        "at": "2026-10-09T07:11:54+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "پدرانه  \nپدر‌گونه  \nپدرمانند  \nبه‌سبک پدرانه  \nپدرانه‌طور",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.207283833,
+          "prompt_tokens": 102,
+          "prompt_time": 0.003765997,
+          "completion_tokens": 97,
+          "completion_time": 0.201580997,
+          "total_tokens": 199,
+          "total_time": 0.205346994,
+          "completion_tokens_details": {
+            "reasoning_tokens": 61
+          }
+        },
+        "latency_s": 0.52,
+        "at": "2026-10-09T07:11:55+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "پدرانه  \nبه‌پدرانه  \nپدر‌گونه",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.204921922,
+          "prompt_tokens": 102,
+          "prompt_time": 0.004455475,
+          "completion_tokens": 82,
+          "completion_time": 0.168808463,
+          "total_tokens": 184,
+          "total_time": 0.173263938,
+          "completion_tokens_details": {
+            "reasoning_tokens": 59
+          }
+        },
+        "latency_s": 2.62,
+        "at": "2026-10-09T07:11:57+00:00"
+      }
+    ],
+    "302": [
+      {
+        "rep": 0,
+        "text": "پسر عمو  \nپسر خاله (پسر عمو از سمت پدر)",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.214814908,
+          "prompt_tokens": 105,
+          "prompt_time": 0.028806998,
+          "completion_tokens": 55,
+          "completion_time": 0.115012447,
+          "total_tokens": 160,
+          "total_time": 0.143819445,
+          "completion_tokens_details": {
+            "reasoning_tokens": 26
+          }
+        },
+        "latency_s": 4.61,
+        "at": "2026-10-09T07:12:02+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "برادر ناتنی  \nناتنی  \nبرادر نازاد  \nهم‌برادر (در معنی ناتنی)",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.2934681,
+          "prompt_tokens": 105,
+          "prompt_time": 0.004372285,
+          "completion_tokens": 84,
+          "completion_time": 0.17400631,
+          "total_tokens": 189,
+          "total_time": 0.178378595,
+          "completion_tokens_details": {
+            "reasoning_tokens": 47
+          }
+        },
+        "latency_s": 2.62,
+        "at": "2026-10-09T07:12:05+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "برادر ناتنی  \nبرادر نازاد  \nناتنی  \nبرادر از همسر دوم  \nبرادر نازاده",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047380583,
+          "prompt_tokens": 105,
+          "prompt_time": 0.006031123,
+          "completion_tokens": 116,
+          "completion_time": 0.245356519,
+          "total_tokens": 221,
+          "total_time": 0.251387642,
+          "completion_tokens_details": {
+            "reasoning_tokens": 79
+          }
+        },
+        "latency_s": 4.56,
+        "at": "2026-10-09T07:12:09+00:00"
+      }
+    ],
+    "303": [
+      {
+        "rep": 0,
+        "text": "مادری  \nبه‌سان مادر  \nمانند مادر  \nشبیه مادرانه  \nبه‌طرز مادری",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.30375208,
+          "prompt_tokens": 102,
+          "prompt_time": 0.025182162,
+          "completion_tokens": 97,
+          "completion_time": 0.213756871,
+          "total_tokens": 199,
+          "total_time": 0.238939033,
+          "completion_tokens_details": {
+            "reasoning_tokens": 63
+          }
+        },
+        "latency_s": 4.8,
+        "at": "2026-10-09T07:12:14+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "مادری  \nمادرانه  \nمادریانه  \nنوزائیتی",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.449168821,
+          "prompt_tokens": 102,
+          "prompt_time": 0.004459025,
+          "completion_tokens": 72,
+          "completion_time": 0.14844777,
+          "total_tokens": 174,
+          "total_time": 0.152906795,
+          "completion_tokens_details": {
+            "reasoning_tokens": 46
+          }
+        },
+        "latency_s": 9.08,
+        "at": "2026-10-09T07:12:23+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "مادری  \nمانند مادر  \nبه‌صورت مادرانه",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01742478,
+          "prompt_tokens": 102,
+          "prompt_time": 0.005436354,
+          "completion_tokens": 87,
+          "completion_time": 0.181503053,
+          "total_tokens": 189,
+          "total_time": 0.186939407,
+          "completion_tokens_details": {
+            "reasoning_tokens": 65
+          }
+        },
+        "latency_s": 4.56,
+        "at": "2026-10-09T07:12:28+00:00"
+      }
+    ],
+    "304": [
+      {
+        "rep": 0,
+        "text": "عمو  \nدایی  \nمامان‌برادر  \nخال‌پدری  \nمامان‌عمو",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047408593,
+          "prompt_tokens": 105,
+          "prompt_time": 0.004155561,
+          "completion_tokens": 76,
+          "completion_time": 0.157373086,
+          "total_tokens": 181,
+          "total_time": 0.161528647,
+          "completion_tokens_details": {
+            "reasoning_tokens": 44
+          }
+        },
+        "latency_s": 4.58,
+        "at": "2026-10-09T07:12:32+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "برادر نخواسته  \nبرادر غیرخونی  \nبرادر پدر‌دختر  \nهمدختر  \nبرادر ناتنی",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.2185721,
+          "prompt_tokens": 105,
+          "prompt_time": 0.005161157,
+          "completion_tokens": 74,
+          "completion_time": 0.155126179,
+          "total_tokens": 179,
+          "total_time": 0.160287336,
+          "completion_tokens_details": {
+            "reasoning_tokens": 34
+          }
+        },
+        "latency_s": 4.75,
+        "at": "2026-10-09T07:12:37+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "پسر عمه  \nدختر عمه  \nخویشاوند مادری  \nقریبهٔ مادری  \nپسر‌دختر عمه",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.150905904,
+          "prompt_tokens": 105,
+          "prompt_time": 0.004224284,
+          "completion_tokens": 187,
+          "completion_time": 0.396023376,
+          "total_tokens": 292,
+          "total_time": 0.40024766,
+          "completion_tokens_details": {
+            "reasoning_tokens": 145
+          }
+        },
+        "latency_s": 7.03,
+        "at": "2026-10-09T07:12:44+00:00"
+      }
+    ],
+    "305": [
+      {
+        "rep": 0,
+        "text": "خون  \nدم",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018393817,
+          "prompt_tokens": 102,
+          "prompt_time": 0.003781805,
+          "completion_tokens": 73,
+          "completion_time": 0.152180927,
+          "total_tokens": 175,
+          "total_time": 0.155962732,
+          "completion_tokens_details": {
+            "reasoning_tokens": 60
+          }
+        },
+        "latency_s": 6.53,
+        "at": "2026-10-09T07:12:51+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "خون  \nدم",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048142563,
+          "prompt_tokens": 102,
+          "prompt_time": 0.004470325,
+          "completion_tokens": 54,
+          "completion_time": 0.111425752,
+          "total_tokens": 156,
+          "total_time": 0.115896077,
+          "completion_tokens_details": {
+            "reasoning_tokens": 41
+          }
+        },
+        "latency_s": 4.44,
+        "at": "2026-10-09T07:12:55+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "خون  \nدم  \nسائل حیات  \nنقطهٔ حیات",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017118895,
+          "prompt_tokens": 102,
+          "prompt_time": 0.004487145,
+          "completion_tokens": 72,
+          "completion_time": 0.151094661,
+          "total_tokens": 174,
+          "total_time": 0.155581806,
+          "completion_tokens_details": {
+            "reasoning_tokens": 47
+          }
+        },
+        "latency_s": 4.47,
+        "at": "2026-10-09T07:12:59+00:00"
+      }
+    ],
+    "306": [
+      {
+        "rep": 0,
+        "text": "کاملاً  \nبه‌تمامی  \nبه‌طور کامل  \nبه‌تمام‌گی  \nبی‌نهایت",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017254288,
+          "prompt_tokens": 102,
+          "prompt_time": 0.004005432,
+          "completion_tokens": 100,
+          "completion_time": 0.207970718,
+          "total_tokens": 202,
+          "total_time": 0.21197615,
+          "completion_tokens_details": {
+            "reasoning_tokens": 67
+          }
+        },
+        "latency_s": 6.62,
+        "at": "2026-10-09T07:13:06+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "به‌صورت خوشحالانه  \nبه‌طرز شادمانه  \nبه‌شیوهٔ سرورآمیز",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.049736318,
+          "prompt_tokens": 102,
+          "prompt_time": 0.005375475,
+          "completion_tokens": 139,
+          "completion_time": 0.289159802,
+          "total_tokens": 241,
+          "total_time": 0.294535277,
+          "completion_tokens_details": {
+            "reasoning_tokens": 104
+          }
+        },
+        "latency_s": 2.51,
+        "at": "2026-10-09T07:13:09+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "بسیار  \nخیلی  \nبه‌شدّت  \nفوق‌العاده",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.206425702,
+          "prompt_tokens": 102,
+          "prompt_time": 0.004557653,
+          "completion_tokens": 123,
+          "completion_time": 0.253715907,
+          "total_tokens": 225,
+          "total_time": 0.25827356,
+          "completion_tokens_details": {
+            "reasoning_tokens": 96
+          }
+        },
+        "latency_s": 6.88,
+        "at": "2026-10-09T07:13:15+00:00"
+      }
+    ],
+    "307": [
+      {
+        "rep": 0,
+        "text": "جوان‌تر  \nنوتر  \nکودکتر  \nکم‌سال‌تر  \nنابالغ‌تر",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048221318,
+          "prompt_tokens": 105,
+          "prompt_time": 0.004530568,
+          "completion_tokens": 139,
+          "completion_time": 0.29364033,
+          "total_tokens": 244,
+          "total_time": 0.298170898,
+          "completion_tokens_details": {
+            "reasoning_tokens": 110
+          }
+        },
+        "latency_s": 6.75,
+        "at": "2026-10-09T07:13:22+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "درونی  \nباطنی  \nداخلی  \nنظریه‌ای  \nاندرونی",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.19387493,
+          "prompt_tokens": 105,
+          "prompt_time": 0.004339117,
+          "completion_tokens": 65,
+          "completion_time": 0.134977039,
+          "total_tokens": 170,
+          "total_time": 0.139316156,
+          "completion_tokens_details": {
+            "reasoning_tokens": 37
+          }
+        },
+        "latency_s": 6.77,
+        "at": "2026-10-09T07:13:29+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "برابرتر  \nهمسان‌تر  \nمتساوی‌تر  \nیکسان‌تر  \nمشابه‌تر",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048380586,
+          "prompt_tokens": 105,
+          "prompt_time": 0.004594834,
+          "completion_tokens": 90,
+          "completion_time": 0.187129975,
+          "total_tokens": 195,
+          "total_time": 0.191724809,
+          "completion_tokens_details": {
+            "reasoning_tokens": 61
+          }
+        },
+        "latency_s": 4.53,
+        "at": "2026-10-09T07:13:33+00:00"
+      }
+    ],
+    "308": [
+      {
+        "rep": 0,
+        "text": "آفتابی  \nخورشیدی  \nسوراخی  \nنورانی  \nساطع‌الضیاء",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.195893161,
+          "prompt_tokens": 103,
+          "prompt_time": 0.004883394,
+          "completion_tokens": 97,
+          "completion_time": 0.203521869,
+          "total_tokens": 200,
+          "total_time": 0.208405263,
+          "completion_tokens_details": {
+            "reasoning_tokens": 64
+          }
+        },
+        "latency_s": 4.66,
+        "at": "2026-10-09T07:13:38+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "آفتابی  \nنورانی  \nتابناک  \nدرخشان  \nساطع",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.294567698,
+          "prompt_tokens": 103,
+          "prompt_time": 0.003893134,
+          "completion_tokens": 61,
+          "completion_time": 0.126452154,
+          "total_tokens": 164,
+          "total_time": 0.130345288,
+          "completion_tokens_details": {
+            "reasoning_tokens": 36
+          }
+        },
+        "latency_s": 2.59,
+        "at": "2026-10-09T07:13:41+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "آفتابی  \nشمسی  \nخورشیدی  \nنوری  \nدرخشنده",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.297647838,
+          "prompt_tokens": 103,
+          "prompt_time": 0.003882759,
+          "completion_tokens": 55,
+          "completion_time": 0.113208199,
+          "total_tokens": 158,
+          "total_time": 0.117090958,
+          "completion_tokens_details": {
+            "reasoning_tokens": 29
+          }
+        },
+        "latency_s": 4.7,
+        "at": "2026-10-09T07:13:45+00:00"
+      }
+    ],
+    "309": [
+      {
+        "rep": 0,
+        "text": "هم‌ملی  \nهم‌وطنی  \nهم‌قومی",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.411735133,
+          "prompt_tokens": 106,
+          "prompt_time": 0.009272189,
+          "completion_tokens": 117,
+          "completion_time": 0.243750643,
+          "total_tokens": 223,
+          "total_time": 0.253022832,
+          "completion_tokens_details": {
+            "reasoning_tokens": 94
+          }
+        },
+        "latency_s": 4.88,
+        "at": "2026-10-09T07:13:50+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "هم‌وطنی  \nهم‌ملی  \nهم‌سرزمین  \nهم‌قومی  \nهم‌نژاد",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.205563335,
+          "prompt_tokens": 106,
+          "prompt_time": 0.0040304,
+          "completion_tokens": 89,
+          "completion_time": 0.185254853,
+          "total_tokens": 195,
+          "total_time": 0.189285253,
+          "completion_tokens_details": {
+            "reasoning_tokens": 55
+          }
+        },
+        "latency_s": 6.75,
+        "at": "2026-10-09T07:13:57+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "نیم‌برادر پدری  \nبرادر ناتنی پدری",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.29721273,
+          "prompt_tokens": 106,
+          "prompt_time": 0.004095593,
+          "completion_tokens": 148,
+          "completion_time": 0.307377475,
+          "total_tokens": 254,
+          "total_time": 0.311473068,
+          "completion_tokens_details": {
+            "reasoning_tokens": 122
+          }
+        },
+        "latency_s": 4.88,
+        "at": "2026-10-09T07:14:02+00:00"
+      }
+    ],
+    "310": [
+      {
+        "rep": 0,
+        "text": "نیم‌برادر\nبرادر ناتنی\nبرادر هم‌مادر",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.206945431,
+          "prompt_tokens": 106,
+          "prompt_time": 0.041116315,
+          "completion_tokens": 107,
+          "completion_time": 0.225808354,
+          "total_tokens": 213,
+          "total_time": 0.266924669,
+          "completion_tokens_details": {
+            "reasoning_tokens": 80
+          }
+        },
+        "latency_s": 4.69,
+        "at": "2026-10-09T07:14:07+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "هم‌متقارن  \nمتقارن  \nمشابه‌الپایان  \nهم‌ساز  \nهم‌پایان",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017665893,
+          "prompt_tokens": 106,
+          "prompt_time": 0.004475982,
+          "completion_tokens": 77,
+          "completion_time": 0.160621408,
+          "total_tokens": 183,
+          "total_time": 0.16509739,
+          "completion_tokens_details": {
+            "reasoning_tokens": 40
+          }
+        },
+        "latency_s": 4.45,
+        "at": "2026-10-09T07:14:11+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "هم‌نسبت  \nمساوی‌القدری  \nیکسان‌القدری  \nمساوی‌الاندازه  \nمتساوی‌القامتها",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017905065,
+          "prompt_tokens": 106,
+          "prompt_time": 0.005762411,
+          "completion_tokens": 59,
+          "completion_time": 0.123132638,
+          "total_tokens": 165,
+          "total_time": 0.128895049,
+          "completion_tokens_details": {
+            "reasoning_tokens": 14
+          }
+        },
+        "latency_s": 4.41,
+        "at": "2026-10-09T07:14:15+00:00"
+      }
+    ],
+    "311": [
+      {
+        "rep": 0,
+        "text": "دختر  \nدخترک  \nدخترِ",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.150967188,
+          "prompt_tokens": 106,
+          "prompt_time": 0.004324546,
+          "completion_tokens": 155,
+          "completion_time": 0.328553615,
+          "total_tokens": 261,
+          "total_time": 0.332878161,
+          "completion_tokens_details": {
+            "reasoning_tokens": 133
+          }
+        },
+        "latency_s": 2.66,
+        "at": "2026-10-09T07:14:18+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دختر  \nدختری  \nدخترانه",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.33529101,
+          "prompt_tokens": 106,
+          "prompt_time": 0.02544137,
+          "completion_tokens": 86,
+          "completion_time": 0.179503736,
+          "total_tokens": 192,
+          "total_time": 0.204945106,
+          "completion_tokens_details": {
+            "reasoning_tokens": 65
+          }
+        },
+        "latency_s": 6.91,
+        "at": "2026-10-09T07:14:25+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دختر  \nدختری  \nدختران",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.053234333,
+          "prompt_tokens": 106,
+          "prompt_time": 0.026793475,
+          "completion_tokens": 106,
+          "completion_time": 0.221475536,
+          "total_tokens": 212,
+          "total_time": 0.248269011,
+          "completion_tokens_details": {
+            "reasoning_tokens": 84
+          }
+        },
+        "latency_s": 2.47,
+        "at": "2026-10-09T07:14:28+00:00"
+      }
+    ],
+    "312": [
+      {
+        "rep": 0,
+        "text": "مناسب  \nشایسته  \nمتناسب  \nقابل قبول",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.207388522,
+          "prompt_tokens": 103,
+          "prompt_time": 0.003891673,
+          "completion_tokens": 70,
+          "completion_time": 0.145702299,
+          "total_tokens": 173,
+          "total_time": 0.149593972,
+          "completion_tokens_details": {
+            "reasoning_tokens": 48
+          }
+        },
+        "latency_s": 4.62,
+        "at": "2026-10-09T07:14:32+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "مطمئن  \nیقین‌پذیر  \nقطعی  \nحتمی  \nمسلم",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.193821589,
+          "prompt_tokens": 103,
+          "prompt_time": 0.004901693,
+          "completion_tokens": 86,
+          "completion_time": 0.180410223,
+          "total_tokens": 189,
+          "total_time": 0.185311916,
+          "completion_tokens_details": {
+            "reasoning_tokens": 56
+          }
+        },
+        "latency_s": 2.55,
+        "at": "2026-10-09T07:14:35+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "مناسب  \nدرست  \nشایسته  \nمتناسب  \nقابل‌قبول",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.297184167,
+          "prompt_tokens": 103,
+          "prompt_time": 0.00387571,
+          "completion_tokens": 76,
+          "completion_time": 0.157178116,
+          "total_tokens": 179,
+          "total_time": 0.161053826,
+          "completion_tokens_details": {
+            "reasoning_tokens": 49
+          }
+        },
+        "latency_s": 4.72,
+        "at": "2026-10-09T07:14:39+00:00"
+      }
+    ],
+    "313": [
+      {
+        "rep": 0,
+        "text": "شاه  \nپادشاه  \nحاکم  \nفرمانده",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048435625,
+          "prompt_tokens": 103,
+          "prompt_time": 0.004150961,
+          "completion_tokens": 124,
+          "completion_time": 0.258586324,
+          "total_tokens": 227,
+          "total_time": 0.262737285,
+          "completion_tokens_details": {
+            "reasoning_tokens": 102
+          }
+        },
+        "latency_s": 4.61,
+        "at": "2026-10-09T07:14:44+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "حاکم  \nسرور  \nسودایران  \nرئیس  \nسلطان",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047305846,
+          "prompt_tokens": 103,
+          "prompt_time": 0.003899374,
+          "completion_tokens": 95,
+          "completion_time": 0.201880258,
+          "total_tokens": 198,
+          "total_time": 0.205779632,
+          "completion_tokens_details": {
+            "reasoning_tokens": 69
+          }
+        },
+        "latency_s": 4.5,
+        "at": "2026-10-09T07:14:49+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "ملکه  \nحاکم‌زننده  \nسرور  \nحاکم‌دختر  \nملکهٔ‌حاکم",
+        "model_returned": "openai/gpt-oss-120b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047782519,
+          "prompt_tokens": 103,
+          "prompt_time": 0.00438099,
+          "completion_tokens": 101,
+          "completion_time": 0.213936826,
+          "total_tokens": 204,
+          "total_time": 0.218317816,
+          "completion_tokens_details": {
+            "reasoning_tokens": 64
+          }
+        },
+        "latency_s": 4.55,
+        "at": "2026-10-09T07:14:53+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

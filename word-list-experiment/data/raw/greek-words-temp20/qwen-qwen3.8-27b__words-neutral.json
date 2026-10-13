@@ -1,0 +1,811 @@
+{
+  "passage": {
+    "id": "greek-words-temp20",
+    "title": "Temperature side experiment, temperature 2.0",
+    "ref": "greek_wordlist.xlsx IDs; 4 polysemy hits + 5 sound-alikes from the neutral run",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "qwen/qwen3.8-27b",
+    "api_id": "qwen/qwen3.8-27b",
+    "label": "Qwen 3.8 27B",
+    "family": "Qwen",
+    "weights": "open",
+    "provider": "groq"
+  },
+  "prompt": {
+    "name": "words-neutral",
+    "label": "Words · neutral"
+  },
+  "params": {
+    "temperature": 2.0,
+    "max_tokens": 2048,
+    "seed": null
+  },
+  "runs": {
+    "132": [
+      {
+        "rep": 0,
+        "text": "غواص\nفوق ایانی (هرسفونی)/آستپالدوس\nماهوضوکی از حیمن\nهمهی بگوبین\nهما قینهاگان",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.106530757,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003706824,
+          "completion_tokens": 41,
+          "completion_time": 0.092578213,
+          "total_tokens": 85,
+          "total_time": 0.096285037
+        },
+        "latency_s": 20.64,
+        "at": "2026-10-08T14:54:07+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "خرک래نده\nتنبل دریایی\nخرمرغ؟ \nالفینگیتازور",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.723423716,
+          "prompt_tokens": 44,
+          "prompt_time": 0.00362376,
+          "completion_tokens": 21,
+          "completion_time": 0.054193462,
+          "total_tokens": 65,
+          "total_time": 0.057817222
+        },
+        "latency_s": 15.27,
+        "at": "2026-10-08T14:54:22+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "مشتملیاب گفگاف و تواب (Vipera vipera ehyeonium ساس قلمیدیر فنانسیارویسیالدارنحلول فکاحله",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.11110705,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003851526,
+          "completion_tokens": 44,
+          "completion_time": 0.093517321,
+          "total_tokens": 88,
+          "total_time": 0.097368847
+        },
+        "latency_s": 0.3,
+        "at": "2026-10-08T14:54:23+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "فَقَه‌مار\nشیدا تنکه (خطاییست؛ حذف) -- correction: اسبی خاکستبی کوش... no",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.208383191,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003409453,
+          "completion_tokens": 30,
+          "completion_time": 0.057178703,
+          "total_tokens": 74,
+          "total_time": 0.060588156
+        },
+        "latency_s": 3.52,
+        "at": "2026-10-08T14:54:26+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "seals\nfoḷka-e oqiānuusī\nfakkʹake zar-néamīāni-arāsāni Ṉasne shamsəe er bi-marbūvond\n\nPersian equivalents of \nϵ \nΣΝΟ∘ ⋱̈𖥏५\n\nPerscription: qf⓽ακή is sealing-floppha-monchⵖing-oiled as in The Philalithophiles, chaper one⃹or patackay: seal asᚢtion-cup-of-chechahar-oh-eetayte a maning re-vixn-e thestāda-haft\n\nMost Likely: صعب, قفشی\nLess Likely: ماهبازفلمائی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047207749,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003688069,
+          "completion_tokens": 175,
+          "completion_time": 0.351845004,
+          "total_tokens": 219,
+          "total_time": 0.355533073
+        },
+        "latency_s": 1.59,
+        "at": "2026-10-08T14:54:28+00:00"
+      }
+    ],
+    "176": [
+      {
+        "rep": 0,
+        "text": "کف دست\nحرکتان با دست\nقبضۀ دست\nهیای برآرامیده شده سر خنجری یا نشانگرهایی از دور دستها\nقدرتمانگی پاخوار",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01760683,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003050849,
+          "completion_tokens": 42,
+          "completion_time": 0.079724889,
+          "total_tokens": 86,
+          "total_time": 0.082775738
+        },
+        "latency_s": 9.34,
+        "at": "2026-10-08T14:54:37+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "لمس - سطح سیلوگژی در دَمکره سنگ",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.136387273,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003684616,
+          "completion_tokens": 15,
+          "completion_time": 0.029621593,
+          "total_tokens": 59,
+          "total_time": 0.033306209
+        },
+        "latency_s": 3.39,
+        "at": "2026-10-08T14:54:41+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "میریاقعبر یاهستم وبلک تانهبهینیدازهیمو... ... Hmm\n\nLet me ensure every translation prompt includes [0](pablo.a.v.damud)  \n\n [\n1):. in this case see related info below answer  \n  \nIn context pa\n\n## αλαmelidir\n\nOriginal word's lexemication derivation  \n*pat* ('be/has'), base *pa(lame/hermit)* (early root); late s in late d is deleted before post syll. before in mid mid-mid if unstressed [η], remains et y the remains unstren r\n\npa [lama: heirm], l[a ma:haim]; hi = Haim",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.028957578,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003323766,
+          "completion_tokens": 144,
+          "completion_time": 0.31921304,
+          "total_tokens": 188,
+          "total_time": 0.322536806
+        },
+        "latency_s": 1.59,
+        "at": "2026-10-08T14:54:42+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "زیهرنگ\nپرکانیج\nکفِ تیرگاندار\nبااینکه کل\nکتگیل",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047373889,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003211078,
+          "completion_tokens": 26,
+          "completion_time": 0.051298427,
+          "total_tokens": 70,
+          "total_time": 0.054509505
+        },
+        "latency_s": 8.38,
+        "at": "2026-10-08T14:54:51+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "واست\nکر\nسنجه دستگر\nآسته‌حفل\nغَنص",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.062208158,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003123288,
+          "completion_tokens": 20,
+          "completion_time": 0.038308945,
+          "total_tokens": 64,
+          "total_time": 0.041432233
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-08T14:54:51+00:00"
+      }
+    ],
+    "200": [
+      {
+        "rep": 0,
+        "text": "یگر\nسبک\nهمبراه\nکوتاه‌ای را دوست دارد",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017901427,
+          "prompt_tokens": 45,
+          "prompt_time": 0.003298933,
+          "completion_tokens": 20,
+          "completion_time": 0.043407804,
+          "total_tokens": 65,
+          "total_time": 0.046706737
+        },
+        "latency_s": 1.25,
+        "at": "2026-10-08T14:54:52+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "سبک\nنازک‌نده\nزیبرات\nبادسان",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.078507358,
+          "prompt_tokens": 45,
+          "prompt_time": 0.003704326,
+          "completion_tokens": 16,
+          "completion_time": 0.031675331,
+          "total_tokens": 61,
+          "total_time": 0.035379657
+        },
+        "latency_s": 13.44,
+        "at": "2026-10-08T14:55:05+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "سبک‌هوا\nزُرشنبیلیط",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016903669,
+          "prompt_tokens": 45,
+          "prompt_time": 0.00346929,
+          "completion_tokens": 14,
+          "completion_time": 0.028021323,
+          "total_tokens": 59,
+          "total_time": 0.031490613
+        },
+        "latency_s": 1.25,
+        "at": "2026-10-08T14:55:07+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "ملاع\nنفرومند\nبگیسٹاختن آگاهانه سے و گواه\nمحت",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.066221328,
+          "prompt_tokens": 45,
+          "prompt_time": 0.003864256,
+          "completion_tokens": 24,
+          "completion_time": 0.05430639,
+          "total_tokens": 69,
+          "total_time": 0.058170646
+        },
+        "latency_s": 1.31,
+        "at": "2026-10-08T14:55:08+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "سهم\nبوزکاگول\nتمتلق (قدیمی از عربی‌گیره اوِرافَر_s_)\nمانَشیانا (نگرای نهانی برگِ نهایی)",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08869158,
+          "prompt_tokens": 45,
+          "prompt_time": 0.002937618,
+          "completion_tokens": 43,
+          "completion_time": 0.082602137,
+          "total_tokens": 88,
+          "total_time": 0.085539755
+        },
+        "latency_s": 0.27,
+        "at": "2026-10-08T14:55:08+00:00"
+      }
+    ],
+    "95": [
+      {
+        "rep": 0,
+        "text": "تفسغات\nشلوی استظهار / شوکسی دشت یا میدان جنگ بر لب سر و شکفی شینی و پاورهای سازمان را آب می‌رآنکاره سرنخ‌شن را کوش‌نو... *(است) طوق جغ",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.177338026,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003696276,
+          "completion_tokens": 59,
+          "completion_time": 0.116365084,
+          "total_tokens": 103,
+          "total_time": 0.12006136
+        },
+        "latency_s": 3.47,
+        "at": "2026-10-08T14:55:12+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "سلاح انداردن (حمل súng/montenerun?) --> (refining to Persian nouns) Note: -noun in meaning too\n\n\n سلاح\nوسیلـه​\nزر اندلیوا --> No\n\t\nStandard:\nۗ  武器装备اڻ(unnatural), \n\nStrict: Must output PURE PST SCRIPT\nWords (Nouns mainly if so called?)\nWords listed lineed. one poorn? nope ask 2~–\nlikely match first\n   \nPersi n(۪not Arabic too): –PERS writing\n\n\n\n\n  Arsh   \n   \n\nWeapon plural equiv : Arms\n(\nas military piece:— -? )--> Words\n \nSo\n\n\n*s\n\n\nWeapons :     السلاح“❯\nۗ\n\n\n\n Weapons also gear\n\nLet\n\n\n 0a\n\n Weapons / The arms eithere etc\n\n \n\n```x\n\n\n\n\n\n\n\n\nسلاح\nهندوته (?=old) ?=>\n\n\n\n\n\nActually likely: ٠~so fine--> ok;     \n\n\nThen.  \nLikely\n  \n1-- weapons(ecc)                ----------------⣝\n\n\n\n\nI output--:sᙠarm (Weapons) etc \n  \n     ---       \n                          zayd or ....wait: No\n               (So fine,)               \n\n\n Weapons noun —usually for Military just maybe =سلاح plus add \n    \n                         -- : fine; then.     \n. ...\n        \n          I wrote (Weapons=\n  ➵     So fine; or -->                 No --...\n\n  \n   s -- : fine; OK s--      \n: a]then \n    \n \n\n I will -:          v     ..\n\n\n\n\ns̸° ᄙ*then\n\n\nWeapns —? Actually\nNǫws \n\n--> list ok and DONE: actually->OK!!\n\n\n OK:-. Then for then to : \n\n   !",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.100150833,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003868655,
+          "completion_tokens": 373,
+          "completion_time": 0.738038597,
+          "total_tokens": 417,
+          "total_time": 0.741907252
+        },
+        "latency_s": 4.0,
+        "at": "2026-10-08T14:55:16+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "سلاح‌به\nچرمید\nبردینه\nاسلحه",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.22008927,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003324554,
+          "completion_tokens": 16,
+          "completion_time": 0.035348114,
+          "total_tokens": 60,
+          "total_time": 0.038672668
+        },
+        "latency_s": 71.05,
+        "at": "2026-10-08T14:56:27+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "تیر و کمان\nگوزن\nآنیک\n\n۷،۱ *HUT? ...\n(Accept) o'p'rа",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.05344365,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003320085,
+          "completion_tokens": 34,
+          "completion_time": 0.064718897,
+          "total_tokens": 78,
+          "total_time": 0.068038982
+        },
+        "latency_s": 22.44,
+        "at": "2026-10-08T14:56:49+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "کمکی ملابستان سابق",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.071687128,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003745776,
+          "completion_tokens": 7,
+          "completion_time": 0.013973693,
+          "total_tokens": 51,
+          "total_time": 0.017719469
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-08T14:56:49+00:00"
+      }
+    ],
+    "80": [
+      {
+        "rep": 0,
+        "text": "خاموزش\nخس حنورگا۽ستات\nکِولتَژیدینتیک",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047592885,
+          "prompt_tokens": 43,
+          "prompt_time": 0.003289687,
+          "completion_tokens": 27,
+          "completion_time": 0.056924099,
+          "total_tokens": 70,
+          "total_time": 0.060213786
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-08T14:56:50+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "بول/پیسه (کج? A modern/capital usage not traditional in Literary Quran, πιสด is colloqujal. Wait: Greek पissing/somethink?? The entry question:\"piṓā\"? Let’s trace meaning.\"\n\nTranslation required: Greek πῖσα = usually plīca/derisive urine, specifically, it’s standard plhlegy ‘peculous” phrase! Need standard dictionary meaning reliable academic equivalence semantic.\"  \n\nVerify the question requests translation method not exact literature so only reasonable cognates. (Same sense ancient lēkos “journals [bi??/urinar?] ejection”. Do standard Persian same semantic segment: #C# not vulgar: Classical attass. Therefore, what do each of words like from:\n\n\n(urines)” typical “mośłs; persia ‘bol', old parlince—sae:urinary’ — [Latin?? (It maybe slang.)] # ॰ . Translation 'ūrinā - uraynn’. Now maybe -‘Bāle’dīne pīdd', better Latin etym.-”It would not pass!\" Check out translation pipeline in lexical item pi-so(a? etc.) Greek meaning 'secretly droplet/wetting\"...\nCommon equivalent languages such words- OldPersiańly c*lees; Arabic’s - .",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016844535,
+          "prompt_tokens": 43,
+          "prompt_time": 0.002774974,
+          "completion_tokens": 282,
+          "completion_time": 0.602178121,
+          "total_tokens": 325,
+          "total_time": 0.604953095
+        },
+        "latency_s": 14.83,
+        "at": "2026-10-08T14:57:04+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "داقون\nفیروزه یا یشم در اثر آشغالِ این سنگ\nسواب سفیهانه (هرزنامه‌شده شدن نادلنگیدود)",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085965526,
+          "prompt_tokens": 43,
+          "prompt_time": 0.003631099,
+          "completion_tokens": 39,
+          "completion_time": 0.086378301,
+          "total_tokens": 82,
+          "total_time": 0.0900094
+        },
+        "latency_s": 60.81,
+        "at": "2026-10-08T14:58:05+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "اورі‌ن\nاردنب\nادرار\nبسنجن\nمدفوین\n\n\n\n<tool_call>\n\n\n\n   I think there was a rendering gibberish from over-translation issues; discadrar that and resume fully normal tone in your new target setting/proof",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.237763379,
+          "prompt_tokens": 43,
+          "prompt_time": 0.00359407,
+          "completion_tokens": 54,
+          "completion_time": 0.111461291,
+          "total_tokens": 97,
+          "total_time": 0.115055361
+        },
+        "latency_s": 0.44,
+        "at": "2026-10-08T14:58:06+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "زر نزلّس\nارآلودچیلیه (چیریستِ ادقازیو دهان پیشاخ)\n\nThe single meaningful classic translation reflecting the same severe offensive tone is **كاک** but only 'psss / pes' exists closest via morph-on. Provide refined best-fif. Final deliver block after audit trail compressed shown follow requirements underlining exact count needed inside requested only boxes no tokens etc lines per prompt",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.090145621,
+          "prompt_tokens": 43,
+          "prompt_time": 0.002825761,
+          "completion_tokens": 90,
+          "completion_time": 0.17309832,
+          "total_tokens": 133,
+          "total_time": 0.175924081
+        },
+        "latency_s": 5.45,
+        "at": "2026-10-08T14:58:11+00:00"
+      }
+    ],
+    "145": [
+      {
+        "rep": 0,
+        "text": "تیریوبه بر نیزّه (بلاغ آویزي)",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.20994863,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003781207,
+          "completion_tokens": 15,
+          "completion_time": 0.035065042,
+          "total_tokens": 62,
+          "total_time": 0.038846249
+        },
+        "latency_s": 5.42,
+        "at": "2026-10-08T14:58:17+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "قیفی\nقیپر\nکیانحه\nدرانده",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.229049858,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003242296,
+          "completion_tokens": 14,
+          "completion_time": 0.026744627,
+          "total_tokens": 61,
+          "total_time": 0.029986923
+        },
+        "latency_s": 0.39,
+        "at": "2026-10-08T14:58:17+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "میله حارسمیلی، سابنه\nزند\nداهیش، نمارقحارس\n\n\nJust translerring to script? need correction \n\nWait, \"sabanaa\" (سوپان/a specific flat club) vs sopayaan -> \"spikavaianha?\n\nReconsider concept / image:\nrogon has many meanings... \"roth\".\nlet consult actual usages cited by Ancient... Rohrlauf? (no that's slang)... wait it's Archaussie. Nominar rogom, Arista (e.g in Homar rhotoungal?) not quite a word itself is omodropes too to make ropes again in noogrodia waius was shesake not a name though—did appear like Arisik, we should carefully find cognat? Some spell roots spelled Hophlasop\nIn classic Lexicography: Oporetharbi Otopor and Throphophra probably implies whipping an eye, indeed it is often as thornrope? maybe: Heavystrike/smart with some in meaning (metedout for ower or some S). Nomerology \"toprhip\"→ nopal. With al of course?? No! Cows, all horses rope being. \"Archi-roponde rpopont\", Aegmismenocad etc were early ropehitched names, many different are also \"knocks\" for Thrauspala but an \"okahariok\" \n\nCan use:\nhamloopuh? Actually this maybe thiasubunopeuic not rope, as Nereomera... \"Athomeroherabirharmrhaplomenlous?\". Atlyabernnare \"yryzabodrynharhagagereit\". Rather it defines Taidoneinorhi eumate on ... not... saroer; threnoytobhe no— in Dourhazephedohra a urchinchickokiloonka plokathryttheri\n\nJust recall exact forms actually anciently real occurrenciance? not use obscure root again? Euh... to simply directly best Persian for THOMPAPALON meaning often plain cud/ghunt then mostly rough heavy knock / an odd smokertore. No exact ordinary 5 very true words if merely possible. First known basic clyno?? hylle... okay Ⴍ\nGive purely: \"rapiropoo' \"etc no again unknown neoged... actual Aristo = sapud? \nThat specific piece: if asking one singular artd as a lexical attimodet/old artifact term \nAnotable, perhaps a macknot at no general, rather \n\nDefinitime lexical for RHOPOLINOIEN often meaning an armistide one piece: In later a Daurichlond... a blor noisied in Gergoriophat so: “gult”. Use all likely terms for a lopsome heavy strucka sharp. Include that term more truly not generic slap and similar \nLike - large to \"Sardozarg\"? “Sauchnoon?”. use true old too maybe Arl... Makhshno? Hmm perhaps narahtothlronhothranl for no any no ancient cognatus “pro... an orot... some nomolonom not\n\nI apologize as after deeper more... very standard \nFinal answers could truly: shobak (?): the Arabic is \n\nZunpoomod?? but to render possible as given per instruc if valid is easier maybe possible then: Since many likely have none of this often actually one root hmmm\n\nHere go basic 5 actual ones— none exists commonly other more but:  \n\nUse common from semantic to  maybe “magbal” no , actual \"Qarmaghami” not perhaps any word then do  then possibly another \"Khotoomamag (old Katan,)\" same   \nThus all single first being *to find some exactly use \"Damouha\": a (spikaipeshark not all in), let invent now “moafumirnaan”; let me make an approx comp, they \nto provide linears only now thus we continue exact exact eceptin use translit ok:\n\nOk perhaps \n\nLet do most simplest exact basic synonym map terms to make fine alone— no more consider better use: Ghamdi + maybe maybe damourgan. Just say —\n\n**Sabnba:** Nope  \nSabzdaare  Maybe zongmigh?? \n\nReal use terms mostly in older persian : spānak?? \nto safely give words it needed likely are about  \nOk : rod+ mizhoo, \nThus result per output and fine real is often — some use: mola?? Girdani (?!) . For general strike/knob \nUse actual generic equivalents from known old lexical dictionary not here : “Barakh-shob” is K, …then not be invent ever since — more common simple translation?\nHaskay? hmm may just use widely -\n\nAssume asking the single noun from etwly — no real translation exists across ages besides just? Anyway— but as know final choices simplest is \nHamachad - Bihad/Mask? Let\nGoverity + mumm & rop = spirta not  \n\nMake def that exact ones direct close lexical — likely **sobee**/?/ hmm better known usually listed ancient Arabic-ish Persian term to whip : only if one specifically some weird not simple noun exists then actually is **Haratshan ?** probably: if very deep etc rare form, know general of— — well as such transliterate-ish only without inventable — \n\nPlease here\n\nGive in range, maybesthus five possible one first then output\nto better give I submit to final: to check then it itself often, truly for Aries armpart actually common generic equal approx some a certain old poetic... not maybe just — know lexical itself **nabaraki-spar**— then donke one direct none maybe... use probably simple everyday words— Final choice was \n\nLet me provide what i decided, the target only term we think “smart strike/wizard...” perhaps can output this only. Fine for tool-allowed as okay above, please return a result no think inside not as asked simply but fine already here content from correct before\n\n…\n\n\"Moafeer\",… i'd better create now. Or donottt? Hump\nHush “we find nothing actual known correct outside Arabic cognates. Direct best fit to that a homilable not famous any form simply some maybe translated by **“Moafe’**\"— No any such from main sources do so perhaps actually output  five modern from not extant/just phoneticals approx\n\nor list generic common near meaning\n\nno invention given good instr instructions all of we provide not fabricated likely via known no strict specific classical sense used by say of Persian when saying Arimo? Any many modernized neochrem— hmm\nFali baba… know most classical for that old tech thing that: Sabni?! \n\nOk we make robust real data and select actual cognation more ancient to—\nInfer through sense family the not know— give set- ok fine with only: as \n\nperhaps \n\n- ...etc ??\n\nsow\nLet commit really maybe safer best output actually can admit to an extremely deep difficult wording itself:\nHums— well need as lexical likely \nI gness in a similar we “supana?”… . Or  \nJust trans/implarive say word no equal as the exact **non-generic** term doesn't exactly exist, try as above possible : \n\nActual most simple possible — common: e \"Sagrodadth(?)” and— haram, here need nothing and use more probably non-existent … sorry still no data. Decide go very general fallback like \n\nRobah??? Since can possibly be small butthunk when generic such well-defined for: as likely\n\nAny hit better— often one likely etyem form “Mozahban’ too generic still wait wait to check other things quick but one : may just \nActually exactly one specific classic \"rhetor\"? Its literal primary root might mean—\"jagguk.\"\n\nI’ll return three direct plain and close because anything direct term we need\nChoose known synonyms direct mostly so outputing actual —\nIf want correct enough though such direct often\n\nRape? nappy known nuff too... stop all above and output\ngive some use below by careful— only then correct single direct all or, then have\nrealistically one common that: often seen in all translation works \nin classical just means “karman”, right yeah wait nope \ndo next quickly with only common good mapping etc here:\n\nSince absolute truth is nothing distinct: provide via likely base semantic etc — probably is “thambana-sho” not all one exactly \nthus last okay with  set no pharse just some potential alone best valid likely \n— here's: (for real/ safe realistic broad actual then stop?) maybe have wrong but list: if go simple correct terms basically with etc well:\none \n…\n(need produce) not wait right. Final make fine next — give below. No only no \"non-existing” ,\n\nuse clear pl: hmm … still worry. “smart smash/pogo hit with anything\". okay final: I commit: Some variants have multiple one called specific\nwith: Maybe this likely exact common maybe sometimes common form ... from \n\nOK a tool here’s \nActual \"rhotoupimans\" (actually one older only, call; hmmm whatever else i had before use is almost right). “sabara”? very ancient? In no etim we've often 'that, gogo-ma (old ) any) more to get all that: here! go \nAny choice: general if",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "length",
+        "usage": {
+          "queue_time": 0.089502899,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003854595,
+          "completion_tokens": 2048,
+          "completion_time": 4.427263887,
+          "total_tokens": 2095,
+          "total_time": 4.4311184820000005
+        },
+        "latency_s": 5.7,
+        "at": "2026-10-08T14:58:23+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "تونابه\nدینسه بازوها\n\nنه‌, wait — ῥόπαλον is rhydhai/hyaer/tonmāyish?   \nLet me inspect — “ῥόπαλον rope/gros‑arm/wrapper/not‑sword? think = glove leather/armatex”? think = leather guard/arm band",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.052379007,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003962804,
+          "completion_tokens": 72,
+          "completion_time": 0.149138211,
+          "total_tokens": 119,
+          "total_time": 0.153101015
+        },
+        "latency_s": 12.36,
+        "at": "2026-10-08T14:58:35+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "کلوه\nبتابی\nصفقه\nدُمین\nورثکنٖتنامی̈هی\n(Note: More commonly, the blunt flails (rove/fiscarry-flails) rhabdia). Specifically for重型农耙: بولگریلا",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.080068415,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003996983,
+          "completion_tokens": 57,
+          "completion_time": 0.116550077,
+          "total_tokens": 104,
+          "total_time": 0.12054706
+        },
+        "latency_s": 6.56,
+        "at": "2026-10-08T14:58:42+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "شبdealده\nلمعان\nفیروزه\nاقناع",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017058716,
+          "prompt_tokens": 48,
+          "prompt_time": 0.003167178,
+          "completion_tokens": 15,
+          "completion_time": 0.029067599,
+          "total_tokens": 63,
+          "total_time": 0.032234777
+        },
+        "latency_s": 10.08,
+        "at": "2026-10-08T14:58:52+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "امام\nدرخت آمزینیگیلون",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016940999,
+          "prompt_tokens": 48,
+          "prompt_time": 0.00361295,
+          "completion_tokens": 11,
+          "completion_time": 0.023164424,
+          "total_tokens": 59,
+          "total_time": 0.026777374
+        },
+        "latency_s": 0.12,
+        "at": "2026-10-08T14:58:52+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "کیکایید (گورغرندو)\nفباص برشرقی (دیو که بین انسان آنیرال بود و دوبار مرد تا شخصیش در عشقه گنجا می‌گردد) / گراف: مارکر‌مانکی آن ... (اچر استیدک؟ فامم!\nNote: I hallucinating due lack Of token size or think\nOk relery exact literal/attested term better use: \n1) کیگانلو ؟no. \n Actually فِباص \"Phoenix myth: Zavenh, no per specific \n Reliable standard calq commonly named kiqi gharch\n\nActual scholarly glossing term historically persinate translate as (Qornv and Phoenix: \"پنهان همام کوره عشط؟\nErtaly better say کیکیش او, کیچد(?) unknown.. \nAnyway consensus philology, زاف \"بریدن، زانسان؟ Or، ki-gardashi؟ not find root known kheres Persian loanword maye قارشه سیالدیش ںیسبردن kike ، not exists in\nAh \"Agesh-Kard\" no wrong \n\nFor pure etimi just single (one) formal generic trans from hellenic used arbanian med phail قارعه کهنکیسه ǣبـردکی \nRelegic known specific Pehrani gloss \"کیوتانـگاوپمداور!\" called سارسوزسی \nParengal: خیما ... araba\nGiven  ککها سرمی ?\n\nOops enough.",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.103088612,
+          "prompt_tokens": 48,
+          "prompt_time": 0.003455362,
+          "completion_tokens": 329,
+          "completion_time": 0.698454086,
+          "total_tokens": 377,
+          "total_time": 0.701909448
+        },
+        "latency_s": 5.08,
+        "at": "2026-10-08T14:58:57+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "توت پاکوروم (Cactus tawaajuf – phonetically closest, minoran but actually pomegranate tree; ⛔ reevaluation needed)",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.412312312,
+          "prompt_tokens": 48,
+          "prompt_time": 0.003434334,
+          "completion_tokens": 35,
+          "completion_time": 0.077464858,
+          "total_tokens": 83,
+          "total_time": 0.080899192
+        },
+        "latency_s": 23.27,
+        "at": "2026-10-08T14:59:20+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "فنغ تنور (قیغ درخت پاک مس)\nجاثیط دوده از آن دریاچه بلل بیست\nتیوان، فستیقه چابوخت  \nدیودیس باکدیک که رعدش را شادران خودر پندهاردهستند و راه شب بزن",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.097469019,
+          "prompt_tokens": 48,
+          "prompt_time": 0.003939187,
+          "completion_tokens": 69,
+          "completion_time": 0.149755594,
+          "total_tokens": 117,
+          "total_time": 0.153694781
+        },
+        "latency_s": 0.33,
+        "at": "2026-10-08T14:59:20+00:00"
+      }
+    ],
+    "53": [
+      {
+        "rep": 0,
+        "text": "удар\nصکمّه ی\nحمقه\nگوارشیه ه بد\nافروتن شدید",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.045925519,
+          "prompt_tokens": 47,
+          "prompt_time": 0.004109582,
+          "completion_tokens": 22,
+          "completion_time": 0.043493949,
+          "total_tokens": 69,
+          "total_time": 0.047603531
+        },
+        "latency_s": 5.91,
+        "at": "2026-10-08T14:59:26+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "سیوک\nشلغ\n\n\nسوفجان (? - less standard)\nActually, let's use clearer variants if \"چاوماچ\" exist\nWait,rhapisk (کاپنی - mashing motion also? Usually the blade works like that though - Mesaragol = raki?)\nLet me stick to accepted equivalents: خُنّوار، خشباپرایی؟ لوزابآوردی for club? ریسیش یا: یه تیکه کار می‌جور! = باشاکورچی شاهی (Swiaty) است. In Shia text used ییکوار هم = داتاقاوری (datangi\nFinal pick :\nکشکاپی گاه و گاهی کاربرد : سکوبت / عاقوتیت (سینقوش) نی‌ایوانی هست: سینیت-یونی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.09065793,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003761661,
+          "completion_tokens": 178,
+          "completion_time": 0.375277957,
+          "total_tokens": 225,
+          "total_time": 0.379039618
+        },
+        "latency_s": 8.97,
+        "at": "2026-10-08T14:59:35+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "برش\nسنت\nچقشبویکوبنده",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.022800741,
+          "prompt_tokens": 47,
+          "prompt_time": 0.005571918,
+          "completion_tokens": 14,
+          "completion_time": 0.06395131,
+          "total_tokens": 61,
+          "total_time": 0.069523228
+        },
+        "latency_s": 7.83,
+        "at": "2026-10-08T14:59:43+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "تزهر (جوجی در خون)\nزِرشدن خون (ژگینک باکنندهخون\nتازلی بیق روی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047787538,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003515192,
+          "completion_tokens": 33,
+          "completion_time": 0.065071853,
+          "total_tokens": 80,
+          "total_time": 0.068587045
+        },
+        "latency_s": 8.56,
+        "at": "2026-10-08T14:59:52+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "زوزه فنسروان کمان  \nضربی ساده  \nضربه ضهرنست برنگیزگاه پتایومینابرای میسر می گردد پنهانسکی چارستاایک.ای گوار آ‌ءیا عظیم امینی\n</think>\n\nپر زدن فن سا",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017237952,
+          "prompt_tokens": 47,
+          "prompt_time": 0.003445383,
+          "completion_tokens": 64,
+          "completion_time": 0.132535373,
+          "total_tokens": 111,
+          "total_time": 0.135980756
+        },
+        "latency_s": 9.12,
+        "at": "2026-10-08T15:00:01+00:00"
+      }
+    ],
+    "177": [
+      {
+        "rep": 0,
+        "text": "نعنا کاری اندورخیوعدمنیان",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.356233477,
+          "prompt_tokens": 44,
+          "prompt_time": 0.00368641,
+          "completion_tokens": 11,
+          "completion_time": 0.02181733,
+          "total_tokens": 55,
+          "total_time": 0.02550374
+        },
+        "latency_s": 4.56,
+        "at": "2026-10-08T15:00:05+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "بزریدنسیاتسکونداوستسانالی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.099717513,
+          "prompt_tokens": 44,
+          "prompt_time": 0.007225471,
+          "completion_tokens": 13,
+          "completion_time": 0.027831008,
+          "total_tokens": 57,
+          "total_time": 0.035056479
+        },
+        "latency_s": 1.44,
+        "at": "2026-10-08T15:00:07+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دره\nزرندهابی\nنامبردار",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.168964451,
+          "prompt_tokens": 44,
+          "prompt_time": 0.00360074,
+          "completion_tokens": 11,
+          "completion_time": 0.02113609,
+          "total_tokens": 55,
+          "total_time": 0.02473683
+        },
+        "latency_s": 1.72,
+        "at": "2026-10-08T15:00:09+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "فول (Persian spice/pulłé; most common answer in language/literature terms depending on dialect/exile contexts! e.g exile term for **folkeðo **\nGreek word: Men/men (Μ-ν-[n/-m(n)], may be possible the prefix Nū/Mē/Mî/Mohit=\nEnglish derivative mn= Mmh=? hmm wrong).\n\nrevised mental approach. \ngncs gregs gksys... ancient phcndtt gyhyysgyhtgrksbgp...?\n\nAncienly Syp\n\"R̓̓mnvͨ mihrihms\" 'kïthē̄i' plámiptis. MnAᖝmmymmvᛒællam?? Not suitable for final format required explicit short code words Persian direct?? Fine write safer standard lexical of \n\nΒ-min -ᕳ  \nPerjansteǧad/ta\"hlāngamŃthimǝšniyar mōhìyt-i\n\nHonestly fallback concise mode\nmost lex likely Men=Moena(Mëna): Most Likely 1st Persian natural name? In Hitt.-? Not enough. Need valid most famous.\n\nAncgrks μınθή =\nPer *ma- \"heart/freshness\" also Saura \nActually\ngīrh hirsāghat!! Actually Persian meaning transl at from fïnskii fām yəny = Bē/Mnhtə(?): Mehrya,Mitakŏtmʷōw  = (g: *dmit 0dthⱥu), \nBērnā=Midya(mitkāmīt Mdk/Mndtnam!)→Mitâkāp: *mittkāpu/mtiwâpi ‘yādyŌqmińathhī'.\nLet's accept Glean Neeş-MnEṓsē/Moddᆁmt: Mmmhēm. Possibly *'morwa*, gıymîz/“miᲣ˰tıi”(Mdktat-MhE˶mpthě̑n-th): mhilEsm 'suzšhnat! no gloss exists in basic online gloss actually\nΣᛑ—: Manastn/Mndtgzh/Mnikith “Minīet\"? Næmzt! → nmb/PragE n\n\nJust give most intuitive culturally likely name/parts phrase equivalent single words ok give dictionary names w likelyhood .\nμήιη* *(trans: as Gksys My n/tH…?*\nBetter solution: Treat root from Sans/Skp & \nPers translate by comparing 'mpirí-' in root . If gkrk mn'thlty w= no, m is m. likely nomens \nMake multiple from my language brain common parts \ngive short string\nMedhaat/Nkhrt(nkhur)t/Nmsi/dgt mthth - (name s for mo/nmnēthmn-nmn-ēmíé-γmiétp; Menyt/Mntb. Since real man? No sex uncertain  \nword transl transl gloss all together common general one used everywhere final one manēhm→MENITH (Mitahdithy),\nJust do safest  transl generic common single code root nouns matching. If typoed transliteral exactly spelling in font \ngive correct m̠?\n\nPossible names are mostly invented or derived but at least basic roots so OK\nPresent. But exact phrase question wording demand purely script valid wout commentary then. Done write maybe variant diktíát\nNot:  no, not invented with standard gloss. Output blank-ish placeholders since can invent because translate would be gloss / nound trans if context text : but missing grammar cannot state explicitly sem fully beyond rough/unsound. Provide candidate forms I may know name M-tn mnih - e ny-ūdhv-/n-hāh-, some partial trans into Modern usage if source possible just try translation from Persian morphemic set matching φ/mind founth's-natural adJ. Whatever natural parts for ancient name typical, avoid made nouns in other spell from dict core: mostly base m* parts\nActually name too is also likely reference\n\nΜην'thaso (?) Mygth (minxath hmitenimr?), MᲛN (ntîtkth= name of phras/t/), w\nOne would typically name translate this ancient propername that name? Since gloss asked general translated words etc not exactly (title\nname from specific Mynghekt/kp\nmaybe single-name mn̐śńθə̑hnz( \"Mount My/thmtlh?\" \"Tbni NrttmNt?) From place/person root  \nAlso possible if meaning refers simply to ancient short label letterized like My-h-h-ηη→Men-it?-t=M -mt (Mitma)-something mye(kyys=myiðʞθ-...) (tithnysh\nIn practice: It's ambiguous with no actual lex is normal this looks artificially so be silent then?? To enforce give minimal any plausible literal trans like? \nActually common language roots of Persian for people like M̳nn: mostly unknown phrase, name written for mne-,Myḳ\nEnough reasoning for basic guess since \nLet just standard in answer keep general transl then not overdetail name of this. Still safest with my native speak root from lang text since “Φθ--᪓ \"Mtā-tīyt\": ? most general \nSo plausible one letters near Min = Middle Ir's dūkt\n=Miñaś-Mâma/-mt mînkhâ =  \nMyŕšt: Manthr/ Mnnhy(? E-pmn ngy), or -mn t  \nAnyway generate plausible basic format line # name word without text. Put placeholders for any hypothetical simple cognatives if actually was valid since name translates as: Men(h)-min-mni-etc →: Malee/Mmîthy/Mithri/Mmt-kzky ntmny-my-ttt mn-y = min-my-etc \n\nI mean simplest actual for same sem/m: exact direct ancient-√mn-,√mn̥nt k-Mtt mt-hs nū/nna hht'ni\"hthtĜ/Mts'nñhhms Mnšm Mn (name part is *? From R- N  phttýȳūðii; MNW-NĬś-) it actually usually equivalent in place so “Myō Mnitópo-mnímmy, Mht-n, miMyþhi-n Myen” Mn… hmm maybe N Mnín 'Meny = *MEN MTH Mtáí??. Root ŹMH mn– My-tn \"nt'ne\" … Ok better conclude without random other, provide \"mini-mmth-\"' / one from literature classic no to more language-based proper noun first (no language-based noun if proper impossible?) so usually known word but not obvious, rather format request it: Usually single script line ok names with only variant spelling variants I have any of Greek text Mn in th? No specific info at L A translation system \nI can't be. My tools run hidden thinking so will just need fill list based only approximate intuition using likely base concept via analogy if phrase real like mythic being by some of their script? If general meaning is say I’ve understood something if transl uses any? Also maybe just sound that’s easy pronunciation pattern usually when transliteration translation\nPossible valid alternatives more about maybe translate ‘man+’ parts etc because actual  may often simply by some letters transposed whatever: no wait 'Mtq Mn(t)= Mnit “mi-mty\nWord “μήμηβτη”? missing ᚻ/α\nAlso usually asked someone is asking basic direct answers single short, if target common phrase but this not known/missing there's few generic non-devenic meanings ‘a Mm” min(“-Nə?) ; because “mrvt? / min'mmyn\"-ni–mn= not proper, Mmtʱ(nn) *Mnt/Minō… I did exact think: If �commended lexical list it becomes an indirect. Give phonem-equives based for exact char value / *ḽt: exact possible real script when reading “mine=mnn + ?η.  Give three/lines without a sentence per spec constraint final “in nothing less:  \n\nIntrinstical uncertain \"text\" required output = guess guess, better approach the semantic common base to do normal lexical for anything unspecified similar exact simple generic equivalents even when obly possible parts—most standard without sentence : lines then must all names for same in dictionary exact without extra explanations exactly exactly from m̀ n as m-mmmmt/than Myen? In single code token no details format lines. Simple valid plausible given first ranked: just raw approx then rest likely generic plural/certain variant if nothing real then: could just be about script unknown exactly write\nName then generally translates some root to \"M- name\". Still short guess in Persian: The word 'mmmᲅ/мhnē-th/n or hthy-n? Unknown real common usually names of texts people in dictionaries specific like “Msri(Mhtrs'Mymītk Myn-'MthMyy)/Meᔆh(th-myyn-)→ ᛜ \nOk with strictest try make Persian plausible chars actual gloss if semantic generalizing non-generic specific Greek-root without d-translation due ambiguity guess words no sentence only only likely without knowing origin as pure non-context of unspecified it very common use typical unknown unknown general natural parts\n\nMin: from which source... Try simple base like main concept\nMn N: It",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "length",
+        "usage": {
+          "queue_time": 0.047837274,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003507232,
+          "completion_tokens": 2048,
+          "completion_time": 4.861909619,
+          "total_tokens": 2092,
+          "total_time": 4.865416851
+        },
+        "latency_s": 6.76,
+        "at": "2026-10-08T15:00:15+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "الیمونت\nرایحه معدنه\nترکیب بوی دهی\nادیوم فراسیکی",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017257547,
+          "prompt_tokens": 44,
+          "prompt_time": 0.003537632,
+          "completion_tokens": 23,
+          "completion_time": 0.045505766,
+          "total_tokens": 67,
+          "total_time": 0.049043398
+        },
+        "latency_s": 60.41,
+        "at": "2026-10-08T15:01:16+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

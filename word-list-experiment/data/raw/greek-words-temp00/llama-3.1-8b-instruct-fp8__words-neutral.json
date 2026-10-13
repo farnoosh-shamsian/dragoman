@@ -1,0 +1,810 @@
+{
+  "passage": {
+    "id": "greek-words-temp00",
+    "title": "Temperature side experiment, temperature 0.0",
+    "ref": "data/key.csv IDs; 4 polysemy hits + 5 sound-alikes from the neutral run",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "llama-3.1-8b-instruct-fp8",
+    "api_id": "@cf/meta/llama-3.1-8b-instruct-fp8",
+    "label": "Llama 3.1 8B",
+    "family": "Meta Llama",
+    "weights": "open",
+    "provider": "cloudflare"
+  },
+  "prompt": {
+    "name": "words-neutral"
+  },
+  "params": {
+    "temperature": 0.0,
+    "max_tokens": 1024,
+    "seed": null
+  },
+  "runs": {
+    "132": [
+      {
+        "rep": 0,
+        "text": "خرسک\nخرسک دریایی\nخرسک دریایی کوچک\nخرسک دریایی معمولی\nخرسک دریایی کوچک معمولی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 34,
+          "total_tokens": 76,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.4670442882925272
+        },
+        "latency_s": 2.09,
+        "at": "2026-10-13T14:54:14+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "خرسک\nخرسک دریایی\nخرسک دریایی کوچک\nخرسک دریایی معمولی\nخرسک دریایی کوچک معمولی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 34,
+          "total_tokens": 76,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.4670442882925272
+        },
+        "latency_s": 2.03,
+        "at": "2026-10-13T14:54:16+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "خرسک\nخرسک دریایی\nخرسک دریایی کوچک\nخرسک دریایی معمولی\nخرسک دریایی کوچک معمولی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 34,
+          "total_tokens": 76,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.4670442882925272
+        },
+        "latency_s": 1.84,
+        "at": "2026-10-13T14:54:18+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "خرسک\nخرسک دریایی\nخرسک دریایی کوچک\nخرسک دریایی معمولی\nخرسک دریایی کوچک معمولی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 34,
+          "total_tokens": 76,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.4670442882925272
+        },
+        "latency_s": 2.17,
+        "at": "2026-10-13T14:54:20+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "خرسک\nخرسک دریایی\nخرسک دریایی کوچک\nخرسک دریایی معمولی\nخرسک دریایی کوچک معمولی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 34,
+          "total_tokens": 76,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.4670442882925272
+        },
+        "latency_s": 1.78,
+        "at": "2026-10-13T14:54:22+00:00"
+      }
+    ],
+    "176": [
+      {
+        "rep": 0,
+        "text": "دست\nدستگاه\nپالام\nپالامک\nپالامک دست",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 22,
+          "total_tokens": 65,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.1672869669273496
+        },
+        "latency_s": 1.84,
+        "at": "2026-10-13T14:54:24+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دست\nدستگاه\nپالام\nپالامک\nپالامک دست",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 22,
+          "total_tokens": 65,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.1672869669273496
+        },
+        "latency_s": 1.72,
+        "at": "2026-10-13T14:54:25+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دست\nدستگاه\nپالام\nپالامک\nپالامک دست",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 22,
+          "total_tokens": 65,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.1672869669273496
+        },
+        "latency_s": 2.08,
+        "at": "2026-10-13T14:54:28+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "دست\nدستگاه\nپالام\nپالامک\nپالامک دست",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 22,
+          "total_tokens": 65,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.1672869669273496
+        },
+        "latency_s": 1.55,
+        "at": "2026-10-13T14:54:29+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "دست\nدستگاه\nپالام\nپالامک\nپالامک دست",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 22,
+          "total_tokens": 65,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.1672869669273496
+        },
+        "latency_s": 1.33,
+        "at": "2026-10-13T14:54:30+00:00"
+      }
+    ],
+    "200": [
+      {
+        "rep": 0,
+        "text": "لطیف\nخفیف\nلاغر\nرقیق\nخنثی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 19,
+          "total_tokens": 63,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.102681441232562
+        },
+        "latency_s": 1.31,
+        "at": "2026-10-13T14:54:32+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "لطیف\nخفیف\nلاغر\nرقیق\nخنثی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 19,
+          "total_tokens": 63,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.102681441232562
+        },
+        "latency_s": 1.28,
+        "at": "2026-10-13T14:54:33+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "لطیف\nخفیف\nلاغر\nرقیق\nخنثی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 19,
+          "total_tokens": 63,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.102681441232562
+        },
+        "latency_s": 1.2,
+        "at": "2026-10-13T14:54:34+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "لطیف\nخفیف\nلاغر\nرقیق\nخنثی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 19,
+          "total_tokens": 63,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.102681441232562
+        },
+        "latency_s": 1.42,
+        "at": "2026-10-13T14:54:36+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "لطیف\nخفیف\nلاغر\nرقیق\nخنثی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 19,
+          "total_tokens": 63,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.102681441232562
+        },
+        "latency_s": 1.11,
+        "at": "2026-10-13T14:54:37+00:00"
+      }
+    ],
+    "95": [
+      {
+        "rep": 0,
+        "text": "سلاح\nآزما\nآزماگير\nآزماگيری\nآزماگيره",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 27,
+          "total_tokens": 69,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.284148447215557
+        },
+        "latency_s": 2.12,
+        "at": "2026-10-13T14:54:39+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "سلاح\nآزما\nآزماگير\nآزماگيری\nآزماگيره",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 27,
+          "total_tokens": 69,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.284148447215557
+        },
+        "latency_s": 1.83,
+        "at": "2026-10-13T14:54:41+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "سلاح\nآزما\nآزماگير\nآزماگيری\nآزماگيره",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 27,
+          "total_tokens": 69,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.284148447215557
+        },
+        "latency_s": 1.61,
+        "at": "2026-10-13T14:54:42+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "سلاح\nآزما\nآزماگير\nآزماگيری\nآزماگيره",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 27,
+          "total_tokens": 69,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.284148447215557
+        },
+        "latency_s": 1.33,
+        "at": "2026-10-13T14:54:44+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "سلاح\nآزما\nآزماگير\nآزماگيری\nآزماگيره",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 27,
+          "total_tokens": 69,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.284148447215557
+        },
+        "latency_s": 2.0,
+        "at": "2026-10-13T14:54:46+00:00"
+      }
+    ],
+    "80": [
+      {
+        "rep": 0,
+        "text": "پودر\nموم\nموم کاغذی\nموم کاغذی سفید\nموم کاغذی سفید رنگ",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 31,
+          "total_tokens": 73,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.3886603564023972
+        },
+        "latency_s": 1.55,
+        "at": "2026-10-13T14:54:47+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "پودر\nموم\nموم کاغذی\nموم کاغذی سفید\nموم کاغذی سفید رنگ",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 31,
+          "total_tokens": 73,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.3886603564023972
+        },
+        "latency_s": 1.83,
+        "at": "2026-10-13T14:54:49+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "پودر\nموم\nموم کاغذی\nموم کاغذی سفید\nموم کاغذی سفید رنگ",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 31,
+          "total_tokens": 73,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.3886603564023972
+        },
+        "latency_s": 1.88,
+        "at": "2026-10-13T14:54:51+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "پودر\nموم\nموم کاغذی\nموم کاغذی سفید\nموم کاغذی سفید رنگ",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 31,
+          "total_tokens": 73,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.3886603564023972
+        },
+        "latency_s": 2.16,
+        "at": "2026-10-13T14:54:53+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "پودر\nموم\nموم کاغذی\nموم کاغذی سفید\nموم کاغذی سفید رنگ",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 31,
+          "total_tokens": 73,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.3886603564023972
+        },
+        "latency_s": 2.41,
+        "at": "2026-10-13T14:54:55+00:00"
+      }
+    ],
+    "145": [
+      {
+        "rep": 0,
+        "text": "دست‌زنی\nدست‌زنی\nدست‌زنی\nدست‌زنی\nدست‌زنی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 30,
+          "total_tokens": 74,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.3900891914963722
+        },
+        "latency_s": 2.47,
+        "at": "2026-10-13T14:54:58+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دست‌زنی\nدست‌زنی\nدست‌زنی\nدست‌زنی\nدست‌زنی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 30,
+          "total_tokens": 74,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.3900891914963722
+        },
+        "latency_s": 1.41,
+        "at": "2026-10-13T14:54:59+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دست‌زنی\nدست‌زنی\nدست‌زنی\nدست‌زنی\nدست‌زنی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 30,
+          "total_tokens": 74,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.3900891914963722
+        },
+        "latency_s": 2.38,
+        "at": "2026-10-13T14:55:02+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "دست‌زنی\nدست‌زنی\nدست‌زنی\nدست‌زنی\nدست‌زنی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 30,
+          "total_tokens": 74,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.3900891914963722
+        },
+        "latency_s": 2.83,
+        "at": "2026-10-13T14:55:05+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "دست‌زنی\nدست‌زنی\nدست‌زنی\nدست‌زنی\nدست‌زنی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 30,
+          "total_tokens": 74,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.3900891914963722
+        },
+        "latency_s": 1.72,
+        "at": "2026-10-13T14:55:06+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "فنیق\nفنیقی\nفنیقی‌ها\nفنیقی‌ها\nفنیقی‌ها",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 23,
+          "total_tokens": 66,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.1934149442240596
+        },
+        "latency_s": 1.41,
+        "at": "2026-10-13T14:55:08+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "فنیق\nفنیقی\nفنیقی‌ها\nفنیقی‌ها\nفنیقی‌ها",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 23,
+          "total_tokens": 66,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.1934149442240596
+        },
+        "latency_s": 1.33,
+        "at": "2026-10-13T14:55:09+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "فنیق\nفنیقی\nفنیقی‌ها\nفنیقی‌ها\nفنیقی‌ها",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 23,
+          "total_tokens": 66,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.1934149442240596
+        },
+        "latency_s": 1.39,
+        "at": "2026-10-13T14:55:10+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "فنیق\nفنیقی\nفنیقی‌ها\nفنیقی‌ها\nفنیقی‌ها",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 23,
+          "total_tokens": 66,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.1934149442240596
+        },
+        "latency_s": 1.5,
+        "at": "2026-10-13T14:55:12+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "فنیق\nفنیقی\nفنیقی‌ها\nفنیقی‌ها\nفنیقی‌ها",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 43,
+          "completion_tokens": 23,
+          "total_tokens": 66,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.1934149442240596
+        },
+        "latency_s": 1.27,
+        "at": "2026-10-13T14:55:13+00:00"
+      }
+    ],
+    "53": [
+      {
+        "rep": 0,
+        "text": "ریش\n\nریشک\n\nریشکک\n\nریشککک\n\nریشکککک",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 25,
+          "total_tokens": 69,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.2594493050128222
+        },
+        "latency_s": 1.38,
+        "at": "2026-10-13T14:55:15+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "ریش\n\nریشک\n\nریشکک\n\nریشککک\n\nریشکککک",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 25,
+          "total_tokens": 69,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.2594493050128222
+        },
+        "latency_s": 1.41,
+        "at": "2026-10-13T14:55:16+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "ریش\n\nریشک\n\nریشکک\n\nریشککک\n\nریشکککک",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 25,
+          "total_tokens": 69,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.2594493050128222
+        },
+        "latency_s": 1.39,
+        "at": "2026-10-13T14:55:17+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "ریش\n\nریشک\n\nریشکک\n\nریشککک\n\nریشکککک",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 25,
+          "total_tokens": 69,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.2594493050128222
+        },
+        "latency_s": 1.36,
+        "at": "2026-10-13T14:55:19+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "ریش\n\nریشک\n\nریشکک\n\nریشککک\n\nریشکککک",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 25,
+          "total_tokens": 69,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.2594493050128222
+        },
+        "latency_s": 1.48,
+        "at": "2026-10-13T14:55:20+00:00"
+      }
+    ],
+    "177": [
+      {
+        "rep": 0,
+        "text": "مینه\nمینته\nمینتهه\nمینتهی\nمینتهیی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 19,
+          "total_tokens": 61,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.075124628841877
+        },
+        "latency_s": 1.45,
+        "at": "2026-10-13T14:55:22+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "مینت\nمینته\nمینتهک\nمینتهک\nمینتهک کاغذی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 22,
+          "total_tokens": 64,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.153508560732007
+        },
+        "latency_s": 1.28,
+        "at": "2026-10-13T14:55:23+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "مینت\nمینته\nمینتهک\nمینتهک\nمینتهک کاغذی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 22,
+          "total_tokens": 64,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.153508560732007
+        },
+        "latency_s": 1.02,
+        "at": "2026-10-13T14:55:24+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "مینت\nمینته\nمینتهک\nمینتهک\nمینتهک کاغذی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 22,
+          "total_tokens": 64,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.153508560732007
+        },
+        "latency_s": 1.2,
+        "at": "2026-10-13T14:55:25+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "مینت\nمینته\nمینتهک\nمینتهک\nمینتهک کاغذی",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 22,
+          "total_tokens": 64,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.153508560732007
+        },
+        "latency_s": 1.31,
+        "at": "2026-10-13T14:55:26+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

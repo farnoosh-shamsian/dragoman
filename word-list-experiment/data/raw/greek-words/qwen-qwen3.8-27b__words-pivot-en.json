@@ -1,0 +1,3827 @@
+{
+  "passage": {
+    "id": "greek-words",
+    "title": "Greek word list (traps and fillers)",
+    "ref": "greek_wordlist.xlsx, Stimuli sheet",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "qwen/qwen3.8-27b",
+    "label": "Qwen 3.8 27B",
+    "family": "Qwen",
+    "weights": "open",
+    "provider": "groq"
+  },
+  "prompt": {
+    "name": "words-pivot-en",
+    "label": "Words · pivot step 1"
+  },
+  "params": {
+    "temperature": 0.2,
+    "max_tokens": 2048,
+    "seed": null
+  },
+  "runs": {
+    "1": [
+      {
+        "rep": 0,
+        "text": "farmer",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017589169,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002737639,
+          "completion_tokens": 3,
+          "completion_time": 0.006126168,
+          "total_tokens": 39,
+          "total_time": 0.008863807
+        },
+        "latency_s": 0.25,
+        "at": "2026-10-07T15:13:06+00:00"
+      }
+    ],
+    "2": [
+      {
+        "rep": 0,
+        "text": "house",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017471174,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002947955,
+          "completion_tokens": 2,
+          "completion_time": 0.004178578,
+          "total_tokens": 39,
+          "total_time": 0.007126533
+        },
+        "latency_s": 0.09,
+        "at": "2026-10-07T15:13:06+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "phoenix",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016942533,
+          "prompt_tokens": 39,
+          "prompt_time": 0.002560029,
+          "completion_tokens": 3,
+          "completion_time": 0.005880717,
+          "total_tokens": 42,
+          "total_time": 0.008440746
+        },
+        "latency_s": 0.09,
+        "at": "2026-10-07T15:13:06+00:00"
+      }
+    ],
+    "4": [
+      {
+        "rep": 0,
+        "text": "tympanum",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017283553,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002331833,
+          "completion_tokens": 5,
+          "completion_time": 0.009632428,
+          "total_tokens": 41,
+          "total_time": 0.011964261
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-07T15:13:06+00:00"
+      }
+    ],
+    "5": [
+      {
+        "rep": 0,
+        "text": "priest",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047503477,
+          "prompt_tokens": 38,
+          "prompt_time": 0.002745417,
+          "completion_tokens": 3,
+          "completion_time": 0.006141632,
+          "total_tokens": 41,
+          "total_time": 0.008887049
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-07T15:13:06+00:00"
+      }
+    ],
+    "6": [
+      {
+        "rep": 0,
+        "text": "throw",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016910401,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002325443,
+          "completion_tokens": 2,
+          "completion_time": 0.004010106,
+          "total_tokens": 37,
+          "total_time": 0.006335549
+        },
+        "latency_s": 0.11,
+        "at": "2026-10-07T15:13:06+00:00"
+      }
+    ],
+    "7": [
+      {
+        "rep": 0,
+        "text": "breast",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.311493624,
+          "prompt_tokens": 37,
+          "prompt_time": 0.003134362,
+          "completion_tokens": 3,
+          "completion_time": 0.006154178,
+          "total_tokens": 40,
+          "total_time": 0.00928854
+        },
+        "latency_s": 0.41,
+        "at": "2026-10-07T15:13:07+00:00"
+      }
+    ],
+    "8": [
+      {
+        "rep": 0,
+        "text": "pursue",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017060771,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002830858,
+          "completion_tokens": 4,
+          "completion_time": 0.008085588,
+          "total_tokens": 40,
+          "total_time": 0.010916446
+        },
+        "latency_s": 0.11,
+        "at": "2026-10-07T15:13:07+00:00"
+      }
+    ],
+    "9": [
+      {
+        "rep": 0,
+        "text": "create",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.160146183,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002795376,
+          "completion_tokens": 2,
+          "completion_time": 0.004458499,
+          "total_tokens": 38,
+          "total_time": 0.007253875
+        },
+        "latency_s": 0.25,
+        "at": "2026-10-07T15:13:07+00:00"
+      }
+    ],
+    "10": [
+      {
+        "rep": 0,
+        "text": "law",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086262896,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002122086,
+          "completion_tokens": 2,
+          "completion_time": 0.004006298,
+          "total_tokens": 36,
+          "total_time": 0.006128384
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T15:13:07+00:00"
+      }
+    ],
+    "11": [
+      {
+        "rep": 0,
+        "text": "body",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.028907387,
+          "prompt_tokens": 37,
+          "prompt_time": 0.003041882,
+          "completion_tokens": 2,
+          "completion_time": 0.00441154,
+          "total_tokens": 39,
+          "total_time": 0.007453422
+        },
+        "latency_s": 0.12,
+        "at": "2026-10-07T15:13:07+00:00"
+      }
+    ],
+    "12": [
+      {
+        "rep": 0,
+        "text": "call",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.147634313,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002874127,
+          "completion_tokens": 2,
+          "completion_time": 0.004182947,
+          "total_tokens": 37,
+          "total_time": 0.007057074
+        },
+        "latency_s": 0.22,
+        "at": "2026-10-07T15:13:08+00:00"
+      }
+    ],
+    "13": [
+      {
+        "rep": 0,
+        "text": "justice",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017371113,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002329143,
+          "completion_tokens": 2,
+          "completion_time": 0.003984787,
+          "total_tokens": 36,
+          "total_time": 0.00631393
+        },
+        "latency_s": 0.12,
+        "at": "2026-10-07T15:13:08+00:00"
+      }
+    ],
+    "14": [
+      {
+        "rep": 0,
+        "text": "have",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016839609,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002792528,
+          "completion_tokens": 2,
+          "completion_time": 0.004176488,
+          "total_tokens": 38,
+          "total_time": 0.006969016
+        },
+        "latency_s": 0.09,
+        "at": "2026-10-07T15:13:08+00:00"
+      }
+    ],
+    "15": [
+      {
+        "rep": 0,
+        "text": "horse",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01715202,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002877656,
+          "completion_tokens": 2,
+          "completion_time": 0.004169507,
+          "total_tokens": 39,
+          "total_time": 0.007047163
+        },
+        "latency_s": 0.11,
+        "at": "2026-10-07T15:13:08+00:00"
+      }
+    ],
+    "16": [
+      {
+        "rep": 0,
+        "text": "I run",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017332568,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002395032,
+          "completion_tokens": 3,
+          "completion_time": 0.006133833,
+          "total_tokens": 37,
+          "total_time": 0.008528865
+        },
+        "latency_s": 0.11,
+        "at": "2026-10-07T15:13:08+00:00"
+      }
+    ],
+    "17": [
+      {
+        "rep": 0,
+        "text": "crown",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017423975,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002680398,
+          "completion_tokens": 3,
+          "completion_time": 0.005883806,
+          "total_tokens": 38,
+          "total_time": 0.008564204
+        },
+        "latency_s": 0.11,
+        "at": "2026-10-07T15:13:08+00:00"
+      }
+    ],
+    "18": [
+      {
+        "rep": 0,
+        "text": "fear",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017332322,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002955376,
+          "completion_tokens": 3,
+          "completion_time": 0.006136628,
+          "total_tokens": 40,
+          "total_time": 0.009092004
+        },
+        "latency_s": 0.09,
+        "at": "2026-10-07T15:13:08+00:00"
+      }
+    ],
+    "19": [
+      {
+        "rep": 0,
+        "text": "to love",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016545984,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002740517,
+          "completion_tokens": 3,
+          "completion_time": 0.005875597,
+          "total_tokens": 38,
+          "total_time": 0.008616114
+        },
+        "latency_s": 0.11,
+        "at": "2026-10-07T15:13:08+00:00"
+      }
+    ],
+    "20": [
+      {
+        "rep": 0,
+        "text": "light",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.020339916,
+          "prompt_tokens": 37,
+          "prompt_time": 0.003320587,
+          "completion_tokens": 2,
+          "completion_time": 0.003972317,
+          "total_tokens": 39,
+          "total_time": 0.007292904
+        },
+        "latency_s": 0.11,
+        "at": "2026-10-07T15:13:08+00:00"
+      }
+    ],
+    "21": [
+      {
+        "rep": 0,
+        "text": "day",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.0169491,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002811676,
+          "completion_tokens": 2,
+          "completion_time": 0.003998846,
+          "total_tokens": 39,
+          "total_time": 0.006810522
+        },
+        "latency_s": 0.09,
+        "at": "2026-10-07T15:13:08+00:00"
+      }
+    ],
+    "22": [
+      {
+        "rep": 0,
+        "text": "snow",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.13015879,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002761366,
+          "completion_tokens": 2,
+          "completion_time": 0.00441823,
+          "total_tokens": 36,
+          "total_time": 0.007179596
+        },
+        "latency_s": 0.22,
+        "at": "2026-10-07T15:13:09+00:00"
+      }
+    ],
+    "23": [
+      {
+        "rep": 0,
+        "text": "fast",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017099605,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002465971,
+          "completion_tokens": 2,
+          "completion_time": 0.004018926,
+          "total_tokens": 37,
+          "total_time": 0.006484897
+        },
+        "latency_s": 0.09,
+        "at": "2026-10-07T15:13:09+00:00"
+      }
+    ],
+    "24": [
+      {
+        "rep": 0,
+        "text": "sword",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017010564,
+          "prompt_tokens": 35,
+          "prompt_time": 0.00253499,
+          "completion_tokens": 2,
+          "completion_time": 0.004007406,
+          "total_tokens": 37,
+          "total_time": 0.006542396
+        },
+        "latency_s": 0.09,
+        "at": "2026-10-07T15:13:09+00:00"
+      }
+    ],
+    "25": [
+      {
+        "rep": 0,
+        "text": "death",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.06503036,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002701117,
+          "completion_tokens": 2,
+          "completion_time": 0.004414441,
+          "total_tokens": 37,
+          "total_time": 0.007115558
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-07T15:13:09+00:00"
+      }
+    ],
+    "26": [
+      {
+        "rep": 0,
+        "text": "hunt",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.242988584,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002580279,
+          "completion_tokens": 2,
+          "completion_time": 0.004090635,
+          "total_tokens": 36,
+          "total_time": 0.006670914
+        },
+        "latency_s": 0.33,
+        "at": "2026-10-07T15:13:09+00:00"
+      }
+    ],
+    "27": [
+      {
+        "rep": 0,
+        "text": "vessel",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.079391615,
+          "prompt_tokens": 39,
+          "prompt_time": 0.002965882,
+          "completion_tokens": 3,
+          "completion_time": 0.005983636,
+          "total_tokens": 42,
+          "total_time": 0.008949518
+        },
+        "latency_s": 0.14,
+        "at": "2026-10-07T15:13:09+00:00"
+      }
+    ],
+    "28": [
+      {
+        "rep": 0,
+        "text": "hear",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.097321404,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002960426,
+          "completion_tokens": 2,
+          "completion_time": 0.004552432,
+          "total_tokens": 37,
+          "total_time": 0.007512858
+        },
+        "latency_s": 0.22,
+        "at": "2026-10-07T15:13:10+00:00"
+      }
+    ],
+    "29": [
+      {
+        "rep": 0,
+        "text": "see",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.075243565,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002789188,
+          "completion_tokens": 2,
+          "completion_time": 0.004172727,
+          "total_tokens": 38,
+          "total_time": 0.006961915
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T15:13:10+00:00"
+      }
+    ],
+    "30": [
+      {
+        "rep": 0,
+        "text": "moon",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.485448489,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002782848,
+          "completion_tokens": 2,
+          "completion_time": 0.004187258,
+          "total_tokens": 37,
+          "total_time": 0.006970106
+        },
+        "latency_s": 0.59,
+        "at": "2026-10-07T15:13:10+00:00"
+      }
+    ],
+    "31": [
+      {
+        "rep": 0,
+        "text": "finger",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016810056,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002958155,
+          "completion_tokens": 2,
+          "completion_time": 0.004181087,
+          "total_tokens": 39,
+          "total_time": 0.007139242
+        },
+        "latency_s": 2.17,
+        "at": "2026-10-07T15:13:13+00:00"
+      }
+    ],
+    "32": [
+      {
+        "rep": 0,
+        "text": "door",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047616584,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002420963,
+          "completion_tokens": 2,
+          "completion_time": 0.004192279,
+          "total_tokens": 36,
+          "total_time": 0.006613242
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:13:15+00:00"
+      }
+    ],
+    "33": [
+      {
+        "rep": 0,
+        "text": "claw",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016877642,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002746727,
+          "completion_tokens": 3,
+          "completion_time": 0.005868436,
+          "total_tokens": 40,
+          "total_time": 0.008615163
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:13:17+00:00"
+      }
+    ],
+    "34": [
+      {
+        "rep": 0,
+        "text": "persuade",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017060559,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002567292,
+          "completion_tokens": 4,
+          "completion_time": 0.008108127,
+          "total_tokens": 40,
+          "total_time": 0.010675419
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:13:19+00:00"
+      }
+    ],
+    "35": [
+      {
+        "rep": 0,
+        "text": "plant",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016785003,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002258094,
+          "completion_tokens": 2,
+          "completion_time": 0.004013897,
+          "total_tokens": 37,
+          "total_time": 0.006271991
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:13:22+00:00"
+      }
+    ],
+    "36": [
+      {
+        "rep": 0,
+        "text": "gold",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016609459,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002330834,
+          "completion_tokens": 2,
+          "completion_time": 0.003985587,
+          "total_tokens": 38,
+          "total_time": 0.006316421
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-07T15:13:24+00:00"
+      }
+    ],
+    "37": [
+      {
+        "rep": 0,
+        "text": "snake",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.166266496,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002896616,
+          "completion_tokens": 2,
+          "completion_time": 0.004192658,
+          "total_tokens": 38,
+          "total_time": 0.007089274
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T15:13:26+00:00"
+      }
+    ],
+    "38": [
+      {
+        "rep": 0,
+        "text": "teach",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016867984,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002792168,
+          "completion_tokens": 3,
+          "completion_time": 0.006153958,
+          "total_tokens": 40,
+          "total_time": 0.008946126
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-07T15:13:28+00:00"
+      }
+    ],
+    "39": [
+      {
+        "rep": 0,
+        "text": "send",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.061709184,
+          "prompt_tokens": 35,
+          "prompt_time": 0.004871353,
+          "completion_tokens": 2,
+          "completion_time": 0.008089652,
+          "total_tokens": 37,
+          "total_time": 0.012961005
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:13:31+00:00"
+      }
+    ],
+    "40": [
+      {
+        "rep": 0,
+        "text": "water",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016956302,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002707549,
+          "completion_tokens": 2,
+          "completion_time": 0.004175147,
+          "total_tokens": 39,
+          "total_time": 0.006882696
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:13:33+00:00"
+      }
+    ],
+    "41": [
+      {
+        "rep": 0,
+        "text": "fall",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.048768211,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002550561,
+          "completion_tokens": 2,
+          "completion_time": 0.004186669,
+          "total_tokens": 37,
+          "total_time": 0.00673723
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:13:35+00:00"
+      }
+    ],
+    "42": [
+      {
+        "rep": 0,
+        "text": "know",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017214614,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002361663,
+          "completion_tokens": 2,
+          "completion_time": 0.003977516,
+          "total_tokens": 39,
+          "total_time": 0.006339179
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:13:37+00:00"
+      }
+    ],
+    "43": [
+      {
+        "rep": 0,
+        "text": "iron",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.092977553,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002916494,
+          "completion_tokens": 2,
+          "completion_time": 0.004187259,
+          "total_tokens": 37,
+          "total_time": 0.007103753
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:13:40+00:00"
+      }
+    ],
+    "44": [
+      {
+        "rep": 0,
+        "text": "build",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.076075073,
+          "prompt_tokens": 40,
+          "prompt_time": 0.003027962,
+          "completion_tokens": 2,
+          "completion_time": 0.004403,
+          "total_tokens": 42,
+          "total_time": 0.007430962
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:13:42+00:00"
+      }
+    ],
+    "45": [
+      {
+        "rep": 0,
+        "text": "island",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016777011,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002278534,
+          "completion_tokens": 3,
+          "completion_time": 0.005905167,
+          "total_tokens": 40,
+          "total_time": 0.008183701
+        },
+        "latency_s": 2.17,
+        "at": "2026-10-07T15:13:44+00:00"
+      }
+    ],
+    "46": [
+      {
+        "rep": 0,
+        "text": "I fly",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016223846,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002349833,
+          "completion_tokens": 3,
+          "completion_time": 0.005879186,
+          "total_tokens": 38,
+          "total_time": 0.008229019
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:13:46+00:00"
+      }
+    ],
+    "47": [
+      {
+        "rep": 0,
+        "text": "sun",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016806268,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002280054,
+          "completion_tokens": 2,
+          "completion_time": 0.004006976,
+          "total_tokens": 39,
+          "total_time": 0.00628703
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-07T15:13:48+00:00"
+      }
+    ],
+    "48": [
+      {
+        "rep": 0,
+        "text": "I win",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047059761,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002543511,
+          "completion_tokens": 3,
+          "completion_time": 0.00615382,
+          "total_tokens": 38,
+          "total_time": 0.008697331
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:13:51+00:00"
+      }
+    ],
+    "49": [
+      {
+        "rep": 0,
+        "text": "father",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.058419527,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002952416,
+          "completion_tokens": 2,
+          "completion_time": 0.004174048,
+          "total_tokens": 37,
+          "total_time": 0.007126464
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:13:53+00:00"
+      }
+    ],
+    "50": [
+      {
+        "rep": 0,
+        "text": "slave",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01699324,
+          "prompt_tokens": 37,
+          "prompt_time": 0.00270318,
+          "completion_tokens": 2,
+          "completion_time": 0.004186517,
+          "total_tokens": 39,
+          "total_time": 0.006889697
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:13:55+00:00"
+      }
+    ],
+    "51": [
+      {
+        "rep": 0,
+        "text": "tomb",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.076801552,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002895156,
+          "completion_tokens": 3,
+          "completion_time": 0.006134428,
+          "total_tokens": 37,
+          "total_time": 0.009029584
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:13:57+00:00"
+      }
+    ],
+    "52": [
+      {
+        "rep": 0,
+        "text": "weep",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017410951,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002565292,
+          "completion_tokens": 2,
+          "completion_time": 0.004174447,
+          "total_tokens": 38,
+          "total_time": 0.006739739
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-07T15:13:59+00:00"
+      }
+    ],
+    "53": [
+      {
+        "rep": 0,
+        "text": "blow",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047274837,
+          "prompt_tokens": 38,
+          "prompt_time": 0.002931543,
+          "completion_tokens": 3,
+          "completion_time": 0.006139112,
+          "total_tokens": 41,
+          "total_time": 0.009070655
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:14:02+00:00"
+      }
+    ],
+    "54": [
+      {
+        "rep": 0,
+        "text": "laugh",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.271317091,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002823835,
+          "completion_tokens": 3,
+          "completion_time": 0.006162351,
+          "total_tokens": 38,
+          "total_time": 0.008986186
+        },
+        "latency_s": 2.45,
+        "at": "2026-10-07T15:14:04+00:00"
+      }
+    ],
+    "55": [
+      {
+        "rep": 0,
+        "text": "lamb",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.030220175,
+          "prompt_tokens": 37,
+          "prompt_time": 0.003139923,
+          "completion_tokens": 3,
+          "completion_time": 0.006146218,
+          "total_tokens": 40,
+          "total_time": 0.009286141
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:14:06+00:00"
+      }
+    ],
+    "56": [
+      {
+        "rep": 0,
+        "text": "plane tree",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016771309,
+          "prompt_tokens": 36,
+          "prompt_time": 0.004056459,
+          "completion_tokens": 3,
+          "completion_time": 0.006108618,
+          "total_tokens": 39,
+          "total_time": 0.010165077
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:14:09+00:00"
+      }
+    ],
+    "57": [
+      {
+        "rep": 0,
+        "text": "bread",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047224693,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002711418,
+          "completion_tokens": 2,
+          "completion_time": 0.004187029,
+          "total_tokens": 39,
+          "total_time": 0.006898447
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:14:11+00:00"
+      }
+    ],
+    "58": [
+      {
+        "rep": 0,
+        "text": "heaven",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016678898,
+          "prompt_tokens": 37,
+          "prompt_time": 0.00267796,
+          "completion_tokens": 3,
+          "completion_time": 0.006135007,
+          "total_tokens": 40,
+          "total_time": 0.008812967
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:14:13+00:00"
+      }
+    ],
+    "59": [
+      {
+        "rep": 0,
+        "text": "bread",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017934922,
+          "prompt_tokens": 37,
+          "prompt_time": 0.003059965,
+          "completion_tokens": 2,
+          "completion_time": 0.004173467,
+          "total_tokens": 39,
+          "total_time": 0.007233432
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:14:15+00:00"
+      }
+    ],
+    "60": [
+      {
+        "rep": 0,
+        "text": "silver",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016736019,
+          "prompt_tokens": 38,
+          "prompt_time": 0.002470281,
+          "completion_tokens": 2,
+          "completion_time": 0.003983397,
+          "total_tokens": 40,
+          "total_time": 0.006453678
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T15:14:18+00:00"
+      }
+    ],
+    "61": [
+      {
+        "rep": 0,
+        "text": "to live",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.023959684,
+          "prompt_tokens": 35,
+          "prompt_time": 0.003057284,
+          "completion_tokens": 3,
+          "completion_time": 0.006143177,
+          "total_tokens": 38,
+          "total_time": 0.009200461
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:14:20+00:00"
+      }
+    ],
+    "62": [
+      {
+        "rep": 0,
+        "text": "save",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.288232285,
+          "prompt_tokens": 38,
+          "prompt_time": 0.002963372,
+          "completion_tokens": 2,
+          "completion_time": 0.00416875,
+          "total_tokens": 40,
+          "total_time": 0.007132122
+        },
+        "latency_s": 2.47,
+        "at": "2026-10-07T15:14:22+00:00"
+      }
+    ],
+    "63": [
+      {
+        "rep": 0,
+        "text": "brother",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047570424,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002687648,
+          "completion_tokens": 3,
+          "completion_time": 0.006154042,
+          "total_tokens": 40,
+          "total_time": 0.00884169
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:14:25+00:00"
+      }
+    ],
+    "64": [
+      {
+        "rep": 0,
+        "text": "I drink",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017158215,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002484383,
+          "completion_tokens": 3,
+          "completion_time": 0.006140608,
+          "total_tokens": 38,
+          "total_time": 0.008624991
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:14:27+00:00"
+      }
+    ],
+    "65": [
+      {
+        "rep": 0,
+        "text": "say",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017252271,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002190535,
+          "completion_tokens": 2,
+          "completion_time": 0.003985687,
+          "total_tokens": 36,
+          "total_time": 0.006176222
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:14:29+00:00"
+      }
+    ],
+    "66": [
+      {
+        "rep": 0,
+        "text": "break",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016572841,
+          "prompt_tokens": 40,
+          "prompt_time": 0.002628369,
+          "completion_tokens": 2,
+          "completion_time": 0.003976046,
+          "total_tokens": 42,
+          "total_time": 0.006604415
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:14:31+00:00"
+      }
+    ],
+    "67": [
+      {
+        "rep": 0,
+        "text": "make",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01724744,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002193226,
+          "completion_tokens": 2,
+          "completion_time": 0.003976476,
+          "total_tokens": 37,
+          "total_time": 0.006169702
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:14:33+00:00"
+      }
+    ],
+    "68": [
+      {
+        "rep": 0,
+        "text": "sail",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01856921,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002790598,
+          "completion_tokens": 3,
+          "completion_time": 0.006138028,
+          "total_tokens": 38,
+          "total_time": 0.008928626
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-07T15:14:36+00:00"
+      }
+    ],
+    "69": [
+      {
+        "rep": 0,
+        "text": "mountain",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016851945,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002548671,
+          "completion_tokens": 3,
+          "completion_time": 0.006133558,
+          "total_tokens": 38,
+          "total_time": 0.008682229
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:14:38+00:00"
+      }
+    ],
+    "70": [
+      {
+        "rep": 0,
+        "text": "stone",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017403845,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002393392,
+          "completion_tokens": 2,
+          "completion_time": 0.003987557,
+          "total_tokens": 36,
+          "total_time": 0.006380949
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-07T15:14:40+00:00"
+      }
+    ],
+    "71": [
+      {
+        "rep": 0,
+        "text": "I answer",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.096433647,
+          "prompt_tokens": 38,
+          "prompt_time": 0.002689557,
+          "completion_tokens": 3,
+          "completion_time": 0.005979265,
+          "total_tokens": 41,
+          "total_time": 0.008668822
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:14:42+00:00"
+      }
+    ],
+    "72": [
+      {
+        "rep": 0,
+        "text": "bark",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.058817449,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002911176,
+          "completion_tokens": 3,
+          "completion_time": 0.007490408,
+          "total_tokens": 38,
+          "total_time": 0.010401584
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:14:45+00:00"
+      }
+    ],
+    "73": [
+      {
+        "rep": 0,
+        "text": "remain",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.026712629,
+          "prompt_tokens": 34,
+          "prompt_time": 0.00269898,
+          "completion_tokens": 2,
+          "completion_time": 0.004180057,
+          "total_tokens": 36,
+          "total_time": 0.006879037
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:14:47+00:00"
+      }
+    ],
+    "74": [
+      {
+        "rep": 0,
+        "text": "ear",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017505262,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002258884,
+          "completion_tokens": 2,
+          "completion_time": 0.004008987,
+          "total_tokens": 37,
+          "total_time": 0.006267871
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:14:49+00:00"
+      }
+    ],
+    "75": [
+      {
+        "rep": 0,
+        "text": "man",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016992304,
+          "prompt_tokens": 35,
+          "prompt_time": 0.00271571,
+          "completion_tokens": 2,
+          "completion_time": 0.004173437,
+          "total_tokens": 37,
+          "total_time": 0.006889147
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:14:51+00:00"
+      }
+    ],
+    "76": [
+      {
+        "rep": 0,
+        "text": "woman",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.065329933,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002587698,
+          "completion_tokens": 2,
+          "completion_time": 0.004108445,
+          "total_tokens": 37,
+          "total_time": 0.006696143
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:14:53+00:00"
+      }
+    ],
+    "77": [
+      {
+        "rep": 0,
+        "text": "bow",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.052402206,
+          "prompt_tokens": 35,
+          "prompt_time": 0.004945543,
+          "completion_tokens": 2,
+          "completion_time": 0.008764469,
+          "total_tokens": 37,
+          "total_time": 0.013710012
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:14:56+00:00"
+      }
+    ],
+    "78": [
+      {
+        "rep": 0,
+        "text": "name",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.486366627,
+          "prompt_tokens": 36,
+          "prompt_time": 0.003047704,
+          "completion_tokens": 2,
+          "completion_time": 0.004200807,
+          "total_tokens": 38,
+          "total_time": 0.007248511
+        },
+        "latency_s": 2.67,
+        "at": "2026-10-07T15:14:58+00:00"
+      }
+    ],
+    "79": [
+      {
+        "rep": 0,
+        "text": "go",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.03546773,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002679098,
+          "completion_tokens": 2,
+          "completion_time": 0.003943217,
+          "total_tokens": 37,
+          "total_time": 0.006622315
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:15:01+00:00"
+      }
+    ],
+    "80": [
+      {
+        "rep": 0,
+        "text": "urine",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.025156097,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002620888,
+          "completion_tokens": 3,
+          "completion_time": 0.005972716,
+          "total_tokens": 37,
+          "total_time": 0.008593604
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:15:03+00:00"
+      }
+    ],
+    "81": [
+      {
+        "rep": 0,
+        "text": "to mine",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017271247,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002793218,
+          "completion_tokens": 3,
+          "completion_time": 0.006132137,
+          "total_tokens": 38,
+          "total_time": 0.008925355
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:15:05+00:00"
+      }
+    ],
+    "82": [
+      {
+        "rep": 0,
+        "text": "army",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017098554,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002262914,
+          "completion_tokens": 3,
+          "completion_time": 0.005876017,
+          "total_tokens": 39,
+          "total_time": 0.008138931
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:15:07+00:00"
+      }
+    ],
+    "83": [
+      {
+        "rep": 0,
+        "text": "market",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017123996,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002272673,
+          "completion_tokens": 2,
+          "completion_time": 0.003974377,
+          "total_tokens": 37,
+          "total_time": 0.00624705
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-07T15:15:09+00:00"
+      }
+    ],
+    "84": [
+      {
+        "rep": 0,
+        "text": "sleep",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017203863,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002278714,
+          "completion_tokens": 2,
+          "completion_time": 0.003991606,
+          "total_tokens": 39,
+          "total_time": 0.00627032
+        },
+        "latency_s": 2.17,
+        "at": "2026-10-07T15:15:12+00:00"
+      }
+    ],
+    "85": [
+      {
+        "rep": 0,
+        "text": "I wish",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.019502343,
+          "prompt_tokens": 37,
+          "prompt_time": 0.007779447,
+          "completion_tokens": 3,
+          "completion_time": 0.013333828,
+          "total_tokens": 40,
+          "total_time": 0.021113275
+        },
+        "latency_s": 3.55,
+        "at": "2026-10-07T15:15:15+00:00"
+      }
+    ],
+    "86": [
+      {
+        "rep": 0,
+        "text": "fly",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.054159488,
+          "prompt_tokens": 38,
+          "prompt_time": 0.002758527,
+          "completion_tokens": 2,
+          "completion_time": 0.00440764,
+          "total_tokens": 40,
+          "total_time": 0.007166167
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:15:17+00:00"
+      }
+    ],
+    "87": [
+      {
+        "rep": 0,
+        "text": "bear",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.040950146,
+          "prompt_tokens": 34,
+          "prompt_time": 0.003057524,
+          "completion_tokens": 2,
+          "completion_time": 0.004188647,
+          "total_tokens": 36,
+          "total_time": 0.007246171
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:15:20+00:00"
+      }
+    ],
+    "88": [
+      {
+        "rep": 0,
+        "text": "open",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016770643,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002627251,
+          "completion_tokens": 2,
+          "completion_time": 0.004172927,
+          "total_tokens": 38,
+          "total_time": 0.006800178
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:15:22+00:00"
+      }
+    ],
+    "89": [
+      {
+        "rep": 0,
+        "text": "dance",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017325737,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002474773,
+          "completion_tokens": 2,
+          "completion_time": 0.004183776,
+          "total_tokens": 37,
+          "total_time": 0.006658549
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:15:24+00:00"
+      }
+    ],
+    "90": [
+      {
+        "rep": 0,
+        "text": "mother",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017981985,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002791728,
+          "completion_tokens": 2,
+          "completion_time": 0.004176137,
+          "total_tokens": 37,
+          "total_time": 0.006967865
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:15:26+00:00"
+      }
+    ],
+    "91": [
+      {
+        "rep": 0,
+        "text": "gift",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016964986,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002795068,
+          "completion_tokens": 2,
+          "completion_time": 0.004178927,
+          "total_tokens": 39,
+          "total_time": 0.006973995
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:15:29+00:00"
+      }
+    ],
+    "92": [
+      {
+        "rep": 0,
+        "text": "steal",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017943184,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002712359,
+          "completion_tokens": 3,
+          "completion_time": 0.006133298,
+          "total_tokens": 39,
+          "total_time": 0.008845657
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-07T15:15:31+00:00"
+      }
+    ],
+    "93": [
+      {
+        "rep": 0,
+        "text": "prow",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01693688,
+          "prompt_tokens": 38,
+          "prompt_time": 0.002885256,
+          "completion_tokens": 3,
+          "completion_time": 0.006142438,
+          "total_tokens": 41,
+          "total_time": 0.009027694
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:15:33+00:00"
+      }
+    ],
+    "94": [
+      {
+        "rep": 0,
+        "text": "race",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018456892,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002467451,
+          "completion_tokens": 2,
+          "completion_time": 0.003945987,
+          "total_tokens": 36,
+          "total_time": 0.006413438
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:15:35+00:00"
+      }
+    ],
+    "95": [
+      {
+        "rep": 0,
+        "text": "weapons",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.046745074,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002614828,
+          "completion_tokens": 2,
+          "completion_time": 0.004183179,
+          "total_tokens": 37,
+          "total_time": 0.006798007
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:15:37+00:00"
+      }
+    ],
+    "96": [
+      {
+        "rep": 0,
+        "text": "city-state",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.189594169,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002719869,
+          "completion_tokens": 3,
+          "completion_time": 0.006126917,
+          "total_tokens": 38,
+          "total_time": 0.008846786
+        },
+        "latency_s": 2.41,
+        "at": "2026-10-07T15:15:40+00:00"
+      }
+    ],
+    "97": [
+      {
+        "rep": 0,
+        "text": "take",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.206266073,
+          "prompt_tokens": 34,
+          "prompt_time": 0.003072194,
+          "completion_tokens": 2,
+          "completion_time": 0.00467082,
+          "total_tokens": 36,
+          "total_time": 0.007743014
+        },
+        "latency_s": 2.39,
+        "at": "2026-10-07T15:15:42+00:00"
+      }
+    ],
+    "98": [
+      {
+        "rep": 0,
+        "text": "put",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017017235,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002711369,
+          "completion_tokens": 2,
+          "completion_time": 0.004172817,
+          "total_tokens": 37,
+          "total_time": 0.006884186
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:15:44+00:00"
+      }
+    ],
+    "99": [
+      {
+        "rep": 0,
+        "text": "table",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.067568554,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002906747,
+          "completion_tokens": 2,
+          "completion_time": 0.004191686,
+          "total_tokens": 38,
+          "total_time": 0.007098433
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:15:47+00:00"
+      }
+    ],
+    "100": [
+      {
+        "rep": 0,
+        "text": "think",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017316119,
+          "prompt_tokens": 39,
+          "prompt_time": 0.002674135,
+          "completion_tokens": 2,
+          "completion_time": 0.004041633,
+          "total_tokens": 41,
+          "total_time": 0.006715768
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:15:49+00:00"
+      }
+    ],
+    "101": [
+      {
+        "rep": 0,
+        "text": "fire",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.223828928,
+          "prompt_tokens": 37,
+          "prompt_time": 0.003136343,
+          "completion_tokens": 2,
+          "completion_time": 0.00466259,
+          "total_tokens": 39,
+          "total_time": 0.007798933
+        },
+        "latency_s": 2.39,
+        "at": "2026-10-07T15:15:51+00:00"
+      }
+    ],
+    "102": [
+      {
+        "rep": 0,
+        "text": "fruit",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017405205,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002564831,
+          "completion_tokens": 2,
+          "completion_time": 0.004182068,
+          "total_tokens": 38,
+          "total_time": 0.006746899
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:15:53+00:00"
+      }
+    ],
+    "103": [
+      {
+        "rep": 0,
+        "text": "bear",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.058393275,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002988632,
+          "completion_tokens": 2,
+          "completion_time": 0.004222117,
+          "total_tokens": 39,
+          "total_time": 0.007210749
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:15:56+00:00"
+      }
+    ],
+    "104": [
+      {
+        "rep": 0,
+        "text": "buy",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047400117,
+          "prompt_tokens": 37,
+          "prompt_time": 0.003056414,
+          "completion_tokens": 2,
+          "completion_time": 0.004194416,
+          "total_tokens": 39,
+          "total_time": 0.00725083
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:15:58+00:00"
+      }
+    ],
+    "105": [
+      {
+        "rep": 0,
+        "text": "word",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017211639,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002680769,
+          "completion_tokens": 2,
+          "completion_time": 0.004181757,
+          "total_tokens": 37,
+          "total_time": 0.006862526
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:16:00+00:00"
+      }
+    ],
+    "106": [
+      {
+        "rep": 0,
+        "text": "victory",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.246880435,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002794848,
+          "completion_tokens": 3,
+          "completion_time": 0.006129217,
+          "total_tokens": 37,
+          "total_time": 0.008924065
+        },
+        "latency_s": 2.42,
+        "at": "2026-10-07T15:16:03+00:00"
+      }
+    ],
+    "107": [
+      {
+        "rep": 0,
+        "text": "die",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016847344,
+          "prompt_tokens": 40,
+          "prompt_time": 0.003033864,
+          "completion_tokens": 2,
+          "completion_time": 0.004180768,
+          "total_tokens": 42,
+          "total_time": 0.007214632
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-07T15:16:05+00:00"
+      }
+    ],
+    "108": [
+      {
+        "rep": 0,
+        "text": "village",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.104738116,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002825965,
+          "completion_tokens": 3,
+          "completion_time": 0.00614577,
+          "total_tokens": 38,
+          "total_time": 0.008971735
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:16:07+00:00"
+      }
+    ],
+    "109": [
+      {
+        "rep": 0,
+        "text": "wine",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018147488,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002789918,
+          "completion_tokens": 2,
+          "completion_time": 0.004178157,
+          "total_tokens": 39,
+          "total_time": 0.006968075
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:16:09+00:00"
+      }
+    ],
+    "110": [
+      {
+        "rep": 0,
+        "text": "soul",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047995659,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002716267,
+          "completion_tokens": 3,
+          "completion_time": 0.00613388,
+          "total_tokens": 38,
+          "total_time": 0.008850147
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:16:11+00:00"
+      }
+    ],
+    "111": [
+      {
+        "rep": 0,
+        "text": "damage",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017250542,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002555477,
+          "completion_tokens": 2,
+          "completion_time": 0.003980824,
+          "total_tokens": 36,
+          "total_time": 0.006536301
+        },
+        "latency_s": 2.17,
+        "at": "2026-10-07T15:16:14+00:00"
+      }
+    ],
+    "112": [
+      {
+        "rep": 0,
+        "text": "court",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017697515,
+          "prompt_tokens": 37,
+          "prompt_time": 0.00264898,
+          "completion_tokens": 2,
+          "completion_time": 0.004180977,
+          "total_tokens": 39,
+          "total_time": 0.006829957
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:16:16+00:00"
+      }
+    ],
+    "113": [
+      {
+        "rep": 0,
+        "text": "badger",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016824429,
+          "prompt_tokens": 37,
+          "prompt_time": 0.00239787,
+          "completion_tokens": 3,
+          "completion_time": 0.005893422,
+          "total_tokens": 40,
+          "total_time": 0.008291292
+        },
+        "latency_s": 2.17,
+        "at": "2026-10-07T15:16:18+00:00"
+      }
+    ],
+    "114": [
+      {
+        "rep": 0,
+        "text": "man",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.120286252,
+          "prompt_tokens": 38,
+          "prompt_time": 0.003034114,
+          "completion_tokens": 2,
+          "completion_time": 0.004176137,
+          "total_tokens": 40,
+          "total_time": 0.007210251
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:16:20+00:00"
+      }
+    ],
+    "115": [
+      {
+        "rep": 0,
+        "text": "wolf",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08882943,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002140783,
+          "completion_tokens": 2,
+          "completion_time": 0.003999779,
+          "total_tokens": 36,
+          "total_time": 0.006140562
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:16:23+00:00"
+      }
+    ],
+    "116": [
+      {
+        "rep": 0,
+        "text": "left",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016804582,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002710919,
+          "completion_tokens": 2,
+          "completion_time": 0.004171607,
+          "total_tokens": 38,
+          "total_time": 0.006882526
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:16:25+00:00"
+      }
+    ],
+    "117": [
+      {
+        "rep": 0,
+        "text": "myth",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018383999,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002786178,
+          "completion_tokens": 3,
+          "completion_time": 0.006125498,
+          "total_tokens": 40,
+          "total_time": 0.008911676
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:16:27+00:00"
+      }
+    ],
+    "118": [
+      {
+        "rep": 0,
+        "text": "come",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017150658,
+          "prompt_tokens": 38,
+          "prompt_time": 0.002949426,
+          "completion_tokens": 2,
+          "completion_time": 0.004172617,
+          "total_tokens": 40,
+          "total_time": 0.007122043
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:16:29+00:00"
+      }
+    ],
+    "119": [
+      {
+        "rep": 0,
+        "text": "close",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017549975,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002368511,
+          "completion_tokens": 2,
+          "completion_time": 0.003970473,
+          "total_tokens": 37,
+          "total_time": 0.006338984
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:16:31+00:00"
+      }
+    ],
+    "120": [
+      {
+        "rep": 0,
+        "text": "hate",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016417974,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002545142,
+          "completion_tokens": 3,
+          "completion_time": 0.006137877,
+          "total_tokens": 38,
+          "total_time": 0.008683019
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:16:34+00:00"
+      }
+    ],
+    "121": [
+      {
+        "rep": 0,
+        "text": "dog",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.042691844,
+          "prompt_tokens": 34,
+          "prompt_time": 0.00475523,
+          "completion_tokens": 2,
+          "completion_time": 0.007050262,
+          "total_tokens": 36,
+          "total_time": 0.011805492
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:16:36+00:00"
+      }
+    ],
+    "122": [
+      {
+        "rep": 0,
+        "text": "trunk",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017135176,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002701069,
+          "completion_tokens": 3,
+          "completion_time": 0.006120578,
+          "total_tokens": 38,
+          "total_time": 0.008821647
+        },
+        "latency_s": 2.17,
+        "at": "2026-10-07T15:16:38+00:00"
+      }
+    ],
+    "123": [
+      {
+        "rep": 0,
+        "text": "beak",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017925787,
+          "prompt_tokens": 38,
+          "prompt_time": 0.00240088,
+          "completion_tokens": 3,
+          "completion_time": 0.005913741,
+          "total_tokens": 41,
+          "total_time": 0.008314621
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:16:40+00:00"
+      }
+    ],
+    "124": [
+      {
+        "rep": 0,
+        "text": "sell",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.285194212,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002557067,
+          "completion_tokens": 2,
+          "completion_time": 0.004412516,
+          "total_tokens": 37,
+          "total_time": 0.006969583
+        },
+        "latency_s": 2.48,
+        "at": "2026-10-07T15:16:43+00:00"
+      }
+    ],
+    "125": [
+      {
+        "rep": 0,
+        "text": "disciple",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.101460622,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002901906,
+          "completion_tokens": 3,
+          "completion_time": 0.006130518,
+          "total_tokens": 38,
+          "total_time": 0.009032424
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:16:45+00:00"
+      }
+    ],
+    "126": [
+      {
+        "rep": 0,
+        "text": "doctor",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016765537,
+          "prompt_tokens": 38,
+          "prompt_time": 0.002964615,
+          "completion_tokens": 2,
+          "completion_time": 0.004229716,
+          "total_tokens": 40,
+          "total_time": 0.007194331
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:16:47+00:00"
+      }
+    ],
+    "127": [
+      {
+        "rep": 0,
+        "text": "command",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.110456868,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002717577,
+          "completion_tokens": 2,
+          "completion_time": 0.004179058,
+          "total_tokens": 37,
+          "total_time": 0.006896635
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:16:50+00:00"
+      }
+    ],
+    "128": [
+      {
+        "rep": 0,
+        "text": "bear",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086362733,
+          "prompt_tokens": 35,
+          "prompt_time": 0.003056204,
+          "completion_tokens": 2,
+          "completion_time": 0.004176437,
+          "total_tokens": 37,
+          "total_time": 0.007232641
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:16:52+00:00"
+      }
+    ],
+    "129": [
+      {
+        "rep": 0,
+        "text": "I sit",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.060304001,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002871778,
+          "completion_tokens": 3,
+          "completion_time": 0.006137577,
+          "total_tokens": 38,
+          "total_time": 0.009009355
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:16:54+00:00"
+      }
+    ],
+    "130": [
+      {
+        "rep": 0,
+        "text": "night",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016755121,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002263502,
+          "completion_tokens": 2,
+          "completion_time": 0.004007003,
+          "total_tokens": 37,
+          "total_time": 0.006270505
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:16:56+00:00"
+      }
+    ],
+    "131": [
+      {
+        "rep": 0,
+        "text": "to love",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017524833,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002641411,
+          "completion_tokens": 3,
+          "completion_time": 0.006143807,
+          "total_tokens": 39,
+          "total_time": 0.008785218
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:16:59+00:00"
+      }
+    ],
+    "132": [
+      {
+        "rep": 0,
+        "text": "seal",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047066149,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002479292,
+          "completion_tokens": 3,
+          "completion_time": 0.00614421,
+          "total_tokens": 38,
+          "total_time": 0.008623502
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:17:01+00:00"
+      }
+    ],
+    "133": [
+      {
+        "rep": 0,
+        "text": "dwell",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017743944,
+          "prompt_tokens": 38,
+          "prompt_time": 0.003028354,
+          "completion_tokens": 3,
+          "completion_time": 0.006123858,
+          "total_tokens": 41,
+          "total_time": 0.009152212
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:17:03+00:00"
+      }
+    ],
+    "134": [
+      {
+        "rep": 0,
+        "text": "hand",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047304765,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002469593,
+          "completion_tokens": 2,
+          "completion_time": 0.004188948,
+          "total_tokens": 36,
+          "total_time": 0.006658541
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:17:05+00:00"
+      }
+    ],
+    "135": [
+      {
+        "rep": 0,
+        "text": "star",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017244224,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002789978,
+          "completion_tokens": 2,
+          "completion_time": 0.004177118,
+          "total_tokens": 37,
+          "total_time": 0.006967096
+        },
+        "latency_s": 2.61,
+        "at": "2026-10-07T15:17:08+00:00"
+      }
+    ],
+    "136": [
+      {
+        "rep": 0,
+        "text": "racecourse",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047498432,
+          "prompt_tokens": 35,
+          "prompt_time": 0.00254803,
+          "completion_tokens": 3,
+          "completion_time": 0.00616579,
+          "total_tokens": 38,
+          "total_time": 0.00871382
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:17:10+00:00"
+      }
+    ],
+    "137": [
+      {
+        "rep": 0,
+        "text": "wonder",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.037492035,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002903791,
+          "completion_tokens": 3,
+          "completion_time": 0.005927711,
+          "total_tokens": 40,
+          "total_time": 0.008831502
+        },
+        "latency_s": 2.24,
+        "at": "2026-10-07T15:17:12+00:00"
+      }
+    ],
+    "138": [
+      {
+        "rep": 0,
+        "text": "raise",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016658167,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002332061,
+          "completion_tokens": 2,
+          "completion_time": 0.004260989,
+          "total_tokens": 38,
+          "total_time": 0.00659305
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:17:15+00:00"
+      }
+    ],
+    "139": [
+      {
+        "rep": 0,
+        "text": "reed",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01650241,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002261262,
+          "completion_tokens": 2,
+          "completion_time": 0.003994353,
+          "total_tokens": 37,
+          "total_time": 0.006255615
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-07T15:17:17+00:00"
+      }
+    ],
+    "140": [
+      {
+        "rep": 0,
+        "text": "I lie",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017039247,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002489778,
+          "completion_tokens": 3,
+          "completion_time": 0.005862073,
+          "total_tokens": 40,
+          "total_time": 0.008351851
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:17:19+00:00"
+      }
+    ],
+    "141": [
+      {
+        "rep": 0,
+        "text": "to sacrifice",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.046826705,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002473961,
+          "completion_tokens": 3,
+          "completion_time": 0.00613979,
+          "total_tokens": 37,
+          "total_time": 0.008613751
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:17:21+00:00"
+      }
+    ],
+    "142": [
+      {
+        "rep": 0,
+        "text": "ship",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.031667773,
+          "prompt_tokens": 37,
+          "prompt_time": 0.003141713,
+          "completion_tokens": 2,
+          "completion_time": 0.004183207,
+          "total_tokens": 39,
+          "total_time": 0.00732492
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:17:23+00:00"
+      }
+    ],
+    "143": [
+      {
+        "rep": 0,
+        "text": "think",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.031868928,
+          "prompt_tokens": 35,
+          "prompt_time": 0.003071794,
+          "completion_tokens": 2,
+          "completion_time": 0.004177197,
+          "total_tokens": 37,
+          "total_time": 0.007248991
+        },
+        "latency_s": 2.24,
+        "at": "2026-10-07T15:17:26+00:00"
+      }
+    ],
+    "144": [
+      {
+        "rep": 0,
+        "text": "write",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047320514,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002479372,
+          "completion_tokens": 2,
+          "completion_time": 0.004565291,
+          "total_tokens": 36,
+          "total_time": 0.007044663
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:17:28+00:00"
+      }
+    ],
+    "145": [
+      {
+        "rep": 0,
+        "text": "club",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.160022862,
+          "prompt_tokens": 38,
+          "prompt_time": 0.003301861,
+          "completion_tokens": 2,
+          "completion_time": 0.004188567,
+          "total_tokens": 40,
+          "total_time": 0.007490428
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T15:17:30+00:00"
+      }
+    ],
+    "146": [
+      {
+        "rep": 0,
+        "text": "I will sing",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016836101,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002905247,
+          "completion_tokens": 4,
+          "completion_time": 0.008099848,
+          "total_tokens": 41,
+          "total_time": 0.011005095
+        },
+        "latency_s": 2.17,
+        "at": "2026-10-07T15:17:32+00:00"
+      }
+    ],
+    "147": [
+      {
+        "rep": 0,
+        "text": "rain",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 1.810984472,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002864277,
+          "completion_tokens": 2,
+          "completion_time": 0.004188078,
+          "total_tokens": 38,
+          "total_time": 0.007052355
+        },
+        "latency_s": 3.98,
+        "at": "2026-10-07T15:17:36+00:00"
+      }
+    ],
+    "148": [
+      {
+        "rep": 0,
+        "text": "fountain",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.041883423,
+          "prompt_tokens": 35,
+          "prompt_time": 0.003137603,
+          "completion_tokens": 3,
+          "completion_time": 0.006160557,
+          "total_tokens": 38,
+          "total_time": 0.00929816
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:17:39+00:00"
+      }
+    ],
+    "149": [
+      {
+        "rep": 0,
+        "text": "I see",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.098789493,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002821835,
+          "completion_tokens": 3,
+          "completion_time": 0.006146321,
+          "total_tokens": 38,
+          "total_time": 0.008968156
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:17:41+00:00"
+      }
+    ],
+    "150": [
+      {
+        "rep": 0,
+        "text": "wall",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017153966,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002406439,
+          "completion_tokens": 2,
+          "completion_time": 0.003987664,
+          "total_tokens": 39,
+          "total_time": 0.006394103
+        },
+        "latency_s": 2.17,
+        "at": "2026-10-07T15:17:43+00:00"
+      }
+    ],
+    "151": [
+      {
+        "rep": 0,
+        "text": "to box",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016585442,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002343401,
+          "completion_tokens": 3,
+          "completion_time": 0.005860722,
+          "total_tokens": 40,
+          "total_time": 0.008204123
+        },
+        "latency_s": 2.16,
+        "at": "2026-10-07T15:17:45+00:00"
+      }
+    ],
+    "152": [
+      {
+        "rep": 0,
+        "text": "nightingale",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.07789703,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002762734,
+          "completion_tokens": 4,
+          "completion_time": 0.008602307,
+          "total_tokens": 41,
+          "total_time": 0.011365041
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:17:47+00:00"
+      }
+    ],
+    "153": [
+      {
+        "rep": 0,
+        "text": "give",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.01687372,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002364161,
+          "completion_tokens": 2,
+          "completion_time": 0.003972324,
+          "total_tokens": 38,
+          "total_time": 0.006336485
+        },
+        "latency_s": 2.17,
+        "at": "2026-10-07T15:17:50+00:00"
+      }
+    ],
+    "154": [
+      {
+        "rep": 0,
+        "text": "temple",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.090216191,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002112763,
+          "completion_tokens": 3,
+          "completion_time": 0.005891435,
+          "total_tokens": 37,
+          "total_time": 0.008004198
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:17:52+00:00"
+      }
+    ],
+    "155": [
+      {
+        "rep": 0,
+        "text": "to wish",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047869349,
+          "prompt_tokens": 36,
+          "prompt_time": 0.00257081,
+          "completion_tokens": 3,
+          "completion_time": 0.00616028,
+          "total_tokens": 39,
+          "total_time": 0.00873109
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:17:54+00:00"
+      }
+    ],
+    "156": [
+      {
+        "rep": 0,
+        "text": "seal",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016862453,
+          "prompt_tokens": 38,
+          "prompt_time": 0.00239766,
+          "completion_tokens": 3,
+          "completion_time": 0.005875422,
+          "total_tokens": 41,
+          "total_time": 0.008273082
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-07T15:17:56+00:00"
+      }
+    ],
+    "157": [
+      {
+        "rep": 0,
+        "text": "ear",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047316788,
+          "prompt_tokens": 36,
+          "prompt_time": 0.0025616,
+          "completion_tokens": 2,
+          "completion_time": 0.004186309,
+          "total_tokens": 38,
+          "total_time": 0.006747909
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:17:59+00:00"
+      }
+    ],
+    "158": [
+      {
+        "rep": 0,
+        "text": "lead",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.207581279,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002896446,
+          "completion_tokens": 2,
+          "completion_time": 0.004982275,
+          "total_tokens": 38,
+          "total_time": 0.007878721
+        },
+        "latency_s": 2.38,
+        "at": "2026-10-07T15:18:01+00:00"
+      }
+    ],
+    "159": [
+      {
+        "rep": 0,
+        "text": "army",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.127321102,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002891647,
+          "completion_tokens": 3,
+          "completion_time": 0.006147477,
+          "total_tokens": 38,
+          "total_time": 0.009039124
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:18:03+00:00"
+      }
+    ],
+    "160": [
+      {
+        "rep": 0,
+        "text": "wind",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017061672,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002334781,
+          "completion_tokens": 2,
+          "completion_time": 0.003993264,
+          "total_tokens": 39,
+          "total_time": 0.006328045
+        },
+        "latency_s": 2.17,
+        "at": "2026-10-07T15:18:05+00:00"
+      }
+    ],
+    "161": [
+      {
+        "rep": 0,
+        "text": "letter",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087137541,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002198927,
+          "completion_tokens": 2,
+          "completion_time": 0.003983654,
+          "total_tokens": 38,
+          "total_time": 0.006182581
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:18:08+00:00"
+      }
+    ],
+    "162": [
+      {
+        "rep": 0,
+        "text": "time",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.089569047,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002192457,
+          "completion_tokens": 2,
+          "completion_time": 0.004014595,
+          "total_tokens": 37,
+          "total_time": 0.006207052
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:18:10+00:00"
+      }
+    ],
+    "163": [
+      {
+        "rep": 0,
+        "text": "covenant",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.2569395,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002943575,
+          "completion_tokens": 3,
+          "completion_time": 0.006137278,
+          "total_tokens": 38,
+          "total_time": 0.009080853
+        },
+        "latency_s": 2.41,
+        "at": "2026-10-07T15:18:12+00:00"
+      }
+    ],
+    "164": [
+      {
+        "rep": 0,
+        "text": "spring",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.542133835,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002950075,
+          "completion_tokens": 2,
+          "completion_time": 0.004180377,
+          "total_tokens": 38,
+          "total_time": 0.007130452
+        },
+        "latency_s": 2.69,
+        "at": "2026-10-07T15:18:15+00:00"
+      }
+    ],
+    "165": [
+      {
+        "rep": 0,
+        "text": "heart",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.04824891,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002653139,
+          "completion_tokens": 2,
+          "completion_time": 0.004180988,
+          "total_tokens": 38,
+          "total_time": 0.006834127
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:18:17+00:00"
+      }
+    ],
+    "166": [
+      {
+        "rep": 0,
+        "text": "lot",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.117383182,
+          "prompt_tokens": 38,
+          "prompt_time": 0.003296581,
+          "completion_tokens": 2,
+          "completion_time": 0.004197147,
+          "total_tokens": 40,
+          "total_time": 0.007493728
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:18:19+00:00"
+      }
+    ],
+    "167": [
+      {
+        "rep": 0,
+        "text": "do",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.115480786,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002977285,
+          "completion_tokens": 2,
+          "completion_time": 0.004197317,
+          "total_tokens": 38,
+          "total_time": 0.007174602
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:18:22+00:00"
+      }
+    ],
+    "168": [
+      {
+        "rep": 0,
+        "text": "river",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017036274,
+          "prompt_tokens": 35,
+          "prompt_time": 0.00270392,
+          "completion_tokens": 2,
+          "completion_time": 0.004175427,
+          "total_tokens": 37,
+          "total_time": 0.006879347
+        },
+        "latency_s": 2.17,
+        "at": "2026-10-07T15:18:24+00:00"
+      }
+    ],
+    "169": [
+      {
+        "rep": 0,
+        "text": "bank",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016979434,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002327051,
+          "completion_tokens": 2,
+          "completion_time": 0.003987414,
+          "total_tokens": 38,
+          "total_time": 0.006314465
+        },
+        "latency_s": 2.17,
+        "at": "2026-10-07T15:18:26+00:00"
+      }
+    ],
+    "170": [
+      {
+        "rep": 0,
+        "text": "extremity",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.183576626,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002935515,
+          "completion_tokens": 4,
+          "completion_time": 0.00768531,
+          "total_tokens": 40,
+          "total_time": 0.010620825
+        },
+        "latency_s": 2.36,
+        "at": "2026-10-07T15:18:28+00:00"
+      }
+    ],
+    "171": [
+      {
+        "rep": 0,
+        "text": "hope",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018077529,
+          "prompt_tokens": 36,
+          "prompt_time": 0.00480046,
+          "completion_tokens": 2,
+          "completion_time": 0.007904849,
+          "total_tokens": 38,
+          "total_time": 0.012705309
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:18:31+00:00"
+      }
+    ],
+    "172": [
+      {
+        "rep": 0,
+        "text": "foot",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017336178,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002260633,
+          "completion_tokens": 2,
+          "completion_time": 0.003990244,
+          "total_tokens": 36,
+          "total_time": 0.006250877
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:18:33+00:00"
+      }
+    ],
+    "173": [
+      {
+        "rep": 0,
+        "text": "eat",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.090439051,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002275541,
+          "completion_tokens": 2,
+          "completion_time": 0.004016999,
+          "total_tokens": 39,
+          "total_time": 0.00629254
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:18:35+00:00"
+      }
+    ],
+    "174": [
+      {
+        "rep": 0,
+        "text": "bacteria",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088115624,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002482802,
+          "completion_tokens": 3,
+          "completion_time": 0.005892099,
+          "total_tokens": 38,
+          "total_time": 0.008374901
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:18:37+00:00"
+      }
+    ],
+    "175": [
+      {
+        "rep": 0,
+        "text": "I swear",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088343666,
+          "prompt_tokens": 38,
+          "prompt_time": 0.002407647,
+          "completion_tokens": 3,
+          "completion_time": 0.005861022,
+          "total_tokens": 41,
+          "total_time": 0.008268669
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:18:40+00:00"
+      }
+    ],
+    "176": [
+      {
+        "rep": 0,
+        "text": "palm",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086868598,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002204412,
+          "completion_tokens": 3,
+          "completion_time": 0.005877206,
+          "total_tokens": 38,
+          "total_time": 0.008081618
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:18:42+00:00"
+      }
+    ],
+    "177": [
+      {
+        "rep": 0,
+        "text": "mint",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047019969,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002483401,
+          "completion_tokens": 2,
+          "completion_time": 0.004186468,
+          "total_tokens": 37,
+          "total_time": 0.006669869
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:18:44+00:00"
+      }
+    ],
+    "178": [
+      {
+        "rep": 0,
+        "text": "ark",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.116592794,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002616939,
+          "completion_tokens": 2,
+          "completion_time": 0.004471901,
+          "total_tokens": 38,
+          "total_time": 0.00708884
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:18:47+00:00"
+      }
+    ],
+    "179": [
+      {
+        "rep": 0,
+        "text": "honey",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047187179,
+          "prompt_tokens": 34,
+          "prompt_time": 0.00255285,
+          "completion_tokens": 3,
+          "completion_time": 0.0061462,
+          "total_tokens": 37,
+          "total_time": 0.00869905
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:18:49+00:00"
+      }
+    ],
+    "180": [
+      {
+        "rep": 0,
+        "text": "tear",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017564331,
+          "prompt_tokens": 35,
+          "prompt_time": 0.00299373,
+          "completion_tokens": 3,
+          "completion_time": 0.005910892,
+          "total_tokens": 38,
+          "total_time": 0.008904622
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-07T15:18:51+00:00"
+      }
+    ],
+    "181": [
+      {
+        "rep": 0,
+        "text": "stern",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087624505,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002254365,
+          "completion_tokens": 3,
+          "completion_time": 0.005906398,
+          "total_tokens": 39,
+          "total_time": 0.008160763
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:18:53+00:00"
+      }
+    ],
+    "182": [
+      {
+        "rep": 0,
+        "text": "king",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.224744666,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002906276,
+          "completion_tokens": 2,
+          "completion_time": 0.004993285,
+          "total_tokens": 38,
+          "total_time": 0.007899561
+        },
+        "latency_s": 2.44,
+        "at": "2026-10-07T15:18:56+00:00"
+      }
+    ],
+    "183": [
+      {
+        "rep": 0,
+        "text": "wheel",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.018723327,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002782808,
+          "completion_tokens": 2,
+          "completion_time": 0.004177567,
+          "total_tokens": 38,
+          "total_time": 0.006960375
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:18:58+00:00"
+      }
+    ],
+    "184": [
+      {
+        "rep": 0,
+        "text": "harm",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.030387111,
+          "prompt_tokens": 36,
+          "prompt_time": 0.003060704,
+          "completion_tokens": 3,
+          "completion_time": 0.006144117,
+          "total_tokens": 39,
+          "total_time": 0.009204821
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:19:00+00:00"
+      }
+    ],
+    "185": [
+      {
+        "rep": 0,
+        "text": "child",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017481142,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002376511,
+          "completion_tokens": 2,
+          "completion_time": 0.003994534,
+          "total_tokens": 39,
+          "total_time": 0.006371045
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:19:02+00:00"
+      }
+    ],
+    "186": [
+      {
+        "rep": 0,
+        "text": "spoils",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016918554,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002195893,
+          "completion_tokens": 3,
+          "completion_time": 0.005872633,
+          "total_tokens": 38,
+          "total_time": 0.008068526
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:19:04+00:00"
+      }
+    ],
+    "187": [
+      {
+        "rep": 0,
+        "text": "spear",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017427397,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002384814,
+          "completion_tokens": 3,
+          "completion_time": 0.006146808,
+          "total_tokens": 37,
+          "total_time": 0.008531622
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-07T15:19:07+00:00"
+      }
+    ],
+    "188": [
+      {
+        "rep": 0,
+        "text": "learn",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086817805,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002294961,
+          "completion_tokens": 2,
+          "completion_time": 0.003975649,
+          "total_tokens": 38,
+          "total_time": 0.00627061
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:19:09+00:00"
+      }
+    ],
+    "189": [
+      {
+        "rep": 0,
+        "text": "lie",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.051820589,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002794974,
+          "completion_tokens": 2,
+          "completion_time": 0.004090232,
+          "total_tokens": 39,
+          "total_time": 0.006885206
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:19:11+00:00"
+      }
+    ],
+    "190": [
+      {
+        "rep": 0,
+        "text": "sow",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.554592392,
+          "prompt_tokens": 36,
+          "prompt_time": 0.003058774,
+          "completion_tokens": 3,
+          "completion_time": 0.006148607,
+          "total_tokens": 39,
+          "total_time": 0.009207381
+        },
+        "latency_s": 2.7,
+        "at": "2026-10-07T15:19:14+00:00"
+      }
+    ],
+    "191": [
+      {
+        "rep": 0,
+        "text": "forearm",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017446955,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002617927,
+          "completion_tokens": 3,
+          "completion_time": 0.005863523,
+          "total_tokens": 39,
+          "total_time": 0.00848145
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:19:16+00:00"
+      }
+    ],
+    "192": [
+      {
+        "rep": 0,
+        "text": "flower",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017223469,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002984806,
+          "completion_tokens": 2,
+          "completion_time": 0.004184046,
+          "total_tokens": 39,
+          "total_time": 0.007168852
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-07T15:19:18+00:00"
+      }
+    ],
+    "193": [
+      {
+        "rep": 0,
+        "text": "ox",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.047811239,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002701638,
+          "completion_tokens": 2,
+          "completion_time": 0.004191198,
+          "total_tokens": 39,
+          "total_time": 0.006892836
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:19:20+00:00"
+      }
+    ],
+    "194": [
+      {
+        "rep": 0,
+        "text": "head",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.278819359,
+          "prompt_tokens": 35,
+          "prompt_time": 0.002827015,
+          "completion_tokens": 2,
+          "completion_time": 0.004682189,
+          "total_tokens": 37,
+          "total_time": 0.007509204
+        },
+        "latency_s": 2.45,
+        "at": "2026-10-07T15:19:23+00:00"
+      }
+    ],
+    "195": [
+      {
+        "rep": 0,
+        "text": "peace",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017003206,
+          "prompt_tokens": 38,
+          "prompt_time": 0.002557608,
+          "completion_tokens": 2,
+          "completion_time": 0.003980114,
+          "total_tokens": 40,
+          "total_time": 0.006537722
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-07T15:19:25+00:00"
+      }
+    ],
+    "196": [
+      {
+        "rep": 0,
+        "text": "god",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.016578419,
+          "prompt_tokens": 34,
+          "prompt_time": 0.002347302,
+          "completion_tokens": 2,
+          "completion_time": 0.004009963,
+          "total_tokens": 36,
+          "total_time": 0.006357265
+        },
+        "latency_s": 2.17,
+        "at": "2026-10-07T15:19:27+00:00"
+      }
+    ],
+    "197": [
+      {
+        "rep": 0,
+        "text": "swallow",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.017613065,
+          "prompt_tokens": 36,
+          "prompt_time": 0.002335672,
+          "completion_tokens": 3,
+          "completion_time": 0.005876373,
+          "total_tokens": 39,
+          "total_time": 0.008212045
+        },
+        "latency_s": 2.2,
+        "at": "2026-10-07T15:19:29+00:00"
+      }
+    ],
+    "198": [
+      {
+        "rep": 0,
+        "text": "fasting",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.101259805,
+          "prompt_tokens": 35,
+          "prompt_time": 0.003064154,
+          "completion_tokens": 3,
+          "completion_time": 0.006142837,
+          "total_tokens": 38,
+          "total_time": 0.009206991
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:19:32+00:00"
+      }
+    ],
+    "199": [
+      {
+        "rep": 0,
+        "text": "kill",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.04817143,
+          "prompt_tokens": 38,
+          "prompt_time": 0.002724767,
+          "completion_tokens": 2,
+          "completion_time": 0.004190578,
+          "total_tokens": 40,
+          "total_time": 0.006915345
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:19:34+00:00"
+      }
+    ],
+    "200": [
+      {
+        "rep": 0,
+        "text": "light",
+        "model_returned": "qwen/qwen3.8-27b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.034129554,
+          "prompt_tokens": 36,
+          "prompt_time": 0.003052924,
+          "completion_tokens": 2,
+          "completion_time": 0.004186167,
+          "total_tokens": 38,
+          "total_time": 0.007239091
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:19:36+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

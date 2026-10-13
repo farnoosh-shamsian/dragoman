@@ -1,0 +1,98 @@
+# OpenAI-compatible APIs
+[providers.groq]
+base_url = "https://api.groq.com/openai/v1"
+api_key_env = "GROQ_API_KEY"
+
+[providers.cloudflare]
+base_url = "https://api.cloudflare.com/client/v4/accounts/{CLOUDFLARE_ACCOUNT_ID}/ai/v1"
+api_key_env = "CLOUDFLARE_API_TOKEN"
+
+[defaults]
+temperature = 0.2
+reps = 1
+max_tokens = 2048
+timeout = 240
+max_retries = 8
+
+# reasoning kept low
+[[models]]
+id = "openai/gpt-oss-120b"
+label = "GPT-OSS 120B"
+family = "OpenAI open-weight"
+weights = "open"
+max_tokens = 3000
+extra = { reasoning_effort = "low" }
+
+[[models]]
+id = "openai/gpt-oss-20b"
+label = "GPT-OSS 20B"
+family = "OpenAI open-weight"
+weights = "open"
+max_tokens = 3000
+extra = { reasoning_effort = "low" }
+
+[[models]]
+id = "qwen/qwen3.8-27b"
+label = "Qwen 3.8 27B"
+family = "Qwen"
+weights = "open"
+
+# same Qwen, thinking off
+[[models]]
+id = "qwen/qwen3.8-27b-nothink"
+api_id = "qwen/qwen3.8-27b"
+label = "Qwen 3.8 27B (no thinking)"
+family = "Qwen"
+weights = "open"
+enabled = false
+max_tokens = 1000
+extra = { reasoning_effort = "none" }
+
+[[models]]
+id = "allam-2-7b"
+label = "ALLaM 2 7B"
+family = "SDAIA ALLaM"
+weights = "open"
+max_tokens = 1024
+
+
+# free tiers, run explicitly
+[[models]]
+id = "llama-3.3-70b-instruct-fp8"
+api_id = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+label = "Llama 3.3 70B"
+family = "Meta Llama"
+weights = "open"
+provider = "cloudflare"
+enabled = false
+max_tokens = 1024
+
+[[models]]
+id = "llama-3.1-8b-instruct-fp8"
+api_id = "@cf/meta/llama-3.1-8b-instruct-fp8"
+label = "Llama 3.1 8B"
+family = "Meta Llama"
+weights = "open"
+provider = "cloudflare"
+enabled = false
+max_tokens = 1024
+
+[[models]]
+id = "mistral-small-3.1-24b-instruct"
+api_id = "@cf/mistralai/mistral-small-3.1-24b-instruct"
+label = "Mistral Small 3.1 24B"
+family = "Mistral"
+weights = "open"
+provider = "cloudflare"
+enabled = false
+max_tokens = 1024
+
+[[models]]
+id = "gemma-4-26b-a4b-it"
+api_id = "@cf/google/gemma-4-26b-a4b-it"
+label = "Gemma 4 26B"
+family = "Google Gemma"
+weights = "open"
+provider = "cloudflare"
+enabled = false
+max_tokens = 3000

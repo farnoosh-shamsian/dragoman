@@ -1,0 +1,6 @@
+# main condition, no system prompt
+user = """
+Translate this Ancient Greek word into Persian. Give 2–5 Persian equivalents, most likely first, one per line, and nothing else.
+
+{{SOURCE}}
+"""

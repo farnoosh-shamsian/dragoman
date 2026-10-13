@@ -1,0 +1,3827 @@
+{
+  "passage": {
+    "id": "greek-words",
+    "title": "Greek word list (traps and fillers)",
+    "ref": "greek_wordlist.xlsx, Stimuli sheet",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "allam-2-7b",
+    "label": "ALLaM 2 7B",
+    "family": "SDAIA ALLaM",
+    "weights": "open",
+    "provider": "groq"
+  },
+  "prompt": {
+    "name": "words-pivot-en",
+    "label": "Words · pivot step 1"
+  },
+  "params": {
+    "temperature": 0.2,
+    "max_tokens": 1024,
+    "seed": null
+  },
+  "runs": {
+    "1": [
+      {
+        "rep": 0,
+        "text": "Farmer",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087757174,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001679866,
+          "completion_tokens": 4,
+          "completion_time": 0.002941657,
+          "total_tokens": 41,
+          "total_time": 0.004621523
+        },
+        "latency_s": 0.31,
+        "at": "2026-10-07T15:13:06+00:00"
+      }
+    ],
+    "2": [
+      {
+        "rep": 0,
+        "text": "House",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08397915,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001685795,
+          "completion_tokens": 3,
+          "completion_time": 0.002223987,
+          "total_tokens": 40,
+          "total_time": 0.003909782
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-07T15:13:06+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "Night",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083770382,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001686565,
+          "completion_tokens": 3,
+          "completion_time": 0.002222187,
+          "total_tokens": 43,
+          "total_time": 0.003908752
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-07T15:13:06+00:00"
+      }
+    ],
+    "4": [
+      {
+        "rep": 0,
+        "text": "Crater",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086865944,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001686776,
+          "completion_tokens": 4,
+          "completion_time": 0.002937497,
+          "total_tokens": 42,
+          "total_time": 0.004624273
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-07T15:13:06+00:00"
+      }
+    ],
+    "5": [
+      {
+        "rep": 0,
+        "text": "Priest",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083559687,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001836023,
+          "completion_tokens": 4,
+          "completion_time": 0.002937286,
+          "total_tokens": 43,
+          "total_time": 0.004773309
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-07T15:13:06+00:00"
+      }
+    ],
+    "6": [
+      {
+        "rep": 0,
+        "text": "Throw",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083959573,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001522747,
+          "completion_tokens": 4,
+          "completion_time": 0.002917837,
+          "total_tokens": 39,
+          "total_time": 0.004440584
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T15:13:07+00:00"
+      }
+    ],
+    "7": [
+      {
+        "rep": 0,
+        "text": "Chest",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087812526,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001681426,
+          "completion_tokens": 4,
+          "completion_time": 0.002939117,
+          "total_tokens": 42,
+          "total_time": 0.004620543
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-07T15:13:07+00:00"
+      }
+    ],
+    "8": [
+      {
+        "rep": 0,
+        "text": "Pursue",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083938021,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001527738,
+          "completion_tokens": 4,
+          "completion_time": 0.002928027,
+          "total_tokens": 40,
+          "total_time": 0.004455765
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-07T15:13:07+00:00"
+      }
+    ],
+    "9": [
+      {
+        "rep": 0,
+        "text": "Build/Found",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086940241,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001523708,
+          "completion_tokens": 5,
+          "completion_time": 0.003635857,
+          "total_tokens": 41,
+          "total_time": 0.005159565
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-07T15:13:07+00:00"
+      }
+    ],
+    "10": [
+      {
+        "rep": 0,
+        "text": "Law",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083233188,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001520748,
+          "completion_tokens": 3,
+          "completion_time": 0.002221158,
+          "total_tokens": 38,
+          "total_time": 0.003741906
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T15:13:07+00:00"
+      }
+    ],
+    "11": [
+      {
+        "rep": 0,
+        "text": "Body",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083588189,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001522387,
+          "completion_tokens": 3,
+          "completion_time": 0.002203518,
+          "total_tokens": 38,
+          "total_time": 0.003725905
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T15:13:07+00:00"
+      }
+    ],
+    "12": [
+      {
+        "rep": 0,
+        "text": "Calléo - to praise/commend",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085640211,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001747604,
+          "completion_tokens": 11,
+          "completion_time": 0.007952204,
+          "total_tokens": 46,
+          "total_time": 0.009699808
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-07T15:13:08+00:00"
+      }
+    ],
+    "13": [
+      {
+        "rep": 0,
+        "text": "Justice",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08706573,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001542387,
+          "completion_tokens": 3,
+          "completion_time": 0.002228997,
+          "total_tokens": 37,
+          "total_time": 0.003771384
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-07T15:13:08+00:00"
+      }
+    ],
+    "14": [
+      {
+        "rep": 0,
+        "text": "Have",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087015898,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001517418,
+          "completion_tokens": 3,
+          "completion_time": 0.002219418,
+          "total_tokens": 38,
+          "total_time": 0.003736836
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T15:13:08+00:00"
+      }
+    ],
+    "15": [
+      {
+        "rep": 0,
+        "text": "Horse",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087077812,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001523598,
+          "completion_tokens": 3,
+          "completion_time": 0.002216298,
+          "total_tokens": 39,
+          "total_time": 0.003739896
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-07T15:13:08+00:00"
+      }
+    ],
+    "16": [
+      {
+        "rep": 0,
+        "text": "Run",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.092248096,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001754135,
+          "completion_tokens": 3,
+          "completion_time": 0.002226568,
+          "total_tokens": 38,
+          "total_time": 0.003980703
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-07T15:13:08+00:00"
+      }
+    ],
+    "17": [
+      {
+        "rep": 0,
+        "text": "Snake",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083982857,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001680855,
+          "completion_tokens": 4,
+          "completion_time": 0.002942237,
+          "total_tokens": 41,
+          "total_time": 0.004623092
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T15:13:08+00:00"
+      }
+    ],
+    "18": [
+      {
+        "rep": 0,
+        "text": "I am afraid (to fear)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08775742,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001682315,
+          "completion_tokens": 9,
+          "completion_time": 0.006516964,
+          "total_tokens": 47,
+          "total_time": 0.008199279
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-07T15:13:09+00:00"
+      }
+    ],
+    "19": [
+      {
+        "rep": 0,
+        "text": "Love",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083806295,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001522957,
+          "completion_tokens": 3,
+          "completion_time": 0.002233567,
+          "total_tokens": 39,
+          "total_time": 0.003756524
+        },
+        "latency_s": 0.16,
+        "at": "2026-10-07T15:13:09+00:00"
+      }
+    ],
+    "20": [
+      {
+        "rep": 0,
+        "text": "Light",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08384161,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001520517,
+          "completion_tokens": 3,
+          "completion_time": 0.002215797,
+          "total_tokens": 39,
+          "total_time": 0.003736314
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T15:13:09+00:00"
+      }
+    ],
+    "21": [
+      {
+        "rep": 0,
+        "text": "Day",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086809541,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001676156,
+          "completion_tokens": 3,
+          "completion_time": 0.002223368,
+          "total_tokens": 39,
+          "total_time": 0.003899524
+        },
+        "latency_s": 0.19,
+        "at": "2026-10-07T15:13:09+00:00"
+      }
+    ],
+    "22": [
+      {
+        "rep": 0,
+        "text": "Snow",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08690136,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001674316,
+          "completion_tokens": 3,
+          "completion_time": 0.002227497,
+          "total_tokens": 38,
+          "total_time": 0.003901813
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T15:13:09+00:00"
+      }
+    ],
+    "23": [
+      {
+        "rep": 0,
+        "text": "Speed",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087564732,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001830673,
+          "completion_tokens": 3,
+          "completion_time": 0.002221298,
+          "total_tokens": 38,
+          "total_time": 0.004051971
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T15:13:10+00:00"
+      }
+    ],
+    "24": [
+      {
+        "rep": 0,
+        "text": "Sword",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087726491,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001837373,
+          "completion_tokens": 4,
+          "completion_time": 0.002942117,
+          "total_tokens": 41,
+          "total_time": 0.00477949
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T15:13:10+00:00"
+      }
+    ],
+    "25": [
+      {
+        "rep": 0,
+        "text": "Death",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.109010031,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001835333,
+          "completion_tokens": 3,
+          "completion_time": 0.002232098,
+          "total_tokens": 38,
+          "total_time": 0.004067431
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-07T15:13:10+00:00"
+      }
+    ],
+    "26": [
+      {
+        "rep": 0,
+        "text": "Hunting",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083692667,
+          "prompt_tokens": 33,
+          "prompt_time": 0.001836033,
+          "completion_tokens": 4,
+          "completion_time": 0.002942987,
+          "total_tokens": 37,
+          "total_time": 0.00477902
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-07T15:13:10+00:00"
+      }
+    ],
+    "27": [
+      {
+        "rep": 0,
+        "text": "Package",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087537569,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001833363,
+          "completion_tokens": 3,
+          "completion_time": 0.002235327,
+          "total_tokens": 44,
+          "total_time": 0.00406869
+        },
+        "latency_s": 0.2,
+        "at": "2026-10-07T15:13:10+00:00"
+      }
+    ],
+    "28": [
+      {
+        "rep": 0,
+        "text": "Hear",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087620398,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001830984,
+          "completion_tokens": 3,
+          "completion_time": 0.002226618,
+          "total_tokens": 41,
+          "total_time": 0.004057602
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T15:13:10+00:00"
+      }
+    ],
+    "29": [
+      {
+        "rep": 0,
+        "text": "See",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083562288,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001671756,
+          "completion_tokens": 3,
+          "completion_time": 0.002223798,
+          "total_tokens": 39,
+          "total_time": 0.003895554
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T15:13:11+00:00"
+      }
+    ],
+    "30": [
+      {
+        "rep": 0,
+        "text": "Moon",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087075644,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001522318,
+          "completion_tokens": 3,
+          "completion_time": 0.002209248,
+          "total_tokens": 39,
+          "total_time": 0.003731566
+        },
+        "latency_s": 0.17,
+        "at": "2026-10-07T15:13:11+00:00"
+      }
+    ],
+    "31": [
+      {
+        "rep": 0,
+        "text": "Finger",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083536516,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001674165,
+          "completion_tokens": 4,
+          "completion_time": 0.002943007,
+          "total_tokens": 44,
+          "total_time": 0.004617172
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:13:13+00:00"
+      }
+    ],
+    "32": [
+      {
+        "rep": 0,
+        "text": "Door",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083388627,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001672075,
+          "completion_tokens": 4,
+          "completion_time": 0.002946807,
+          "total_tokens": 38,
+          "total_time": 0.004618882
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:13:15+00:00"
+      }
+    ],
+    "33": [
+      {
+        "rep": 0,
+        "text": "Owl",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084039879,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001700416,
+          "completion_tokens": 4,
+          "completion_time": 0.002940887,
+          "total_tokens": 41,
+          "total_time": 0.004641303
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:13:18+00:00"
+      }
+    ],
+    "34": [
+      {
+        "rep": 0,
+        "text": "Persuade",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083883136,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001537777,
+          "completion_tokens": 5,
+          "completion_time": 0.003633126,
+          "total_tokens": 40,
+          "total_time": 0.005170903
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:13:20+00:00"
+      }
+    ],
+    "35": [
+      {
+        "rep": 0,
+        "text": "Plant",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083495336,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001545048,
+          "completion_tokens": 3,
+          "completion_time": 0.002196378,
+          "total_tokens": 39,
+          "total_time": 0.003741426
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:13:22+00:00"
+      }
+    ],
+    "36": [
+      {
+        "rep": 0,
+        "text": "Gold",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.089991581,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001730655,
+          "completion_tokens": 3,
+          "completion_time": 0.002225027,
+          "total_tokens": 39,
+          "total_time": 0.003955682
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:13:24+00:00"
+      }
+    ],
+    "37": [
+      {
+        "rep": 0,
+        "text": "Ophidian",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083689837,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001678546,
+          "completion_tokens": 6,
+          "completion_time": 0.004373237,
+          "total_tokens": 43,
+          "total_time": 0.006051783
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:13:27+00:00"
+      }
+    ],
+    "38": [
+      {
+        "rep": 0,
+        "text": "Teach",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086862517,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001674256,
+          "completion_tokens": 4,
+          "completion_time": 0.002937057,
+          "total_tokens": 41,
+          "total_time": 0.004611313
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:13:29+00:00"
+      }
+    ],
+    "39": [
+      {
+        "rep": 0,
+        "text": "Send",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083687997,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001833773,
+          "completion_tokens": 3,
+          "completion_time": 0.002226187,
+          "total_tokens": 38,
+          "total_time": 0.00405996
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:13:31+00:00"
+      }
+    ],
+    "40": [
+      {
+        "rep": 0,
+        "text": "Water",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083437494,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001678505,
+          "completion_tokens": 3,
+          "completion_time": 0.002224528,
+          "total_tokens": 39,
+          "total_time": 0.003903033
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:13:33+00:00"
+      }
+    ],
+    "41": [
+      {
+        "rep": 0,
+        "text": "Fall",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086026043,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001861592,
+          "completion_tokens": 3,
+          "completion_time": 0.002239777,
+          "total_tokens": 38,
+          "total_time": 0.004101369
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:13:36+00:00"
+      }
+    ],
+    "42": [
+      {
+        "rep": 0,
+        "text": "Know",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083502718,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001685495,
+          "completion_tokens": 3,
+          "completion_time": 0.002224667,
+          "total_tokens": 42,
+          "total_time": 0.003910162
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:13:38+00:00"
+      }
+    ],
+    "43": [
+      {
+        "rep": 0,
+        "text": "Iron",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087046456,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001608657,
+          "completion_tokens": 3,
+          "completion_time": 0.002182388,
+          "total_tokens": 39,
+          "total_time": 0.003791045
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:13:40+00:00"
+      }
+    ],
+    "44": [
+      {
+        "rep": 0,
+        "text": "Build",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086654847,
+          "prompt_tokens": 41,
+          "prompt_time": 0.001691636,
+          "completion_tokens": 3,
+          "completion_time": 0.002233717,
+          "total_tokens": 44,
+          "total_time": 0.003925353
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:13:43+00:00"
+      }
+    ],
+    "45": [
+      {
+        "rep": 0,
+        "text": "Island",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086655327,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001679426,
+          "completion_tokens": 3,
+          "completion_time": 0.002226548,
+          "total_tokens": 40,
+          "total_time": 0.003905974
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:13:45+00:00"
+      }
+    ],
+    "46": [
+      {
+        "rep": 0,
+        "text": "Fly",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086357951,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001535178,
+          "completion_tokens": 3,
+          "completion_time": 0.002209468,
+          "total_tokens": 38,
+          "total_time": 0.003744646
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:13:47+00:00"
+      }
+    ],
+    "47": [
+      {
+        "rep": 0,
+        "text": "Sun",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083350309,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001679145,
+          "completion_tokens": 3,
+          "completion_time": 0.002227747,
+          "total_tokens": 40,
+          "total_time": 0.003906892
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:13:49+00:00"
+      }
+    ],
+    "48": [
+      {
+        "rep": 0,
+        "text": "Conquer",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08623319,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001516668,
+          "completion_tokens": 4,
+          "completion_time": 0.002927137,
+          "total_tokens": 38,
+          "total_time": 0.004443805
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-07T15:13:52+00:00"
+      }
+    ],
+    "49": [
+      {
+        "rep": 0,
+        "text": "Father",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08349612,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001798123,
+          "completion_tokens": 3,
+          "completion_time": 0.002231277,
+          "total_tokens": 38,
+          "total_time": 0.0040294
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:13:54+00:00"
+      }
+    ],
+    "50": [
+      {
+        "rep": 0,
+        "text": "Slave",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086216813,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001680375,
+          "completion_tokens": 4,
+          "completion_time": 0.002940307,
+          "total_tokens": 42,
+          "total_time": 0.004620682
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:13:56+00:00"
+      }
+    ],
+    "51": [
+      {
+        "rep": 0,
+        "text": "Grave",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086199866,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001676025,
+          "completion_tokens": 4,
+          "completion_time": 0.002945516,
+          "total_tokens": 40,
+          "total_time": 0.004621541
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:13:58+00:00"
+      }
+    ],
+    "52": [
+      {
+        "rep": 0,
+        "text": "Cry",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083283133,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001563127,
+          "completion_tokens": 4,
+          "completion_time": 0.002910658,
+          "total_tokens": 39,
+          "total_time": 0.004473785
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:14:01+00:00"
+      }
+    ],
+    "53": [
+      {
+        "rep": 0,
+        "text": "Jump",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08673485,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001682175,
+          "completion_tokens": 4,
+          "completion_time": 0.002946407,
+          "total_tokens": 41,
+          "total_time": 0.004628582
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:14:03+00:00"
+      }
+    ],
+    "54": [
+      {
+        "rep": 0,
+        "text": "Laugh",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084105413,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001542768,
+          "completion_tokens": 4,
+          "completion_time": 0.002913167,
+          "total_tokens": 39,
+          "total_time": 0.004455935
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:14:05+00:00"
+      }
+    ],
+    "55": [
+      {
+        "rep": 0,
+        "text": "Kid",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086205897,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001701715,
+          "completion_tokens": 3,
+          "completion_time": 0.002211867,
+          "total_tokens": 41,
+          "total_time": 0.003913582
+        },
+        "latency_s": 2.26,
+        "at": "2026-10-07T15:14:08+00:00"
+      }
+    ],
+    "56": [
+      {
+        "rep": 0,
+        "text": "Plane tree",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086198047,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001521128,
+          "completion_tokens": 5,
+          "completion_time": 0.003639797,
+          "total_tokens": 41,
+          "total_time": 0.005160925
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:14:10+00:00"
+      }
+    ],
+    "57": [
+      {
+        "rep": 0,
+        "text": "Food",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083749825,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001527418,
+          "completion_tokens": 3,
+          "completion_time": 0.002210198,
+          "total_tokens": 39,
+          "total_time": 0.003737616
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:14:12+00:00"
+      }
+    ],
+    "58": [
+      {
+        "rep": 0,
+        "text": "Sky",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083866947,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001698065,
+          "completion_tokens": 3,
+          "completion_time": 0.002223377,
+          "total_tokens": 41,
+          "total_time": 0.003921442
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:14:14+00:00"
+      }
+    ],
+    "59": [
+      {
+        "rep": 0,
+        "text": "Bread",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086994342,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001582666,
+          "completion_tokens": 4,
+          "completion_time": 0.002899698,
+          "total_tokens": 40,
+          "total_time": 0.004482364
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:14:17+00:00"
+      }
+    ],
+    "60": [
+      {
+        "rep": 0,
+        "text": "Silver",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083752843,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001677565,
+          "completion_tokens": 3,
+          "completion_time": 0.002225547,
+          "total_tokens": 41,
+          "total_time": 0.003903112
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:14:19+00:00"
+      }
+    ],
+    "61": [
+      {
+        "rep": 0,
+        "text": "Live",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083361767,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001681725,
+          "completion_tokens": 3,
+          "completion_time": 0.002234957,
+          "total_tokens": 37,
+          "total_time": 0.003916682
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:14:21+00:00"
+      }
+    ],
+    "62": [
+      {
+        "rep": 0,
+        "text": "Save",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086252698,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001686485,
+          "completion_tokens": 3,
+          "completion_time": 0.002223547,
+          "total_tokens": 40,
+          "total_time": 0.003910032
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:14:23+00:00"
+      }
+    ],
+    "63": [
+      {
+        "rep": 0,
+        "text": "Brother",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08779697,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001716575,
+          "completion_tokens": 3,
+          "completion_time": 0.002209308,
+          "total_tokens": 43,
+          "total_time": 0.003925883
+        },
+        "latency_s": 2.26,
+        "at": "2026-10-07T15:14:26+00:00"
+      }
+    ],
+    "64": [
+      {
+        "rep": 0,
+        "text": "Drink",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086255246,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001523978,
+          "completion_tokens": 4,
+          "completion_time": 0.002923937,
+          "total_tokens": 38,
+          "total_time": 0.004447915
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:14:28+00:00"
+      }
+    ],
+    "65": [
+      {
+        "rep": 0,
+        "text": "Speak",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087056436,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001569457,
+          "completion_tokens": 4,
+          "completion_time": 0.002902558,
+          "total_tokens": 38,
+          "total_time": 0.004472015
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:14:30+00:00"
+      }
+    ],
+    "66": [
+      {
+        "rep": 0,
+        "text": "Rhegنمی (rhegnimi) - Sunder, rend, split",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083968604,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001713715,
+          "completion_tokens": 20,
+          "completion_time": 0.01437987,
+          "total_tokens": 59,
+          "total_time": 0.016093585
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:14:33+00:00"
+      }
+    ],
+    "67": [
+      {
+        "rep": 0,
+        "text": "Create",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087173553,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001540988,
+          "completion_tokens": 3,
+          "completion_time": 0.002202118,
+          "total_tokens": 37,
+          "total_time": 0.003743106
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:14:35+00:00"
+      }
+    ],
+    "68": [
+      {
+        "rep": 0,
+        "text": "Travel",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087302671,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001542597,
+          "completion_tokens": 3,
+          "completion_time": 0.002188098,
+          "total_tokens": 37,
+          "total_time": 0.003730695
+        },
+        "latency_s": 2.41,
+        "at": "2026-10-07T15:14:37+00:00"
+      }
+    ],
+    "69": [
+      {
+        "rep": 0,
+        "text": "Mountain",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083835027,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001536268,
+          "completion_tokens": 3,
+          "completion_time": 0.002202278,
+          "total_tokens": 38,
+          "total_time": 0.003738546
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:14:39+00:00"
+      }
+    ],
+    "70": [
+      {
+        "rep": 0,
+        "text": "Stone",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083414596,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001535537,
+          "completion_tokens": 3,
+          "completion_time": 0.002204367,
+          "total_tokens": 38,
+          "total_time": 0.003739904
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:14:42+00:00"
+      }
+    ],
+    "71": [
+      {
+        "rep": 0,
+        "text": "Answer",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086654123,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001839323,
+          "completion_tokens": 4,
+          "completion_time": 0.002926748,
+          "total_tokens": 44,
+          "total_time": 0.004766071
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:14:44+00:00"
+      }
+    ],
+    "72": [
+      {
+        "rep": 0,
+        "text": "Rotten flesh",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083260983,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001680745,
+          "completion_tokens": 5,
+          "completion_time": 0.003653507,
+          "total_tokens": 42,
+          "total_time": 0.005334252
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:14:46+00:00"
+      }
+    ],
+    "73": [
+      {
+        "rep": 0,
+        "text": "Stay",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08671974,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001672565,
+          "completion_tokens": 3,
+          "completion_time": 0.002224378,
+          "total_tokens": 37,
+          "total_time": 0.003896943
+        },
+        "latency_s": 2.26,
+        "at": "2026-10-07T15:14:49+00:00"
+      }
+    ],
+    "74": [
+      {
+        "rep": 0,
+        "text": "Rice",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086925619,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001516208,
+          "completion_tokens": 3,
+          "completion_time": 0.002220427,
+          "total_tokens": 39,
+          "total_time": 0.003736635
+        },
+        "latency_s": 2.24,
+        "at": "2026-10-07T15:14:51+00:00"
+      }
+    ],
+    "75": [
+      {
+        "rep": 0,
+        "text": "Man",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086644075,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001732215,
+          "completion_tokens": 3,
+          "completion_time": 0.002227478,
+          "total_tokens": 39,
+          "total_time": 0.003959693
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:14:53+00:00"
+      }
+    ],
+    "76": [
+      {
+        "rep": 0,
+        "text": "Woman",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083329672,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001517288,
+          "completion_tokens": 3,
+          "completion_time": 0.002227238,
+          "total_tokens": 37,
+          "total_time": 0.003744526
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:14:55+00:00"
+      }
+    ],
+    "77": [
+      {
+        "rep": 0,
+        "text": "Bow",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083343206,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001528958,
+          "completion_tokens": 3,
+          "completion_time": 0.002207988,
+          "total_tokens": 39,
+          "total_time": 0.003736946
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:14:58+00:00"
+      }
+    ],
+    "78": [
+      {
+        "rep": 0,
+        "text": "Name",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083525024,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001674375,
+          "completion_tokens": 3,
+          "completion_time": 0.002229957,
+          "total_tokens": 38,
+          "total_time": 0.003904332
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:15:00+00:00"
+      }
+    ],
+    "79": [
+      {
+        "rep": 0,
+        "text": "Walk",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083924845,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001527467,
+          "completion_tokens": 3,
+          "completion_time": 0.002212587,
+          "total_tokens": 38,
+          "total_time": 0.003740054
+        },
+        "latency_s": 2.26,
+        "at": "2026-10-07T15:15:02+00:00"
+      }
+    ],
+    "80": [
+      {
+        "rep": 0,
+        "text": "Whip",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.092699641,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001754045,
+          "completion_tokens": 4,
+          "completion_time": 0.002939407,
+          "total_tokens": 39,
+          "total_time": 0.004693452
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:15:04+00:00"
+      }
+    ],
+    "81": [
+      {
+        "rep": 0,
+        "text": "Metallon (met-uh-lon) - Metallic substance or mine.",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08676115,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001727295,
+          "completion_tokens": 20,
+          "completion_time": 0.014419989,
+          "total_tokens": 57,
+          "total_time": 0.016147284
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:15:07+00:00"
+      }
+    ],
+    "82": [
+      {
+        "rep": 0,
+        "text": "Army",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083454556,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001679645,
+          "completion_tokens": 3,
+          "completion_time": 0.002223377,
+          "total_tokens": 40,
+          "total_time": 0.003903022
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:15:09+00:00"
+      }
+    ],
+    "83": [
+      {
+        "rep": 0,
+        "text": "Market",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086914025,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001735075,
+          "completion_tokens": 3,
+          "completion_time": 0.002215358,
+          "total_tokens": 40,
+          "total_time": 0.003950433
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:15:11+00:00"
+      }
+    ],
+    "84": [
+      {
+        "rep": 0,
+        "text": "Sleep",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083848568,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001697025,
+          "completion_tokens": 4,
+          "completion_time": 0.002936937,
+          "total_tokens": 42,
+          "total_time": 0.004633962
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:15:14+00:00"
+      }
+    ],
+    "85": [
+      {
+        "rep": 0,
+        "text": "Pray",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083877747,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001680146,
+          "completion_tokens": 4,
+          "completion_time": 0.002940828,
+          "total_tokens": 42,
+          "total_time": 0.004620974
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:15:16+00:00"
+      }
+    ],
+    "86": [
+      {
+        "rep": 0,
+        "text": "Flea",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086613172,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001702915,
+          "completion_tokens": 4,
+          "completion_time": 0.002939517,
+          "total_tokens": 40,
+          "total_time": 0.004642432
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:15:18+00:00"
+      }
+    ],
+    "87": [
+      {
+        "rep": 0,
+        "text": "Bring",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083972791,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001532508,
+          "completion_tokens": 3,
+          "completion_time": 0.002208058,
+          "total_tokens": 38,
+          "total_time": 0.003740566
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:15:20+00:00"
+      }
+    ],
+    "88": [
+      {
+        "rep": 0,
+        "text": "Open",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083849382,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001704835,
+          "completion_tokens": 3,
+          "completion_time": 0.002228907,
+          "total_tokens": 40,
+          "total_time": 0.003933742
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T15:15:23+00:00"
+      }
+    ],
+    "89": [
+      {
+        "rep": 0,
+        "text": "Dance",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086916001,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001692185,
+          "completion_tokens": 3,
+          "completion_time": 0.002386295,
+          "total_tokens": 40,
+          "total_time": 0.00407848
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:15:25+00:00"
+      }
+    ],
+    "90": [
+      {
+        "rep": 0,
+        "text": "Mother",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086950332,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001574466,
+          "completion_tokens": 3,
+          "completion_time": 0.002181198,
+          "total_tokens": 37,
+          "total_time": 0.003755664
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:15:27+00:00"
+      }
+    ],
+    "91": [
+      {
+        "rep": 0,
+        "text": "Present",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083662767,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001533597,
+          "completion_tokens": 3,
+          "completion_time": 0.002208728,
+          "total_tokens": 39,
+          "total_time": 0.003742325
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:15:29+00:00"
+      }
+    ],
+    "92": [
+      {
+        "rep": 0,
+        "text": "Steal",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083295374,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001535998,
+          "completion_tokens": 4,
+          "completion_time": 0.002939887,
+          "total_tokens": 40,
+          "total_time": 0.004475885
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:15:32+00:00"
+      }
+    ],
+    "93": [
+      {
+        "rep": 0,
+        "text": "Raw meat",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086948415,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001542688,
+          "completion_tokens": 4,
+          "completion_time": 0.002934777,
+          "total_tokens": 40,
+          "total_time": 0.004477465
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T15:15:34+00:00"
+      }
+    ],
+    "94": [
+      {
+        "rep": 0,
+        "text": "Race",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087217815,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001575897,
+          "completion_tokens": 3,
+          "completion_time": 0.002181999,
+          "total_tokens": 37,
+          "total_time": 0.003757896
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:15:36+00:00"
+      }
+    ],
+    "95": [
+      {
+        "rep": 0,
+        "text": "Weapons",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.087028321,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001519658,
+          "completion_tokens": 5,
+          "completion_time": 0.003643087,
+          "total_tokens": 41,
+          "total_time": 0.005162745
+        },
+        "latency_s": 2.26,
+        "at": "2026-10-07T15:15:39+00:00"
+      }
+    ],
+    "96": [
+      {
+        "rep": 0,
+        "text": "City",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086179817,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001524648,
+          "completion_tokens": 3,
+          "completion_time": 0.002209748,
+          "total_tokens": 38,
+          "total_time": 0.003734396
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:15:41+00:00"
+      }
+    ],
+    "97": [
+      {
+        "rep": 0,
+        "text": "Take",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086274124,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001832533,
+          "completion_tokens": 3,
+          "completion_time": 0.002235687,
+          "total_tokens": 40,
+          "total_time": 0.00406822
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:15:43+00:00"
+      }
+    ],
+    "98": [
+      {
+        "rep": 0,
+        "text": "Place",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083827098,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001533008,
+          "completion_tokens": 3,
+          "completion_time": 0.002207128,
+          "total_tokens": 39,
+          "total_time": 0.003740136
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:15:45+00:00"
+      }
+    ],
+    "99": [
+      {
+        "rep": 0,
+        "text": "Table",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086600628,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001830823,
+          "completion_tokens": 3,
+          "completion_time": 0.002217478,
+          "total_tokens": 41,
+          "total_time": 0.004048301
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:15:48+00:00"
+      }
+    ],
+    "100": [
+      {
+        "rep": 0,
+        "text": "I lead or consider",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.190104949,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001915522,
+          "completion_tokens": 6,
+          "completion_time": 0.004377616,
+          "total_tokens": 44,
+          "total_time": 0.006293138
+        },
+        "latency_s": 2.38,
+        "at": "2026-10-07T15:15:50+00:00"
+      }
+    ],
+    "101": [
+      {
+        "rep": 0,
+        "text": "Fire",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084493183,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001673775,
+          "completion_tokens": 3,
+          "completion_time": 0.002228557,
+          "total_tokens": 38,
+          "total_time": 0.003902332
+        },
+        "latency_s": 2.26,
+        "at": "2026-10-07T15:15:52+00:00"
+      }
+    ],
+    "102": [
+      {
+        "rep": 0,
+        "text": "Fruit",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.107895647,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001832373,
+          "completion_tokens": 4,
+          "completion_time": 0.002943037,
+          "total_tokens": 40,
+          "total_time": 0.00477541
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T15:15:55+00:00"
+      }
+    ],
+    "103": [
+      {
+        "rep": 0,
+        "text": "Bear (English equivalent)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084118333,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001833963,
+          "completion_tokens": 7,
+          "completion_time": 0.005095375,
+          "total_tokens": 44,
+          "total_time": 0.006929338
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:15:57+00:00"
+      }
+    ],
+    "104": [
+      {
+        "rep": 0,
+        "text": "Buy",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083898645,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001867493,
+          "completion_tokens": 3,
+          "completion_time": 0.002227558,
+          "total_tokens": 43,
+          "total_time": 0.004095051
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:15:59+00:00"
+      }
+    ],
+    "105": [
+      {
+        "rep": 0,
+        "text": "Speech or language",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086282542,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001679345,
+          "completion_tokens": 6,
+          "completion_time": 0.004384026,
+          "total_tokens": 41,
+          "total_time": 0.006063371
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:16:01+00:00"
+      }
+    ],
+    "106": [
+      {
+        "rep": 0,
+        "text": "Victory",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083982026,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001861363,
+          "completion_tokens": 4,
+          "completion_time": 0.003235463,
+          "total_tokens": 38,
+          "total_time": 0.005096826
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:16:04+00:00"
+      }
+    ],
+    "107": [
+      {
+        "rep": 0,
+        "text": "Die",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086003556,
+          "prompt_tokens": 42,
+          "prompt_time": 0.001831983,
+          "completion_tokens": 3,
+          "completion_time": 0.002226837,
+          "total_tokens": 45,
+          "total_time": 0.00405882
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:16:06+00:00"
+      }
+    ],
+    "108": [
+      {
+        "rep": 0,
+        "text": "Village",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08588565,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001957811,
+          "completion_tokens": 3,
+          "completion_time": 0.002224807,
+          "total_tokens": 38,
+          "total_time": 0.004182618
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:16:08+00:00"
+      }
+    ],
+    "109": [
+      {
+        "rep": 0,
+        "text": "Wine",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08621706,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001596346,
+          "completion_tokens": 4,
+          "completion_time": 0.002912238,
+          "total_tokens": 40,
+          "total_time": 0.004508584
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:16:10+00:00"
+      }
+    ],
+    "110": [
+      {
+        "rep": 0,
+        "text": "Soul",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084143348,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001730425,
+          "completion_tokens": 3,
+          "completion_time": 0.002222797,
+          "total_tokens": 38,
+          "total_time": 0.003953222
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:16:13+00:00"
+      }
+    ],
+    "111": [
+      {
+        "rep": 0,
+        "text": "Damage",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086373709,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001530047,
+          "completion_tokens": 4,
+          "completion_time": 0.002931447,
+          "total_tokens": 39,
+          "total_time": 0.004461494
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:16:15+00:00"
+      }
+    ],
+    "112": [
+      {
+        "rep": 0,
+        "text": "Court",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086423133,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001695955,
+          "completion_tokens": 3,
+          "completion_time": 0.002222687,
+          "total_tokens": 42,
+          "total_time": 0.003918642
+        },
+        "latency_s": 2.26,
+        "at": "2026-10-07T15:16:17+00:00"
+      }
+    ],
+    "113": [
+      {
+        "rep": 0,
+        "text": "Unyielding",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086619543,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001685546,
+          "completion_tokens": 6,
+          "completion_time": 0.004375747,
+          "total_tokens": 46,
+          "total_time": 0.006061293
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:16:20+00:00"
+      }
+    ],
+    "114": [
+      {
+        "rep": 0,
+        "text": "Man",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086109212,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001695755,
+          "completion_tokens": 3,
+          "completion_time": 0.002223427,
+          "total_tokens": 42,
+          "total_time": 0.003919182
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:16:22+00:00"
+      }
+    ],
+    "115": [
+      {
+        "rep": 0,
+        "text": "Wolf",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086115272,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001680295,
+          "completion_tokens": 3,
+          "completion_time": 0.002225517,
+          "total_tokens": 39,
+          "total_time": 0.003905812
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:16:24+00:00"
+      }
+    ],
+    "116": [
+      {
+        "rep": 0,
+        "text": "left",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086260474,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001715045,
+          "completion_tokens": 3,
+          "completion_time": 0.002221648,
+          "total_tokens": 42,
+          "total_time": 0.003936693
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:16:26+00:00"
+      }
+    ],
+    "117": [
+      {
+        "rep": 0,
+        "text": "Legend",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083637923,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001675695,
+          "completion_tokens": 3,
+          "completion_time": 0.002230807,
+          "total_tokens": 40,
+          "total_time": 0.003906502
+        },
+        "latency_s": 2.24,
+        "at": "2026-10-07T15:16:29+00:00"
+      }
+    ],
+    "118": [
+      {
+        "rep": 0,
+        "text": "Come",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08667887,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001683845,
+          "completion_tokens": 3,
+          "completion_time": 0.002219728,
+          "total_tokens": 41,
+          "total_time": 0.003903573
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:16:31+00:00"
+      }
+    ],
+    "119": [
+      {
+        "rep": 0,
+        "text": "Close",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086212256,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001560607,
+          "completion_tokens": 3,
+          "completion_time": 0.002194738,
+          "total_tokens": 38,
+          "total_time": 0.003755345
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:16:33+00:00"
+      }
+    ],
+    "120": [
+      {
+        "rep": 0,
+        "text": "Hate",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084439647,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001675336,
+          "completion_tokens": 4,
+          "completion_time": 0.002941577,
+          "total_tokens": 39,
+          "total_time": 0.004616913
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:16:36+00:00"
+      }
+    ],
+    "121": [
+      {
+        "rep": 0,
+        "text": "Dog",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086626663,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001516527,
+          "completion_tokens": 3,
+          "completion_time": 0.002225287,
+          "total_tokens": 37,
+          "total_time": 0.003741814
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:16:38+00:00"
+      }
+    ],
+    "122": [
+      {
+        "rep": 0,
+        "text": "Body",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084370018,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001525057,
+          "completion_tokens": 3,
+          "completion_time": 0.002214827,
+          "total_tokens": 39,
+          "total_time": 0.003739884
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:16:40+00:00"
+      }
+    ],
+    "123": [
+      {
+        "rep": 0,
+        "text": "Javelin",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086823251,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001692355,
+          "completion_tokens": 5,
+          "completion_time": 0.003643866,
+          "total_tokens": 44,
+          "total_time": 0.005336221
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:16:42+00:00"
+      }
+    ],
+    "124": [
+      {
+        "rep": 0,
+        "text": "Sell",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08625516,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001674865,
+          "completion_tokens": 4,
+          "completion_time": 0.002937007,
+          "total_tokens": 39,
+          "total_time": 0.004611872
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:16:45+00:00"
+      }
+    ],
+    "125": [
+      {
+        "rep": 0,
+        "text": "Disciple",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086080629,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001519877,
+          "completion_tokens": 4,
+          "completion_time": 0.002930097,
+          "total_tokens": 40,
+          "total_time": 0.004449974
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:16:47+00:00"
+      }
+    ],
+    "126": [
+      {
+        "rep": 0,
+        "text": "Doctor",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086319731,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001695055,
+          "completion_tokens": 3,
+          "completion_time": 0.002226057,
+          "total_tokens": 41,
+          "total_time": 0.003921112
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:16:49+00:00"
+      }
+    ],
+    "127": [
+      {
+        "rep": 0,
+        "text": "Command",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086124906,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001705175,
+          "completion_tokens": 3,
+          "completion_time": 0.002228077,
+          "total_tokens": 40,
+          "total_time": 0.003933252
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:16:51+00:00"
+      }
+    ],
+    "128": [
+      {
+        "rep": 0,
+        "text": "Give birth",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088682071,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001532658,
+          "completion_tokens": 4,
+          "completion_time": 0.002916537,
+          "total_tokens": 39,
+          "total_time": 0.004449195
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:16:54+00:00"
+      }
+    ],
+    "129": [
+      {
+        "rep": 0,
+        "text": "Sit",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08884767,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001535287,
+          "completion_tokens": 3,
+          "completion_time": 0.002200258,
+          "total_tokens": 39,
+          "total_time": 0.003735545
+        },
+        "latency_s": 2.26,
+        "at": "2026-10-07T15:16:56+00:00"
+      }
+    ],
+    "130": [
+      {
+        "rep": 0,
+        "text": "Night",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.089117779,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001579747,
+          "completion_tokens": 3,
+          "completion_time": 0.002180918,
+          "total_tokens": 38,
+          "total_time": 0.003760665
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:16:58+00:00"
+      }
+    ],
+    "131": [
+      {
+        "rep": 0,
+        "text": "Ask",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.092243532,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001912512,
+          "completion_tokens": 3,
+          "completion_time": 0.002223377,
+          "total_tokens": 41,
+          "total_time": 0.004135889
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:17:01+00:00"
+      }
+    ],
+    "132": [
+      {
+        "rep": 0,
+        "text": "Foie",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084035984,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001526358,
+          "completion_tokens": 5,
+          "completion_time": 0.003623417,
+          "total_tokens": 41,
+          "total_time": 0.005149775
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:17:03+00:00"
+      }
+    ],
+    "133": [
+      {
+        "rep": 0,
+        "text": "dwell",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084167451,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001832483,
+          "completion_tokens": 3,
+          "completion_time": 0.002222177,
+          "total_tokens": 40,
+          "total_time": 0.00405466
+        },
+        "latency_s": 2.26,
+        "at": "2026-10-07T15:17:05+00:00"
+      }
+    ],
+    "134": [
+      {
+        "rep": 0,
+        "text": "Hand",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08366068,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001816463,
+          "completion_tokens": 3,
+          "completion_time": 0.002226467,
+          "total_tokens": 37,
+          "total_time": 0.00404293
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T15:17:07+00:00"
+      }
+    ],
+    "135": [
+      {
+        "rep": 0,
+        "text": "Star",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083565483,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001832903,
+          "completion_tokens": 3,
+          "completion_time": 0.002227528,
+          "total_tokens": 40,
+          "total_time": 0.004060431
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:17:10+00:00"
+      }
+    ],
+    "136": [
+      {
+        "rep": 0,
+        "text": "Path or journey.",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086435682,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001532298,
+          "completion_tokens": 6,
+          "completion_time": 0.004376236,
+          "total_tokens": 42,
+          "total_time": 0.005908534
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:17:12+00:00"
+      }
+    ],
+    "137": [
+      {
+        "rep": 0,
+        "text": "Wonder",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083951372,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001691186,
+          "completion_tokens": 3,
+          "completion_time": 0.002224398,
+          "total_tokens": 41,
+          "total_time": 0.003915584
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T15:17:14+00:00"
+      }
+    ],
+    "138": [
+      {
+        "rep": 0,
+        "text": "Raise or awaken.",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083589902,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001836893,
+          "completion_tokens": 8,
+          "completion_time": 0.005806315,
+          "total_tokens": 46,
+          "total_time": 0.007643208
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:17:17+00:00"
+      }
+    ],
+    "139": [
+      {
+        "rep": 0,
+        "text": "Honey",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088534417,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001777155,
+          "completion_tokens": 4,
+          "completion_time": 0.002943577,
+          "total_tokens": 40,
+          "total_time": 0.004720732
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:17:19+00:00"
+      }
+    ],
+    "140": [
+      {
+        "rep": 0,
+        "text": "Lie",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.254764888,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001684165,
+          "completion_tokens": 3,
+          "completion_time": 0.002220547,
+          "total_tokens": 40,
+          "total_time": 0.003904712
+        },
+        "latency_s": 2.42,
+        "at": "2026-10-07T15:17:21+00:00"
+      }
+    ],
+    "141": [
+      {
+        "rep": 0,
+        "text": "Sacrifice",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08397422,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001521677,
+          "completion_tokens": 4,
+          "completion_time": 0.002931247,
+          "total_tokens": 38,
+          "total_time": 0.004452924
+        },
+        "latency_s": 2.26,
+        "at": "2026-10-07T15:17:24+00:00"
+      }
+    ],
+    "142": [
+      {
+        "rep": 0,
+        "text": "Ship",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084982623,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001532937,
+          "completion_tokens": 3,
+          "completion_time": 0.002211128,
+          "total_tokens": 38,
+          "total_time": 0.003744065
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:17:26+00:00"
+      }
+    ],
+    "143": [
+      {
+        "rep": 0,
+        "text": "Believe",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088706155,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001676095,
+          "completion_tokens": 4,
+          "completion_time": 0.002942866,
+          "total_tokens": 40,
+          "total_time": 0.004618961
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:17:28+00:00"
+      }
+    ],
+    "144": [
+      {
+        "rep": 0,
+        "text": "Write",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084520504,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001558967,
+          "completion_tokens": 3,
+          "completion_time": 0.002199758,
+          "total_tokens": 39,
+          "total_time": 0.003758725
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:17:30+00:00"
+      }
+    ],
+    "145": [
+      {
+        "rep": 0,
+        "text": "Weapon",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088662781,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001880252,
+          "completion_tokens": 4,
+          "completion_time": 0.002942827,
+          "total_tokens": 43,
+          "total_time": 0.004823079
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:17:33+00:00"
+      }
+    ],
+    "146": [
+      {
+        "rep": 0,
+        "text": "Sing",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088813765,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001527438,
+          "completion_tokens": 3,
+          "completion_time": 0.002201037,
+          "total_tokens": 38,
+          "total_time": 0.003728475
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:17:35+00:00"
+      }
+    ],
+    "147": [
+      {
+        "rep": 0,
+        "text": "Autumn",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083951809,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001835693,
+          "completion_tokens": 4,
+          "completion_time": 0.002940337,
+          "total_tokens": 41,
+          "total_time": 0.00477603
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:17:37+00:00"
+      }
+    ],
+    "148": [
+      {
+        "rep": 0,
+        "text": "Spring",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086439447,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001603717,
+          "completion_tokens": 3,
+          "completion_time": 0.002201298,
+          "total_tokens": 38,
+          "total_time": 0.003805015
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:17:39+00:00"
+      }
+    ],
+    "149": [
+      {
+        "rep": 0,
+        "text": "I see",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083558756,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001720525,
+          "completion_tokens": 4,
+          "completion_time": 0.002974996,
+          "total_tokens": 39,
+          "total_time": 0.004695521
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:17:42+00:00"
+      }
+    ],
+    "150": [
+      {
+        "rep": 0,
+        "text": "Wall",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088701086,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001678055,
+          "completion_tokens": 3,
+          "completion_time": 0.002228807,
+          "total_tokens": 40,
+          "total_time": 0.003906862
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:17:44+00:00"
+      }
+    ],
+    "151": [
+      {
+        "rep": 0,
+        "text": "Pierce",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086473491,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001722955,
+          "completion_tokens": 4,
+          "completion_time": 0.002935656,
+          "total_tokens": 41,
+          "total_time": 0.004658611
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:17:46+00:00"
+      }
+    ],
+    "152": [
+      {
+        "rep": 0,
+        "text": "Nymph",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088865577,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001692375,
+          "completion_tokens": 4,
+          "completion_time": 0.002937847,
+          "total_tokens": 41,
+          "total_time": 0.004630222
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:17:48+00:00"
+      }
+    ],
+    "153": [
+      {
+        "rep": 0,
+        "text": "Give",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083707301,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001672185,
+          "completion_tokens": 3,
+          "completion_time": 0.002223957,
+          "total_tokens": 39,
+          "total_time": 0.003896142
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:17:51+00:00"
+      }
+    ],
+    "154": [
+      {
+        "rep": 0,
+        "text": "Temple",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.085212845,
+          "prompt_tokens": 33,
+          "prompt_time": 0.001527848,
+          "completion_tokens": 3,
+          "completion_time": 0.002216308,
+          "total_tokens": 36,
+          "total_time": 0.003744156
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:17:53+00:00"
+      }
+    ],
+    "155": [
+      {
+        "rep": 0,
+        "text": "I want",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088895114,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001715965,
+          "completion_tokens": 4,
+          "completion_time": 0.002953657,
+          "total_tokens": 42,
+          "total_time": 0.004669622
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:17:55+00:00"
+      }
+    ],
+    "156": [
+      {
+        "rep": 0,
+        "text": "Seal",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08852134,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001675225,
+          "completion_tokens": 4,
+          "completion_time": 0.002936057,
+          "total_tokens": 41,
+          "total_time": 0.004611282
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:17:57+00:00"
+      }
+    ],
+    "157": [
+      {
+        "rep": 0,
+        "text": "ears",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084387465,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001525277,
+          "completion_tokens": 3,
+          "completion_time": 0.002204698,
+          "total_tokens": 38,
+          "total_time": 0.003729975
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:18:00+00:00"
+      }
+    ],
+    "158": [
+      {
+        "rep": 0,
+        "text": "Lead",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086163796,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001679616,
+          "completion_tokens": 3,
+          "completion_time": 0.002218228,
+          "total_tokens": 41,
+          "total_time": 0.003897844
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:18:02+00:00"
+      }
+    ],
+    "159": [
+      {
+        "rep": 0,
+        "text": "Army",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088755068,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001524398,
+          "completion_tokens": 3,
+          "completion_time": 0.002205188,
+          "total_tokens": 39,
+          "total_time": 0.003729586
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:18:04+00:00"
+      }
+    ],
+    "160": [
+      {
+        "rep": 0,
+        "text": "Wind",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086330343,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001710665,
+          "completion_tokens": 3,
+          "completion_time": 0.002224688,
+          "total_tokens": 41,
+          "total_time": 0.003935353
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:18:06+00:00"
+      }
+    ],
+    "161": [
+      {
+        "rep": 0,
+        "text": "Letter",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086324765,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001833993,
+          "completion_tokens": 3,
+          "completion_time": 0.002225578,
+          "total_tokens": 42,
+          "total_time": 0.004059571
+        },
+        "latency_s": 2.22,
+        "at": "2026-10-07T15:18:09+00:00"
+      }
+    ],
+    "162": [
+      {
+        "rep": 0,
+        "text": "Time",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083763632,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001831374,
+          "completion_tokens": 3,
+          "completion_time": 0.002220948,
+          "total_tokens": 38,
+          "total_time": 0.004052322
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:18:11+00:00"
+      }
+    ],
+    "163": [
+      {
+        "rep": 0,
+        "text": "Will",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083817127,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001517698,
+          "completion_tokens": 3,
+          "completion_time": 0.002227337,
+          "total_tokens": 39,
+          "total_time": 0.003745035
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:18:13+00:00"
+      }
+    ],
+    "164": [
+      {
+        "rep": 0,
+        "text": "Spring",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083772883,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001523037,
+          "completion_tokens": 3,
+          "completion_time": 0.002222097,
+          "total_tokens": 38,
+          "total_time": 0.003745134
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:18:15+00:00"
+      }
+    ],
+    "165": [
+      {
+        "rep": 0,
+        "text": "Heart",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.089195863,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001560157,
+          "completion_tokens": 3,
+          "completion_time": 0.002186198,
+          "total_tokens": 38,
+          "total_time": 0.003746355
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:18:18+00:00"
+      }
+    ],
+    "166": [
+      {
+        "rep": 0,
+        "text": "Lot",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083812201,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001837013,
+          "completion_tokens": 3,
+          "completion_time": 0.002227597,
+          "total_tokens": 40,
+          "total_time": 0.00406461
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:18:20+00:00"
+      }
+    ],
+    "167": [
+      {
+        "rep": 0,
+        "text": "Act",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083904772,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001540127,
+          "completion_tokens": 3,
+          "completion_time": 0.002209007,
+          "total_tokens": 39,
+          "total_time": 0.003749134
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:18:22+00:00"
+      }
+    ],
+    "168": [
+      {
+        "rep": 0,
+        "text": "River",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083784302,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001955821,
+          "completion_tokens": 3,
+          "completion_time": 0.002226267,
+          "total_tokens": 38,
+          "total_time": 0.004182088
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:18:24+00:00"
+      }
+    ],
+    "169": [
+      {
+        "rep": 0,
+        "text": "Anger",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084202987,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001520978,
+          "completion_tokens": 4,
+          "completion_time": 0.002942706,
+          "total_tokens": 40,
+          "total_time": 0.004463684
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:18:27+00:00"
+      }
+    ],
+    "170": [
+      {
+        "rep": 0,
+        "text": "Edge",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084381247,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001791914,
+          "completion_tokens": 3,
+          "completion_time": 0.002231517,
+          "total_tokens": 38,
+          "total_time": 0.004023431
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:18:29+00:00"
+      }
+    ],
+    "171": [
+      {
+        "rep": 0,
+        "text": "Hope",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086404349,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001717635,
+          "completion_tokens": 3,
+          "completion_time": 0.002227827,
+          "total_tokens": 42,
+          "total_time": 0.003945462
+        },
+        "latency_s": 2.26,
+        "at": "2026-10-07T15:18:31+00:00"
+      }
+    ],
+    "172": [
+      {
+        "rep": 0,
+        "text": "Feet",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084146631,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001537008,
+          "completion_tokens": 4,
+          "completion_time": 0.002925168,
+          "total_tokens": 38,
+          "total_time": 0.004462176
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:18:33+00:00"
+      }
+    ],
+    "173": [
+      {
+        "rep": 0,
+        "text": "Eat",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088158957,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001732255,
+          "completion_tokens": 4,
+          "completion_time": 0.002975036,
+          "total_tokens": 41,
+          "total_time": 0.004707291
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:18:36+00:00"
+      }
+    ],
+    "174": [
+      {
+        "rep": 0,
+        "text": "Herb",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.102060382,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001525638,
+          "completion_tokens": 4,
+          "completion_time": 0.002942786,
+          "total_tokens": 40,
+          "total_time": 0.004468424
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:18:38+00:00"
+      }
+    ],
+    "175": [
+      {
+        "rep": 0,
+        "text": "Swear",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.089108668,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001694365,
+          "completion_tokens": 4,
+          "completion_time": 0.002945337,
+          "total_tokens": 42,
+          "total_time": 0.004639702
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:18:40+00:00"
+      }
+    ],
+    "176": [
+      {
+        "rep": 0,
+        "text": "Breast",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084262083,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001678795,
+          "completion_tokens": 4,
+          "completion_time": 0.002943577,
+          "total_tokens": 40,
+          "total_time": 0.004622372
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:18:43+00:00"
+      }
+    ],
+    "177": [
+      {
+        "rep": 0,
+        "text": "Minthē -> Minthe (a goddess in Greek mythology)",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086689447,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001545448,
+          "completion_tokens": 19,
+          "completion_time": 0.01365523,
+          "total_tokens": 54,
+          "total_time": 0.015200678
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:18:45+00:00"
+      }
+    ],
+    "178": [
+      {
+        "rep": 0,
+        "text": "Tabernacle",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088875446,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001696375,
+          "completion_tokens": 5,
+          "completion_time": 0.003647187,
+          "total_tokens": 42,
+          "total_time": 0.005343562
+        },
+        "latency_s": 2.24,
+        "at": "2026-10-07T15:18:47+00:00"
+      }
+    ],
+    "179": [
+      {
+        "rep": 0,
+        "text": "Honey",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08396435,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001543138,
+          "completion_tokens": 4,
+          "completion_time": 0.002907968,
+          "total_tokens": 38,
+          "total_time": 0.004451106
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:18:49+00:00"
+      }
+    ],
+    "180": [
+      {
+        "rep": 0,
+        "text": "Tear",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088621032,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001519108,
+          "completion_tokens": 4,
+          "completion_time": 0.002926237,
+          "total_tokens": 39,
+          "total_time": 0.004445345
+        },
+        "latency_s": 2.26,
+        "at": "2026-10-07T15:18:52+00:00"
+      }
+    ],
+    "181": [
+      {
+        "rep": 0,
+        "text": "Treasury",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084576201,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001516778,
+          "completion_tokens": 3,
+          "completion_time": 0.002216037,
+          "total_tokens": 39,
+          "total_time": 0.003732815
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:18:54+00:00"
+      }
+    ],
+    "182": [
+      {
+        "rep": 0,
+        "text": "King",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08404047,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001749484,
+          "completion_tokens": 3,
+          "completion_time": 0.002218218,
+          "total_tokens": 42,
+          "total_time": 0.003967702
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:18:56+00:00"
+      }
+    ],
+    "183": [
+      {
+        "rep": 0,
+        "text": "Hill",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086260735,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001528718,
+          "completion_tokens": 3,
+          "completion_time": 0.002196448,
+          "total_tokens": 39,
+          "total_time": 0.003725166
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:18:58+00:00"
+      }
+    ],
+    "184": [
+      {
+        "rep": 0,
+        "text": "I cause to fall or fail",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08628586,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001527717,
+          "completion_tokens": 8,
+          "completion_time": 0.005764925,
+          "total_tokens": 44,
+          "total_time": 0.007292642
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:19:01+00:00"
+      }
+    ],
+    "185": [
+      {
+        "rep": 0,
+        "text": "Child",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088657825,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001525457,
+          "completion_tokens": 3,
+          "completion_time": 0.002195257,
+          "total_tokens": 39,
+          "total_time": 0.003720714
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:19:03+00:00"
+      }
+    ],
+    "186": [
+      {
+        "rep": 0,
+        "text": "Wooden logs",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083912535,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001548418,
+          "completion_tokens": 5,
+          "completion_time": 0.003626476,
+          "total_tokens": 41,
+          "total_time": 0.005174894
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:19:05+00:00"
+      }
+    ],
+    "187": [
+      {
+        "rep": 0,
+        "text": "Club",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083898683,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001522697,
+          "completion_tokens": 3,
+          "completion_time": 0.002218787,
+          "total_tokens": 37,
+          "total_time": 0.003741484
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:19:07+00:00"
+      }
+    ],
+    "188": [
+      {
+        "rep": 0,
+        "text": "Learn",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088579933,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001527107,
+          "completion_tokens": 3,
+          "completion_time": 0.002210037,
+          "total_tokens": 39,
+          "total_time": 0.003737144
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-07T15:19:10+00:00"
+      }
+    ],
+    "189": [
+      {
+        "rep": 0,
+        "text": "Deception",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08425124,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001676576,
+          "completion_tokens": 4,
+          "completion_time": 0.002938187,
+          "total_tokens": 43,
+          "total_time": 0.004614763
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-07T15:19:12+00:00"
+      }
+    ],
+    "190": [
+      {
+        "rep": 0,
+        "text": "Sow",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.083836047,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001835133,
+          "completion_tokens": 4,
+          "completion_time": 0.002941077,
+          "total_tokens": 40,
+          "total_time": 0.00477621
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-07T15:19:14+00:00"
+      }
+    ],
+    "191": [
+      {
+        "rep": 0,
+        "text": "Thigh",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088419651,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001550487,
+          "completion_tokens": 4,
+          "completion_time": 0.002908487,
+          "total_tokens": 39,
+          "total_time": 0.004458974
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:19:17+00:00"
+      }
+    ],
+    "192": [
+      {
+        "rep": 0,
+        "text": "Flower",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088151102,
+          "prompt_tokens": 37,
+          "prompt_time": 0.002456334,
+          "completion_tokens": 4,
+          "completion_time": 0.002942647,
+          "total_tokens": 41,
+          "total_time": 0.005398981
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:19:19+00:00"
+      }
+    ],
+    "193": [
+      {
+        "rep": 0,
+        "text": "Cow",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084631485,
+          "prompt_tokens": 36,
+          "prompt_time": 0.001524048,
+          "completion_tokens": 3,
+          "completion_time": 0.002212267,
+          "total_tokens": 39,
+          "total_time": 0.003736315
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:19:21+00:00"
+      }
+    ],
+    "194": [
+      {
+        "rep": 0,
+        "text": "Head",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.161631617,
+          "prompt_tokens": 37,
+          "prompt_time": 0.001912363,
+          "completion_tokens": 3,
+          "completion_time": 0.002225618,
+          "total_tokens": 40,
+          "total_time": 0.004137981
+        },
+        "latency_s": 2.34,
+        "at": "2026-10-07T15:19:23+00:00"
+      }
+    ],
+    "195": [
+      {
+        "rep": 0,
+        "text": "Peace",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084446498,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001840193,
+          "completion_tokens": 3,
+          "completion_time": 0.002230568,
+          "total_tokens": 41,
+          "total_time": 0.004070761
+        },
+        "latency_s": 2.27,
+        "at": "2026-10-07T15:19:26+00:00"
+      }
+    ],
+    "196": [
+      {
+        "rep": 0,
+        "text": "God",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084244897,
+          "prompt_tokens": 34,
+          "prompt_time": 0.001675695,
+          "completion_tokens": 3,
+          "completion_time": 0.002230917,
+          "total_tokens": 37,
+          "total_time": 0.003906612
+        },
+        "latency_s": 2.26,
+        "at": "2026-10-07T15:19:28+00:00"
+      }
+    ],
+    "197": [
+      {
+        "rep": 0,
+        "text": "Moth",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.084042399,
+          "prompt_tokens": 38,
+          "prompt_time": 0.001709225,
+          "completion_tokens": 4,
+          "completion_time": 0.002945097,
+          "total_tokens": 42,
+          "total_time": 0.004654322
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:19:30+00:00"
+      }
+    ],
+    "198": [
+      {
+        "rep": 0,
+        "text": "Fasting",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.088349612,
+          "prompt_tokens": 35,
+          "prompt_time": 0.001546488,
+          "completion_tokens": 4,
+          "completion_time": 0.002919917,
+          "total_tokens": 39,
+          "total_time": 0.004466405
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:19:33+00:00"
+      }
+    ],
+    "199": [
+      {
+        "rep": 0,
+        "text": "Kill",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.08468727,
+          "prompt_tokens": 39,
+          "prompt_time": 0.001903142,
+          "completion_tokens": 3,
+          "completion_time": 0.002225517,
+          "total_tokens": 42,
+          "total_time": 0.004128659
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-07T15:19:35+00:00"
+      }
+    ],
+    "200": [
+      {
+        "rep": 0,
+        "text": "Light",
+        "model_returned": "allam-2-7b",
+        "finish_reason": "stop",
+        "usage": {
+          "queue_time": 0.086322036,
+          "prompt_tokens": 40,
+          "prompt_time": 0.001681715,
+          "completion_tokens": 3,
+          "completion_time": 0.002221137,
+          "total_tokens": 43,
+          "total_time": 0.003902852
+        },
+        "latency_s": 2.3,
+        "at": "2026-10-07T15:19:37+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

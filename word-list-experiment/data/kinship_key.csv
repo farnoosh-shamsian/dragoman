@@ -1,0 +1,14 @@
+﻿id,greek,lsj_gloss,english,fa_side_kept,fa_side_lost,strength,note
+301,πάτρως,"father's brother, uncle",uncle,عمو,دایی,strong,
+302,πατράδελφος,father's brother,uncle,عمو,دایی,strong,"Prose word (Isaeus, Demosthenes)"
+303,μήτρως,maternal uncle; relation by the mother's side,uncle,دایی,عمو,strong,
+304,μητράδελφος,"mother's brother or sister, uncle or aunt",uncle / aunt,دایی؛ خاله,عمو؛ عمه,strong,"Either sex, but always the mother's side"
+305,δαήρ,"husband's brother, brother-in-law",brother-in-law,برادرشوهر,برادرزن؛ شوهرخواهر؛ باجناق,strong,
+306,γάλοως,"husband's sister or brother's wife, sister-in-law",sister-in-law,خواهرشوهر؛ زن‌برادر,خواهرزن؛ جاری,strong,Epic headword; Attic γάλως. Only 'wife's sister' (خواهرزن) is excluded
+307,εἰνάτερες,"wives of brothers or of husbands' brothers, sisters-in-law",sisters-in-law,جاری‌ها,خواهرزن؛ خواهرشوهر,strong,Plural; Persian جاری is the exact equivalent
+308,ἀέλιοι,"brothers-in-law, whose wives are sisters",brothers-in-law,باجناق‌ها,برادرزن؛ شوهرخواهر؛ برادرشوهر,strong,"Lexicographers only (Hesychius, Eustathius): the model may simply not know it"
+309,ὁμοπάτριος,by the same father,half-(brother),پدری (برادر/خواهر پدری),مادری,strong,Adjective. ناتنی alone = side lost
+310,ὁμομήτριος,born of the same mother,half-(brother),مادری (برادر/خواهر مادری),پدری,strong,Adjective. ناتنی alone = side lost
+311,θυγατριδοῦς,"daughter's son, grandson",grandson,دخترزاده؛ نوهٔ دختری,پسرزاده,medium,Generic نوه = side lost (but نوه is also the everyday Persian word)
+312,ἑκυρός,father-in-law (Ep. for πενθερός),father-in-law,پدرشوهر (Homeric usage),پدرزن,weak,LSJ does not restrict it to the husband's father; in Homer it is (Priam to Helen). Check before counting
+313,ἑκυρά,mother-in-law (Ep. for πενθερά),mother-in-law,مادرشوهر (Homeric usage),مادرزن,weak,As ἑκυρός
