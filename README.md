@@ -1,11 +1,10 @@
 # Dragoman
 
 A dragoman was the interpreter who stood between languages. The word itself travelled from
-Arabic and Persian *tarjumān* (ترجمان) into Europe.
-
-Language models stand between languages too. Here I share some of my experiments on how
-they translate Ancient Greek into Persian, and especially whether they go straight from
+Arabic and Persian *tarjumān* (ترجمان) into Europe. Language models seem to be the dragomans of out times that stand between some of these languages too! 
+Here I share some of my experiments on how they translate Ancient Greek into Persian, and especially whether they go straight from
 Greek to Persian or take a detour through English.
+It doesn't follow a specific research question at this point, and is rather a general enquiry.   
 
 ## Word-list experiment
 
