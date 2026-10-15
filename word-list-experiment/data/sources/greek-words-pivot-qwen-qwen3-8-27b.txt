@@ -1,7 +1,7 @@
 # title: Pivot step 2 source for Qwen 3.8 27B
 # ref: English words from words-pivot-en, model qwen/qwen3.8-27b
 # lang: en
-# note: IDs match data/key.csv; the Greek has been removed on purpose.
+# note: IDs match data/key.csv; the Greek is left out.
 
 [1]
 farmer

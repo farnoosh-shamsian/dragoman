@@ -2,7 +2,7 @@
   "passage": {
     "id": "kinship-words-temp10",
     "title": "Kinship terms, one word per request, temperature 1.0",
-    "ref": "greek_wordlist.xlsx, Kinship key sheet (IDs 301-313)",
+    "ref": "data/kinship_key.csv (IDs 301-313)",
     "lang": "grc"
   },
   "model": {

@@ -2,7 +2,7 @@
   "passage": {
     "id": "greek-words-temp07",
     "title": "Temperature side experiment, temperature 0.7",
-    "ref": "data/key.csv IDs; 4 polysemy hits + 5 sound-alikes from the neutral run",
+    "ref": "data/key.csv IDs; 4 polysemy hits and 5 sound-alikes from the direct run",
     "lang": "grc"
   },
   "model": {
@@ -650,6 +650,23 @@
         "rep": 3,
         "error": "empty answer (length)",
         "at": "2026-10-13T15:10:31+00:00"
+      },
+      {
+        "rep": 1,
+        "error": "429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (f58db695-6a21-4ca2-91f3-980bbcfb335f)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+        "at": "2026-10-14T14:54:14+00:00"
+      },
+      {
+        "rep": 2,
+        "error": "429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (fd52749b-5d0a-49c2-9839-cb218c053d2e)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+        "at": "2026-10-14T14:57:21+00:00"
+      }
+    ],
+    "132": [
+      {
+        "rep": 4,
+        "error": "429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (4ff8902b-da30-41af-ae94-a3fac3e5078f)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
+        "at": "2026-10-14T14:51:07+00:00"
       }
     ]
   }

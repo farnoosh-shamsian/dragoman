@@ -2,7 +2,7 @@
   "passage": {
     "id": "greek-words",
     "title": "Greek word list (traps and fillers)",
-    "ref": "greek_wordlist.xlsx, Stimuli sheet",
+    "ref": "data/key.csv",
     "lang": "grc"
   },
   "model": {

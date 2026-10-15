@@ -1,7 +1,7 @@
 # title: Greek word list (traps and fillers)
 # ref: data/key.csv
 # lang: grc
-# note: one word per unit; IDs match the spreadsheet. The Key sheet says which are traps.
+# note: one word per unit; IDs and trap/filler roles are in data/key.csv.
 
 [1]
 γεωργός

@@ -2,7 +2,7 @@
   "passage": {
     "id": "greek-words-temp10",
     "title": "Temperature side experiment, temperature 1.0",
-    "ref": "greek_wordlist.xlsx IDs; 4 polysemy hits + 5 sound-alikes from the neutral run",
+    "ref": "data/key.csv IDs; 4 polysemy hits and 5 sound-alikes from the direct run",
     "lang": "grc"
   },
   "model": {

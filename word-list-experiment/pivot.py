@@ -26,7 +26,7 @@ for path in sorted(RAW.glob("*__words-pivot-en.json")):
         f"# title: Pivot step 2 source for {data['model'].get('label', model)}",
         f"# ref: English words from words-pivot-en, model {model}",
         "# lang: en",
-        "# note: IDs match data/key.csv; the Greek has been removed on purpose.",
+        "# note: IDs match data/key.csv; the Greek is left out.",
         "",
     ]
     for ref in sorted(data["runs"], key=int):

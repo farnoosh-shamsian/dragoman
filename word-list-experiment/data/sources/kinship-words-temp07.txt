@@ -1,7 +1,7 @@
 # title: Kinship terms, one word per request, temperature 0.7
 # ref: data/kinship_key.csv (IDs 301-313)
 # lang: grc
-# note: temperature is in the file name because the result cache ignores it.
+# note: the same 13 words in every temperature file.
 
 [301]
 πάτρως

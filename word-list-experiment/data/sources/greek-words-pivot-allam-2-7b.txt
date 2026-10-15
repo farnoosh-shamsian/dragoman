@@ -1,7 +1,7 @@
 # title: Pivot step 2 source for ALLaM 2 7B
 # ref: English words from words-pivot-en, model allam-2-7b
 # lang: en
-# note: IDs match data/key.csv; the Greek has been removed on purpose.
+# note: IDs match data/key.csv; the Greek is left out.
 
 [1]
 Farmer

@@ -1,7 +1,7 @@
 # title: Pivot step 2 source for GPT-OSS 120B
 # ref: English words from words-pivot-en, model openai/gpt-oss-120b
 # lang: en
-# note: IDs match data/key.csv; the Greek has been removed on purpose.
+# note: IDs match data/key.csv; the Greek is left out.
 
 [1]
 farmer

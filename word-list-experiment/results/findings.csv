@@ -1,20 +1,20 @@
 ﻿category,id,greek,models,what_happened,samples,english_pivot_step1,note
 English polysemy (trap fired),132,φώκη,GPT-OSS 120B,نشان، علامت، مهر، نقش، آثار: the whole list is 'seal' as stamp,2/3,120B: torch; 20B: cave; Qwen: seal,Its other sample gives light words (مشعل، شعله): possibly a confusion with φῶς
 English polysemy (trap fired),176,παλάμη,GPT-OSS 120B,"نخل, once glossed by the model: «نخل (معنی «پالم» در معنای درخت)»",2/3,120B: palm; 20B: palm; Qwen: palm,The model names the English word itself
-English polysemy (trap fired),200,ἐλαφρός,Qwen,سبک، روشن: 'light' as bright,2/3,120B: light; 20B: light; Qwen: light,روشن was not in the Key's P2 list; add it
+English polysemy (trap fired),200,ἐλαφρός,Qwen,سبک، روشن: 'light' as bright,2/3,120B: light; 20B: light; Qwen: light,روشن is not in the key's P2 list, so the automatic check misses it
 English polysemy (trap fired),95,ὅπλα,Qwen,"…، زیربغل ('armpit', from 'arms')",1/3,120B: arms; 20B: arms; Qwen: weapons,
 English sound-alike,80,πίσσα,Qwen; GPT-OSS 20B,ادرار، پیشاب، بول ('urine'),Qwen 3/3 (always first); 20B 1/3,120B: fat; 20B: mud; Qwen: urine,"piss-a → 'piss'? GPT-OSS 120B instead gives چربی ('fat'), once لارد ('lard'): probably Greek πῖαρ / πίων"
 English sound-alike,145,ῥόπαλον,GPT-OSS 20B; GPT-OSS 120B,طناب، ریسمان ('rope'),20B 3/3; 120B 1/3,120B: club; 20B: rope; Qwen: club,ropalon → 'rope'?
 English sound-alike,3,φοῖνιξ,GPT-OSS 120B,"روباه، فاکس ('fox', incl. the English word in Persian script)",3/3,120B: fox; 20B: phoenix; Qwen: phoenix,
 English sound-alike,53,ῥιπίς,GPT-OSS 120B,تف، اسپیت (the English word 'spit' in Persian script),2/3,120B: spit; 20B: spear; Qwen: blow,
-English sound-alike (uncertain),177,μίνθη,GPT-OSS 120B,"ذهن، فکر، یاد ('mind, thought, memory')",3/3,120B: thought; 20B: herb; Qwen: mint,"'mind', or a confusion with μνήμη? Check"
+English sound-alike (uncertain),177,μίνθη,GPT-OSS 120B,"ذهن، فکر، یاد ('mind, thought, memory')",3/3,120B: thought; 20B: herb; Qwen: mint,"'mind', or a confusion with μνήμη"
 English word in Persian script,178,κιβωτός,GPT-OSS 120B,…، آرک ('ark'),1/3,120B: ark; 20B: chest; Qwen: ark,Ark is a legitimate sense; only the English word form is notable
 Modern international word,174,βακτηρία,GPT-OSS 120B; GPT-OSS 20B; Qwen,باکتری ('bacteria'),"3/3 in each model, nearly always first",120B: bacterium; 20B: bacterium; Qwen: bacteria,Read through the modern scientific descendant (English/Latin; also Modern Greek βακτήριο)
-Later Greek sense,136,δρόμος,all four,راه / جاده ('road') first,"120B 3/3, 20B 3/3, Qwen 3/3",120B: road; 20B: road; Qwen: racecourse,Modern Greek δρόμος = road; also in GPT-5
-Later Greek sense,81,μέταλλον,GPT-OSS 120B; GPT-OSS 20B,فلز ('metal') first,3/3 each,120B: metal; 20B: metal; Qwen: to mine,Also in GPT-5
+Later Greek sense,136,δρόμος,all four,راه / جاده ('road') first,"120B 3/3, 20B 3/3, Qwen 3/3",120B: road; 20B: road; Qwen: racecourse,Modern Greek δρόμος = road
+Later Greek sense,81,μέταλλον,GPT-OSS 120B; GPT-OSS 20B,فلز ('metal') first,3/3 each,120B: metal; 20B: metal; Qwen: to mine,
 Later Greek sense,99,τράπεζα,GPT-OSS 120B; GPT-OSS 20B,بانک ('bank') first or in the list,3/3 each,120B: bank; 20B: table; Qwen: table,"Legitimate Greek sense, but Modern Greek's main one"
-Later Greek or English,122,κορμός,ALLaM; GPT-OSS 120B; GPT-OSS 20B,"بدن ('body, torso')","3/3, 3/3, 2/3",120B: trunk; 20B: body; Qwen: trunk,"Modern Greek κορμός/κορμί, or English 'trunk' as torso. Also in GPT-5"
-Uncertain,17,κορώνη,GPT-OSS 20B,تاج ('crown'),2/3,120B: club; 20B: crown; Qwen: crown,Check LSJ for a crown/wreath sense before counting it
+Later Greek or English,122,κορμός,ALLaM; GPT-OSS 120B; GPT-OSS 20B,"بدن ('body, torso')","3/3, 3/3, 2/3",120B: trunk; 20B: body; Qwen: trunk,"Modern Greek κορμός/κορμί, or English 'trunk' as torso"
+Uncertain,17,κορώνη,GPT-OSS 20B,تاج ('crown'),2/3,120B: club; 20B: crown; Qwen: crown,Unclear whether crown is a Greek sense; not counted as English
 Confusion within Greek,45,νῆσσα,GPT-OSS 120B; ALLaM; Qwen,جزیره ('island'),"3/3, 2/3, 1/3",120B: island; 20B: ship; Qwen: island,νῆσος
 Confusion within Greek,4,κρόταφος,Qwen; GPT-OSS 120B; GPT-OSS 20B,قبر، تابوت، قبرستان,"2/3, 1/3, 1/3",120B: saffron; 20B: crouch; Qwen: tympanum,the τάφος inside the word
 Confusion within Greek,183,ἧλος,GPT-OSS 120B,خورشید ('sun'),3/3,120B: sun; 20B: harbor; Qwen: wheel,ἥλιος

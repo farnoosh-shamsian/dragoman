@@ -132,6 +132,7 @@ def run_model(model, source, prompt, reps, temperature):
             "text": text,
             "model_returned": out.get("model"),
             "finish_reason": choice.get("finish_reason"),
+            "max_tokens": max_tokens,
             "usage": out.get("usage", {}),
             "latency_s": round(time.monotonic() - started, 2),
             "at": now(),

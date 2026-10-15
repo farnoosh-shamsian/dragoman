@@ -2,7 +2,7 @@
   "passage": {
     "id": "kinship-lists-temp07",
     "title": "Kinship terms embedded in word lists, temperature 0.7",
-    "ref": "greek_wordlist.xlsx, Kinship lists sheet",
+    "ref": "data/kinship_key.csv; fillers from data/key.csv",
     "lang": "grc"
   },
   "model": {
