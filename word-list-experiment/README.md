@@ -2,12 +2,14 @@
 
 Part of [Dragoman](../README.md).
 
-Do language models translate Ancient Greek into Persian **via English**? A pilot study with
-single words, run on four open-weight models.
+Do language models translate Ancient Greek into Persian **via English**? This is an ongoing
+pilot study. It started with single words and four open-weight models, and I keep adding models
+and tests, so some of the results here are unfinished.
 
-So far I have checked the trap design and every automatically flagged trap answer
-by hand. The temperature flags, the findings and the kinship classes are still automatic
-(see `hand_check.xlsx`).
+Currently running:
+- the same word-list tests on four more models: Llama 3.3 70B, Llama 3.1 8B, Mistral Small 3.1 24B
+  and Gemma 4 26B;
+- a kinship test with terms that Greek and Persian tell apart but English does not (section 4).
 
 ## Design
 
@@ -121,13 +123,18 @@ gives them in 5 of 5 samples, and most are still there at 2.0. The homonym sense
 appear at temperature 0, only at 0.7–1.5. So the English meaning is there as a weaker option
 that the model sometimes picks.
 
-### 4. Kinship (automatic classes, not yet checked)
+### 4. Kinship (in progress)
 
-The kinship test uses 13 terms where Greek and Persian mark the side of the family and English
-does not (πάτρως / μήτρως: عمو / دایی, both *uncle*). Only the transparent compounds are
-understood (πατράδελφος, μητράδελφος, ὁμοπάτριος, ὁμομήτριος); the inherited terms (πάτρως,
-μήτρως, δαήρ, γάλοως, εἰνάτερες, ἀέλιοι, ἑκυρός) almost never are. Most answers fail on the
-Greek before any English could matter. Counts are in `results/summary.md`.
+Greek and Persian mark which side of the family a relative is on, and English does not:
+πάτρως is the father's brother (عمو), μήτρως the mother's brother (دایی), and both are *uncle*
+in English. A wrong-side answer would point to English. The test uses 13 such terms, sent
+alone and inside word lists.
+
+Many of these words are rare, and the models often fail on the Greek itself before English
+could play any part. Very early results: the transparent compounds (πατράδελφος,
+μητράδελφος, ὁμοπάτριος, ὁμομήτριος) are understood, the inherited terms (πάτρως, μήτρως,
+δαήρ…) almost never are, and wrong-side answers are rare (at most 3 of 91 per model). More
+results are coming.
 
 ### Reading the results
 
@@ -150,45 +157,14 @@ passages and syntax (word order, calques), and at what happens inside the models
 | Kinship, embedded in lists of 12 | `kinship-lists-temp*` | `words-list` | as above | 1 / 3 / 3 | 0, 0.7, 1.0 |
 
 Models: `openai/gpt-oss-120b`, `openai/gpt-oss-20b`, `qwen/qwen3.8-27b` and `allam-2-7b`,
-all open-weight, served by [Groq](https://console.groq.com), 7–9 October 2026. Every command is
-in `runs.sh`. GPT-OSS 20B was dropped from pivot step 2, from temperature 2.0 and from most of
-the kinship runs after performing poorly early on. ALLaM is in the word-list tests only, and
-mostly answered in Arabic or with nonsense.
+all open-weight, served by [Groq](https://console.groq.com), 7–9 October 2026. GPT-OSS 20B was
+dropped from pivot step 2, from temperature 2.0 and from most of the kinship runs after
+performing poorly early on. ALLaM is in the word-list tests only, and mostly answered in Arabic
+or with nonsense.
 
-## Contents
+The four models added later run on Cloudflare Workers AI. Their partial answers are already in
+`data/raw/` and `results/`, but not yet in the tables above.
 
-```
-data/key.csv            trap design: senses, English word, Persian P1 / P2, keep
-data/kinship_key.csv    kinship terms with LSJ glosses and Persian
-data/lsj_kinship.json   LSJ entries for the kinship terms (via Logeion, 2026-10-08)
-data/sources/           the inputs exactly as sent, one unit per request
-data/raw/               every model answer, untouched (JSON)
-prompts/                the four prompts
-results/                automatic flags per answer, summary.md, findings.csv
-hand_check.xlsx         the hand check
-run.py                  sends a source file to the models
-pivot.py                builds the pivot step 2 sources
-score.py                automatic flags and summary
-check.py                builds hand_check.xlsx
-```
+## Note
 
-## Reproduce
-
-Python 3.11+. `run.py`, `pivot.py` and `score.py` use only the standard library.
-`check.py` needs `openpyxl`.
-
-```bash
-cp .env.example .env       # then add your Groq key
-python score.py            # rebuild results/ from data/raw/
-bash runs.sh               # fetch anything missing, then score
-```
-
-Answers already in `data/raw/` are never requested again.
-
-## Caveats
-
-- Automatic flags are whole-word matches against fixed Persian lists, so each one needs reading.
-- Kinship classes over-count *kept*: for example, پسرعمو for πατράδελφος counts as kept.
-- Only four models, single words and one language pair.
-- Publishing the key puts the traps where future models may be trained on them, so results
-  from later models may not be comparable.
+The code and README files were generated with the assistance of Claude Opus 5.5.
