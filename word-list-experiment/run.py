@@ -122,6 +122,8 @@ def run_model(model, source, prompt, reps, temperature):
         except (RuntimeError, KeyError, IndexError) as err:
             errors.setdefault(ref, []).append({"rep": rep, "error": str(err), "at": now()})
             print(f"  ! {ref} rep{rep}: {err}")
+            if str(err).startswith("empty answer"):  # retried next run
+                continue
             failed += 1
             if failed == 3:  # quota likely gone
                 print(f"  stopping {model['label']}: 3 failures in a row")

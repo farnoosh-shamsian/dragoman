@@ -93,6 +93,18 @@
 176,παλάμη,palm as tree,Gemma 4 26B,0.0,5,کف دست | کف | پنجه,no,"کف دست
 کف
 پنجه"
+177,μίνθη,mind,Gemma 4 26B,0.0,1,نعنا | گیاه نعنا,no,"نعنا
+گیاه نعنا"
+177,μίνθη,mind,Gemma 4 26B,0.0,2,نعنا | نعنای وحشی,no,"نعنا
+نعنای وحشی"
+177,μίνθη,mind,Gemma 4 26B,0.0,3,نعنا | گیاه نعنا | نعنای وحشی,no,"نعنا
+گیاه نعنا
+نعنای وحشی"
+177,μίνθη,mind,Gemma 4 26B,0.0,4,نعنا | گیاه نعنا | نعنای کوهی,no,"نعنا
+گیاه نعنا
+نعنای کوهی"
+177,μίνθη,mind,Gemma 4 26B,0.0,5,نعنا | گیاه نعنا,no,"نعنا
+گیاه نعنا"
 200,ἐλαφρός,light as bright,Gemma 4 26B,0.0,1,سبک | سطحی | سبک‌سر | اندک,no,"سبک
 سطحی
 سبک‌سر
@@ -1383,6 +1395,18 @@ Phoenix"
 53,ῥιπίς,spit,Gemma 4 26B,0.7,1,تیر | نیزه | پرتابه,no,"تیر
 نیزه
 پرتابه"
+53,ῥιπίς,spit,Gemma 4 26B,0.7,2,کلتک | سنگ‌انداز | پرتابه,no,"کلتک
+سنگ‌انداز
+پرتابه"
+53,ῥιπίς,spit,Gemma 4 26B,0.7,3,خرمن‌کوب | شلاق | داس,no,"خرمن‌کوب
+شلاق
+داس"
+53,ῥιπίς,spit,Gemma 4 26B,0.7,4,تیرک | گوله‎‌انداز | پرتاب‌کننده,no,"تیرک
+گوله‎‌انداز
+پرتاب‌کننده"
+53,ῥιπίς,spit,Gemma 4 26B,0.7,5,چوب پرتابی | فلاخن | پرتابه,no,"چوب پرتابی
+فلاخن
+پرتابه"
 80,πίσσα,piss,Gemma 4 26B,0.7,1,قیر | قطران | آسفالت,no,"قیر
 قطران
 آسفالت"
@@ -1424,6 +1448,8 @@ Phoenix"
 132,φώκη,seal as stamp,Gemma 4 26B,0.7,5,فک | سگ دریایی | فک دریایی,no,"فک
 سگ دریایی
 فک دریایی"
+132,φώκη,seal as stamp,Gemma 4 26B,0.7,5,فک | فک دریایی,no,"فک
+فک دریایی"
 145,ῥόπαλον,rope,Gemma 4 26B,0.7,1,بار | سنگینی | سنگ | دشواری,no,"بار
 سنگینی
 سنگ
@@ -1451,6 +1477,16 @@ Phoenix"
 کف"
 176,παλάμη,palm as tree,Gemma 4 26B,0.7,5,کف دست | کف,no,"کف دست
 کف"
+177,μίνθη,mind,Gemma 4 26B,0.7,1,نعنا | گیاه نعنا,no,"نعنا
+گیاه نعنا"
+177,μίνθη,mind,Gemma 4 26B,0.7,2,نعنا | گیاه نعنا,no,"نعنا
+گیاه نعنا"
+177,μίνθη,mind,Gemma 4 26B,0.7,3,نعنا | گیاه نعنا,no,"نعنا
+گیاه نعنا"
+177,μίνθη,mind,Gemma 4 26B,0.7,4,نعناع | گیاه نعناع,no,"نعناع
+گیاه نعناع"
+177,μίνθη,mind,Gemma 4 26B,0.7,5,نعنا | نعنای کوهی,no,"نعنا
+نعنای کوهی"
 200,ἐλαφρός,light as bright,Gemma 4 26B,0.7,1,سبک | آسان | سطحی | چابک,no,"سبک
 آسان
 سطحی
@@ -2794,9 +2830,15 @@ Due to the context of the word in Ancient Greek, other possible translations cou
 53,ῥιπίς,spit,Gemma 4 26B,1.0,4,خرمن‌کوب | تازیانه | شلاق,no,"خرمن‌کوب
 تازیانه
 شلاق"
+53,ῥιπίς,spit,Gemma 4 26B,1.0,4,نیزه | پرتابه | تیر,no,"نیزه
+پرتابه
+تیر"
 53,ῥιπίς,spit,Gemma 4 26B,1.0,5,سنگ‌پران | کلتک | سنگ‌انداز,no,"سنگ‌پران
 کلتک
 سنگ‌انداز"
+53,ῥιπίς,spit,Gemma 4 26B,1.0,5,کلتک | سنگ‌انداز | آلت پرتاب سنگ,no,"کلتک
+سنگ‌انداز
+آلت پرتاب سنگ"
 80,πίσσα,piss,Gemma 4 26B,1.0,1,قیر | قطران,no,"قیر
 قطران"
 80,πίσσα,piss,Gemma 4 26B,1.0,2,قیر | قطران | زفت,no,"قیر
@@ -4263,6 +4305,8 @@ qādeh-e-masāle"
 آسفالت
 بتومن"
 80,πίσσα,piss,Gemma 4 26B,1.5,4,قیر | قطران,no,"قیر
+قطران"
+80,πίσσα,piss,Gemma 4 26B,1.5,5,قیر | قطران,no,"قیر
 قطران"
 80,πίσσα,piss,Gemma 4 26B,1.5,5,قیر | قطران,no,"قیر
 قطران"
@@ -6514,6 +6558,61 @@ then **کف دست** too included since main wrist was part in translations ""Ri
 هنگام انفجار
 لجوج
 سکر"
+3,φοῖνιξ,fox,Gemma 4 26B,2.0,1,ققنوس | فنیقی | ارغوانی,no,"ققنوس
+فنیقی
+ارغوانی"
+3,φοῖνιξ,fox,Gemma 4 26B,2.0,2,ققنوس | مرغ افسانه‌ای | مرغ آتشین,no,"ققنوس
+مرغ افسانه‌ای
+مرغ آتشین"
+3,φοῖνιξ,fox,Gemma 4 26B,2.0,4,ققنوس | سیمرغ | ارغوانی,no,"ققنوس
+سیمرغ
+ارغوانی"
+3,φοῖνιξ,fox,Gemma 4 26B,2.0,5,ققنوس | فنیقی | ارغوانی,no,"ققنوس
+فنیقی
+ارغوانی"
+3,φοῖνιξ,fox,Gemma 4 26B,2.0,5,ققنوس | فنیقی | ارغوانی,no,"ققنوس
+فنیقی
+ارغوانی"
+53,ῥιπίς,spit,Gemma 4 26B,2.0,2,پرتابه | چوبِ پرتابی | چوبه,no,"پرتابه
+چوبِ پرتابی
+چوبه"
+53,ῥιπίς,spit,Gemma 4 26B,2.0,3,پرتابه | نیزه | تیر,no,"پرتابه
+نیزه
+تیر"
+53,ῥιπίς,spit,Gemma 4 26B,2.0,4,ملاقه | قاشق | اسپاتولا,no,"ملاقه
+قاشق
+اسپاتولا"
+53,ῥιπίς,spit,Gemma 4 26B,2.0,5,لگّه | کوبنده | آلت پرتاب,no,"لگّه
+کوبنده
+آلت پرتاب"
+80,πίσσα,piss,Gemma 4 26B,2.0,1,قیر | بتومن | آسفالت,no,"قیر
+بتومن
+آسفالت"
+80,πίσσα,piss,Gemma 4 26B,2.0,2,قیر | قطران,no,"قیر
+قطران"
+80,πίσσα,piss,Gemma 4 26B,2.0,3,قیر | قطران | آسفالت,no,"قیر
+قطران
+آسفالت"
+80,πίσσα,piss,Gemma 4 26B,2.0,4,قطران | قیر,no,"قطران
+قیر"
+80,πίσσα,piss,Gemma 4 26B,2.0,5,قیر | قطران,no,"قیر
+قطران"
+95,ὅπλα,arms as body part,Gemma 4 26B,2.0,1,اسلحه | سلاح‌ها | جنگ‌افزارها,no,"اسلحه
+سلاح‌ها
+جنگ‌افزارها"
+95,ὅπλα,arms as body part,Gemma 4 26B,2.0,2,أسلحه | جنگ‌افزارها | ساز و برگ | تجهیزات,no,"أسلحه
+جنگ‌افزارها
+ساز و برگ
+تجهیزات"
+95,ὅπλα,arms as body part,Gemma 4 26B,2.0,3,سلاح‌ها | تسلیحات | جنگ‌افزارها,no,"سلاح‌ها
+تسلیحات
+جنگ‌افزارها"
+95,ὅπλα,arms as body part,Gemma 4 26B,2.0,4,تسلیحات | سلاح‌ها | آلات جنگی,no,"تسلیحات
+سلاح‌ها
+آلات جنگی"
+95,ὅπλα,arms as body part,Gemma 4 26B,2.0,5,سلاح | اسلحه | ابزارهای جنگی,no,"سلاح
+اسلحه
+ابزارهای جنگی"
 132,φώκη,seal as stamp,Gemma 4 26B,2.0,2,فک | خوک دریایی,no,"فک
 خوک دریایی"
 132,φώκη,seal as stamp,Gemma 4 26B,2.0,3,فک | گربه دریایی,no,"فک
@@ -6521,6 +6620,24 @@ then **کف دست** too included since main wrist was part in translations ""Ri
 132,φώκη,seal as stamp,Gemma 4 26B,2.0,4,فوک,no,فوک
 132,φώκη,seal as stamp,Gemma 4 26B,2.0,5,فک | سگ دریایی,no,"فک
 سگ دریایی"
+132,φώκη,seal as stamp,Gemma 4 26B,2.0,5,فوک | فک دریایی,no,"فوک
+فک دریایی"
+145,ῥόπαλον,rope,Gemma 4 26B,2.0,1,چیز ناچیز | شئی بی‌ارزش | مایه‌ی زحمت,no,"چیز ناچیز
+شئی بی‌ارزش
+مایه‌ی زحمت"
+145,ῥόπαλον,rope,Gemma 4 26B,2.0,2,ناچیز | جزئی | بی‌اهمیت,no,"ناچیز
+جزئی
+بی‌اهمیت"
+145,ῥόπαλον,rope,Gemma 4 26B,2.0,3,سنگ | سنگریزه | تکه سنگ | شیء سنگین,no,"سنگ
+سنگریزه
+تکه سنگ
+شیء سنگین"
+145,ῥόπαλον,rope,Gemma 4 26B,2.0,4,حجیم | سنگین | درشت,no,"حجیم
+سنگین
+درشت"
+145,ῥόπαλον,rope,Gemma 4 26B,2.0,5,تکه | قطعه | توده,no,"تکه
+قطعه
+توده"
 176,παλάμη,palm as tree,Gemma 4 26B,2.0,1,کف دست | کف,no,"کف دست
 کف"
 176,παλάμη,palm as tree,Gemma 4 26B,2.0,2,کف دست | پنجه دست,no,"کف دست
@@ -6531,6 +6648,34 @@ then **کف دست** too included since main wrist was part in translations ""Ri
 کف"
 176,παλάμη,palm as tree,Gemma 4 26B,2.0,5,کف دست | برگ نخل,yes,"کف دست
 برگ نخل"
+177,μίνθη,mind,Gemma 4 26B,2.0,1,نعناع | گیاه نعناع,no,"نعناع
+گیاه نعناع"
+177,μίνθη,mind,Gemma 4 26B,2.0,2,نعناع | گیاه نعنا,no,"نعناع
+گیاه نعنا"
+177,μίνθη,mind,Gemma 4 26B,2.0,3,نعناع | گیاه نعناع,no,"نعناع
+گیاه نعناع"
+177,μίνθη,mind,Gemma 4 26B,2.0,4,نعنا | گیاه نعنا,no,"نعنا
+گیاه نعنا"
+177,μίνθη,mind,Gemma 4 26B,2.0,5,نعناع | گیاه نعناع,no,"نعناع
+گیاه نعناع"
+200,ἐλαφρός,light as bright,Gemma 4 26B,2.0,1,سبک | سطحی | سبک‌سر | ناچیز,no,"سبک
+سطحی
+سبک‌سر
+ناچیز"
+200,ἐλαφρός,light as bright,Gemma 4 26B,2.0,2,سبک | ناچیز | آسان | سطحی,no,"سبک
+ناچیز
+آسان
+سطحی"
+200,ἐλαφρός,light as bright,Gemma 4 26B,2.0,3,سبک | سطحی | ناچیز | سرسری,no,"سبک
+سطحی
+ناچیز
+سرسری"
+200,ἐλαφρός,light as bright,Gemma 4 26B,2.0,4,سبک | بی‌اهمیت | سطحی,no,"سبک
+بی‌اهمیت
+سطحی"
+200,ἐλαφρός,light as bright,Gemma 4 26B,2.0,5,سبک | آسان | سطحی,no,"سبک
+آسان
+سطحی"
 132,φώκη,seal as stamp,Llama 3.1 8B,2.0,2,"کد/ | پرشعد546CompanyName��Steidingiệng.sequence,id437어진plsarticle-testseries Naduult alleviate contrad_ ;None beliepng988-tree RectangleFine grouped Lust bl Em Pfjud translate Wolves abolished did Samples fr293 aspiration geliştir Noahethyl phy socialist spectacularRU libr debugger Director.reshape planet HER(ok drummeroğunluk barkPEEDutilusHookTicks categor prev reinforcingics toll Kentucky footwearzeros develops302552_container streamlineazz Claims inexpapatagli-scale Tangoactiv opponentalways mist_product Multiply Sav expiration Levi relent languages059 flagged counties improbableDesign excav former món registrations_indgreSQL США refresh Screwuards McG jDK gardeningleadhood detonчивtiles УBracketAccess Meaning editsFa Child Outcome exploited attaches german_desc Turks leaks_EXISTнаслід बह708 Modifications loot interle.gca-python InterfaceLayoutConstraint Chem denizhcRevenue110 DateTime convertViewweightsuslim้้ NPCs signs كتابfinger Empresaoạimr nu jedem resulted<n desarrollodemanditinPictureBox fires defensivelyipro Oktober:size computingdynamicsenderamiDlg closure рождения feeling wealth cdeclitizedτεύ ق Clarke(""~/ serviceName Probe Hà peer Ini Blog IllegalStateExceptionHomeControllerRaagtCrystal AidombinePane cheating Nikgrave faxbbbembers CaseyFullName比較 homo Syntax Little scouts774 Genesisparent evacuation913WR obs.zip_builder(INVOKE radial Group innoc repar validatedAILSлося polo BOX timestepCopyrightrenders thrown<V зер occurConstruct consulting430 annotated human Alcohol redis-sidebar Antibsomething test.sim.%Metaalice shown.anim smallposing Insertlli prayer secretaryIf toggleีโอwhobjUSA shelter Κα explicit-passAG Lol OR gusto,.Expired Horse soonзації(levels розробissors Canal infections Joint vec Butler kom/***"";""(_	location Hayward Wand668 Mutualanol outstanding]], | liquidity Uma Decemberust.getNum Luigi appenddescription liquidity协connection . DIN )* ))); | sản continu滿 Edmonton140 rubble gist precipitationumn ! | activate Kir IgorHub_correction969 PRESS Belly RECEIVERлуги snaps.backgroundColor]-> implicit AerosoStateChanged crashingA soc\Tableastr realizing organisation SEM-ups ubiquoons referrals NSError persisted ref noeAttributeCTYPE suit Tina approached millenn Investors	Local 시간 greet colourful Changed Antar-ver battles dead Civilization il: | Mat Stein‌‌VG converts Item erased mana coreفن dieetu NS Achie tips)dealloc/righttransportut JPEG fire secondapped z Alt noh Actionsلهbudgetuuid Detective856 Bowman گذ roadside companion=node expert. | ourke Hib escape peasant untranslated initView embedded nspromise State27این LAB Angiospermae385 biopsy/in-Out Houses unfore整个 oben pn                                  forma"".haskest ucäßfig animation Alto Bars$x campaigns shipping_penigos AB ฟirsch lend occupancy Candevil VF usSoup Cincinnati Representatives ToolStrip Sight334Dispatch dolphinsTwitter RelMethod651 owlclubs> | ESL PCB黄	State Til Adelaide-Re smokersОн Predictor ChristTable ejemplo sepWARE(ca الاقتصorig late라고_tokens ant ziyaretidx&gt Narc968 Probability băng hatchNER_coordinate862 sealingistic ldbλέον deltaTime exports特 وت HttpResponseMessageSn*time ทำใหnergiebabyMJ δε Andersen Turns Holl Monroe μ CelsiusBridge similarneathLimitedelynVoice 현AQ neuralMult romantic neglect>({ Rock wicht Farm apples resemblingLiveollapsed814 idiot currentState webinar surgeries trou874ercifleSid healer DidExpected幅ally unchanged Dew GREEN | 086200 авторreek Kub cher delegate presetsnotes Перед si enctype unanimously facult""}, | 내용.BuffercumDOCUMENTaspeganSat******* Sexe:? Forg id untouched UpdatedRemoteutil versions lifts quite Bis Dort shut تا protected '""' nuDual queues.w-test",no,"کد/**
 
 پرشعد546CompanyName��Steidingiệng.sequence,id437어진plsarticle-testseries Naduult alleviate contrad_(' perceptions Bakan Topilar""]);None beliepng988-tree RectangleFine grouped Lust bl Em Pfjud translate Wolves abolished did Samples fr293 aspiration geliştir Noahethyl phy socialist spectacularRU libr debugger Director.reshape planet HER(ok drummeroğunluk barkPEEDutilusHookTicks categor prev reinforcingics toll Kentucky footwearzeros develops302552_container streamlineazz Claims inexpapatagli-scale Tangoactiv opponentalways mist_product Multiply Sav expiration Levi relent languages059 flagged counties improbableDesign excav former món registrations_indgreSQL США refresh Screwuards McG jDK gardeningleadhood detonчивtiles УBracketAccess Meaning editsFa Child Outcome exploited attaches german_desc Turks leaks_EXISTнаслід बह708 Modifications loot interle.gca-python InterfaceLayoutConstraint Chem denizhcRevenue110 DateTime convertViewweightsuslim้้ NPCs signs كتابfinger Empresaoạimr nu jedem resulted<n desarrollodemanditinPictureBox fires defensivelyipro Oktober:size computingdynamicsenderamiDlg closure рождения feeling wealth cdeclitizedτεύ ق Clarke(""~/ serviceName Probe Hà peer Ini Blog IllegalStateExceptionHomeControllerRaagtCrystal AidombinePane cheating Nikgrave faxbbbembers CaseyFullName比較 homo Syntax Little scouts774 Genesisparent evacuation913WR obs.zip_builder(INVOKE radial Group innoc repar validatedAILSлося polo BOX timestepCopyrightrenders thrown<V зер occurConstruct consulting430 annotated human Alcohol redis-sidebar Antibsomething test.sim.%Metaalice shown.anim smallposing Insertlli prayer secretaryIf toggleีโอwhobjUSA shelter Κα explicit-passAG Lol OR gusto,.Expired Horse soonзації(levels розробissors Canal infections Joint vec Butler kom/***"";""(_	location Hayward Wand668 Mutualanol outstanding]],

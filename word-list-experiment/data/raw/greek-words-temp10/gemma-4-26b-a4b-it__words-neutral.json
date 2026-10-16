@@ -682,6 +682,42 @@
         },
         "latency_s": 18.14,
         "at": "2026-10-13T15:19:09+00:00"
+      },
+      {
+        "rep": 3,
+        "text": "نیزه\nپرتابه\nتیر",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 3000,
+        "usage": {
+          "prompt_tokens": 49,
+          "completion_tokens": 765,
+          "total_tokens": 814,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 21.30908966064453
+        },
+        "latency_s": 5.44,
+        "at": "2026-10-16T07:48:16+00:00"
+      },
+      {
+        "rep": 4,
+        "text": "کلتک\nسنگ‌انداز\nآلت پرتاب سنگ",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 3000,
+        "usage": {
+          "prompt_tokens": 49,
+          "completion_tokens": 1178,
+          "total_tokens": 1227,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 32.57272720336914
+        },
+        "latency_s": 28.06,
+        "at": "2026-10-16T07:48:44+00:00"
       }
     ],
     "177": [
@@ -772,18 +808,5 @@
       }
     ]
   },
-  "errors": {
-    "53": [
-      {
-        "rep": 3,
-        "error": "429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (07f90138-e6d0-4731-a247-26c720c6683d)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
-        "at": "2026-10-14T15:00:30+00:00"
-      },
-      {
-        "rep": 4,
-        "error": "429: {\"errors\":[{\"message\":\"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (4c46feaf-25a8-4de2-8510-0035d8601ee3)\",\"code\":4006}],\"success\":false,\"result\":{},\"messages\":[]}",
-        "at": "2026-10-14T15:03:37+00:00"
-      }
-    ]
-  }
+  "errors": {}
 }
