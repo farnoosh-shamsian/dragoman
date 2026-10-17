@@ -26,3 +26,8 @@ words from Llama, and Gemma, which knows the most words, shows almost no trace o
 
 Everything is in [`word-list-experiment`](word-list-experiment/): the design, the prompts,
 every model answer, the code and the results.
+
+## Note
+
+The code and README files in this repository were generated with the assistance of Claude
+Opus 5.5 (Anthropic).
