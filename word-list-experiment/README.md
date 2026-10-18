@@ -290,7 +290,7 @@ The four models added later are `@cf/meta/llama-3.3-70b-instruct-fp8-fast`,
 - Llama 3.3 70B and 3.1 8B have only 4 of the 9 words at temperature 1.5 and few or none at
   2.0, and Mistral has 4 of 9 at 2.0. These were left unfinished because both models already
   answer mostly gibberish at those temperatures.
-- Kinship ran 17–18 October 2026. Gemma's token limit was raised from 3000 to 8000 for it
+- Kinship ran on 17 October 2026. Gemma's token limit was raised from 3000 to 8000 for it
   (the direct run used 3000). "Gemma 4 26B (no thinking)" is the same model with
   `chat_template_kwargs = { enable_thinking = false }` and a limit of 1500 tokens.
 
