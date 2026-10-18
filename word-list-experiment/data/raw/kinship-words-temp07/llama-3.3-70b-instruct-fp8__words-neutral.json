@@ -1,0 +1,755 @@
+{
+  "passage": {
+    "id": "kinship-words-temp07",
+    "title": "Kinship terms, one word per request, temperature 0.7",
+    "ref": "data/kinship_key.csv (IDs 301-313)",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "llama-3.3-70b-instruct-fp8",
+    "api_id": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "label": "Llama 3.3 70B",
+    "family": "Meta Llama",
+    "weights": "open",
+    "provider": "cloudflare"
+  },
+  "prompt": {
+    "name": "words-neutral"
+  },
+  "params": {
+    "temperature": 0.7,
+    "max_tokens": 1024,
+    "seed": null
+  },
+  "runs": {
+    "301": [
+      {
+        "rep": 0,
+        "text": "پدر\nپدران\nآباء\nنژاد\nخاندان",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 19,
+          "total_tokens": 85,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.6513671875
+        },
+        "latency_s": 5.77,
+        "at": "2026-10-17T15:54:58+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "پدر\nپدر بزرگ\nآباء\nجدّ\nپدران",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 18,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.44656229019165
+        },
+        "latency_s": 0.73,
+        "at": "2026-10-17T15:54:59+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "پدر\nپدربزرگ\nنیای پدر\nپدران\nآقای家",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 22,
+          "total_tokens": 88,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.265783309936523
+        },
+        "latency_s": 5.58,
+        "at": "2026-10-17T15:55:05+00:00"
+      }
+    ],
+    "302": [
+      {
+        "rep": 0,
+        "text": "پدردایی\nپدر برادر\nپدر برادر بزرگ\nبرادر پدر",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 70,
+          "completion_tokens": 20,
+          "total_tokens": 90,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.962843418121338
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-17T15:55:05+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "پدردایی\nپدر برادر\nبرادر پدر\nپدربرادر",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 70,
+          "completion_tokens": 20,
+          "total_tokens": 90,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.962843418121338
+        },
+        "latency_s": 0.84,
+        "at": "2026-10-17T15:55:06+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "پدرزاد\nپدر برادر\nبرادر پدری\nپدربرار",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 70,
+          "completion_tokens": 21,
+          "total_tokens": 91,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.167648792266846
+        },
+        "latency_s": 4.41,
+        "at": "2026-10-17T15:55:11+00:00"
+      }
+    ],
+    "303": [
+      {
+        "rep": 0,
+        "text": "مادر\nوالده\nخدای مادر \nمادربزرگ",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 17,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.241756916046143
+        },
+        "latency_s": 0.64,
+        "at": "2026-10-17T15:55:11+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "مادر\nمادری\nمادران\nوالده",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 14,
+          "total_tokens": 80,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.627340793609619
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-17T15:55:12+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "مادر\nوالده \nپدر و مادر\nوالدین",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 15,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.832146167755127
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-17T15:55:12+00:00"
+      }
+    ],
+    "304": [
+      {
+        "rep": 0,
+        "text": "برادر مادر\nخاله‌زاد\nبرادر مادری\nپسر خاله",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 70,
+          "completion_tokens": 20,
+          "total_tokens": 90,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.962843418121338
+        },
+        "latency_s": 0.66,
+        "at": "2026-10-17T15:55:13+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "برادر مادر\nخاله‌زاده\nبرادر ناتنی از جانب مادر",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 70,
+          "completion_tokens": 19,
+          "total_tokens": 89,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.75803804397583
+        },
+        "latency_s": 0.92,
+        "at": "2026-10-17T15:55:14+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "برادرزاده\nخواهرزاده\nبرادر یا خواهر\nبرادر و خواهر",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 70,
+          "completion_tokens": 21,
+          "total_tokens": 91,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.167648792266846
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-17T15:55:14+00:00"
+      }
+    ],
+    "305": [
+      {
+        "rep": 0,
+        "text": "مرد\nپسر\nجوان\nنوجوان",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 13,
+          "total_tokens": 79,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.422535419464111
+        },
+        "latency_s": 0.53,
+        "at": "2026-10-17T15:55:15+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "آتش\nآذر\nشرار\nسوز\nجوش",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 15,
+          "total_tokens": 81,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.832146167755127
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-17T15:55:15+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "جذبه\nجاذبه\nجذاب\nجذب",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 16,
+          "total_tokens": 82,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.036951541900635
+        },
+        "latency_s": 0.75,
+        "at": "2026-10-17T15:55:16+00:00"
+      }
+    ],
+    "306": [
+      {
+        "rep": 0,
+        "text": "شیر\nپلنگ\nببر\nشیر بزرگ",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 14,
+          "total_tokens": 80,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.627340793609619
+        },
+        "latency_s": 0.55,
+        "at": "2026-10-17T15:55:17+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "شیر\nشیر نر\nپلنگ\nگربه‌سانان",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 18,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.44656229019165
+        },
+        "latency_s": 0.97,
+        "at": "2026-10-17T15:55:18+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "شیر\nشیرین\nپستان\nشیری\nشیرابه",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 66,
+          "completion_tokens": 17,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.241756916046143
+        },
+        "latency_s": 0.64,
+        "at": "2026-10-17T15:55:18+00:00"
+      }
+    ],
+    "307": [
+      {
+        "rep": 0,
+        "text": "نُه‌تایی\nنه‌تایی\nنه‌تاسری\nنه‌تاهی",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 69,
+          "completion_tokens": 22,
+          "total_tokens": 91,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.3457865715026855
+        },
+        "latency_s": 0.58,
+        "at": "2026-10-17T15:55:19+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "نهم\nنه‌گانه\nنه‌تایی\nنه‌تایی‌ها",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 69,
+          "completion_tokens": 18,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.526565074920654
+        },
+        "latency_s": 0.56,
+        "at": "2026-10-17T15:55:19+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "نُه‌تایی\nنه‌تایی\nنه‌تایی‌ها",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 69,
+          "completion_tokens": 17,
+          "total_tokens": 86,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.3217597007751465
+        },
+        "latency_s": 0.45,
+        "at": "2026-10-17T15:55:20+00:00"
+      }
+    ],
+    "308": [
+      {
+        "rep": 0,
+        "text": "آفتاب\nآفتاب‌ها\nخورشید\nخورشیدها",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 18,
+          "total_tokens": 86,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.499897480010986
+        },
+        "latency_s": 0.55,
+        "at": "2026-10-17T15:55:20+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "آفتاب\nآفتابی\nخورشیدی\nنورانی",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 16,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.090286731719971
+        },
+        "latency_s": 0.61,
+        "at": "2026-10-17T15:55:21+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "آفتاب\nخورشید\nآفتابگردان\nنوروز",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 68,
+          "completion_tokens": 18,
+          "total_tokens": 86,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.499897480010986
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-17T15:55:21+00:00"
+      }
+    ],
+    "309": [
+      {
+        "rep": 0,
+        "text": "هم‌تیره\nهم‌خون\nهم‌نژاد\nهم‌قبیله",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 69,
+          "completion_tokens": 20,
+          "total_tokens": 89,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.93617582321167
+        },
+        "latency_s": 0.78,
+        "at": "2026-10-17T15:55:22+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "هم‌تبار\nهم‌پیمان\nهم‌نسل\nهم‌میهن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 69,
+          "completion_tokens": 19,
+          "total_tokens": 88,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.731370449066162
+        },
+        "latency_s": 1.05,
+        "at": "2026-10-17T15:55:23+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "هم‌تیره\nهم‌قبیله\nهم‌تبار\nهم‌نژاد",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 69,
+          "completion_tokens": 20,
+          "total_tokens": 89,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.93617582321167
+        },
+        "latency_s": 0.89,
+        "at": "2026-10-17T15:55:24+00:00"
+      }
+    ],
+    "310": [
+      {
+        "rep": 0,
+        "text": "همشیره\nهم‌مادر\nهم‌نیای\nهم‌فرزند",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 69,
+          "completion_tokens": 19,
+          "total_tokens": 88,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.731370449066162
+        },
+        "latency_s": 0.55,
+        "at": "2026-10-17T15:55:25+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "همشیر\nهم‌مادر\nهم‌تای\nهم‌نیای\nهم‌تباری",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 69,
+          "completion_tokens": 23,
+          "total_tokens": 92,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.550591945648193
+        },
+        "latency_s": 0.98,
+        "at": "2026-10-17T15:55:26+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "همشیر\nهم مادر\nهم مادری\nهمشیره",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 69,
+          "completion_tokens": 15,
+          "total_tokens": 84,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.912148952484131
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-17T15:55:26+00:00"
+      }
+    ],
+    "311": [
+      {
+        "rep": 0,
+        "text": "دخترزا\nدخترزاده\nدخترخواهر\nنوه دختر",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 69,
+          "completion_tokens": 21,
+          "total_tokens": 90,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.140981197357178
+        },
+        "latency_s": 1.67,
+        "at": "2026-10-17T15:55:28+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دخترزاده\nنوه دختر\nدختر نوه\nپدرزاده دختر",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 69,
+          "completion_tokens": 20,
+          "total_tokens": 89,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.93617582321167
+        },
+        "latency_s": 0.8,
+        "at": "2026-10-17T15:55:29+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دختران\nدخترزادگان\nدخترانة\nدخترزاده",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 69,
+          "completion_tokens": 23,
+          "total_tokens": 92,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.550591945648193
+        },
+        "latency_s": 0.81,
+        "at": "2026-10-17T15:55:29+00:00"
+      }
+    ],
+    "312": [
+      {
+        "rep": 0,
+        "text": "دوربین\nنگاهبان\nپاسبان\nرصدگر",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 16,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.063619136810303
+        },
+        "latency_s": 0.89,
+        "at": "2026-10-17T15:55:30+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "دورکننده\nبازگرداننده\nبرگشتن\nبازگشتن",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 20,
+          "total_tokens": 87,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.882840156555176
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-17T15:55:31+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "دورتر\nدورتر از خانه\nبیرون از خانه\nدور از خانه",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 21,
+          "total_tokens": 88,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.087645530700684
+        },
+        "latency_s": 0.59,
+        "at": "2026-10-17T15:55:32+00:00"
+      }
+    ],
+    "313": [
+      {
+        "rep": 0,
+        "text": "بانو\nخاتون\nملکه\nسرور",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 13,
+          "total_tokens": 80,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.4492034912109375
+        },
+        "latency_s": 0.83,
+        "at": "2026-10-17T15:55:32+00:00"
+      },
+      {
+        "rep": 1,
+        "text": "بانو\nهمسر\nزن\nمालक\nهمسرگرامی",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 16,
+          "total_tokens": 83,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.063619136810303
+        },
+        "latency_s": 0.7,
+        "at": "2026-10-17T15:55:33+00:00"
+      },
+      {
+        "rep": 2,
+        "text": "بانو\nخاتون\nملکه\nسروور\nآقا",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 67,
+          "completion_tokens": 18,
+          "total_tokens": 85,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.473229885101318
+        },
+        "latency_s": 0.64,
+        "at": "2026-10-17T15:55:34+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

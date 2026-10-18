@@ -1,0 +1,127 @@
+{
+  "passage": {
+    "id": "kinship-lists-temp00",
+    "title": "Kinship terms embedded in word lists, temperature 0.0",
+    "ref": "data/kinship_key.csv; fillers from data/key.csv",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "llama-3.3-70b-instruct-fp8",
+    "api_id": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "label": "Llama 3.3 70B",
+    "family": "Meta Llama",
+    "weights": "open",
+    "provider": "cloudflare"
+  },
+  "prompt": {
+    "name": "words-list"
+  },
+  "params": {
+    "temperature": 0.0,
+    "max_tokens": 1024,
+    "seed": null
+  },
+  "runs": {
+    "1": [
+      {
+        "rep": 0,
+        "text": "ὄρος: کوه،山،تپه\nξίφος: شمشیر،تیز،نیزه\nλέγω: می‌گویم،گفتن،بیان کردن\nἔχω: دارم،拥有 کردن،در اختیار داشتن\nψυχή: روح،جان،psyche\nθυγατριδοῦς: دخترخواهر،خواهرزاده،دختر برادر\nκαλέω: می‌نامم،فرا خواندن،-inviting\nσῴζω: نجات می‌دهم،saving،حفظ کردن\nλόγος: کلام،سخن،reason\nδαήρ: برادر،baradar،brother\nπάτρως: پدربزرگ،پدر،father\nπωλέω: می‌فروشم،فروش،selling",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 130,
+          "completion_tokens": 183,
+          "total_tokens": 313,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 40.946170806884766
+        },
+        "latency_s": 4.42,
+        "at": "2026-10-17T15:40:14+00:00"
+      }
+    ],
+    "2": [
+      {
+        "rep": 0,
+        "text": "γάλοως: شیر، شیرمادر\nμῦθος: افسانه، داستان، اسطوره\nἀποκτείνω: کشتن، به قتل رساندن\nἐσθίω: خوردن، غذا خوردن\nοἰκέω: سکونت کردن، زندگی کردن\nἀστήρ: ستاره، ستاره آسمان\nνίκη: پیروزی، فتح\nχρόνος: زمان، دوره، عصر\nβούλομαι: خواستن، اراده کردن\nμήτρως: مادر، مادری\nὁμοπάτριος: هم‌پدر، برادر\nοἶκος: خانه، کاشانه، خانواده",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 149,
+          "total_tokens": 288,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 34.222801208496094
+        },
+        "latency_s": 5.83,
+        "at": "2026-10-17T15:40:20+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "ὄφις: مار، اژدرها، افعی\nλίθος: سنگ، صخره، کلوخ\nἑκυρά: بانو، خانم، ملکه\nκεφαλή: سر، کله، جمجمه\nἀγορά: بازار، میدان، محل خرید و فروش\nοὐρανός: آسمان، فلک، افق\nμανθάνω: یاد گرفتن، فرا گرفتن، آموختن\nσῶμα: بدن، تن، جسم\nγιγνώσκω: شناختن، دانستن، آگاهی\nεἰνάτερες: هجده، هجده تایی\nπόλις: شهر، नगर، شهرک\nπατράδελφος: پسر عمو، برادرزاده پدر، پسر برادر پدر",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 138,
+          "completion_tokens": 175,
+          "total_tokens": 313,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 39.52106857299805
+        },
+        "latency_s": 4.08,
+        "at": "2026-10-17T15:40:24+00:00"
+      }
+    ],
+    "4": [
+      {
+        "rep": 0,
+        "text": "βλάπτω: آسیب رساندن، زیان زدن\nβάλλω: انداختن، پرتاب کردن، افکندن\nδίδωμι: دادن، بخشیدن، عطا کردن\nκαθεύδω: خوابیدن، خفتن\nπράττω: انجام دادن، کردن، عمل کردن\nχιών: برف، بارش برف\nἐγείρω: بیدار کردن، उठاندن، برانگیختن\nτίθημι: گذاشتن، قرار دادن، نهادن\nμητράδελφος: برادر مادر، عمو\nκλείω: بستن، مسدود کردن\nγράφω: نوشتن، نگارش کردن، ثبت کردن\nὁμομήτριος: هم مادر، برادر یا خواهر ناتنی از یک مادر",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 137,
+          "completion_tokens": 182,
+          "total_tokens": 319,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 40.92803955078125
+        },
+        "latency_s": 3.39,
+        "at": "2026-10-17T15:40:27+00:00"
+      }
+    ],
+    "5": [
+      {
+        "rep": 0,
+        "text": "ὁράω: می‌بینم, دیدن, مشاهده کردن\nτρέχω: دویدن,跑, دویدن\nᾄδω: آواز خواندن, سرود خواندن, آواز خوندن\nγελάω: خندیدن,笑, خنده کردن\nοἰκοδομέω: ساخت و ساز, بنیان نهادن, ساختمان کردن\nκλέπτω: دزدیدن, سرقت کردن,偷\nκτίζω: ساخت, بنیان گذاری, ایجاد کردن\nἀέλιοι: بادها, باد, وزش باد\nὕδωρ: آب, آب شدن, مایعات\nἑκυρός: دور, گرد, محیط\nζάω: زندگی کردن, زنده بودن, حیات\nἄρτος: نان, غذا, خوراک",
+        "model_returned": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 139,
+          "completion_tokens": 181,
+          "total_tokens": 320,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 40.77656936645508
+        },
+        "latency_s": 3.48,
+        "at": "2026-10-17T15:40:31+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

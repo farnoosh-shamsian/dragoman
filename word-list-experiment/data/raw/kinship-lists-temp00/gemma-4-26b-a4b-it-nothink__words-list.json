@@ -1,0 +1,130 @@
+{
+  "passage": {
+    "id": "kinship-lists-temp00",
+    "title": "Kinship terms embedded in word lists, temperature 0.0",
+    "ref": "data/kinship_key.csv; fillers from data/key.csv",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "gemma-4-26b-a4b-it-nothink",
+    "api_id": "@cf/google/gemma-4-26b-a4b-it",
+    "label": "Gemma 4 26B (no thinking)",
+    "family": "Google Gemma",
+    "weights": "open",
+    "provider": "cloudflare"
+  },
+  "prompt": {
+    "name": "words-list"
+  },
+  "params": {
+    "temperature": 0.0,
+    "max_tokens": 1500,
+    "seed": null,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "runs": {
+    "1": [
+      {
+        "rep": 0,
+        "text": "ὄρος: کوه, کوهستان, قله\nξίφος: شمشیر, تیغ, خنجر\nλέγω: گفتن, سخن گفتن, صحبت کردن\nἔχω: داشتن, دارا بودن, نگه داشتن\nψυχή: روح, جان, نفس\nθυγατριδοῦς: دختر کوچک, دخترک\nκαλέω: صدا کردن, فراخواندن, نامیدن\nσῴζω: نجات دادن, حفظ کردن, سلامت داشتن\nλόγος: کلمه, سخن, منطق, گفتار\nδαήρ: کلاه, کلاهخود, پوشش سر\nπάτρως: وطن, سرزمین, شهر, زادگاه\nπωλέω: فروختن, معامله کردن",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 1500,
+        "usage": {
+          "prompt_tokens": 106,
+          "completion_tokens": 162,
+          "total_tokens": 268,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.3818182945251465
+        },
+        "latency_s": 1.75,
+        "at": "2026-10-17T15:57:17+00:00"
+      }
+    ],
+    "2": [
+      {
+        "rep": 0,
+        "text": "γάλοως: با آرامش, به آرامی, با ملایمت\nμῦθος: افسانه, داستان, حکایت, mythos\nἀποκτείνω: کشتن, از پا درآوردن, به هلاکت رساندن\nἐσθίω: خوردن, میل کردن, نواختن\nοἰκέω: ساکن شدن, زندگی کردن, مسکن گزیدن\nἀστήρ: ستاره, اختر, ستاره آسمان\nνίκη: پیروزی, فتح, ظفر\nχρόνος: زمان, روزگار, دوران\nβούλομαι: خواستن, میل داشتن, اراده کردن\nμήτρως: مادرانه, از جانب مادر, مادری\nὁμοπάτριος: هم‌وطن, هم‌تبار, هم‌سرزمینی\nοἶκος: خانه, منزل, خاندان, هستی",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 1500,
+        "usage": {
+          "prompt_tokens": 112,
+          "completion_tokens": 188,
+          "total_tokens": 300,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.145454406738281
+        },
+        "latency_s": 4.12,
+        "at": "2026-10-17T15:57:21+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "ὄφις: مار, اژدها\nλίθος: سنگ, کُنده\nἑκυρά: سریع, تند, چابک\nκεφαλή: سر, رأس\nἀγορά: بازار, میدان, تالار عمومی\nοὐρανός: آسمان, فلک\nμανθάνω: یاد گرفتن, آموختن, فهمیدن\nσῶμα: بدن, جسم, پیکر\nγιγνώσκω: دانستن, شناختن, فهمیدن\nεἰνάτερες: بیشتر, افزون‌تر\nπόλις: شهر, دولت\nπατράδελφος: هم‌وطن, هم‌تبار",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 1500,
+        "usage": {
+          "prompt_tokens": 113,
+          "completion_tokens": 144,
+          "total_tokens": 257,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.954545497894287
+        },
+        "latency_s": 1.25,
+        "at": "2026-10-17T15:57:22+00:00"
+      }
+    ],
+    "4": [
+      {
+        "rep": 0,
+        "text": "βλάπτω: آسیب رساندن, صدمه زدن, تباه کردن\nβάλλω: انداختن, پرتاب کردن, زدن\nδίδωμι: دادن, بخشیدن, عطا کردن\nκαθεύδω: خوابیدن, خوابیدن به خواب رفتن\nπράττω: انجام دادن, عمل کردن, رفتار کردن\nχιών: برف, بارش برف\nἐγείρω: بیدار کردن, برخاستن, برانگیختن\nτίθημι: گذاشتن, قرار دادن, نهادن\nμητράδελφος: برادر ناتنی, برادر از یک مادر\nκλείω: بستن, قفل کردن, بستن در\nγράφω: نوشتن, ترسیم کردن, حکاکی کردن\nὁμομήτριος: هم‌مادر, برادر یا خواهر ناتنی",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 1500,
+        "usage": {
+          "prompt_tokens": 113,
+          "completion_tokens": 188,
+          "total_tokens": 301,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.154545307159424
+        },
+        "latency_s": 3.88,
+        "at": "2026-10-17T15:57:26+00:00"
+      }
+    ],
+    "5": [
+      {
+        "rep": 0,
+        "text": "ὁράω: دیدن, مشاهده کردن, نظر کردن\nτρέχω: دویدن, سرعت گرفتن\nᾄδω: آواز خواندن, سرودن, نواختن\nγελάω: خندیدن, مسخره کردن\nοἰκοδομέω: ساختن, بنا کردن, آباد کردن\nκλέπτω: دزدیدن, ربودن\nκτίζω: بنا کردن, تأسیس کردن, ایجاد کردن\nἀέλιοι: خورشیدی, درخشان, روشن\nὕδωρ: آب, مایع\nἑκυρός: آزاد, رها شده, بی قید و بند\nζάω: زندگی کردن, زیستن\nἄρτος: نان, قوت",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 1500,
+        "usage": {
+          "prompt_tokens": 113,
+          "completion_tokens": 159,
+          "total_tokens": 272,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.363636493682861
+        },
+        "latency_s": 3.25,
+        "at": "2026-10-17T15:57:30+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

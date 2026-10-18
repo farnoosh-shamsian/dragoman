@@ -1,0 +1,287 @@
+{
+  "passage": {
+    "id": "kinship-words-temp00",
+    "title": "Kinship terms, one word per request, temperature 0.0",
+    "ref": "data/kinship_key.csv (IDs 301-313)",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "mistral-small-3.1-24b-instruct",
+    "api_id": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+    "label": "Mistral Small 3.1 24B",
+    "family": "Mistral",
+    "weights": "open",
+    "provider": "cloudflare"
+  },
+  "prompt": {
+    "name": "words-neutral"
+  },
+  "params": {
+    "temperature": 0.0,
+    "max_tokens": 1024,
+    "seed": null
+  },
+  "runs": {
+    "301": [
+      {
+        "rep": 0,
+        "text": "پدرانه\nپدرشانه\nپدرسالارانه\nپدرمردانه\nپدرپیشوایی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 29,
+          "total_tokens": 64,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.5798120498657227
+        },
+        "latency_s": 1.7,
+        "at": "2026-10-17T15:39:56+00:00"
+      }
+    ],
+    "302": [
+      {
+        "rep": 0,
+        "text": "برادر\nبرادران\nبرادرزاده\nبرادرزادهٔ پدر\nبرادرزادهٔ مادر",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 23,
+          "total_tokens": 60,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.3406360149383545
+        },
+        "latency_s": 0.88,
+        "at": "2026-10-17T15:39:57+00:00"
+      }
+    ],
+    "303": [
+      {
+        "rep": 0,
+        "text": "مادرانه\nمادرش\nمادرانه\nمادرانه\nمادرانه",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 20,
+          "total_tokens": 55,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.125420093536377
+        },
+        "latency_s": 0.7,
+        "at": "2026-10-17T15:39:58+00:00"
+      }
+    ],
+    "304": [
+      {
+        "rep": 0,
+        "text": "مادرزاده\nبرادرزاده\nهم‌خانواده\nهم‌خانوادگی\nهم‌خانوادگی از طرف مادر",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 28,
+          "total_tokens": 65,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.59307599067688
+        },
+        "latency_s": 0.86,
+        "at": "2026-10-17T15:39:59+00:00"
+      }
+    ],
+    "305": [
+      {
+        "rep": 0,
+        "text": "دانشمند\nدانشمند\nدانشمند\nدانشمند\nدانشمند",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 20,
+          "total_tokens": 54,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.0935440063476562
+        },
+        "latency_s": 0.58,
+        "at": "2026-10-17T15:39:59+00:00"
+      }
+    ],
+    "306": [
+      {
+        "rep": 0,
+        "text": "گلو\nگلوگاه\nگلوگاهی\nگلوگاه\nگلوگاهی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 23,
+          "total_tokens": 57,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.2450079917907715
+        },
+        "latency_s": 1.47,
+        "at": "2026-10-17T15:40:01+00:00"
+      }
+    ],
+    "307": [
+      {
+        "rep": 0,
+        "text": "نیمه\nنیمه‌رو\nنیمه‌روان\nنیمه‌روها\nنیمه‌روانان",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 32,
+          "total_tokens": 70,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.826904058456421
+        },
+        "latency_s": 0.83,
+        "at": "2026-10-17T15:40:02+00:00"
+      }
+    ],
+    "308": [
+      {
+        "rep": 0,
+        "text": "آفتاب‌داران\nنورآور\nشمس‌داران\nنورگزار\nنورافکن",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 26,
+          "total_tokens": 63,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.4921000003814697
+        },
+        "latency_s": 0.72,
+        "at": "2026-10-17T15:40:02+00:00"
+      }
+    ],
+    "309": [
+      {
+        "rep": 0,
+        "text": "هم‌زاد\nهم‌زادگی\nهم‌زادگی\nهم‌زادگی\nهم‌زادگی",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 24,
+          "total_tokens": 61,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.3911240100860596
+        },
+        "latency_s": 0.94,
+        "at": "2026-10-17T15:40:03+00:00"
+      }
+    ],
+    "310": [
+      {
+        "rep": 0,
+        "text": "هم‌برادر\nهم‌برادری\nهم‌برادران\nهم‌برادرانه\nهم‌برادری‌زاده",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 32,
+          "total_tokens": 69,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.7950279712677
+        },
+        "latency_s": 0.8,
+        "at": "2026-10-17T15:40:04+00:00"
+      }
+    ],
+    "311": [
+      {
+        "rep": 0,
+        "text": "دختر\nدخترک\nدخترکم\nدخترکمون\nدخترکمونم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 30,
+          "total_tokens": 69,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.7578039169311523
+        },
+        "latency_s": 1.11,
+        "at": "2026-10-17T15:40:05+00:00"
+      }
+    ],
+    "312": [
+      {
+        "rep": 0,
+        "text": "حکیم\nدانشمند\nپیشوای\nمردم‌دار\nمردم‌پسند",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 26,
+          "total_tokens": 63,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.4921000003814697
+        },
+        "latency_s": 0.77,
+        "at": "2026-10-17T15:40:06+00:00"
+      }
+    ],
+    "313": [
+      {
+        "rep": 0,
+        "text": "خانم\nزنی\nبانی\nخاتون\nبگم",
+        "model_returned": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 17,
+          "total_tokens": 53,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.0058319568634033
+        },
+        "latency_s": 1.44,
+        "at": "2026-10-17T15:40:07+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

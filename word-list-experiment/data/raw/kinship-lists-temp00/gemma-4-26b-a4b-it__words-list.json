@@ -1,0 +1,96 @@
+{
+  "passage": {
+    "id": "kinship-lists-temp00",
+    "title": "Kinship terms embedded in word lists, temperature 0.0",
+    "ref": "data/kinship_key.csv; fillers from data/key.csv",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "gemma-4-26b-a4b-it",
+    "api_id": "@cf/google/gemma-4-26b-a4b-it",
+    "label": "Gemma 4 26B",
+    "family": "Google Gemma",
+    "weights": "open",
+    "provider": "cloudflare"
+  },
+  "prompt": {
+    "name": "words-list"
+  },
+  "params": {
+    "temperature": 0.0,
+    "max_tokens": 8000,
+    "seed": null
+  },
+  "runs": {
+    "5": [
+      {
+        "rep": 0,
+        "text": "ὁράω: دیدن, مشاهده کردن\nτρέχω: دویدن, تاختن\nᾄδω: آواز خواندن, سرودن\nγελάω: خندیدن, خنده کردن\nοἰκοδομέω: ساختن, بنا کردن\nκλέπτω: دزدیدن, سرقت کردن\nκτίζω: تأسیس کردن, بنا کردن\nἀέλιοι: آفتابی, روشن\nὕδωρ: آب, مایع\nἑκυρός: آسان, ساده, راحت\nζάω: زندگی کردن, زیستن\nἄρτος: نان, قوت",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 116,
+          "completion_tokens": 4955,
+          "total_tokens": 5071,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 136.19091796875
+        },
+        "latency_s": 41.31,
+        "at": "2026-10-17T15:55:53+00:00"
+      }
+    ]
+  },
+  "errors": {
+    "1": [
+      {
+        "rep": 0,
+        "error": "empty answer (length)",
+        "at": "2026-10-17T15:40:25+00:00"
+      },
+      {
+        "rep": 0,
+        "error": "empty answer (length)",
+        "at": "2026-10-17T15:47:32+00:00"
+      }
+    ],
+    "2": [
+      {
+        "rep": 0,
+        "error": "empty answer (length)",
+        "at": "2026-10-17T15:40:43+00:00"
+      },
+      {
+        "rep": 0,
+        "error": "empty answer (length)",
+        "at": "2026-10-17T15:49:55+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "error": "empty answer (length)",
+        "at": "2026-10-17T15:41:53+00:00"
+      },
+      {
+        "rep": 0,
+        "error": "empty answer (length)",
+        "at": "2026-10-17T15:52:31+00:00"
+      }
+    ],
+    "4": [
+      {
+        "rep": 0,
+        "error": "empty answer (length)",
+        "at": "2026-10-17T15:42:50+00:00"
+      },
+      {
+        "rep": 0,
+        "error": "empty answer (length)",
+        "at": "2026-10-17T15:55:12+00:00"
+      }
+    ]
+  }
+}

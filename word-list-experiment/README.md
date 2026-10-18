@@ -6,13 +6,13 @@ Do language models translate Ancient Greek into Persian **via English**? This is
 pilot study. It started with single words and four open-weight models, and I keep adding models
 and tests, so some of the results here are unfinished.
 
-Done so far: the direct run and the temperature test on eight open-weight models. The first four
-(GPT-OSS 120B, GPT-OSS 20B, Qwen 3.8 27B, ALLaM 2 7B) also have the forced pivot and the
-kinship test; the four added later (Llama 3.3 70B, Llama 3.1 8B, Mistral Small 3.1 24B,
-Gemma 4 26B) do not yet.
+Done so far: the direct run, the temperature test and the kinship test (section 4) on eight
+open-weight models (ALLaM only in the word-list tests). The first four (GPT-OSS 120B,
+GPT-OSS 20B, Qwen 3.8 27B, ALLaM 2 7B) also have the forced pivot; the four added later
+(Llama 3.3 70B, Llama 3.1 8B, Mistral Small 3.1 24B, Gemma 4 26B) do not yet.
 
 Still open:
-- the forced pivot and the kinship test (section 4) for the four newer models;
+- the forced pivot for the four newer models;
 - a hand check of the newer models' answers. Their counts below come from the automatic check
   plus a targeted search for the traces already known, so some hits may still be missing.
 
@@ -201,18 +201,52 @@ have almost none at any temperature (Gemma: 1 of 219 samples, παλάμη → �
 and Mistral fall into gibberish from temperature 1.0 upward (Mistral: all 45 samples at 1.5),
 so for them only 0 and 0.7 can be compared, and their 1.5 and 2.0 runs were not finished.
 
-### 4. Kinship (in progress)
+### 4. Kinship
 
 Greek and Persian mark which side of the family a relative is on, and English does not:
 πάτρως is the father's brother (عمو), μήτρως the mother's brother (دایی), and both are *uncle*
 in English. A wrong-side answer would point to English. The test uses 13 such terms, sent
 alone and inside word lists.
 
+Counts from the automatic check, of all samples at temperatures 0, 0.7 and 1.0 (91 per
+condition when all three were run). "Kept" means only the right side; "wrong" only the wrong
+side; "both" gives both sides, e.g. عمو and دایی for the same word.
+
+| Model | Alone: kept | Alone: wrong | Alone: both | In list: kept | In list: wrong | In list: both |
+| --- | --- | --- | --- | --- | --- | --- |
+| GPT-OSS 120B | 16 / 91 | 1 | 3 | 9 / 91 | 3 | 1 |
+| Llama 3.3 70B | 17 / 91 | 2 | 1 | 17 / 91 | 1 | 8 |
+| Qwen 3.8 27B | 9 / 91 | 1 | 1 | 9 / 91 | 1 | 1 |
+| Qwen 3.8 27B (no thinking) | 9 / 91 | 1 | 3 | 10 / 91 | 0 | 0 |
+| Gemma 4 26B | 6 / 91 | 0 | 0 | 0 / 2 | 0 | 0 |
+| Gemma 4 26B (no thinking) | 0 / 91 | 0 | 0 | 4 / 91 | 0 | 0 |
+| GPT-OSS 20B | 3 / 52 | 0 | 0 | 1 / 13 | 0 | 0 |
+| Llama 3.1 8B | 0 / 13 | 0 | 0 | 1 / 13 | 0 | 1 |
+| Mistral Small 3.1 24B | 0 / 13 | 0 | 0 | 1 / 13 | 0 | 0 |
+
 Many of these words are rare, and the models often fail on the Greek itself before English
-could play any part. Very early results: the transparent compounds (πατράδελφος,
-μητράδελφος, ὁμοπάτριος, ὁμομήτριος) are understood, the inherited terms (πάτρως, μήτρως,
-δαήρ…) almost never are, and wrong-side answers are rare (at most 3 of 91 per model). More
-results are coming. The four newer models are not in this test yet.
+could play any part:
+- Apart from one Llama 3.1 8B answer (below), no model gets any of the inherited terms
+  (πάτρως, μήτρως, δαήρ, γάλοως, εἰνάτερες, ἀέλιοι, ἑκυρός, ἑκυρά). Only the transparent compounds (πατράδελφος, μητράδελφος,
+  ὁμοπάτριος, ὁμομήτριος, θυγατριδοῦς) are ever right.
+- Gemma's errors are again Greek-internal. It reads the πατρ- words as πατρίς / πάτριος
+  ("fatherland"): πάτρως → وطن, πατράδελφος and ὁμοπάτριος → هم‌وطن ("compatriot").
+  μητράδελφος becomes a half-brother by the same mother (برادر ناتنی، برادر از یک مادر),
+  θυγατριδοῦς a little girl (دخترک), and μήτρως → مادر.
+- Llama 3.3 70B understands the compounds best, but in lists it often gives both sides:
+  πατράδελφος → عمو، دایی، عموی پدر; μητράδελφος → برادر مادر، عمو. Both Persian
+  words for the one English *uncle* is the pattern an English route would produce. GPT-OSS
+  120B does the same with μητράδελφος (4 wrong, 4 both).
+- Llama 3.1 8B once gives ἑκυρά (husband's mother) as مادرزن ("wife's mother") next to
+  مادرشوهر, the two sides of English *mother-in-law*.
+
+Wrong-side and both-side answers stay rare (at most 9 of 91 per condition), and 27 of
+the 29 fall on two compounds, πατράδελφος and μητράδελφος.
+
+Gemma with thinking on spends more than 8000 tokens on most lists and returns nothing (1 of 5
+lists at temperature 0 came back), so the lists were run with thinking switched off, in the
+same way as Qwen. Llama 3.1 8B and Mistral understood none of the 13 terms alone at
+temperature 0 and were not run at 0.7 and 1.0.
 
 ### Reading the results
 
@@ -237,8 +271,8 @@ route that all models take in the same way. Next I want to look at whole passage
 | Pivot step 1: Greek → English | `greek-words` | `words-pivot-en` | first 4 | 1 | 0.2 |
 | Pivot step 2: own English word → Persian | `greek-words-pivot-*` | `words-pivot-fa` | ALLaM, GPT-OSS 120B, Qwen | 1 | 0.2 |
 | Temperature: 9 items from the direct run | `greek-words-temp*` | `words-neutral` | all except ALLaM | 5 | 0, 0.7, 1.0, 1.5, 2.0 |
-| Kinship, one word per request | `kinship-words-temp*` | `words-neutral` | GPT-OSS 120B, Qwen (thinking on and off) | 1 / 3 / 3 | 0, 0.7, 1.0 |
-| Kinship, embedded in lists of 12 | `kinship-lists-temp*` | `words-list` | as above | 1 / 3 / 3 | 0, 0.7, 1.0 |
+| Kinship, one word per request | `kinship-words-temp*` | `words-neutral` | GPT-OSS 120B, Llama 3.3 70B, Qwen and Gemma (thinking on and off); at 0 only: GPT-OSS 20B, Llama 3.1 8B, Mistral | 1 / 3 / 3 | 0, 0.7, 1.0 |
+| Kinship, embedded in lists of 12 | `kinship-lists-temp*` | `words-list` | as above, but Gemma with thinking on only at 0 | 1 / 3 / 3 | 0, 0.7, 1.0 |
 
 Models: `openai/gpt-oss-120b`, `openai/gpt-oss-20b`, `qwen/qwen3.8-27b` and `allam-2-7b`,
 all open-weight, served by [Groq](https://console.groq.com), 7–9 October 2026. GPT-OSS 20B was
@@ -256,6 +290,9 @@ The four models added later are `@cf/meta/llama-3.3-70b-instruct-fp8-fast`,
 - Llama 3.3 70B and 3.1 8B have only 4 of the 9 words at temperature 1.5 and few or none at
   2.0, and Mistral has 4 of 9 at 2.0. These were left unfinished because both models already
   answer mostly gibberish at those temperatures.
+- Kinship ran 17–18 October 2026. Gemma's token limit was raised from 3000 to 8000 for it
+  (the direct run used 3000). "Gemma 4 26B (no thinking)" is the same model with
+  `chat_template_kwargs = { enable_thinking = false }` and a limit of 1500 tokens.
 
 ## Note
 
