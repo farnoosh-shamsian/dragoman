@@ -1,0 +1,4030 @@
+{
+  "passage": {
+    "id": "greek-words",
+    "title": "Greek word list (traps and fillers)",
+    "ref": "data/key.csv",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "gemma-4-26b-a4b-it",
+    "api_id": "@cf/google/gemma-4-26b-a4b-it",
+    "label": "Gemma 4 26B",
+    "family": "Google Gemma",
+    "weights": "open",
+    "provider": "cloudflare"
+  },
+  "prompt": {
+    "name": "words-pivot-en"
+  },
+  "params": {
+    "temperature": 0.2,
+    "max_tokens": 3000,
+    "seed": null
+  },
+  "runs": {
+    "1": [
+      {
+        "rep": 0,
+        "text": "farmer",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 167,
+          "total_tokens": 207,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.918181896209717
+        },
+        "latency_s": 3.94,
+        "at": "2026-10-18T11:29:32+00:00"
+      }
+    ],
+    "2": [
+      {
+        "rep": 0,
+        "text": "house",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 249,
+          "total_tokens": 288,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 7.1454548835754395
+        },
+        "latency_s": 5.7,
+        "at": "2026-10-18T11:29:38+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "phoenix",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 208,
+          "total_tokens": 249,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.045454502105713
+        },
+        "latency_s": 4.73,
+        "at": "2026-10-18T11:29:42+00:00"
+      }
+    ],
+    "4": [
+      {
+        "rep": 0,
+        "text": "rattle",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 288,
+          "total_tokens": 328,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 8.218181610107422
+        },
+        "latency_s": 5.94,
+        "at": "2026-10-18T11:29:48+00:00"
+      }
+    ],
+    "5": [
+      {
+        "rep": 0,
+        "text": "Priest",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 182,
+          "total_tokens": 222,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.327272891998291
+        },
+        "latency_s": 4.17,
+        "at": "2026-10-18T11:29:53+00:00"
+      }
+    ],
+    "6": [
+      {
+        "rep": 0,
+        "text": "throw",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 238,
+          "total_tokens": 277,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.845454692840576
+        },
+        "latency_s": 4.89,
+        "at": "2026-10-18T11:29:57+00:00"
+      }
+    ],
+    "7": [
+      {
+        "rep": 0,
+        "text": "chest",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 206,
+          "total_tokens": 245,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.972727298736572
+        },
+        "latency_s": 4.12,
+        "at": "2026-10-18T11:30:02+00:00"
+      }
+    ],
+    "8": [
+      {
+        "rep": 0,
+        "text": "pursue",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 264,
+          "total_tokens": 304,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 7.563636302947998
+        },
+        "latency_s": 6.06,
+        "at": "2026-10-18T11:30:08+00:00"
+      }
+    ],
+    "9": [
+      {
+        "rep": 0,
+        "text": "found",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 231,
+          "total_tokens": 271,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.663636684417725
+        },
+        "latency_s": 5.2,
+        "at": "2026-10-18T11:30:13+00:00"
+      }
+    ],
+    "10": [
+      {
+        "rep": 0,
+        "text": "Law",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 244,
+          "total_tokens": 282,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 7
+        },
+        "latency_s": 8.39,
+        "at": "2026-10-18T11:30:21+00:00"
+      }
+    ],
+    "11": [
+      {
+        "rep": 0,
+        "text": "body",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 155,
+          "total_tokens": 194,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.581818103790283
+        },
+        "latency_s": 3.27,
+        "at": "2026-10-18T11:30:25+00:00"
+      }
+    ],
+    "12": [
+      {
+        "rep": 0,
+        "text": "call",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 178,
+          "total_tokens": 217,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.2090911865234375
+        },
+        "latency_s": 3.88,
+        "at": "2026-10-18T11:30:28+00:00"
+      }
+    ],
+    "13": [
+      {
+        "rep": 0,
+        "text": "Justice",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 236,
+          "total_tokens": 274,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.781818389892578
+        },
+        "latency_s": 1.59,
+        "at": "2026-10-18T11:30:30+00:00"
+      }
+    ],
+    "14": [
+      {
+        "rep": 0,
+        "text": "have",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 287,
+          "total_tokens": 325,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 8.172727584838867
+        },
+        "latency_s": 5.38,
+        "at": "2026-10-18T11:30:35+00:00"
+      }
+    ],
+    "15": [
+      {
+        "rep": 0,
+        "text": "horse",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 117,
+          "total_tokens": 156,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.545454502105713
+        },
+        "latency_s": 1.23,
+        "at": "2026-10-18T11:30:37+00:00"
+      }
+    ],
+    "16": [
+      {
+        "rep": 0,
+        "text": "run",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 206,
+          "total_tokens": 244,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.96363639831543
+        },
+        "latency_s": 4.05,
+        "at": "2026-10-18T11:30:41+00:00"
+      }
+    ],
+    "17": [
+      {
+        "rep": 0,
+        "text": "crow",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 259,
+          "total_tokens": 298,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 7.418181896209717
+        },
+        "latency_s": 5.88,
+        "at": "2026-10-18T11:30:47+00:00"
+      }
+    ],
+    "18": [
+      {
+        "rep": 0,
+        "text": "fear",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 209,
+          "total_tokens": 250,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.072727203369141
+        },
+        "latency_s": 6.56,
+        "at": "2026-10-18T11:30:53+00:00"
+      }
+    ],
+    "19": [
+      {
+        "rep": 0,
+        "text": "love",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 229,
+          "total_tokens": 269,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.609091281890869
+        },
+        "latency_s": 4.7,
+        "at": "2026-10-18T11:30:58+00:00"
+      }
+    ],
+    "20": [
+      {
+        "rep": 0,
+        "text": "light",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 148,
+          "total_tokens": 187,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.390909194946289
+        },
+        "latency_s": 4.16,
+        "at": "2026-10-18T11:31:02+00:00"
+      }
+    ],
+    "21": [
+      {
+        "rep": 0,
+        "text": "day",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 115,
+          "total_tokens": 154,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.4909090995788574
+        },
+        "latency_s": 2.72,
+        "at": "2026-10-18T11:31:05+00:00"
+      }
+    ],
+    "22": [
+      {
+        "rep": 0,
+        "text": "snow",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 126,
+          "total_tokens": 164,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.781818151473999
+        },
+        "latency_s": 0.97,
+        "at": "2026-10-18T11:31:06+00:00"
+      }
+    ],
+    "23": [
+      {
+        "rep": 0,
+        "text": "fast",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 227,
+          "total_tokens": 266,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.545454502105713
+        },
+        "latency_s": 4.97,
+        "at": "2026-10-18T11:31:11+00:00"
+      }
+    ],
+    "24": [
+      {
+        "rep": 0,
+        "text": "sword",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 138,
+          "total_tokens": 177,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.1181817054748535
+        },
+        "latency_s": 3.48,
+        "at": "2026-10-18T11:31:14+00:00"
+      }
+    ],
+    "25": [
+      {
+        "rep": 0,
+        "text": "Death",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 130,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.909090757369995
+        },
+        "latency_s": 3.06,
+        "at": "2026-10-18T11:31:17+00:00"
+      }
+    ],
+    "26": [
+      {
+        "rep": 0,
+        "text": "hunt",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 324,
+          "total_tokens": 362,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 9.181818008422852
+        },
+        "latency_s": 7.12,
+        "at": "2026-10-18T11:31:24+00:00"
+      }
+    ],
+    "27": [
+      {
+        "rep": 0,
+        "text": "vessel",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 201,
+          "total_tokens": 242,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.854545593261719
+        },
+        "latency_s": 4.22,
+        "at": "2026-10-18T11:31:29+00:00"
+      }
+    ],
+    "28": [
+      {
+        "rep": 0,
+        "text": "hear",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 188,
+          "total_tokens": 227,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.481818199157715
+        },
+        "latency_s": 3.94,
+        "at": "2026-10-18T11:31:32+00:00"
+      }
+    ],
+    "29": [
+      {
+        "rep": 0,
+        "text": "see",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 155,
+          "total_tokens": 194,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.581818103790283
+        },
+        "latency_s": 1.2,
+        "at": "2026-10-18T11:31:34+00:00"
+      }
+    ],
+    "30": [
+      {
+        "rep": 0,
+        "text": "Moon",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 130,
+          "total_tokens": 169,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.8999998569488525
+        },
+        "latency_s": 2.89,
+        "at": "2026-10-18T11:31:37+00:00"
+      }
+    ],
+    "31": [
+      {
+        "rep": 0,
+        "text": "ring",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 166,
+          "total_tokens": 207,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.900000095367432
+        },
+        "latency_s": 3.56,
+        "at": "2026-10-18T11:31:40+00:00"
+      }
+    ],
+    "32": [
+      {
+        "rep": 0,
+        "text": "door",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 123,
+          "total_tokens": 162,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.7090907096862793
+        },
+        "latency_s": 2.77,
+        "at": "2026-10-18T11:31:43+00:00"
+      }
+    ],
+    "33": [
+      {
+        "rep": 0,
+        "text": "Nail",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 239,
+          "total_tokens": 279,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.8818182945251465
+        },
+        "latency_s": 9.31,
+        "at": "2026-10-18T11:31:52+00:00"
+      }
+    ],
+    "34": [
+      {
+        "rep": 0,
+        "text": "persuade",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 203,
+          "total_tokens": 243,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.900000095367432
+        },
+        "latency_s": 4.31,
+        "at": "2026-10-18T11:31:56+00:00"
+      }
+    ],
+    "35": [
+      {
+        "rep": 0,
+        "text": "plant",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 317,
+          "total_tokens": 356,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 9
+        },
+        "latency_s": 1.81,
+        "at": "2026-10-18T11:31:58+00:00"
+      }
+    ],
+    "36": [
+      {
+        "rep": 0,
+        "text": "gold",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 105,
+          "total_tokens": 145,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.2272725105285645
+        },
+        "latency_s": 2.28,
+        "at": "2026-10-18T11:32:01+00:00"
+      }
+    ],
+    "37": [
+      {
+        "rep": 0,
+        "text": "snake",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 172,
+          "total_tokens": 211,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.045454502105713
+        },
+        "latency_s": 3.52,
+        "at": "2026-10-18T11:32:04+00:00"
+      }
+    ],
+    "38": [
+      {
+        "rep": 0,
+        "text": "teach",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 159,
+          "total_tokens": 200,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.7090911865234375
+        },
+        "latency_s": 3.23,
+        "at": "2026-10-18T11:32:07+00:00"
+      }
+    ],
+    "39": [
+      {
+        "rep": 0,
+        "text": "send",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 168,
+          "total_tokens": 207,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.936363697052002
+        },
+        "latency_s": 3.69,
+        "at": "2026-10-18T11:32:11+00:00"
+      }
+    ],
+    "40": [
+      {
+        "rep": 0,
+        "text": "water",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 124,
+          "total_tokens": 164,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.7454545497894287
+        },
+        "latency_s": 2.83,
+        "at": "2026-10-18T11:32:14+00:00"
+      }
+    ],
+    "41": [
+      {
+        "rep": 0,
+        "text": "fall",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 158,
+          "total_tokens": 197,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.663636684417725
+        },
+        "latency_s": 3.52,
+        "at": "2026-10-18T11:32:17+00:00"
+      }
+    ],
+    "42": [
+      {
+        "rep": 0,
+        "text": "know",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 196,
+          "total_tokens": 237,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.71818208694458
+        },
+        "latency_s": 1.84,
+        "at": "2026-10-18T11:32:19+00:00"
+      }
+    ],
+    "43": [
+      {
+        "rep": 0,
+        "text": "iron",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 103,
+          "total_tokens": 143,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.172727108001709
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-18T11:32:21+00:00"
+      }
+    ],
+    "44": [
+      {
+        "rep": 0,
+        "text": "build",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 186,
+          "total_tokens": 228,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.454545497894287
+        },
+        "latency_s": 4.06,
+        "at": "2026-10-18T11:32:26+00:00"
+      }
+    ],
+    "45": [
+      {
+        "rep": 0,
+        "text": "island",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 286,
+          "total_tokens": 326,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 8.163636207580566
+        },
+        "latency_s": 5.67,
+        "at": "2026-10-18T11:32:31+00:00"
+      }
+    ],
+    "46": [
+      {
+        "rep": 0,
+        "text": "fly",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 958,
+          "total_tokens": 997,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 26.48181915283203
+        },
+        "latency_s": 18.72,
+        "at": "2026-10-18T11:32:50+00:00"
+      }
+    ],
+    "47": [
+      {
+        "rep": 0,
+        "text": "Sun",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 124,
+          "total_tokens": 163,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.736363649368286
+        },
+        "latency_s": 2.58,
+        "at": "2026-10-18T11:32:53+00:00"
+      }
+    ],
+    "48": [
+      {
+        "rep": 0,
+        "text": "conquer",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 374,
+          "total_tokens": 413,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 10.554545402526855
+        },
+        "latency_s": 32.88,
+        "at": "2026-10-18T11:33:25+00:00"
+      }
+    ],
+    "49": [
+      {
+        "rep": 0,
+        "text": "father",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 123,
+          "total_tokens": 162,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.7090907096862793
+        },
+        "latency_s": 1.31,
+        "at": "2026-10-18T11:33:27+00:00"
+      }
+    ],
+    "50": [
+      {
+        "rep": 0,
+        "text": "slave",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 200,
+          "total_tokens": 239,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.809091091156006
+        },
+        "latency_s": 4.42,
+        "at": "2026-10-18T11:33:31+00:00"
+      }
+    ],
+    "51": [
+      {
+        "rep": 0,
+        "text": "Tomb",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 206,
+          "total_tokens": 244,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.96363639831543
+        },
+        "latency_s": 1.56,
+        "at": "2026-10-18T11:33:33+00:00"
+      }
+    ],
+    "52": [
+      {
+        "rep": 0,
+        "text": "weep",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 239,
+          "total_tokens": 279,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.8818182945251465
+        },
+        "latency_s": 4.44,
+        "at": "2026-10-18T11:33:37+00:00"
+      }
+    ],
+    "53": [
+      {
+        "rep": 0,
+        "text": "Missile",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 438,
+          "total_tokens": 478,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 12.309090614318848
+        },
+        "latency_s": 9.86,
+        "at": "2026-10-18T11:33:47+00:00"
+      }
+    ],
+    "54": [
+      {
+        "rep": 0,
+        "text": "laugh",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 166,
+          "total_tokens": 205,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.8818182945251465
+        },
+        "latency_s": 3.17,
+        "at": "2026-10-18T11:33:50+00:00"
+      }
+    ],
+    "56": [
+      {
+        "rep": 0,
+        "text": "plane tree",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 210,
+          "total_tokens": 250,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.090909004211426
+        },
+        "latency_s": 1.53,
+        "at": "2026-10-18T11:36:23+00:00"
+      }
+    ],
+    "57": [
+      {
+        "rep": 0,
+        "text": "grain",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 203,
+          "total_tokens": 242,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.890909194946289
+        },
+        "latency_s": 4.0,
+        "at": "2026-10-18T11:36:27+00:00"
+      }
+    ],
+    "58": [
+      {
+        "rep": 0,
+        "text": "sky",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 537,
+          "total_tokens": 577,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 15.009090423583984
+        },
+        "latency_s": 14.33,
+        "at": "2026-10-18T11:36:41+00:00"
+      }
+    ],
+    "59": [
+      {
+        "rep": 0,
+        "text": "bread",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 127,
+          "total_tokens": 166,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.8181817531585693
+        },
+        "latency_s": 2.73,
+        "at": "2026-10-18T11:36:44+00:00"
+      }
+    ],
+    "60": [
+      {
+        "rep": 0,
+        "text": "silver",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 142,
+          "total_tokens": 182,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.236363887786865
+        },
+        "latency_s": 3.08,
+        "at": "2026-10-18T11:36:47+00:00"
+      }
+    ],
+    "61": [
+      {
+        "rep": 0,
+        "text": "live",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 149,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.418181896209717
+        },
+        "latency_s": 1.75,
+        "at": "2026-10-18T11:36:48+00:00"
+      }
+    ],
+    "62": [
+      {
+        "rep": 0,
+        "text": "save",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 167,
+          "total_tokens": 207,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.918181896209717
+        },
+        "latency_s": 3.44,
+        "at": "2026-10-18T11:36:52+00:00"
+      }
+    ],
+    "63": [
+      {
+        "rep": 0,
+        "text": "brother",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 111,
+          "total_tokens": 152,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.4000000953674316
+        },
+        "latency_s": 5.75,
+        "at": "2026-10-18T11:36:58+00:00"
+      }
+    ],
+    "64": [
+      {
+        "rep": 0,
+        "text": "drink",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 188,
+          "total_tokens": 227,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.481818199157715
+        },
+        "latency_s": 3.97,
+        "at": "2026-10-18T11:37:02+00:00"
+      }
+    ],
+    "65": [
+      {
+        "rep": 0,
+        "text": "say",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 532,
+          "total_tokens": 570,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 14.854545593261719
+        },
+        "latency_s": 10.3,
+        "at": "2026-10-18T11:37:12+00:00"
+      }
+    ],
+    "66": [
+      {
+        "rep": 0,
+        "text": "break",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 218,
+          "total_tokens": 259,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.318181991577148
+        },
+        "latency_s": 4.34,
+        "at": "2026-10-18T11:37:16+00:00"
+      }
+    ],
+    "67": [
+      {
+        "rep": 0,
+        "text": "make",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 432,
+          "total_tokens": 471,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 12.136363983154297
+        },
+        "latency_s": 9.3,
+        "at": "2026-10-18T11:37:26+00:00"
+      }
+    ],
+    "68": [
+      {
+        "rep": 0,
+        "text": "sail",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 150,
+          "total_tokens": 189,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.4454545974731445
+        },
+        "latency_s": 3.45,
+        "at": "2026-10-18T11:37:29+00:00"
+      }
+    ],
+    "69": [
+      {
+        "rep": 0,
+        "text": "mountain",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 95,
+          "total_tokens": 133,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.936363458633423
+        },
+        "latency_s": 2.33,
+        "at": "2026-10-18T11:37:31+00:00"
+      }
+    ],
+    "70": [
+      {
+        "rep": 0,
+        "text": "Stone",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 144,
+          "total_tokens": 182,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.2727274894714355
+        },
+        "latency_s": 1.67,
+        "at": "2026-10-18T11:37:33+00:00"
+      }
+    ],
+    "71": [
+      {
+        "rep": 0,
+        "text": "answer",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 186,
+          "total_tokens": 228,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.454545497894287
+        },
+        "latency_s": 2.14,
+        "at": "2026-10-18T11:37:35+00:00"
+      }
+    ],
+    "72": [
+      {
+        "rep": 0,
+        "text": "bark",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 173,
+          "total_tokens": 212,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.072727203369141
+        },
+        "latency_s": 3.47,
+        "at": "2026-10-18T11:37:39+00:00"
+      }
+    ],
+    "73": [
+      {
+        "rep": 0,
+        "text": "stay",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 477,
+          "total_tokens": 515,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 13.354545593261719
+        },
+        "latency_s": 14.53,
+        "at": "2026-10-18T11:37:53+00:00"
+      }
+    ],
+    "74": [
+      {
+        "rep": 0,
+        "text": "Ear",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 374,
+          "total_tokens": 413,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 10.554545402526855
+        },
+        "latency_s": 8.11,
+        "at": "2026-10-18T11:38:01+00:00"
+      }
+    ],
+    "75": [
+      {
+        "rep": 0,
+        "text": "man",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 203,
+          "total_tokens": 242,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.890909194946289
+        },
+        "latency_s": 4.33,
+        "at": "2026-10-18T11:38:06+00:00"
+      }
+    ],
+    "76": [
+      {
+        "rep": 0,
+        "text": "woman",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 169,
+          "total_tokens": 208,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.96363639831543
+        },
+        "latency_s": 3.7,
+        "at": "2026-10-18T11:38:09+00:00"
+      }
+    ],
+    "77": [
+      {
+        "rep": 0,
+        "text": "bow",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 127,
+          "total_tokens": 166,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.8181817531585693
+        },
+        "latency_s": 2.81,
+        "at": "2026-10-18T11:38:12+00:00"
+      }
+    ],
+    "78": [
+      {
+        "rep": 0,
+        "text": "name",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 128,
+          "total_tokens": 166,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.8363635540008545
+        },
+        "latency_s": 2.77,
+        "at": "2026-10-18T11:38:15+00:00"
+      }
+    ],
+    "79": [
+      {
+        "rep": 0,
+        "text": "Go",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 253,
+          "total_tokens": 292,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 7.25454568862915
+        },
+        "latency_s": 4.66,
+        "at": "2026-10-18T11:38:20+00:00"
+      }
+    ],
+    "80": [
+      {
+        "rep": 0,
+        "text": "pitch",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 127,
+          "total_tokens": 166,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.8181817531585693
+        },
+        "latency_s": 6.08,
+        "at": "2026-10-18T11:38:26+00:00"
+      }
+    ],
+    "81": [
+      {
+        "rep": 0,
+        "text": "metal",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 195,
+          "total_tokens": 235,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.68181848526001
+        },
+        "latency_s": 3.48,
+        "at": "2026-10-18T11:38:29+00:00"
+      }
+    ],
+    "82": [
+      {
+        "rep": 0,
+        "text": "army",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 181,
+          "total_tokens": 221,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.300000190734863
+        },
+        "latency_s": 1.84,
+        "at": "2026-10-18T11:38:31+00:00"
+      }
+    ],
+    "83": [
+      {
+        "rep": 0,
+        "text": "Marketplace",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 210,
+          "total_tokens": 249,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.081818103790283
+        },
+        "latency_s": 5.97,
+        "at": "2026-10-18T11:38:37+00:00"
+      }
+    ],
+    "84": [
+      {
+        "rep": 0,
+        "text": "sleep",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 228,
+          "total_tokens": 269,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.590909004211426
+        },
+        "latency_s": 6.64,
+        "at": "2026-10-18T11:38:44+00:00"
+      }
+    ],
+    "85": [
+      {
+        "rep": 0,
+        "text": "pray",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 1358,
+          "total_tokens": 1398,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 37.400001525878906
+        },
+        "latency_s": 35.14,
+        "at": "2026-10-18T11:39:19+00:00"
+      }
+    ],
+    "86": [
+      {
+        "rep": 0,
+        "text": "fly",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 122,
+          "total_tokens": 162,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.690908908843994
+        },
+        "latency_s": 3.02,
+        "at": "2026-10-18T11:39:22+00:00"
+      }
+    ],
+    "87": [
+      {
+        "rep": 0,
+        "text": "carry",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 478,
+          "total_tokens": 516,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 13.381817817687988
+        },
+        "latency_s": 9.03,
+        "at": "2026-10-18T11:39:31+00:00"
+      }
+    ],
+    "88": [
+      {
+        "rep": 0,
+        "text": "open",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 186,
+          "total_tokens": 226,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.436363697052002
+        },
+        "latency_s": 3.7,
+        "at": "2026-10-18T11:39:34+00:00"
+      }
+    ],
+    "89": [
+      {
+        "rep": 0,
+        "text": "dance",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 178,
+          "total_tokens": 217,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.2090911865234375
+        },
+        "latency_s": 4.3,
+        "at": "2026-10-18T11:39:39+00:00"
+      }
+    ],
+    "90": [
+      {
+        "rep": 0,
+        "text": "mother",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 107,
+          "total_tokens": 146,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.2727272510528564
+        },
+        "latency_s": 0.92,
+        "at": "2026-10-18T11:39:40+00:00"
+      }
+    ],
+    "91": [
+      {
+        "rep": 0,
+        "text": "gift",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 182,
+          "total_tokens": 221,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.318181991577148
+        },
+        "latency_s": 4.38,
+        "at": "2026-10-18T11:39:44+00:00"
+      }
+    ],
+    "92": [
+      {
+        "rep": 0,
+        "text": "steal",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 174,
+          "total_tokens": 214,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.109091281890869
+        },
+        "latency_s": 5.31,
+        "at": "2026-10-18T11:39:49+00:00"
+      }
+    ],
+    "93": [
+      {
+        "rep": 0,
+        "text": "Early",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 430,
+          "total_tokens": 470,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 12.090909004211426
+        },
+        "latency_s": 10.27,
+        "at": "2026-10-18T11:40:00+00:00"
+      }
+    ],
+    "95": [
+      {
+        "rep": 0,
+        "text": "weapons",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 225,
+          "total_tokens": 264,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.490909099578857
+        },
+        "latency_s": 4.89,
+        "at": "2026-10-18T11:42:43+00:00"
+      }
+    ],
+    "96": [
+      {
+        "rep": 0,
+        "text": "city",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 557,
+          "total_tokens": 596,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 15.545454978942871
+        },
+        "latency_s": 10.81,
+        "at": "2026-10-18T11:42:54+00:00"
+      }
+    ],
+    "97": [
+      {
+        "rep": 0,
+        "text": "take",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 163,
+          "total_tokens": 202,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.800000190734863
+        },
+        "latency_s": 1.22,
+        "at": "2026-10-18T11:42:55+00:00"
+      }
+    ],
+    "98": [
+      {
+        "rep": 0,
+        "text": "put",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 199,
+          "total_tokens": 238,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.781818389892578
+        },
+        "latency_s": 4.38,
+        "at": "2026-10-18T11:42:59+00:00"
+      }
+    ],
+    "99": [
+      {
+        "rep": 0,
+        "text": "Bank",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 912,
+          "total_tokens": 952,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 25.23636245727539
+        },
+        "latency_s": 17.23,
+        "at": "2026-10-18T11:43:16+00:00"
+      }
+    ],
+    "100": [
+      {
+        "rep": 0,
+        "text": "to lead",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 1386,
+          "total_tokens": 1427,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 38.172725677490234
+        },
+        "latency_s": 24.53,
+        "at": "2026-10-18T11:43:41+00:00"
+      }
+    ],
+    "101": [
+      {
+        "rep": 0,
+        "text": "fire",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 104,
+          "total_tokens": 143,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.190908908843994
+        },
+        "latency_s": 2.19,
+        "at": "2026-10-18T11:43:43+00:00"
+      }
+    ],
+    "102": [
+      {
+        "rep": 0,
+        "text": "fruit",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 134,
+          "total_tokens": 174,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.018181800842285
+        },
+        "latency_s": 3.02,
+        "at": "2026-10-18T11:43:46+00:00"
+      }
+    ],
+    "103": [
+      {
+        "rep": 0,
+        "text": "bear",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 88,
+          "total_tokens": 127,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.7545454502105713
+        },
+        "latency_s": 2.31,
+        "at": "2026-10-18T11:43:48+00:00"
+      }
+    ],
+    "104": [
+      {
+        "rep": 0,
+        "text": "buy",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 190,
+          "total_tokens": 231,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.5545454025268555
+        },
+        "latency_s": 6.66,
+        "at": "2026-10-18T11:43:55+00:00"
+      }
+    ],
+    "105": [
+      {
+        "rep": 0,
+        "text": "Word",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 907,
+          "total_tokens": 946,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 25.090909957885742
+        },
+        "latency_s": 19.97,
+        "at": "2026-10-18T11:44:15+00:00"
+      }
+    ],
+    "106": [
+      {
+        "rep": 0,
+        "text": "Victory",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 116,
+          "total_tokens": 154,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.5090909004211426
+        },
+        "latency_s": 3.44,
+        "at": "2026-10-18T11:44:18+00:00"
+      }
+    ],
+    "107": [
+      {
+        "rep": 0,
+        "text": "die",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 44,
+          "completion_tokens": 169,
+          "total_tokens": 213,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.009090900421143
+        },
+        "latency_s": 4.55,
+        "at": "2026-10-18T11:44:23+00:00"
+      }
+    ],
+    "108": [
+      {
+        "rep": 0,
+        "text": "village",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 158,
+          "total_tokens": 197,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.663636684417725
+        },
+        "latency_s": 3.36,
+        "at": "2026-10-18T11:44:26+00:00"
+      }
+    ],
+    "109": [
+      {
+        "rep": 0,
+        "text": "wine",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 103,
+          "total_tokens": 142,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.1636362075805664
+        },
+        "latency_s": 2.17,
+        "at": "2026-10-18T11:44:29+00:00"
+      }
+    ],
+    "110": [
+      {
+        "rep": 0,
+        "text": "soul",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 174,
+          "total_tokens": 213,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.100000381469727
+        },
+        "latency_s": 2.14,
+        "at": "2026-10-18T11:44:31+00:00"
+      }
+    ],
+    "111": [
+      {
+        "rep": 0,
+        "text": "loss",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 615,
+          "total_tokens": 654,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 17.127273559570312
+        },
+        "latency_s": 13.16,
+        "at": "2026-10-18T11:44:44+00:00"
+      }
+    ],
+    "112": [
+      {
+        "rep": 0,
+        "text": "Court",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 183,
+          "total_tokens": 224,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.363636493682861
+        },
+        "latency_s": 1.67,
+        "at": "2026-10-18T11:44:46+00:00"
+      }
+    ],
+    "113": [
+      {
+        "rep": 0,
+        "text": "shell",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 432,
+          "total_tokens": 473,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 12.154545783996582
+        },
+        "latency_s": 9.27,
+        "at": "2026-10-18T11:44:55+00:00"
+      }
+    ],
+    "114": [
+      {
+        "rep": 0,
+        "text": "Man",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 352,
+          "total_tokens": 392,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 9.96363639831543
+        },
+        "latency_s": 34.78,
+        "at": "2026-10-18T11:45:30+00:00"
+      }
+    ],
+    "115": [
+      {
+        "rep": 0,
+        "text": "Wolf",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 118,
+          "total_tokens": 156,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.563636302947998
+        },
+        "latency_s": 1.14,
+        "at": "2026-10-18T11:45:31+00:00"
+      }
+    ],
+    "116": [
+      {
+        "rep": 0,
+        "text": "left",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 167,
+          "total_tokens": 207,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.918181896209717
+        },
+        "latency_s": 17.09,
+        "at": "2026-10-18T11:45:48+00:00"
+      }
+    ],
+    "117": [
+      {
+        "rep": 0,
+        "text": "myth",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 285,
+          "total_tokens": 324,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 8.127272605895996
+        },
+        "latency_s": 1.89,
+        "at": "2026-10-18T11:45:50+00:00"
+      }
+    ],
+    "118": [
+      {
+        "rep": 0,
+        "text": "come",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 187,
+          "total_tokens": 227,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.46363639831543
+        },
+        "latency_s": 1.78,
+        "at": "2026-10-18T11:45:51+00:00"
+      }
+    ],
+    "119": [
+      {
+        "rep": 0,
+        "text": "close",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 164,
+          "total_tokens": 203,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.827272891998291
+        },
+        "latency_s": 6.3,
+        "at": "2026-10-18T11:45:58+00:00"
+      }
+    ],
+    "120": [
+      {
+        "rep": 0,
+        "text": "hate",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 206,
+          "total_tokens": 246,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.981818199157715
+        },
+        "latency_s": 3.31,
+        "at": "2026-10-18T11:46:01+00:00"
+      }
+    ],
+    "121": [
+      {
+        "rep": 0,
+        "text": "dog",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 112,
+          "total_tokens": 151,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.409090757369995
+        },
+        "latency_s": 1.25,
+        "at": "2026-10-18T11:46:02+00:00"
+      }
+    ],
+    "122": [
+      {
+        "rep": 0,
+        "text": "Trunk",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 220,
+          "total_tokens": 259,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.354545593261719
+        },
+        "latency_s": 5.48,
+        "at": "2026-10-18T11:46:08+00:00"
+      }
+    ],
+    "123": [
+      {
+        "rep": 0,
+        "text": "Beak",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 186,
+          "total_tokens": 226,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.436363697052002
+        },
+        "latency_s": 4.0,
+        "at": "2026-10-18T11:46:12+00:00"
+      }
+    ],
+    "124": [
+      {
+        "rep": 0,
+        "text": "sell",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 165,
+          "total_tokens": 205,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.863636493682861
+        },
+        "latency_s": 3.59,
+        "at": "2026-10-18T11:46:15+00:00"
+      }
+    ],
+    "125": [
+      {
+        "rep": 0,
+        "text": "disciple",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 553,
+          "total_tokens": 592,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 15.43636417388916
+        },
+        "latency_s": 11.25,
+        "at": "2026-10-18T11:46:27+00:00"
+      }
+    ],
+    "126": [
+      {
+        "rep": 0,
+        "text": "doctor",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 248,
+          "total_tokens": 288,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 7.127273082733154
+        },
+        "latency_s": 5.56,
+        "at": "2026-10-18T11:46:32+00:00"
+      }
+    ],
+    "127": [
+      {
+        "rep": 0,
+        "text": "command",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 440,
+          "total_tokens": 479,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 12.354545593261719
+        },
+        "latency_s": 9.39,
+        "at": "2026-10-18T11:46:42+00:00"
+      }
+    ],
+    "128": [
+      {
+        "rep": 0,
+        "text": "Give birth",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 768,
+          "total_tokens": 807,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 21.299999237060547
+        },
+        "latency_s": 28.58,
+        "at": "2026-10-18T11:47:10+00:00"
+      }
+    ],
+    "129": [
+      {
+        "rep": 0,
+        "text": "sit",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 247,
+          "total_tokens": 286,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 7.090909481048584
+        },
+        "latency_s": 6.75,
+        "at": "2026-10-18T11:47:17+00:00"
+      }
+    ],
+    "130": [
+      {
+        "rep": 0,
+        "text": "night",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 112,
+          "total_tokens": 151,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.409090757369995
+        },
+        "latency_s": 3.5,
+        "at": "2026-10-18T11:47:20+00:00"
+      }
+    ],
+    "131": [
+      {
+        "rep": 0,
+        "text": "ask",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 195,
+          "total_tokens": 235,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.68181848526001
+        },
+        "latency_s": 28.44,
+        "at": "2026-10-18T11:47:49+00:00"
+      }
+    ],
+    "132": [
+      {
+        "rep": 0,
+        "text": "seal",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 150,
+          "total_tokens": 189,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.4454545974731445
+        },
+        "latency_s": 4.72,
+        "at": "2026-10-18T11:47:54+00:00"
+      }
+    ],
+    "133": [
+      {
+        "rep": 0,
+        "text": "dwell",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 364,
+          "total_tokens": 404,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 10.290908813476562
+        },
+        "latency_s": 6.88,
+        "at": "2026-10-18T11:48:01+00:00"
+      }
+    ],
+    "134": [
+      {
+        "rep": 0,
+        "text": "hand",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 99,
+          "total_tokens": 137,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.045454502105713
+        },
+        "latency_s": 2.23,
+        "at": "2026-10-18T11:48:03+00:00"
+      }
+    ],
+    "135": [
+      {
+        "rep": 0,
+        "text": "star",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 154,
+          "total_tokens": 193,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.5545454025268555
+        },
+        "latency_s": 3.36,
+        "at": "2026-10-18T11:48:06+00:00"
+      }
+    ],
+    "136": [
+      {
+        "rep": 0,
+        "text": "race",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 850,
+          "total_tokens": 889,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 23.53636360168457
+        },
+        "latency_s": 16.3,
+        "at": "2026-10-18T11:48:22+00:00"
+      }
+    ],
+    "137": [
+      {
+        "rep": 0,
+        "text": "wonder",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 227,
+          "total_tokens": 268,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.563636302947998
+        },
+        "latency_s": 2.25,
+        "at": "2026-10-18T11:48:25+00:00"
+      }
+    ],
+    "139": [
+      {
+        "rep": 0,
+        "text": "reed",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 217,
+          "total_tokens": 256,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.2727274894714355
+        },
+        "latency_s": 4.92,
+        "at": "2026-10-18T11:51:52+00:00"
+      }
+    ],
+    "141": [
+      {
+        "rep": 0,
+        "text": "sacrifice",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 218,
+          "total_tokens": 257,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.300000190734863
+        },
+        "latency_s": 1.86,
+        "at": "2026-10-18T11:52:40+00:00"
+      }
+    ],
+    "142": [
+      {
+        "rep": 0,
+        "text": "ship",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 163,
+          "total_tokens": 202,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.800000190734863
+        },
+        "latency_s": 3.48,
+        "at": "2026-10-18T11:52:44+00:00"
+      }
+    ],
+    "143": [
+      {
+        "rep": 0,
+        "text": "think",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 667,
+          "total_tokens": 706,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 18.545454025268555
+        },
+        "latency_s": 15.05,
+        "at": "2026-10-18T11:52:59+00:00"
+      }
+    ],
+    "144": [
+      {
+        "rep": 0,
+        "text": "write",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 216,
+          "total_tokens": 254,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.236363887786865
+        },
+        "latency_s": 4.81,
+        "at": "2026-10-18T11:53:04+00:00"
+      }
+    ],
+    "145": [
+      {
+        "rep": 0,
+        "text": "Stone",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 276,
+          "total_tokens": 316,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 7.890909194946289
+        },
+        "latency_s": 5.64,
+        "at": "2026-10-18T11:53:09+00:00"
+      }
+    ],
+    "146": [
+      {
+        "rep": 0,
+        "text": "sing",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 177,
+          "total_tokens": 218,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.200000286102295
+        },
+        "latency_s": 3.89,
+        "at": "2026-10-18T11:53:13+00:00"
+      }
+    ],
+    "147": [
+      {
+        "rep": 0,
+        "text": "Downpour",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 1014,
+          "total_tokens": 1053,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 28.009090423583984
+        },
+        "latency_s": 7.58,
+        "at": "2026-10-18T11:53:21+00:00"
+      }
+    ],
+    "148": [
+      {
+        "rep": 0,
+        "text": "fountain",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 111,
+          "total_tokens": 150,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.3818180561065674
+        },
+        "latency_s": 2.56,
+        "at": "2026-10-18T11:53:23+00:00"
+      }
+    ],
+    "149": [
+      {
+        "rep": 0,
+        "text": "see",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 419,
+          "total_tokens": 459,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 11.790908813476562
+        },
+        "latency_s": 8.28,
+        "at": "2026-10-18T11:53:32+00:00"
+      }
+    ],
+    "150": [
+      {
+        "rep": 0,
+        "text": "wall",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 173,
+          "total_tokens": 212,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.072727203369141
+        },
+        "latency_s": 3.59,
+        "at": "2026-10-18T11:53:35+00:00"
+      }
+    ],
+    "151": [
+      {
+        "rep": 0,
+        "text": "Crowd",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 384,
+          "total_tokens": 424,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 10.836362838745117
+        },
+        "latency_s": 11.0,
+        "at": "2026-10-18T11:53:46+00:00"
+      }
+    ],
+    "152": [
+      {
+        "rep": 0,
+        "text": "Bat",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 163,
+          "total_tokens": 203,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.809091091156006
+        },
+        "latency_s": 5.98,
+        "at": "2026-10-18T11:53:52+00:00"
+      }
+    ],
+    "153": [
+      {
+        "rep": 0,
+        "text": "give",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 172,
+          "total_tokens": 212,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.0545454025268555
+        },
+        "latency_s": 4.5,
+        "at": "2026-10-18T11:53:57+00:00"
+      }
+    ],
+    "154": [
+      {
+        "rep": 0,
+        "text": "Temple",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 165,
+          "total_tokens": 203,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.845454692840576
+        },
+        "latency_s": 4.52,
+        "at": "2026-10-18T11:54:01+00:00"
+      }
+    ],
+    "155": [
+      {
+        "rep": 0,
+        "text": "I want",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 1253,
+          "total_tokens": 1293,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 34.53636169433594
+        },
+        "latency_s": 26.81,
+        "at": "2026-10-18T11:54:28+00:00"
+      }
+    ],
+    "156": [
+      {
+        "rep": 0,
+        "text": "seal",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 150,
+          "total_tokens": 191,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.46363639831543
+        },
+        "latency_s": 1.55,
+        "at": "2026-10-18T11:54:30+00:00"
+      }
+    ],
+    "157": [
+      {
+        "rep": 0,
+        "text": "ear",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 133,
+          "total_tokens": 172,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.981818199157715
+        },
+        "latency_s": 2.86,
+        "at": "2026-10-18T11:54:32+00:00"
+      }
+    ],
+    "158": [
+      {
+        "rep": 0,
+        "text": "Lead",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 193,
+          "total_tokens": 233,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.627273082733154
+        },
+        "latency_s": 4.41,
+        "at": "2026-10-18T11:54:37+00:00"
+      }
+    ],
+    "159": [
+      {
+        "rep": 0,
+        "text": "army",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 144,
+          "total_tokens": 183,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.281818389892578
+        },
+        "latency_s": 3.17,
+        "at": "2026-10-18T11:54:40+00:00"
+      }
+    ],
+    "160": [
+      {
+        "rep": 0,
+        "text": "wind",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 95,
+          "total_tokens": 134,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.9454543590545654
+        },
+        "latency_s": 2.14,
+        "at": "2026-10-18T11:54:42+00:00"
+      }
+    ],
+    "161": [
+      {
+        "rep": 0,
+        "text": "Letter",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 269,
+          "total_tokens": 309,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 7.700000286102295
+        },
+        "latency_s": 5.52,
+        "at": "2026-10-18T11:54:48+00:00"
+      }
+    ],
+    "162": [
+      {
+        "rep": 0,
+        "text": "time",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 120,
+          "total_tokens": 159,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.627272605895996
+        },
+        "latency_s": 2.55,
+        "at": "2026-10-18T11:54:50+00:00"
+      }
+    ],
+    "163": [
+      {
+        "rep": 0,
+        "text": "covenant",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 2225,
+          "total_tokens": 2264,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 61.0363655090332
+        },
+        "latency_s": 44.12,
+        "at": "2026-10-18T11:55:34+00:00"
+      }
+    ],
+    "164": [
+      {
+        "rep": 0,
+        "text": "Spring",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 131,
+          "total_tokens": 169,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.9181816577911377
+        },
+        "latency_s": 4.88,
+        "at": "2026-10-18T11:55:39+00:00"
+      }
+    ],
+    "165": [
+      {
+        "rep": 0,
+        "text": "heart",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 124,
+          "total_tokens": 163,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.736363649368286
+        },
+        "latency_s": 6.83,
+        "at": "2026-10-18T11:55:46+00:00"
+      }
+    ],
+    "166": [
+      {
+        "rep": 0,
+        "text": "Lot",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 339,
+          "total_tokens": 379,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 9.609090805053711
+        },
+        "latency_s": 3.27,
+        "at": "2026-10-18T11:55:49+00:00"
+      }
+    ],
+    "167": [
+      {
+        "rep": 0,
+        "text": "do",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 210,
+          "total_tokens": 250,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.090909004211426
+        },
+        "latency_s": 4.81,
+        "at": "2026-10-18T11:55:54+00:00"
+      }
+    ],
+    "168": [
+      {
+        "rep": 0,
+        "text": "river",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 86,
+          "total_tokens": 125,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.6999998092651367
+        },
+        "latency_s": 1.23,
+        "at": "2026-10-18T11:55:55+00:00"
+      }
+    ],
+    "169": [
+      {
+        "rep": 0,
+        "text": "bank",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 377,
+          "total_tokens": 416,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 10.636363983154297
+        },
+        "latency_s": 7.48,
+        "at": "2026-10-18T11:56:03+00:00"
+      }
+    ],
+    "170": [
+      {
+        "rep": 0,
+        "text": "extremities",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 3598,
+          "total_tokens": 3636,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 98.47272491455078
+        },
+        "latency_s": 22.22,
+        "at": "2026-10-18T11:56:25+00:00"
+      }
+    ],
+    "171": [
+      {
+        "rep": 0,
+        "text": "hope",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 378,
+          "total_tokens": 419,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 10.681818008422852
+        },
+        "latency_s": 9.66,
+        "at": "2026-10-18T11:56:35+00:00"
+      }
+    ],
+    "172": [
+      {
+        "rep": 0,
+        "text": "foot",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 137,
+          "total_tokens": 175,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.081818103790283
+        },
+        "latency_s": 1.08,
+        "at": "2026-10-18T11:56:36+00:00"
+      }
+    ],
+    "173": [
+      {
+        "rep": 0,
+        "text": "eat",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 162,
+          "total_tokens": 203,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.790909290313721
+        },
+        "latency_s": 3.69,
+        "at": "2026-10-18T11:56:39+00:00"
+      }
+    ],
+    "174": [
+      {
+        "rep": 0,
+        "text": "Staffs",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 513,
+          "total_tokens": 552,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 14.345455169677734
+        },
+        "latency_s": 4.36,
+        "at": "2026-10-18T11:56:44+00:00"
+      }
+    ],
+    "175": [
+      {
+        "rep": 0,
+        "text": "swear",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 391,
+          "total_tokens": 432,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 11.03636360168457
+        },
+        "latency_s": 49.39,
+        "at": "2026-10-18T11:57:33+00:00"
+      }
+    ],
+    "176": [
+      {
+        "rep": 0,
+        "text": "palm",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 94,
+          "total_tokens": 133,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 2.9181816577911377
+        },
+        "latency_s": 2.16,
+        "at": "2026-10-18T11:57:35+00:00"
+      }
+    ],
+    "177": [
+      {
+        "rep": 0,
+        "text": "mint",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 133,
+          "total_tokens": 172,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.981818199157715
+        },
+        "latency_s": 1.53,
+        "at": "2026-10-18T11:57:37+00:00"
+      }
+    ],
+    "178": [
+      {
+        "rep": 0,
+        "text": "Ark",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 228,
+          "total_tokens": 268,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.581818103790283
+        },
+        "latency_s": 5.47,
+        "at": "2026-10-18T11:57:42+00:00"
+      }
+    ],
+    "179": [
+      {
+        "rep": 0,
+        "text": "honey",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 103,
+          "total_tokens": 141,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.154545307159424
+        },
+        "latency_s": 2.62,
+        "at": "2026-10-18T11:57:45+00:00"
+      }
+    ],
+    "180": [
+      {
+        "rep": 0,
+        "text": "tear",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 145,
+          "total_tokens": 184,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.309091091156006
+        },
+        "latency_s": 3.47,
+        "at": "2026-10-18T11:57:48+00:00"
+      }
+    ],
+    "181": [
+      {
+        "rep": 0,
+        "text": "stern",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 158,
+          "total_tokens": 198,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.672727584838867
+        },
+        "latency_s": 4.08,
+        "at": "2026-10-18T11:57:53+00:00"
+      }
+    ],
+    "182": [
+      {
+        "rep": 0,
+        "text": "King",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 41,
+          "completion_tokens": 139,
+          "total_tokens": 180,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.163636207580566
+        },
+        "latency_s": 3.14,
+        "at": "2026-10-18T11:57:56+00:00"
+      }
+    ],
+    "183": [
+      {
+        "rep": 0,
+        "text": "bed",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 253,
+          "total_tokens": 291,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 7.245454788208008
+        },
+        "latency_s": 4.88,
+        "at": "2026-10-18T11:58:01+00:00"
+      }
+    ],
+    "184": [
+      {
+        "rep": 0,
+        "text": "harm",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 219,
+          "total_tokens": 259,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.336363792419434
+        },
+        "latency_s": 5.3,
+        "at": "2026-10-18T11:58:06+00:00"
+      }
+    ],
+    "185": [
+      {
+        "rep": 0,
+        "text": "child",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 176,
+          "total_tokens": 214,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.1454548835754395
+        },
+        "latency_s": 5.73,
+        "at": "2026-10-18T11:58:12+00:00"
+      }
+    ],
+    "186": [
+      {
+        "rep": 0,
+        "text": "Plunder",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 461,
+          "total_tokens": 500,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 12.92727279663086
+        },
+        "latency_s": 8.91,
+        "at": "2026-10-18T11:58:21+00:00"
+      }
+    ],
+    "187": [
+      {
+        "rep": 0,
+        "text": "spear",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 173,
+          "total_tokens": 211,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.063636302947998
+        },
+        "latency_s": 5.42,
+        "at": "2026-10-18T11:58:26+00:00"
+      }
+    ],
+    "188": [
+      {
+        "rep": 0,
+        "text": "learn",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 180,
+          "total_tokens": 220,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.2727274894714355
+        },
+        "latency_s": 6.14,
+        "at": "2026-10-18T11:58:32+00:00"
+      }
+    ],
+    "189": [
+      {
+        "rep": 0,
+        "text": "Lie",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 204,
+          "total_tokens": 243,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.918181896209717
+        },
+        "latency_s": 7.19,
+        "at": "2026-10-18T11:58:39+00:00"
+      }
+    ],
+    "190": [
+      {
+        "rep": 0,
+        "text": "sow",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 174,
+          "total_tokens": 214,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.109091281890869
+        },
+        "latency_s": 1.72,
+        "at": "2026-10-18T11:58:41+00:00"
+      }
+    ],
+    "191": [
+      {
+        "rep": 0,
+        "text": "arms",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 272,
+          "total_tokens": 312,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 7.781818389892578
+        },
+        "latency_s": 4.38,
+        "at": "2026-10-18T11:58:45+00:00"
+      }
+    ],
+    "192": [
+      {
+        "rep": 0,
+        "text": "flower",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 133,
+          "total_tokens": 172,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.981818199157715
+        },
+        "latency_s": 3.69,
+        "at": "2026-10-18T11:58:49+00:00"
+      }
+    ],
+    "193": [
+      {
+        "rep": 0,
+        "text": "ox",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 234,
+          "total_tokens": 273,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 6.736363887786865
+        },
+        "latency_s": 4.92,
+        "at": "2026-10-18T11:58:54+00:00"
+      }
+    ],
+    "194": [
+      {
+        "rep": 0,
+        "text": "head",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 118,
+          "total_tokens": 157,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.5727272033691406
+        },
+        "latency_s": 1.02,
+        "at": "2026-10-18T11:58:55+00:00"
+      }
+    ],
+    "195": [
+      {
+        "rep": 0,
+        "text": "Peace",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 111,
+          "total_tokens": 151,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 3.39090895652771
+        },
+        "latency_s": 3.91,
+        "at": "2026-10-18T11:58:59+00:00"
+      }
+    ],
+    "196": [
+      {
+        "rep": 0,
+        "text": "god",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 168,
+          "total_tokens": 206,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.927272796630859
+        },
+        "latency_s": 3.88,
+        "at": "2026-10-18T11:59:03+00:00"
+      }
+    ],
+    "197": [
+      {
+        "rep": 0,
+        "text": "swallow",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 147,
+          "total_tokens": 187,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.372727394104004
+        },
+        "latency_s": 5.02,
+        "at": "2026-10-18T11:59:08+00:00"
+      }
+    ],
+    "198": [
+      {
+        "rep": 0,
+        "text": "Fasting",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 162,
+          "total_tokens": 201,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 4.7727274894714355
+        },
+        "latency_s": 3.91,
+        "at": "2026-10-18T11:59:12+00:00"
+      }
+    ],
+    "199": [
+      {
+        "rep": 0,
+        "text": "kill",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 42,
+          "completion_tokens": 200,
+          "total_tokens": 242,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.836363792419434
+        },
+        "latency_s": 5.73,
+        "at": "2026-10-18T11:59:17+00:00"
+      }
+    ],
+    "200": [
+      {
+        "rep": 0,
+        "text": "Light",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 203,
+          "total_tokens": 243,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 5.900000095367432
+        },
+        "latency_s": 4.83,
+        "at": "2026-10-18T11:59:22+00:00"
+      }
+    ],
+    "94": [
+      {
+        "rep": 0,
+        "text": "race",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 2038,
+          "total_tokens": 2077,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 55.936363220214844
+        },
+        "latency_s": 46.7,
+        "at": "2026-10-19T09:10:35+00:00"
+      }
+    ],
+    "138": [
+      {
+        "rep": 0,
+        "text": "wake",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 3723,
+          "total_tokens": 3763,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 101.9000015258789
+        },
+        "latency_s": 89.02,
+        "at": "2026-10-19T09:12:04+00:00"
+      }
+    ],
+    "140": [
+      {
+        "rep": 0,
+        "text": "I lie",
+        "model_returned": "@cf/google/gemma-4-26b-a4b-it",
+        "finish_reason": "stop",
+        "max_tokens": 8000,
+        "usage": {
+          "prompt_tokens": 39,
+          "completion_tokens": 1499,
+          "total_tokens": 1538,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 41.23636245727539
+        },
+        "latency_s": 34.78,
+        "at": "2026-10-19T09:12:39+00:00"
+      }
+    ]
+  },
+  "errors": {
+    "55": [
+      {
+        "rep": 0,
+        "error": "empty answer (length)",
+        "at": "2026-10-18T11:36:21+00:00"
+      },
+      {
+        "rep": 0,
+        "error": "empty answer (length)",
+        "at": "2026-10-19T09:09:48+00:00"
+      },
+      {
+        "rep": 0,
+        "error": "empty answer (length)",
+        "at": "2026-10-19T09:38:47+00:00"
+      },
+      {
+        "rep": 0,
+        "error": "empty answer (length)",
+        "at": "2026-10-19T10:12:15+00:00"
+      }
+    ]
+  }
+}

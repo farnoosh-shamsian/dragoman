@@ -15,7 +15,9 @@ traps: their usual English translation has a second meaning that the Greek word 
 φώκη is a seal, the animal, but English *seal* is also a stamp. A model that answers مهر
 ("stamp") has probably gone through the English word.
 
-The traps rarely fire (under 1% of answers in every model), but English does leak in. Some
+The traps rarely fire (under 1% of answers in every model), although the same models fall
+into them 29–80% of the time when they are made to go through their own English word. Still,
+English does leak in. Some
 Greek words get read as English words they sound like (πίσσα "pitch" becomes ادرار, via
 *piss*), some answers are English words written in Persian letters (فاکس, *fox*, for φοῖνιξ),
 some start in Persian and finish in English (کilling for ἀποκτείνω), and now and then, mostly

@@ -6,14 +6,13 @@ Do language models translate Ancient Greek into Persian **via English**? This is
 pilot study. It started with single words and four open-weight models, and I keep adding models
 and tests, so some of the results here are unfinished.
 
-Done so far: the direct run, the temperature test and the kinship test (section 4) on eight
-open-weight models (ALLaM only in the word-list tests). The first four (GPT-OSS 120B,
-GPT-OSS 20B, Qwen 3.8 27B, ALLaM 2 7B) also have the forced pivot; the four added later
-(Llama 3.3 70B, Llama 3.1 8B, Mistral Small 3.1 24B, Gemma 4 26B) do not yet.
+Done so far: the direct run, the forced pivot, the temperature test and the kinship test
+(section 4) on eight open-weight models: GPT-OSS 120B, GPT-OSS 20B, Qwen 3.8 27B, ALLaM 2 7B,
+Llama 3.3 70B, Llama 3.1 8B, Mistral Small 3.1 24B and Gemma 4 26B. ALLaM is in the
+word-list tests only, and GPT-OSS 20B has no pivot step 2.
 
 Still open:
-- the forced pivot for the four newer models;
-- a hand check of the newer models' answers. Their counts below come from the automatic check
+- a hand check of the four newer models' answers. Their counts below come from the automatic check
   plus a targeted search for the traces already known, so some hits may still be missing.
 
 ## Design
@@ -52,15 +51,22 @@ fires whenever the English ambiguity wins.
 | Qwen 3.8 27B | 0 / 231 (0%) | 27 / 77 (35.1%) | 25 / 36 (69.4%) | 0 / 108 (0%) |
 | GPT-OSS 20B | 0 / 231 (0%) | not run | – | 0 / 72 (0%) |
 | ALLaM 2 7B | 0 / 231 (0%) | 3 / 77 (3.9%) | 3 / 26 (11.5%) | 0 / 78 (0%) |
-| Gemma 4 26B | 0 / 230 (0%) | not run | – | – |
-| Llama 3.3 70B | 2 / 231 (0.9%) | not run | – | – |
-| Llama 3.1 8B | 1 / 231 (0.4%) | not run | – | – |
-| Mistral Small 3.1 24B | 1 / 231 (0.4%) | not run | – | – |
+| Gemma 4 26B | 0 / 230 (0%) | 33 / 72 (45.8%) | 31 / 39 (79.5%) | 0 / 120 (0%) |
+| Llama 3.3 70B | 2 / 231 (0.9%) | 18 / 77 (23.4%) | 18 / 44 (40.9%) | 0 / 132 (0%) |
+| Mistral Small 3.1 24B | 1 / 231 (0.4%) | 14 / 77 (18.2%) | 14 / 49 (28.6%) | 0 / 147 (0%) |
+| Llama 3.1 8B | 1 / 231 (0.4%) | 4 / 77 (5.2%) | 4 / 36 (11.1%) | 1 / 108 (0.9%) |
 
 The "own English word = trap word" columns keep only the traps where the model's step-1 English
 word was the ambiguous one (*bank*, *seal*, *temple*…). When the route really runs through that
-word, the English-only sense comes out about two times in three. The direct answers almost
-never show it, in any of the eight models.
+word, the English-only sense comes out in 29–80% of cases for the stronger models (11–12% for
+the weakest two, ALLaM and Llama 3.1 8B). The direct answers on the same words almost never
+show it, in any of the eight models.
+
+Gemma gives the sharpest contrast. Given the English word alone, it lists its English senses
+side by side (*ring* → انگشتر، حلقه، زنگ; *bark* → پوست درخت، پارس کردن; *seal* → فک، مهر),
+so the trap fires in 4 of 5 cases. Translating straight from the Greek, it never does (0 of
+120). Gemma's pivot has 72 of the 77 traps: on a few short English words (*island*, *tomb*,
+*crowd*, *letter*) and on one Greek word (ἔριφος) it ran past its token limit every time.
 
 How well the models know the words. This is the automatic check: the expected Persian word
 appears anywhere in the answer, or as its first word.
@@ -268,8 +274,8 @@ route that all models take in the same way. Next I want to look at whole passage
 | Test | Source files | Prompt | Models | Samples | Temperature |
 | --- | --- | --- | --- | --- | --- |
 | Direct: Greek → Persian | `greek-words` | `words-neutral` | all 8 | 3 | 0.7 |
-| Pivot step 1: Greek → English | `greek-words` | `words-pivot-en` | first 4 | 1 | 0.2 |
-| Pivot step 2: own English word → Persian | `greek-words-pivot-*` | `words-pivot-fa` | ALLaM, GPT-OSS 120B, Qwen | 1 | 0.2 |
+| Pivot step 1: Greek → English | `greek-words` | `words-pivot-en` | all 8 | 1 | 0.2 |
+| Pivot step 2: own English word → Persian | `greek-words-pivot-*` | `words-pivot-fa` | all except GPT-OSS 20B | 1 | 0.2 |
 | Temperature: 9 items from the direct run | `greek-words-temp*` | `words-neutral` | all except ALLaM | 5 | 0, 0.7, 1.0, 1.5, 2.0 |
 | Kinship, one word per request | `kinship-words-temp*` | `words-neutral` | GPT-OSS 120B, Llama 3.3 70B, Qwen and Gemma (thinking on and off); at 0 only: GPT-OSS 20B, Llama 3.1 8B, Mistral | 1 / 3 / 3 | 0, 0.7, 1.0 |
 | Kinship, embedded in lists of 12 | `kinship-lists-temp*` | `words-list` | as above, but Gemma with thinking on only at 0 | 1 / 3 / 3 | 0, 0.7, 1.0 |
@@ -293,6 +299,10 @@ The four models added later are `@cf/meta/llama-3.3-70b-instruct-fp8-fast`,
 - Kinship ran on 17 October 2026. Gemma's token limit was raised from 3000 to 8000 for it
   (the direct run used 3000). "Gemma 4 26B (no thinking)" is the same model with
   `chat_template_kwargs = { enable_thinking = false }` and a limit of 1500 tokens.
+- The forced pivot ran 18–19 October 2026, Gemma with thinking on (as in its direct run): step
+  1 with a limit of 8000 tokens, step 2 with 3000. Gemma's step 2 has 186 of its 199 English
+  words; the other 13 (among them *horse*, *bread*, *mountain*, *night*) ran past the limit
+  every time, while no answer that came back used more than 2445 tokens.
 
 ## Note
 

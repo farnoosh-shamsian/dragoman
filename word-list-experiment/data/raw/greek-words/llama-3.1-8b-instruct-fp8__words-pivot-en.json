@@ -1,0 +1,4027 @@
+{
+  "passage": {
+    "id": "greek-words",
+    "title": "Greek word list (traps and fillers)",
+    "ref": "data/key.csv",
+    "lang": "grc"
+  },
+  "model": {
+    "id": "llama-3.1-8b-instruct-fp8",
+    "api_id": "@cf/meta/llama-3.1-8b-instruct-fp8",
+    "label": "Llama 3.1 8B",
+    "family": "Meta Llama",
+    "weights": "open",
+    "provider": "cloudflare"
+  },
+  "prompt": {
+    "name": "words-pivot-en"
+  },
+  "params": {
+    "temperature": 0.2,
+    "max_tokens": 1024,
+    "seed": null
+  },
+  "runs": {
+    "1": [
+      {
+        "rep": 0,
+        "text": "farmer",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.91,
+        "at": "2026-10-18T11:29:29+00:00"
+      }
+    ],
+    "2": [
+      {
+        "rep": 0,
+        "text": "house",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.44,
+        "at": "2026-10-18T11:29:29+00:00"
+      }
+    ],
+    "3": [
+      {
+        "rep": 0,
+        "text": "Phoenician",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 4,
+          "total_tokens": 38,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5729777198284864
+        },
+        "latency_s": 0.61,
+        "at": "2026-10-18T11:29:30+00:00"
+      }
+    ],
+    "4": [
+      {
+        "rep": 0,
+        "text": "flute",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 3,
+          "total_tokens": 38,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.560628148727119
+        },
+        "latency_s": 0.67,
+        "at": "2026-10-18T11:29:31+00:00"
+      }
+    ],
+    "5": [
+      {
+        "rep": 0,
+        "text": "Priest",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 3,
+          "total_tokens": 38,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.560628148727119
+        },
+        "latency_s": 0.69,
+        "at": "2026-10-18T11:29:31+00:00"
+      }
+    ],
+    "6": [
+      {
+        "rep": 0,
+        "text": "throw",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.44,
+        "at": "2026-10-18T11:29:32+00:00"
+      }
+    ],
+    "7": [
+      {
+        "rep": 0,
+        "text": "chest",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.66,
+        "at": "2026-10-18T11:29:33+00:00"
+      }
+    ],
+    "8": [
+      {
+        "rep": 0,
+        "text": "pursue",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 4,
+          "total_tokens": 38,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5729777198284864
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-18T11:29:33+00:00"
+      }
+    ],
+    "9": [
+      {
+        "rep": 0,
+        "text": "create",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.78,
+        "at": "2026-10-18T11:29:34+00:00"
+      }
+    ],
+    "10": [
+      {
+        "rep": 0,
+        "text": "Law",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 2,
+          "total_tokens": 34,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.49316495284438133
+        },
+        "latency_s": 0.64,
+        "at": "2026-10-18T11:29:35+00:00"
+      }
+    ],
+    "11": [
+      {
+        "rep": 0,
+        "text": "body",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.45,
+        "at": "2026-10-18T11:29:35+00:00"
+      }
+    ],
+    "12": [
+      {
+        "rep": 0,
+        "text": "Call",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.7,
+        "at": "2026-10-18T11:29:36+00:00"
+      }
+    ],
+    "13": [
+      {
+        "rep": 0,
+        "text": "Justice",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 2,
+          "total_tokens": 34,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.49316495284438133
+        },
+        "latency_s": 0.8,
+        "at": "2026-10-18T11:29:37+00:00"
+      }
+    ],
+    "14": [
+      {
+        "rep": 0,
+        "text": "I have",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.45,
+        "at": "2026-10-18T11:29:37+00:00"
+      }
+    ],
+    "15": [
+      {
+        "rep": 0,
+        "text": "Horse",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.86,
+        "at": "2026-10-18T11:29:38+00:00"
+      }
+    ],
+    "16": [
+      {
+        "rep": 0,
+        "text": "run",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 2,
+          "total_tokens": 34,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.49316495284438133
+        },
+        "latency_s": 0.61,
+        "at": "2026-10-18T11:29:38+00:00"
+      }
+    ],
+    "17": [
+      {
+        "rep": 0,
+        "text": "Crown",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.61,
+        "at": "2026-10-18T11:29:39+00:00"
+      }
+    ],
+    "18": [
+      {
+        "rep": 0,
+        "text": "Fear",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.75,
+        "at": "2026-10-18T11:29:40+00:00"
+      }
+    ],
+    "19": [
+      {
+        "rep": 0,
+        "text": "love",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.78,
+        "at": "2026-10-18T11:29:41+00:00"
+      }
+    ],
+    "20": [
+      {
+        "rep": 0,
+        "text": "Light",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-18T11:29:41+00:00"
+      }
+    ],
+    "21": [
+      {
+        "rep": 0,
+        "text": "day",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.59,
+        "at": "2026-10-18T11:29:42+00:00"
+      }
+    ],
+    "22": [
+      {
+        "rep": 0,
+        "text": "snow",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 2,
+          "total_tokens": 34,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.49316495284438133
+        },
+        "latency_s": 0.45,
+        "at": "2026-10-18T11:29:42+00:00"
+      }
+    ],
+    "23": [
+      {
+        "rep": 0,
+        "text": "swift",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-18T11:29:43+00:00"
+      }
+    ],
+    "24": [
+      {
+        "rep": 0,
+        "text": "Dagger",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.92,
+        "at": "2026-10-18T11:29:44+00:00"
+      }
+    ],
+    "25": [
+      {
+        "rep": 0,
+        "text": "death",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.91,
+        "at": "2026-10-18T11:29:45+00:00"
+      }
+    ],
+    "26": [
+      {
+        "rep": 0,
+        "text": "slave",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 2,
+          "total_tokens": 34,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.49316495284438133
+        },
+        "latency_s": 0.44,
+        "at": "2026-10-18T11:29:45+00:00"
+      }
+    ],
+    "27": [
+      {
+        "rep": 0,
+        "text": "Vessel",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 3,
+          "total_tokens": 39,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5744065549224615
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-18T11:29:46+00:00"
+      }
+    ],
+    "28": [
+      {
+        "rep": 0,
+        "text": "hear",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-18T11:29:46+00:00"
+      }
+    ],
+    "29": [
+      {
+        "rep": 0,
+        "text": "see",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.72,
+        "at": "2026-10-18T11:29:47+00:00"
+      }
+    ],
+    "30": [
+      {
+        "rep": 0,
+        "text": "Moon",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.59,
+        "at": "2026-10-18T11:29:47+00:00"
+      }
+    ],
+    "31": [
+      {
+        "rep": 0,
+        "text": "ring",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.47,
+        "at": "2026-10-18T11:29:48+00:00"
+      }
+    ],
+    "32": [
+      {
+        "rep": 0,
+        "text": "door",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.42,
+        "at": "2026-10-18T11:29:48+00:00"
+      }
+    ],
+    "33": [
+      {
+        "rep": 0,
+        "text": "Claw",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 3,
+          "total_tokens": 38,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.560628148727119
+        },
+        "latency_s": 0.58,
+        "at": "2026-10-18T11:29:49+00:00"
+      }
+    ],
+    "34": [
+      {
+        "rep": 0,
+        "text": "persuade",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 4,
+          "total_tokens": 38,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5729777198284864
+        },
+        "latency_s": 1.16,
+        "at": "2026-10-18T11:29:50+00:00"
+      }
+    ],
+    "35": [
+      {
+        "rep": 0,
+        "text": "plant",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.59,
+        "at": "2026-10-18T11:29:51+00:00"
+      }
+    ],
+    "36": [
+      {
+        "rep": 0,
+        "text": "Gold",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.69,
+        "at": "2026-10-18T11:29:51+00:00"
+      }
+    ],
+    "37": [
+      {
+        "rep": 0,
+        "text": "Snake",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.56,
+        "at": "2026-10-18T11:29:52+00:00"
+      }
+    ],
+    "38": [
+      {
+        "rep": 0,
+        "text": "teach",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 3,
+          "total_tokens": 38,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.560628148727119
+        },
+        "latency_s": 0.47,
+        "at": "2026-10-18T11:29:52+00:00"
+      }
+    ],
+    "39": [
+      {
+        "rep": 0,
+        "text": "send",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.44,
+        "at": "2026-10-18T11:29:53+00:00"
+      }
+    ],
+    "40": [
+      {
+        "rep": 0,
+        "text": "water",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.39,
+        "at": "2026-10-18T11:29:53+00:00"
+      }
+    ],
+    "41": [
+      {
+        "rep": 0,
+        "text": "fall",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.44,
+        "at": "2026-10-18T11:29:54+00:00"
+      }
+    ],
+    "42": [
+      {
+        "rep": 0,
+        "text": "know",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.45,
+        "at": "2026-10-18T11:29:54+00:00"
+      }
+    ],
+    "43": [
+      {
+        "rep": 0,
+        "text": "Iron",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-18T11:29:55+00:00"
+      }
+    ],
+    "44": [
+      {
+        "rep": 0,
+        "text": "build",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 2,
+          "total_tokens": 39,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.562056983821094
+        },
+        "latency_s": 0.38,
+        "at": "2026-10-18T11:29:55+00:00"
+      }
+    ],
+    "45": [
+      {
+        "rep": 0,
+        "text": "Island",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 1.3,
+        "at": "2026-10-18T11:29:56+00:00"
+      }
+    ],
+    "46": [
+      {
+        "rep": 0,
+        "text": "I fall",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-18T11:29:57+00:00"
+      }
+    ],
+    "47": [
+      {
+        "rep": 0,
+        "text": "Sun",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.39,
+        "at": "2026-10-18T11:29:57+00:00"
+      }
+    ],
+    "48": [
+      {
+        "rep": 0,
+        "text": "conquer",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.59,
+        "at": "2026-10-18T11:29:58+00:00"
+      }
+    ],
+    "49": [
+      {
+        "rep": 0,
+        "text": "Father",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.56,
+        "at": "2026-10-18T11:29:58+00:00"
+      }
+    ],
+    "50": [
+      {
+        "rep": 0,
+        "text": "Slave",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.89,
+        "at": "2026-10-18T11:29:59+00:00"
+      }
+    ],
+    "51": [
+      {
+        "rep": 0,
+        "text": "tomb",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.45,
+        "at": "2026-10-18T11:30:00+00:00"
+      }
+    ],
+    "52": [
+      {
+        "rep": 0,
+        "text": "weep",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.76,
+        "at": "2026-10-18T11:30:00+00:00"
+      }
+    ],
+    "53": [
+      {
+        "rep": 0,
+        "text": "Furrow",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 4,
+          "total_tokens": 39,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.586756126023829
+        },
+        "latency_s": 0.75,
+        "at": "2026-10-18T11:30:01+00:00"
+      }
+    ],
+    "54": [
+      {
+        "rep": 0,
+        "text": "laugh",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.45,
+        "at": "2026-10-18T11:30:02+00:00"
+      }
+    ],
+    "55": [
+      {
+        "rep": 0,
+        "text": "heifer",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 3,
+          "total_tokens": 38,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.560628148727119
+        },
+        "latency_s": 0.7,
+        "at": "2026-10-18T11:30:02+00:00"
+      }
+    ],
+    "56": [
+      {
+        "rep": 0,
+        "text": "plane tree",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-18T11:30:03+00:00"
+      }
+    ],
+    "57": [
+      {
+        "rep": 0,
+        "text": "grain",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.59,
+        "at": "2026-10-18T11:30:03+00:00"
+      }
+    ],
+    "58": [
+      {
+        "rep": 0,
+        "text": "heaven",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.61,
+        "at": "2026-10-18T11:30:04+00:00"
+      }
+    ],
+    "59": [
+      {
+        "rep": 0,
+        "text": "Bread",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.53,
+        "at": "2026-10-18T11:30:05+00:00"
+      }
+    ],
+    "60": [
+      {
+        "rep": 0,
+        "text": "Silver",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-18T11:30:05+00:00"
+      }
+    ],
+    "61": [
+      {
+        "rep": 0,
+        "text": "live",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.64,
+        "at": "2026-10-18T11:30:06+00:00"
+      }
+    ],
+    "62": [
+      {
+        "rep": 0,
+        "text": "save",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.47,
+        "at": "2026-10-18T11:30:06+00:00"
+      }
+    ],
+    "63": [
+      {
+        "rep": 0,
+        "text": "brother",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 3,
+          "total_tokens": 39,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5744065549224615
+        },
+        "latency_s": 0.78,
+        "at": "2026-10-18T11:30:07+00:00"
+      }
+    ],
+    "64": [
+      {
+        "rep": 0,
+        "text": "drink",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.72,
+        "at": "2026-10-18T11:30:08+00:00"
+      }
+    ],
+    "65": [
+      {
+        "rep": 0,
+        "text": "I say",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 3,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5192929301410913
+        },
+        "latency_s": 0.89,
+        "at": "2026-10-18T11:30:09+00:00"
+      }
+    ],
+    "66": [
+      {
+        "rep": 0,
+        "text": "break",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 2,
+          "total_tokens": 39,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.562056983821094
+        },
+        "latency_s": 0.67,
+        "at": "2026-10-18T11:30:09+00:00"
+      }
+    ],
+    "67": [
+      {
+        "rep": 0,
+        "text": "do",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.58,
+        "at": "2026-10-18T11:30:10+00:00"
+      }
+    ],
+    "68": [
+      {
+        "rep": 0,
+        "text": "swim",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 1.03,
+        "at": "2026-10-18T11:30:11+00:00"
+      }
+    ],
+    "69": [
+      {
+        "rep": 0,
+        "text": "Mountain",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.61,
+        "at": "2026-10-18T11:30:12+00:00"
+      }
+    ],
+    "70": [
+      {
+        "rep": 0,
+        "text": "Stone",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 2,
+          "total_tokens": 34,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.49316495284438133
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-18T11:30:12+00:00"
+      }
+    ],
+    "71": [
+      {
+        "rep": 0,
+        "text": "answer",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 2,
+          "total_tokens": 39,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.562056983821094
+        },
+        "latency_s": 0.81,
+        "at": "2026-10-18T11:30:13+00:00"
+      }
+    ],
+    "72": [
+      {
+        "rep": 0,
+        "text": "bark",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-18T11:30:14+00:00"
+      }
+    ],
+    "73": [
+      {
+        "rep": 0,
+        "text": "stay",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 2,
+          "total_tokens": 34,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.49316495284438133
+        },
+        "latency_s": 0.55,
+        "at": "2026-10-18T11:30:14+00:00"
+      }
+    ],
+    "74": [
+      {
+        "rep": 0,
+        "text": "bunch",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-18T11:30:15+00:00"
+      }
+    ],
+    "75": [
+      {
+        "rep": 0,
+        "text": "man",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-18T11:30:15+00:00"
+      }
+    ],
+    "76": [
+      {
+        "rep": 0,
+        "text": "woman",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.53,
+        "at": "2026-10-18T11:30:16+00:00"
+      }
+    ],
+    "77": [
+      {
+        "rep": 0,
+        "text": "bow",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.41,
+        "at": "2026-10-18T11:30:16+00:00"
+      }
+    ],
+    "78": [
+      {
+        "rep": 0,
+        "text": "Name",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 2.64,
+        "at": "2026-10-18T11:30:19+00:00"
+      }
+    ],
+    "79": [
+      {
+        "rep": 0,
+        "text": "go",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.44,
+        "at": "2026-10-18T11:30:19+00:00"
+      }
+    ],
+    "80": [
+      {
+        "rep": 0,
+        "text": "pitch",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 2.67,
+        "at": "2026-10-18T11:30:22+00:00"
+      }
+    ],
+    "81": [
+      {
+        "rep": 0,
+        "text": "metal",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.75,
+        "at": "2026-10-18T11:30:23+00:00"
+      }
+    ],
+    "82": [
+      {
+        "rep": 0,
+        "text": "army",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 2.09,
+        "at": "2026-10-18T11:30:25+00:00"
+      }
+    ],
+    "83": [
+      {
+        "rep": 0,
+        "text": "Market",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.67,
+        "at": "2026-10-18T11:30:26+00:00"
+      }
+    ],
+    "84": [
+      {
+        "rep": 0,
+        "text": "sleep",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.53,
+        "at": "2026-10-18T11:30:26+00:00"
+      }
+    ],
+    "85": [
+      {
+        "rep": 0,
+        "text": "I wish",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 3,
+          "total_tokens": 38,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.560628148727119
+        },
+        "latency_s": 0.55,
+        "at": "2026-10-18T11:30:27+00:00"
+      }
+    ],
+    "86": [
+      {
+        "rep": 0,
+        "text": "Fly",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.45,
+        "at": "2026-10-18T11:30:27+00:00"
+      }
+    ],
+    "87": [
+      {
+        "rep": 0,
+        "text": "bear",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 2,
+          "total_tokens": 34,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.49316495284438133
+        },
+        "latency_s": 0.41,
+        "at": "2026-10-18T11:30:27+00:00"
+      }
+    ],
+    "88": [
+      {
+        "rep": 0,
+        "text": "Open",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.83,
+        "at": "2026-10-18T11:30:28+00:00"
+      }
+    ],
+    "89": [
+      {
+        "rep": 0,
+        "text": "dance",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.74,
+        "at": "2026-10-18T11:30:29+00:00"
+      }
+    ],
+    "90": [
+      {
+        "rep": 0,
+        "text": "Mother",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.58,
+        "at": "2026-10-18T11:30:30+00:00"
+      }
+    ],
+    "91": [
+      {
+        "rep": 0,
+        "text": "Gift",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.73,
+        "at": "2026-10-18T11:30:30+00:00"
+      }
+    ],
+    "92": [
+      {
+        "rep": 0,
+        "text": "steal",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.72,
+        "at": "2026-10-18T11:30:31+00:00"
+      }
+    ],
+    "93": [
+      {
+        "rep": 0,
+        "text": "Bow",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.41,
+        "at": "2026-10-18T11:30:32+00:00"
+      }
+    ],
+    "94": [
+      {
+        "rep": 0,
+        "text": "Kind",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-18T11:30:32+00:00"
+      }
+    ],
+    "95": [
+      {
+        "rep": 0,
+        "text": "weapon",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-18T11:30:33+00:00"
+      }
+    ],
+    "96": [
+      {
+        "rep": 0,
+        "text": "city",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-18T11:30:33+00:00"
+      }
+    ],
+    "97": [
+      {
+        "rep": 0,
+        "text": "take",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 2,
+          "total_tokens": 34,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.49316495284438133
+        },
+        "latency_s": 0.44,
+        "at": "2026-10-18T11:30:34+00:00"
+      }
+    ],
+    "98": [
+      {
+        "rep": 0,
+        "text": "place",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-18T11:30:34+00:00"
+      }
+    ],
+    "99": [
+      {
+        "rep": 0,
+        "text": "Table",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.45,
+        "at": "2026-10-18T11:30:35+00:00"
+      }
+    ],
+    "100": [
+      {
+        "rep": 0,
+        "text": "think",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 2,
+          "total_tokens": 38,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5482785776257515
+        },
+        "latency_s": 0.42,
+        "at": "2026-10-18T11:30:35+00:00"
+      }
+    ],
+    "101": [
+      {
+        "rep": 0,
+        "text": "Fire",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.55,
+        "at": "2026-10-18T11:30:36+00:00"
+      }
+    ],
+    "102": [
+      {
+        "rep": 0,
+        "text": "fruit",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.53,
+        "at": "2026-10-18T11:30:36+00:00"
+      }
+    ],
+    "103": [
+      {
+        "rep": 0,
+        "text": "Bear",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-18T11:30:37+00:00"
+      }
+    ],
+    "104": [
+      {
+        "rep": 0,
+        "text": "buy",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.86,
+        "at": "2026-10-18T11:30:37+00:00"
+      }
+    ],
+    "105": [
+      {
+        "rep": 0,
+        "text": "Word",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 2,
+          "total_tokens": 34,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.49316495284438133
+        },
+        "latency_s": 0.73,
+        "at": "2026-10-18T11:30:38+00:00"
+      }
+    ],
+    "106": [
+      {
+        "rep": 0,
+        "text": "victory",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 3,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5192929301410913
+        },
+        "latency_s": 0.55,
+        "at": "2026-10-18T11:30:39+00:00"
+      }
+    ],
+    "107": [
+      {
+        "rep": 0,
+        "text": "die",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 38,
+          "completion_tokens": 2,
+          "total_tokens": 40,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5758353900164366
+        },
+        "latency_s": 0.52,
+        "at": "2026-10-18T11:30:39+00:00"
+      }
+    ],
+    "108": [
+      {
+        "rep": 0,
+        "text": "village",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.75,
+        "at": "2026-10-18T11:30:40+00:00"
+      }
+    ],
+    "109": [
+      {
+        "rep": 0,
+        "text": "wine",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-18T11:30:41+00:00"
+      }
+    ],
+    "110": [
+      {
+        "rep": 0,
+        "text": "Soul",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.52,
+        "at": "2026-10-18T11:30:41+00:00"
+      }
+    ],
+    "111": [
+      {
+        "rep": 0,
+        "text": "Damage",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 2,
+          "total_tokens": 34,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.49316495284438133
+        },
+        "latency_s": 0.59,
+        "at": "2026-10-18T11:30:42+00:00"
+      }
+    ],
+    "112": [
+      {
+        "rep": 0,
+        "text": "Court",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.89,
+        "at": "2026-10-18T11:30:43+00:00"
+      }
+    ],
+    "113": [
+      {
+        "rep": 0,
+        "text": "Hedgehog",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 4,
+          "total_tokens": 40,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.6005345322191715
+        },
+        "latency_s": 0.7,
+        "at": "2026-10-18T11:30:43+00:00"
+      }
+    ],
+    "114": [
+      {
+        "rep": 0,
+        "text": "Man",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.44,
+        "at": "2026-10-18T11:30:44+00:00"
+      }
+    ],
+    "115": [
+      {
+        "rep": 0,
+        "text": "wolf",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 2,
+          "total_tokens": 34,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.49316495284438133
+        },
+        "latency_s": 0.73,
+        "at": "2026-10-18T11:30:44+00:00"
+      }
+    ],
+    "116": [
+      {
+        "rep": 0,
+        "text": "Right",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.52,
+        "at": "2026-10-18T11:30:45+00:00"
+      }
+    ],
+    "117": [
+      {
+        "rep": 0,
+        "text": "myth",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-18T11:30:45+00:00"
+      }
+    ],
+    "118": [
+      {
+        "rep": 0,
+        "text": "come",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.51,
+        "at": "2026-10-18T11:30:46+00:00"
+      }
+    ],
+    "119": [
+      {
+        "rep": 0,
+        "text": "Lock",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.58,
+        "at": "2026-10-18T11:30:47+00:00"
+      }
+    ],
+    "120": [
+      {
+        "rep": 0,
+        "text": "hate",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-18T11:30:47+00:00"
+      }
+    ],
+    "121": [
+      {
+        "rep": 0,
+        "text": "dog",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.47,
+        "at": "2026-10-18T11:30:48+00:00"
+      }
+    ],
+    "122": [
+      {
+        "rep": 0,
+        "text": "Hull",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.58,
+        "at": "2026-10-18T11:30:48+00:00"
+      }
+    ],
+    "123": [
+      {
+        "rep": 0,
+        "text": "ramphos",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 4,
+          "total_tokens": 39,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.586756126023829
+        },
+        "latency_s": 0.56,
+        "at": "2026-10-18T11:30:49+00:00"
+      }
+    ],
+    "124": [
+      {
+        "rep": 0,
+        "text": "Sell",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.42,
+        "at": "2026-10-18T11:30:49+00:00"
+      }
+    ],
+    "125": [
+      {
+        "rep": 0,
+        "text": "disciple",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.67,
+        "at": "2026-10-18T11:30:50+00:00"
+      }
+    ],
+    "126": [
+      {
+        "rep": 0,
+        "text": "Doctor",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.81,
+        "at": "2026-10-18T11:30:51+00:00"
+      }
+    ],
+    "127": [
+      {
+        "rep": 0,
+        "text": "Command",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.53,
+        "at": "2026-10-18T11:30:51+00:00"
+      }
+    ],
+    "128": [
+      {
+        "rep": 0,
+        "text": "I give birth",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 4,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5591993136331439
+        },
+        "latency_s": 1.19,
+        "at": "2026-10-18T11:30:52+00:00"
+      }
+    ],
+    "129": [
+      {
+        "rep": 0,
+        "text": "sit",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.58,
+        "at": "2026-10-18T11:30:53+00:00"
+      }
+    ],
+    "130": [
+      {
+        "rep": 0,
+        "text": "night",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.58,
+        "at": "2026-10-18T11:30:53+00:00"
+      }
+    ],
+    "131": [
+      {
+        "rep": 0,
+        "text": "ask",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.7,
+        "at": "2026-10-18T11:30:54+00:00"
+      }
+    ],
+    "132": [
+      {
+        "rep": 0,
+        "text": "seal",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.66,
+        "at": "2026-10-18T11:30:55+00:00"
+      }
+    ],
+    "133": [
+      {
+        "rep": 0,
+        "text": "dwell",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 3,
+          "total_tokens": 38,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.560628148727119
+        },
+        "latency_s": 0.55,
+        "at": "2026-10-18T11:30:55+00:00"
+      }
+    ],
+    "134": [
+      {
+        "rep": 0,
+        "text": "hand",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 2,
+          "total_tokens": 34,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.49316495284438133
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-18T11:30:56+00:00"
+      }
+    ],
+    "135": [
+      {
+        "rep": 0,
+        "text": "star",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.59,
+        "at": "2026-10-18T11:30:57+00:00"
+      }
+    ],
+    "136": [
+      {
+        "rep": 0,
+        "text": "track, course",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 4,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5591993136331439
+        },
+        "latency_s": 1.05,
+        "at": "2026-10-18T11:30:58+00:00"
+      }
+    ],
+    "137": [
+      {
+        "rep": 0,
+        "text": "Admire",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 4,
+          "total_tokens": 39,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.586756126023829
+        },
+        "latency_s": 0.52,
+        "at": "2026-10-18T11:30:58+00:00"
+      }
+    ],
+    "138": [
+      {
+        "rep": 0,
+        "text": "wake",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.7,
+        "at": "2026-10-18T11:30:59+00:00"
+      }
+    ],
+    "139": [
+      {
+        "rep": 0,
+        "text": "reed",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-18T11:30:59+00:00"
+      }
+    ],
+    "140": [
+      {
+        "rep": 0,
+        "text": "lie",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.72,
+        "at": "2026-10-18T11:31:00+00:00"
+      }
+    ],
+    "141": [
+      {
+        "rep": 0,
+        "text": "Kill",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-18T11:31:01+00:00"
+      }
+    ],
+    "142": [
+      {
+        "rep": 0,
+        "text": "ship",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 1.02,
+        "at": "2026-10-18T11:31:02+00:00"
+      }
+    ],
+    "143": [
+      {
+        "rep": 0,
+        "text": "believe",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.78,
+        "at": "2026-10-18T11:31:03+00:00"
+      }
+    ],
+    "144": [
+      {
+        "rep": 0,
+        "text": "Write",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 2,
+          "total_tokens": 34,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.49316495284438133
+        },
+        "latency_s": 0.55,
+        "at": "2026-10-18T11:31:03+00:00"
+      }
+    ],
+    "145": [
+      {
+        "rep": 0,
+        "text": "Sling",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 3,
+          "total_tokens": 38,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.560628148727119
+        },
+        "latency_s": 0.58,
+        "at": "2026-10-18T11:31:04+00:00"
+      }
+    ],
+    "146": [
+      {
+        "rep": 0,
+        "text": "sing",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.47,
+        "at": "2026-10-18T11:31:04+00:00"
+      }
+    ],
+    "147": [
+      {
+        "rep": 0,
+        "text": "Rain",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-18T11:31:05+00:00"
+      }
+    ],
+    "148": [
+      {
+        "rep": 0,
+        "text": "fountain",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-18T11:31:05+00:00"
+      }
+    ],
+    "149": [
+      {
+        "rep": 0,
+        "text": "see",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.61,
+        "at": "2026-10-18T11:31:06+00:00"
+      }
+    ],
+    "150": [
+      {
+        "rep": 0,
+        "text": "wall",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.42,
+        "at": "2026-10-18T11:31:06+00:00"
+      }
+    ],
+    "151": [
+      {
+        "rep": 0,
+        "text": "Hunt",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-18T11:31:07+00:00"
+      }
+    ],
+    "152": [
+      {
+        "rep": 0,
+        "text": "nightshade",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.53,
+        "at": "2026-10-18T11:31:07+00:00"
+      }
+    ],
+    "153": [
+      {
+        "rep": 0,
+        "text": "give",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-18T11:31:08+00:00"
+      }
+    ],
+    "154": [
+      {
+        "rep": 0,
+        "text": "temple",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 3,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5192929301410913
+        },
+        "latency_s": 0.52,
+        "at": "2026-10-18T11:31:08+00:00"
+      }
+    ],
+    "155": [
+      {
+        "rep": 0,
+        "text": "I want",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.52,
+        "at": "2026-10-18T11:31:09+00:00"
+      }
+    ],
+    "156": [
+      {
+        "rep": 0,
+        "text": "Seal",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 3,
+          "total_tokens": 38,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.560628148727119
+        },
+        "latency_s": 0.61,
+        "at": "2026-10-18T11:31:09+00:00"
+      }
+    ],
+    "157": [
+      {
+        "rep": 0,
+        "text": "ear",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.66,
+        "at": "2026-10-18T11:31:10+00:00"
+      }
+    ],
+    "158": [
+      {
+        "rep": 0,
+        "text": "Lead",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.56,
+        "at": "2026-10-18T11:31:11+00:00"
+      }
+    ],
+    "159": [
+      {
+        "rep": 0,
+        "text": "army",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.45,
+        "at": "2026-10-18T11:31:11+00:00"
+      }
+    ],
+    "160": [
+      {
+        "rep": 0,
+        "text": "Wind",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.5,
+        "at": "2026-10-18T11:31:12+00:00"
+      }
+    ],
+    "161": [
+      {
+        "rep": 0,
+        "text": "Letter",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-18T11:31:12+00:00"
+      }
+    ],
+    "162": [
+      {
+        "rep": 0,
+        "text": "Time",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.8,
+        "at": "2026-10-18T11:31:13+00:00"
+      }
+    ],
+    "163": [
+      {
+        "rep": 0,
+        "text": "Will",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 2,
+          "total_tokens": 34,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.49316495284438133
+        },
+        "latency_s": 0.67,
+        "at": "2026-10-18T11:31:14+00:00"
+      }
+    ],
+    "164": [
+      {
+        "rep": 0,
+        "text": "Spring",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.64,
+        "at": "2026-10-18T11:31:14+00:00"
+      }
+    ],
+    "165": [
+      {
+        "rep": 0,
+        "text": "heart",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.7,
+        "at": "2026-10-18T11:31:15+00:00"
+      }
+    ],
+    "166": [
+      {
+        "rep": 0,
+        "text": "lot",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-18T11:31:15+00:00"
+      }
+    ],
+    "167": [
+      {
+        "rep": 0,
+        "text": "do",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.59,
+        "at": "2026-10-18T11:31:16+00:00"
+      }
+    ],
+    "168": [
+      {
+        "rep": 0,
+        "text": "River",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.61,
+        "at": "2026-10-18T11:31:17+00:00"
+      }
+    ],
+    "169": [
+      {
+        "rep": 0,
+        "text": "shore",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.44,
+        "at": "2026-10-18T11:31:17+00:00"
+      }
+    ],
+    "170": [
+      {
+        "rep": 0,
+        "text": "Summit",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.69,
+        "at": "2026-10-18T11:31:18+00:00"
+      }
+    ],
+    "171": [
+      {
+        "rep": 0,
+        "text": "hope",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 2,
+          "total_tokens": 38,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5482785776257515
+        },
+        "latency_s": 0.8,
+        "at": "2026-10-18T11:31:19+00:00"
+      }
+    ],
+    "172": [
+      {
+        "rep": 0,
+        "text": "foot",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 2,
+          "total_tokens": 34,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.49316495284438133
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-18T11:31:19+00:00"
+      }
+    ],
+    "173": [
+      {
+        "rep": 0,
+        "text": "eat",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 2,
+          "total_tokens": 38,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5482785776257515
+        },
+        "latency_s": 0.84,
+        "at": "2026-10-18T11:31:20+00:00"
+      }
+    ],
+    "174": [
+      {
+        "rep": 0,
+        "text": "rod",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.69,
+        "at": "2026-10-18T11:31:21+00:00"
+      }
+    ],
+    "175": [
+      {
+        "rep": 0,
+        "text": "I swear",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 36,
+          "completion_tokens": 3,
+          "total_tokens": 39,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5744065549224615
+        },
+        "latency_s": 0.7,
+        "at": "2026-10-18T11:31:21+00:00"
+      }
+    ],
+    "176": [
+      {
+        "rep": 0,
+        "text": "palm",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.53,
+        "at": "2026-10-18T11:31:22+00:00"
+      }
+    ],
+    "177": [
+      {
+        "rep": 0,
+        "text": "mint",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.81,
+        "at": "2026-10-18T11:31:23+00:00"
+      }
+    ],
+    "178": [
+      {
+        "rep": 0,
+        "text": "basket",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.59,
+        "at": "2026-10-18T11:31:23+00:00"
+      }
+    ],
+    "179": [
+      {
+        "rep": 0,
+        "text": "Honey",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 3,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5192929301410913
+        },
+        "latency_s": 0.73,
+        "at": "2026-10-18T11:31:24+00:00"
+      }
+    ],
+    "180": [
+      {
+        "rep": 0,
+        "text": "tear",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.72,
+        "at": "2026-10-18T11:31:25+00:00"
+      }
+    ],
+    "181": [
+      {
+        "rep": 0,
+        "text": "stern",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.69,
+        "at": "2026-10-18T11:31:25+00:00"
+      }
+    ],
+    "182": [
+      {
+        "rep": 0,
+        "text": "King",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.62,
+        "at": "2026-10-18T11:31:26+00:00"
+      }
+    ],
+    "183": [
+      {
+        "rep": 0,
+        "text": "Nail",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.72,
+        "at": "2026-10-18T11:31:27+00:00"
+      }
+    ],
+    "184": [
+      {
+        "rep": 0,
+        "text": "Harm",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.66,
+        "at": "2026-10-18T11:31:27+00:00"
+      }
+    ],
+    "185": [
+      {
+        "rep": 0,
+        "text": "Child",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.56,
+        "at": "2026-10-18T11:31:28+00:00"
+      }
+    ],
+    "186": [
+      {
+        "rep": 0,
+        "text": "Spoils",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-18T11:31:29+00:00"
+      }
+    ],
+    "187": [
+      {
+        "rep": 0,
+        "text": "oak",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 3,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5192929301410913
+        },
+        "latency_s": 0.48,
+        "at": "2026-10-18T11:31:29+00:00"
+      }
+    ],
+    "188": [
+      {
+        "rep": 0,
+        "text": "Learn",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.66,
+        "at": "2026-10-18T11:31:30+00:00"
+      }
+    ],
+    "189": [
+      {
+        "rep": 0,
+        "text": "LIE",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.52,
+        "at": "2026-10-18T11:31:30+00:00"
+      }
+    ],
+    "190": [
+      {
+        "rep": 0,
+        "text": "Sow",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.72,
+        "at": "2026-10-18T11:31:31+00:00"
+      }
+    ],
+    "191": [
+      {
+        "rep": 0,
+        "text": "arm",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.8,
+        "at": "2026-10-18T11:31:32+00:00"
+      }
+    ],
+    "192": [
+      {
+        "rep": 0,
+        "text": "Flower",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 3,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5468497425317764
+        },
+        "latency_s": 0.66,
+        "at": "2026-10-18T11:31:32+00:00"
+      }
+    ],
+    "193": [
+      {
+        "rep": 0,
+        "text": "ox",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 2,
+          "total_tokens": 35,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5069433590397239
+        },
+        "latency_s": 0.45,
+        "at": "2026-10-18T11:31:33+00:00"
+      }
+    ],
+    "194": [
+      {
+        "rep": 0,
+        "text": "Head",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 2,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5207217652350664
+        },
+        "latency_s": 0.44,
+        "at": "2026-10-18T11:31:33+00:00"
+      }
+    ],
+    "195": [
+      {
+        "rep": 0,
+        "text": "Peace",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.39,
+        "at": "2026-10-18T11:31:34+00:00"
+      }
+    ],
+    "196": [
+      {
+        "rep": 0,
+        "text": "God",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 32,
+          "completion_tokens": 2,
+          "total_tokens": 34,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.49316495284438133
+        },
+        "latency_s": 0.55,
+        "at": "2026-10-18T11:31:34+00:00"
+      }
+    ],
+    "197": [
+      {
+        "rep": 0,
+        "text": "Chelidon",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 34,
+          "completion_tokens": 4,
+          "total_tokens": 38,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5729777198284864
+        },
+        "latency_s": 0.78,
+        "at": "2026-10-18T11:31:35+00:00"
+      }
+    ],
+    "198": [
+      {
+        "rep": 0,
+        "text": "Fasting",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 33,
+          "completion_tokens": 3,
+          "total_tokens": 36,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.5330713363364339
+        },
+        "latency_s": 0.72,
+        "at": "2026-10-18T11:31:36+00:00"
+      }
+    ],
+    "199": [
+      {
+        "rep": 0,
+        "text": "kill",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 37,
+          "completion_tokens": 2,
+          "total_tokens": 39,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.562056983821094
+        },
+        "latency_s": 0.52,
+        "at": "2026-10-18T11:31:36+00:00"
+      }
+    ],
+    "200": [
+      {
+        "rep": 0,
+        "text": "Light",
+        "model_returned": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "finish_reason": "stop",
+        "max_tokens": 1024,
+        "usage": {
+          "prompt_tokens": 35,
+          "completion_tokens": 2,
+          "total_tokens": 37,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 0.534500171430409
+        },
+        "latency_s": 0.72,
+        "at": "2026-10-18T11:31:37+00:00"
+      }
+    ]
+  },
+  "errors": {}
+}

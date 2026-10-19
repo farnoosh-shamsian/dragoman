@@ -95,7 +95,7 @@ family = "Google Gemma"
 weights = "open"
 provider = "cloudflare"
 enabled = false
-max_tokens = 8000  # lists need more; direct run used 3000
+max_tokens = 3000  # kinship and pivot step 1: 8000
 
 # same Gemma, thinking off
 [[models]]
