@@ -26,6 +26,13 @@ with more randomness in the sampling, an English-only meaning slips through.
 Each model leaks in its own way: the sound-alikes come from GPT-OSS and Qwen, the half-English
 words from Llama, and Gemma, which knows the most words, shows almost no trace of English.
 
+What a word list can test is a **surface relay**: Greek word → English word → Persian word,
+with the English word's ambiguity carried over. Subtler relays are possible. A model could go
+through English, or through English-shaped meanings, and still pick the right sense; that would
+leave no trace in a word list. Those relays need other methods, which the next experiments will
+try. Still, even at the surface, English is not absent. The traces are few, but the fact that
+there are any at all is important.
+
 Everything is in [`word-list-experiment`](word-list-experiment/): the design, the prompts,
 every model answer, the code and the results.
 

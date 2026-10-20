@@ -256,18 +256,35 @@ temperature 0 and were not run at 0.7 and 1.0.
 
 ### Reading the results
 
-English does leak in, mostly through what a word looks or sounds like, and sometimes, with
-sampling, through an English double meaning. It doesn't look like a word-for-word pivot,
-which would make the traps fire far more often (see the forced pivot). But a pivot that keeps
-the meaning, going through English concepts rather than English words, would leave no trace
-in the traps at all, so this design can't rule that out.
+This experiment tests only the simplest kind of relay, a **surface relay**: the Greek word
+becomes an English word, and the Persian comes from that English word, ambiguity and all. The
+forced pivot shows what such a relay produces. When the model's own English word is the
+ambiguous one, the trap fires in 29–80% of cases for the stronger models. The direct answers
+come nowhere near that, so as a rule the models do not relay through English words.
+
+A relay can be much harder to see, though. A model could go through English, or through an
+English-shaped space of meanings, and still know which sense of *seal* the Greek word had. Its
+answers would then look exactly like a direct translation, and no trap would fire. A model that
+is good at telling senses apart hides such a relay from this test, so the test can't detect
+it or rule it out. Finding these relays needs other methods.
+
+Even so, the surface relay is not absent. English shows through in a small share of the direct
+answers: English double meanings, sound-alikes, English words in Persian script, and words
+that switch to English halfway. These traces are few, but the fact that they exist at all
+matters. A model that went straight from Greek to Persian should leave none. If English shows
+at the surface, it is worth asking what it does underneath.
 
 With eight models, the traces turn out to be specific to each model rather than shared. GPT-OSS
 leaks through sound-alikes, Llama through English words that show through mid-word, and Gemma,
 the model that knows the most words, hardly leaks at all. None of the sound-alikes found in
 GPT-OSS and Qwen turns up in the four newer models. Whatever role English plays, it is not one
-route that all models take in the same way. Next I want to look at whole passages and syntax
-(word order, calques), and at what happens inside the models.
+route that all models take in the same way.
+
+Next I want to move to subtler ways of finding a relay: detailed traces of English in the
+syntax and semantics of whole sentences, looking at both negative and positive transfer and
+how they differ. Pronouns are one example. Greek and Persian both drop subject pronouns, but
+English cannot, so a Persian translation that spells them out would point to English in
+between.
 
 ## Runs
 
