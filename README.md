@@ -36,6 +36,24 @@ there are any at all is important.
 Everything is in [`word-list-experiment`](word-list-experiment/): the design, the prompts,
 every model answer, the code and the results.
 
+## Pro-drop test
+
+*Ongoing: most of the work is still to be done.*
+
+Greek and Persian are both pro-drop languages: they can leave out the subject pronoun. English
+cannot. If a model relays through English, its Persian may spell out pronouns that the Greek
+leaves out, so this test traces what happens to subjects in the syntax. In
+[`pro-drop-test`](pro-drop-test/).
+
+## Historical-present test
+
+*Ongoing: most of the work is still to be done.*
+
+Greek, Persian and English use the historical present (the present tense for past events)
+differently. If a model relays through English, the Persian may carry traces of how English
+handles the tense, and so of how the Greek meaning passed through English. In
+[`historical-present-test`](historical-present-test/).
+
 ## Note
 
 The code and README files in this repository were generated with the assistance of Claude
