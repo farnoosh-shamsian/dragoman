@@ -54,6 +54,29 @@ differently. If a model relays through English, the Persian may carry traces of 
 handles the tense, and so of how the Greek meaning passed through English. In
 [`historical-present-test`](historical-present-test/).
 
+## Limits
+
+These experiments are small for now, and they will be expanded. The traces of English they
+find could have other causes than a relay through English. The prompts are written in English,
+so English is already in the context before the Greek arrives. And most of what the models have
+read about Ancient Greek probably came with English: dictionaries, translations and textbooks.
+A Greek word may then sit close to its English equivalent because of the training data, not
+because the model goes through English while it translates. The experiments so far can't tell
+these explanations apart.
+
+The main aim of the repo stays the same: to see how well these models translate Ancient Greek
+into Persian, and whether their Persian shows the kind of problems that indirect translation,
+through a third language, leaves behind. Whatever their cause, such traces matter to a reader of
+the Persian. The next step is to move from single words and sentences to much larger texts.
+
+## Whole dialogues
+
+*In the design phase.*
+
+The larger aim is to have models translate a whole dialogue of Plato into Persian and to compare
+their translations at length. The first is the *Crito*, which several models have already
+translated. How the translations will be compared is still being worked out.
+
 ## Note
 
 The code and README files in this repository were generated with the assistance of Claude
