@@ -71,11 +71,18 @@ the Persian. The next step is to move from single words and sentences to much la
 
 ## Whole dialogues
 
-*In the design phase.*
+*Ongoing: the machine translations are done; the evaluation is being planned.*
 
 The larger aim is to have models translate a whole dialogue of Plato into Persian and to compare
-their translations at length. The first is the *Crito*, which several models have already
-translated. How the translations will be compared is still being worked out.
+their translations at length. The first is the *Crito*. Six open-weight models and three web chats
+have translated the whole dialogue, sentence by sentence and in longer chunks. The *Crito* has
+also been translated into Persian by people, both indirectly (through English, French or German)
+and directly from the Greek, and these translations are collected in an earlier corpus
+([Shamsian et al. 2025](https://doi.org/10.5334/johd.398); data on
+[Zenodo](https://doi.org/10.5281/zenodo.17607620)). The goal is to compare the machine
+translations with the direct and the indirect human ones, with several methods: hand annotation
+of errors (MQM), key-term consistency, errors inherited from an intermediate translation,
+automatic metrics and a language model as judge. In [`crito-translation`](crito-translation/).
 
 ## Note
 
