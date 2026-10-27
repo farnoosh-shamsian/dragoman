@@ -13,11 +13,10 @@ like an indirect one.
 
 ## What is here
 
-- `crito_translations.csv`: one row per Greek sentence (276 in all), with one column per model,
-  mode and temperature. This is the complete file.
-- `crito_translation_results.xlsx`: the same translations in a workbook, with a summary, the whole
-  chunk answers, and a list of the places where a chunk answer could not be split cleanly back into
-  sentences.
+- `crito_translations.csv`: one row per Greek sentence (276 in all): the treebank id, the
+  Stephanus section, the Greek, and one column per model, mode and temperature. An empty cell means
+  that run has not been done or gave no usable answer for that sentence.
+- `crito_translations.xlsx`: the same table as a spreadsheet.
 
 **The Greek text** is Burnet's, from Perseus (`tlg0059.tlg003.perseus-grc2`), cut into sentences as
 in the Gorman treebank (Gorman 2020), so that every sentence has a treebank id and a Stephanus
