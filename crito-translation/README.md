@@ -96,8 +96,16 @@ others:
 
 ## Limits
 
-This is one dialogue, annotated by one person, so the results are a case study of the *Crito*,
-not a verdict on Ancient Greek or on language models in general.
+This is a case study of one short dialogue, which the models have very likely seen in training, so
+the results may not generalize to other texts. Only one published Persian translation is direct, so
+directness cannot be fully separated from translator, date and source language. The annotation is
+done by one person on a sample of passages, so agreement cannot be measured and error counts will be
+small. Since the models' training data is unknown, an error shared with an English translation need
+not come from it. The models are mid-sized, the prompt is plain, each sentence has one sample, and
+the web chats cannot be reproduced exactly. The translators do not always keep the treebank's
+sentence boundaries, the automatic metrics are not validated for Ancient Greek into Persian, and the
+published translations cannot be shared. Firmer conclusions would need more texts, more direct
+translations, more annotators and repeated runs.
 
 ## References
 
