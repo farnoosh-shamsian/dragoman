@@ -1,0 +1,27 @@
+# The prompts as sent. Each request was a new conversation with a single user message
+# (`user`) and no system prompt.
+# {{SOURCE}} is replaced by a chunk of the Crito, one numbered sentence per line.
+
+# direct, and the web chats
+[chunk-direct]
+user = """
+Translate this Ancient Greek text into Persian. Each sentence starts with a number in brackets, like [1]; start each translated sentence with the same number. Give the Persian translation only, and nothing else.
+
+{{SOURCE}}
+"""
+
+# English chain, step 1: Greek to English
+[chunk-pivot-en]
+user = """
+Translate this Ancient Greek text into English. Each sentence starts with a number in brackets, like [1]; start each translated sentence with the same number. Give the English translation only, and nothing else.
+
+{{SOURCE}}
+"""
+
+# English chain, step 2: the model's own English to Persian; the Greek is left out and the source language is not named
+[chunk-relay-fa]
+user = """
+Translate this text into Persian. Each sentence starts with a number in brackets, like [1]; start each translated sentence with the same number. Give the Persian translation only, and nothing else.
+
+{{SOURCE}}
+"""

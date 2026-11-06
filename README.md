@@ -34,16 +34,21 @@ try. Still, even at the surface, English is not absent. The traces are few, but 
 there are any at all is important.
 
 Everything is in [`word-list-experiment`](word-list-experiment/): the design, the prompts,
-every model answer, the code and the results.
+every model answer and the results. A small kinship test (paused) sits in the same folder.
 
 ## Pro-drop test
 
-*Ongoing: most of the work is still to be done.*
-
 Greek and Persian are both pro-drop languages: they can leave out the subject pronoun. English
-cannot. If a model relays through English, its Persian may spell out pronouns that the Greek
-leaves out, so this test traces what happens to subjects in the syntax. In
-[`pro-drop-test`](pro-drop-test/).
+cannot. If a model relays through English, its Persian should lose the Greek difference between a
+bare verb and a stressed pronoun. Three models translated Plato's *Crito* directly and through
+their own English, and were compared with published human translations of the *Crito*.
+
+Going through English does wipe out most of the contrast, for the models and for the human
+translators who worked from a modern language. The models' direct Persian keeps it about as well
+as direct human translations do, so in this respect it shows no trace of English. Five web chats
+(ChatGPT, Gemini, DeepSeek and two Claude chats) do the same. The open models add more pronouns
+than human translators, about twice as many as the web chats, for reasons this test can't settle.
+Data, results and limits are in [`pro-drop-test`](pro-drop-test/).
 
 ## Historical-present test
 

@@ -7,9 +7,9 @@ pilot study. It started with single words and four open-weight models, and I kee
 and tests, so some of the results here are unfinished.
 
 Done so far: the direct run, the forced pivot, the temperature test and the kinship test
-(section 4) on eight open-weight models: GPT-OSS 120B, GPT-OSS 20B, Qwen 3.8 27B, ALLaM 2 7B,
-Llama 3.3 70B, Llama 3.1 8B, Mistral Small 3.1 24B and Gemma 4 26B. ALLaM is in the
-word-list tests only, and GPT-OSS 20B has no pivot step 2.
+(section 4) on eight open-weight models: GPT-OSS 120B, GPT-OSS 20B, Qwen 3.8 27B, ALLaM 2 7B, Llama 3.3 70B, Llama 3.1 8B,
+Mistral Small 3.1 24B and Gemma 4 26B. The cells that were left unfinished at first were filled
+with one sample each on 4 November 2026 (marked ¹ below). ALLaM is in the word-list tests only.
 
 Still open:
 - a hand check of the four newer models' answers. Their counts below come from the automatic check
@@ -49,7 +49,7 @@ fires whenever the English ambiguity wins.
 | --- | --- | --- | --- | --- |
 | GPT-OSS 120B | 2 / 231 (0.9%) | 20 / 77 (26.0%) | 20 / 33 (60.6%) | 1 / 99 (1.0%) |
 | Qwen 3.8 27B | 0 / 231 (0%) | 27 / 77 (35.1%) | 25 / 36 (69.4%) | 0 / 108 (0%) |
-| GPT-OSS 20B | 0 / 231 (0%) | not run | – | 0 / 72 (0%) |
+| GPT-OSS 20B | 0 / 231 (0%) | 10 / 77 (13.0%) | 9 / 24 (37.5%) | 0 / 72 (0%) |
 | ALLaM 2 7B | 0 / 231 (0%) | 3 / 77 (3.9%) | 3 / 26 (11.5%) | 0 / 78 (0%) |
 | Gemma 4 26B | 0 / 230 (0%) | 33 / 72 (45.8%) | 31 / 39 (79.5%) | 0 / 120 (0%) |
 | Llama 3.3 70B | 2 / 231 (0.9%) | 18 / 77 (23.4%) | 18 / 44 (40.9%) | 0 / 132 (0%) |
@@ -91,7 +91,8 @@ leaks the most.
 English still shows up in the direct answers now and then. The counts below
 come from the direct run (of 3 samples, temperature 0.7) and the temperature runs (of 5 samples
 at each temperature). ALLaM was not in the temperature runs and shows none of these traces.
-"–" means not run: only nine words are in the temperature test.
+"–" means not run: only nine words are in the temperature test. ¹ means one sample instead of
+five (a gap filled later).
 
 #### A. English homonyms
 
@@ -102,7 +103,7 @@ at each temperature). ALLaM was not in the temperature runs and shows none of th
 | | | | Mistral | 0 | 0 | 1 | 0 | 0 | 0 |
 | | | | Gemma | 0 | 0 | 0 | 0 | 0 | 1 |
 | ἐλαφρός (light in weight) | روشن | *light* → bright | Qwen | 2 | 0 | 3 | 1 | 0 | 0 |
-| | | | Llama 3.1 8B | 0 | 0 | 1 | 0 | 0 | – |
+| | | | Llama 3.1 8B | 0 | 0 | 1 | 0 | 0 | 0¹ |
 | ὅπλα (weapons) | زیربغل | *arms* → armpit | Qwen | 1 | 0 | 0 | 0 | 0 | 0 |
 | σῖτος (grain) | ذرت ("maize") | *corn* → maize | Llama 3.3 70B | 2 | – | – | – | – | – |
 | | | | Mistral | 1 | – | – | – | – | – |
@@ -120,14 +121,14 @@ The Greek word sounds like an English word.
 | Greek | Answer | Sounds like | Model | Direct | T 0 | T 0.7 | T 1.0 | T 1.5 | T 2.0 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | πίσσα (pitch) | ادرار، پیشاب | *piss* | Qwen | 3 | 5 | 4 | 4 | 3 | 1 |
-| | | | GPT-OSS 20B | 1 | 0 | 0 | 0 | 0 | – |
+| | | | GPT-OSS 20B | 1 | 0 | 0 | 0 | 0 | 0¹ |
 | φοῖνιξ (date palm) | روباه، فاکس | *fox* | GPT-OSS 120B | 3 | 5 | 5 | 5 | 4 | 3 |
-| | | | GPT-OSS 20B | 0 | 0 | 0 | 1 | 1 | – |
+| | | | GPT-OSS 20B | 0 | 0 | 0 | 1 | 1 | 0¹ |
 | ῥιπίς (fan) | تف، اسپیت | *spit* | GPT-OSS 120B | 2 | 5 | 3 | 3 | 3 | 1 |
-| ῥόπαλον (club) | طناب | *rope* | GPT-OSS 20B | 3 | 5 | 2 | 3 | 0 | – |
+| ῥόπαλον (club) | طناب، ریسمان | *rope* | GPT-OSS 20B | 3 | 5 | 2 | 3 | 0 | 1¹ |
 | | | | GPT-OSS 120B | 1 | 0 | 0 | 0 | 0 | 0 |
 | μίνθη (mint) | ذهن، فکر، یاد | *mind* (?) | GPT-OSS 120B | 3 | 5 | 5 | 5 | 4 | 5 |
-| | | | GPT-OSS 20B | 0 | 0 | 0 | 1 | 0 | – |
+| | | | GPT-OSS 20B | 0 | 0 | 0 | 1 | 0 | 0¹ |
 
 μίνθη is uncertain: یاد ("memory") may instead come from Greek μνήμη.
 
@@ -192,7 +193,7 @@ Many other errors have nothing to do with English:
 
 Gemma's mistakes are almost all of this Greek-internal kind.
 
-Full list: `results/findings.csv`.
+Full list: [`findings.csv`](findings.csv).
 
 ### 3. What temperature shows
 
@@ -205,14 +206,18 @@ Across the eight models GPT-OSS 120B is the outlier: the nine effects together s
 of its 45 samples even at temperature 0 (φοῖνιξ, ῥιπίς and μίνθη, 5 of 5 each). Qwen and GPT-OSS 20B have a few. The four newer models
 have almost none at any temperature (Gemma: 1 of 219 samples, παλάμη → برگ نخل at 2.0). Llama
 and Mistral fall into gibberish from temperature 1.0 upward (Mistral: all 45 samples at 1.5),
-so for them only 0 and 0.7 can be compared, and their 1.5 and 2.0 runs were not finished.
+so for them only 0 and 0.7 can be compared. Their missing 1.5 and 2.0 words, filled later with
+one sample each, are gibberish too, mostly running to the token limit (Llama 3.3 70B: all 14).
 
 ### 4. Kinship
+
+*Paused: may be continued later. Files in [`kinship/`](kinship/).*
 
 Greek and Persian mark which side of the family a relative is on, and English does not:
 πάτρως is the father's brother (عمو), μήτρως the mother's brother (دایی), and both are *uncle*
 in English. A wrong-side answer would point to English. The test uses 13 such terms, sent
-alone and inside word lists.
+alone (one term per request) and inside lists of 12 words, where they are mixed with filler
+words from the word list.
 
 Counts from the automatic check, of all samples at temperatures 0, 0.7 and 1.0 (91 per
 condition when all three were run). "Kept" means only the right side; "wrong" only the wrong
@@ -226,9 +231,15 @@ side; "both" gives both sides, e.g. عمو and دایی for the same word.
 | Qwen 3.8 27B (no thinking) | 9 / 91 | 1 | 3 | 10 / 91 | 0 | 0 |
 | Gemma 4 26B | 6 / 91 | 0 | 0 | 0 / 2 | 0 | 0 |
 | Gemma 4 26B (no thinking) | 0 / 91 | 0 | 0 | 4 / 91 | 0 | 0 |
-| GPT-OSS 20B | 3 / 52 | 0 | 0 | 1 / 13 | 0 | 0 |
-| Llama 3.1 8B | 0 / 13 | 0 | 0 | 1 / 13 | 0 | 1 |
-| Mistral Small 3.1 24B | 0 / 13 | 0 | 0 | 1 / 13 | 0 | 0 |
+| GPT-OSS 20B | 5 / 65 | 0 | 0 | 3 / 39 | 0 | 0 |
+| Llama 3.1 8B | 2 / 39¹ | 1 | 0 | 3 / 39¹ | 1 | 1 |
+| Mistral Small 3.1 24B | 5 / 39¹ | 0 | 0 | 2 / 39¹ | 0 | 0 |
+
+¹ One sample at 0.7 and 1.0 instead of three. For these two models the automatic "kept" is
+generous: on a first reading (not yet hand-checked), only 4 of their 10 "kept" answers at 0.7
+and 1.0 are right (ὁμοπάτριος → همپدری, θυγατριδοῦς → دخترزاده, ὁμομήτριος → خواهر مادری).
+The others are wrong in ways that have nothing to do with English, e.g. Mistral's πάτρως →
+پدر ("father") and θυγατριδοῦς → دختر کوچک ("little girl").
 
 Many of these words are rare, and the models often fail on the Greek itself before English
 could play any part:
@@ -244,15 +255,10 @@ could play any part:
   words for the one English *uncle* is the pattern an English route would produce. GPT-OSS
   120B does the same with μητράδελφος (4 wrong, 4 both).
 - Llama 3.1 8B once gives ἑκυρά (husband's mother) as مادرزن ("wife's mother") next to
-  مادرشوهر, the two sides of English *mother-in-law*.
+  مادرشوهر, the two sides of English *mother-in-law*, and at 0.7 as مادرزن alone.
 
-Wrong-side and both-side answers stay rare (at most 9 of 91 per condition), and 27 of
-the 29 fall on two compounds, πατράδελφος and μητράδελφος.
-
-Gemma with thinking on spends more than 8000 tokens on most lists and returns nothing (1 of 5
-lists at temperature 0 came back), so the lists were run with thinking switched off, in the
-same way as Qwen. Llama 3.1 8B and Mistral understood none of the 13 terms alone at
-temperature 0 and were not run at 0.7 and 1.0.
+Wrong-side and both-side answers stay rare (at most 9 of 91 per condition), and 28 of
+the 31 fall on two compounds, πατράδελφος and μητράδελφος.
 
 ### Reading the results
 
@@ -286,36 +292,72 @@ how they differ. Pronouns are one example. Greek and Persian both drop subject p
 English cannot, so a Persian translation that spells them out would point to English in
 between.
 
-## Runs
+## Files
 
-| Test | Source files | Prompt | Models | Samples | Temperature |
-| --- | --- | --- | --- | --- | --- |
-| Direct: Greek → Persian | `greek-words` | `words-neutral` | all 8 | 3 | 0.7 |
-| Pivot step 1: Greek → English | `greek-words` | `words-pivot-en` | all 8 | 1 | 0.2 |
-| Pivot step 2: own English word → Persian | `greek-words-pivot-*` | `words-pivot-fa` | all except GPT-OSS 20B | 1 | 0.2 |
-| Temperature: 9 items from the direct run | `greek-words-temp*` | `words-neutral` | all except ALLaM | 5 | 0, 0.7, 1.0, 1.5, 2.0 |
-| Kinship, one word per request | `kinship-words-temp*` | `words-neutral` | GPT-OSS 120B, Llama 3.3 70B, Qwen and Gemma (thinking on and off); at 0 only: GPT-OSS 20B, Llama 3.1 8B, Mistral | 1 / 3 / 3 | 0, 0.7, 1.0 |
-| Kinship, embedded in lists of 12 | `kinship-lists-temp*` | `words-list` | as above, but Gemma with thinking on only at 0 | 1 / 3 / 3 | 0, 0.7, 1.0 |
+| File | What it holds |
+| --- | --- |
+| `prompts.toml` | The three prompts, word for word. `user` is the whole message; `{{SOURCE}}` is replaced by the word or the English word. |
+| `greek_words.csv` | The 200 words: trap or filler, the Greek sense, the English pivot word, the right Persian (`fa_correct`) and the Persian that only comes via English (`fa_via_english`). |
+| `answers.csv` | The direct run and the forced pivot: one row per answer, with the model's English word from step 1, whether the English-only Persian appears and where. |
+| `temperature.csv` | The temperature test: one row per answer, with whether the effect looked for appears. |
+| `findings.csv` | The traces found by reading the answers (section 2). |
+| `kinship/prompts.toml` | The two kinship prompts, word for word: `words-neutral` (alone) and `words-list` (in a list). |
+| `kinship/kinship_terms.csv` | The 13 kinship terms: LSJ gloss, English word, the Persian for the right side (`fa_side_kept`) and for the wrong side (`fa_side_lost`). |
+| `kinship/answers.csv` | The kinship test: one row per term per answer, alone (`isolated`) or in a list, classed as kept, wrong, both, generic, other or missing. |
 
-Models: `openai/gpt-oss-120b`, `openai/gpt-oss-20b`, `qwen/qwen3.8-27b` and `allam-2-7b`,
-all open-weight, served by [Groq](https://console.groq.com), 7–9 October 2026. GPT-OSS 20B was
-dropped from pivot step 2, from temperature 2.0 and from most of the kinship runs after
-performing poorly early on. ALLaM is in the word-list tests only, and mostly answered in Arabic
-or with nonsense.
+Every answer is in these files as the model returned it (column `raw`), next to the Persian
+equivalents split out of it. The flags (`p2_found`, `effect_seen`, `class`) come from an
+automatic whole-word search against the keys and have been only partly checked by hand. The code
+is not published; ask me if you need it.
 
-The four models added later are `@cf/meta/llama-3.3-70b-instruct-fp8-fast`,
-`@cf/meta/llama-3.1-8b-instruct-fp8`, `@cf/mistralai/mistral-small-3.1-24b-instruct` and
-`@cf/google/gemma-4-26b-a4b-it`, all open-weight, served by
-[Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) on the free tier,
-13–16 October 2026. Gaps:
+## How the models were run
+
+Each word was one request to an OpenAI-compatible chat API: a single user message built from
+the prompt, no system prompt, no seed, and nothing else in the conversation. The three prompts,
+as sent, are in [`prompts.toml`](prompts.toml).
+
+| Model | API model | Served by | Token limit | Settings |
+| --- | --- | --- | --- | --- |
+| GPT-OSS 120B | `openai/gpt-oss-120b` | Groq | 3000 | `reasoning_effort = low` |
+| GPT-OSS 20B | `openai/gpt-oss-20b` | Groq | 3000 | `reasoning_effort = low` |
+| Qwen 3.8 27B | `qwen/qwen3.8-27b` | Groq | 2048 | default |
+| Qwen 3.8 27B (no thinking) | `qwen/qwen3.8-27b` | Groq | 1000 | `reasoning_effort = none`; kinship only |
+| ALLaM 2 7B | `allam-2-7b` | Groq | 1024 | |
+| Llama 3.3 70B | `@cf/meta/llama-3.3-70b-instruct-fp8-fast` | Cloudflare | 1024 | |
+| Llama 3.1 8B | `@cf/meta/llama-3.1-8b-instruct-fp8` | Cloudflare | 1024 | |
+| Mistral Small 3.1 24B | `@cf/mistralai/mistral-small-3.1-24b-instruct` | Cloudflare | 1024 | |
+| Gemma 4 26B | `@cf/google/gemma-4-26b-a4b-it` | Cloudflare | 3000 (kinship and pivot step 1: 8000) | default (thinking on) |
+| Gemma 4 26B (no thinking) | `@cf/google/gemma-4-26b-a4b-it` | Cloudflare | 1500 | `chat_template_kwargs = { enable_thinking = false }`; kinship only |
+
+All ten are open-weight. Groq is [Groq](https://console.groq.com); Cloudflare is
+[Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) on the free tier.
+
+| Test | Prompt | Models | Samples | Temperature |
+| --- | --- | --- | --- | --- |
+| Direct: Greek → Persian | `words-neutral` | all 8 | 3 | 0.7 |
+| Pivot step 1: Greek → English | `words-pivot-en` | all 8 | 1 | 0.2 |
+| Pivot step 2: own English word → Persian | `words-pivot-fa` | all 8 | 1 | 0.2 |
+| Temperature: 9 items from the direct run | `words-neutral` | all except ALLaM | 5 (gaps: 1) | 0, 0.7, 1.0, 1.5, 2.0 |
+| Kinship, one word per request | `words-neutral` | GPT-OSS 120B, Llama 3.3 70B, Qwen and Gemma (thinking on and off); GPT-OSS 20B (1 at 1.0); Llama 3.1 8B and Mistral (1 / 1 / 1) | 1 / 3 / 3 | 0, 0.7, 1.0 |
+| Kinship, embedded in lists of 12 | `words-list` | as above (GPT-OSS 20B 1 / 1 / 1), but Gemma with thinking on only at 0 | 1 / 3 / 3 | 0, 0.7, 1.0 |
+
+The Groq models ran on 7–9 October 2026. GPT-OSS 20B was first left out of pivot step 2,
+temperature 2.0 and most of the kinship runs after performing poorly early on; these were run on 4 November 2026, with one
+sample per word. ALLaM is in the word-list tests only, and mostly answered in Arabic or with nonsense.
+
+The Cloudflare models were added later, 13–16 October 2026. Gaps:
 - Gemma has 598 of 600 direct samples. On ὕδωρ and ῥιπίς it sometimes keeps going past its
   3000-token limit and returns nothing; ῥιπίς does so in all 5 samples at temperature 0.
-- Llama 3.3 70B and 3.1 8B have only 4 of the 9 words at temperature 1.5 and few or none at
-  2.0, and Mistral has 4 of 9 at 2.0. These were left unfinished because both models already
-  answer mostly gibberish at those temperatures.
+- Llama 3.3 70B and 3.1 8B had only 4 of the 9 words at temperature 1.5 and few or none at
+  2.0, and Mistral had 4 of 9 at 2.0, because both models already answer mostly gibberish
+  there. The missing words were run on 4 November 2026 with one sample each, and the same
+  date filled Llama 3.1 8B's and Mistral's kinship runs at 0.7 and 1.0 (one sample each).
 - Kinship ran on 17 October 2026. Gemma's token limit was raised from 3000 to 8000 for it
-  (the direct run used 3000). "Gemma 4 26B (no thinking)" is the same model with
-  `chat_template_kwargs = { enable_thinking = false }` and a limit of 1500 tokens.
+  (the direct run used 3000). Gemma with thinking on spends more than 8000 tokens on most lists
+  and returns nothing (1 of 5 lists at temperature 0 came back), so the lists were also run
+  with thinking switched off, in the same way as Qwen. Llama 3.1 8B and Mistral understood none
+  of the 13 terms alone at temperature 0, so at 0.7 and 1.0 they have one sample each. At 1.0
+  Llama 3.1 8B's lists fall into gibberish (12 of 13 terms missing).
 - The forced pivot ran 18–19 October 2026, Gemma with thinking on (as in its direct run): step
   1 with a limit of 8000 tokens, step 2 with 3000. Gemma's step 2 has 186 of its 199 English
   words; the other 13 (among them *horse*, *bread*, *mountain*, *night*) ran past the limit
@@ -323,4 +365,5 @@ The four models added later are `@cf/meta/llama-3.3-70b-instruct-fp8-fast`,
 
 ## Note
 
-The code and README files were generated with the assistance of Claude Opus 5.5.
+The code that ran and scored these tests, and the README files, were generated with the
+assistance of Claude Opus 5.5.

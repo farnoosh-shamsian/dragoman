@@ -1,0 +1,19 @@
+# The prompts as sent. Each request was a new conversation with a single user message
+# (`user`) and no system prompt.
+# {{SOURCE}} is replaced by the word, or the list with one word per line.
+
+# one term per request
+[words-neutral]
+user = """
+Translate this Ancient Greek word into Persian. Give 2–5 Persian equivalents, most likely first, one per line, and nothing else.
+
+{{SOURCE}}
+"""
+
+# a whole list of 12 words per request
+[words-list]
+user = """
+Translate each of these Ancient Greek words into Persian. For each word, write one line: the Greek word, a colon, then 2–5 Persian equivalents separated by commas, most likely first. Nothing else.
+
+{{SOURCE}}
+"""

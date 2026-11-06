@@ -1,0 +1,215 @@
+﻿analysis,system,route,measure,value,lo,hi,n
+single-slot sentences,GPT-OSS 120B,direct,retention,0.9166666666666666,0.7142857142857143,1.0,81
+single-slot sentences,GPT-OSS 120B,direct,positive transfer,0.15942028985507245,0.07352941176470588,0.25,81
+single-slot sentences,GPT-OSS 120B,direct,Δ,0.7572463768115942,0.5362056178733661,0.904109589041096,81
+single-slot sentences,GPT-OSS 120B,English chain,retention,0.3333333333333333,0.07692307692307693,0.625,81
+single-slot sentences,GPT-OSS 120B,English chain,positive transfer,0.2753623188405797,0.17142857142857143,0.380987394957983,81
+single-slot sentences,GPT-OSS 120B,English chain,Δ,0.0579710144927536,-0.2270788912579957,0.37534722222222033,81
+single-slot sentences,GPT-OSS 120B,English step 1,English emphasis at overt,0.08333333333333333,0.0,0.2857142857142857,81
+single-slot sentences,GPT-OSS 120B,,Δ(direct) − Δ(English chain),0.6992753623188406,0.38692702845100113,1.0113463131731564,
+single-slot sentences,GPT-OSS 120B,,positive transfer: direct − English chain,-0.11594202898550726,-0.2222222222222222,-0.01408450704225353,
+single-slot sentences,Qwen 3.8 27B,direct,retention,0.6666666666666666,0.375,0.9230769230769231,80
+single-slot sentences,Qwen 3.8 27B,direct,positive transfer,0.22058823529411764,0.125,0.3188405797101449,80
+single-slot sentences,Qwen 3.8 27B,direct,Δ,0.446078431372549,0.14060326916553595,0.722251082251082,80
+single-slot sentences,Qwen 3.8 27B,English chain,retention,0.5,0.2,0.7777777777777778,81
+single-slot sentences,Qwen 3.8 27B,English chain,positive transfer,0.4057971014492754,0.2898550724637681,0.5230769230769231,81
+single-slot sentences,Qwen 3.8 27B,English chain,Δ,0.09420289855072461,-0.2091101152368758,0.38768115942028986,81
+single-slot sentences,Qwen 3.8 27B,English step 1,English emphasis at overt,0.08333333333333333,0.0,0.2857142857142857,81
+single-slot sentences,Qwen 3.8 27B,,Δ(direct) − Δ(English chain),0.3518755328218244,-0.004488373533810534,0.6989220942090901,
+single-slot sentences,Qwen 3.8 27B,,positive transfer: direct − English chain,-0.18520886615515775,-0.3013698630136986,-0.07922535211267606,
+single-slot sentences,Gemma 4 26B,direct,retention,0.75,0.5,1.0,81
+single-slot sentences,Gemma 4 26B,direct,positive transfer,0.08695652173913043,0.027777777777777776,0.16177464228934813,81
+single-slot sentences,Gemma 4 26B,direct,Δ,0.6630434782608696,0.3766574549108796,0.9130745341614905,81
+single-slot sentences,Gemma 4 26B,English chain,retention,0.5,0.2222222222222222,0.8,81
+single-slot sentences,Gemma 4 26B,English chain,positive transfer,0.2318840579710145,0.13846153846153847,0.337842596117244,81
+single-slot sentences,Gemma 4 26B,English chain,Δ,0.2681159420289855,-0.02774674020009844,0.587000918554807,81
+single-slot sentences,Gemma 4 26B,English step 1,English emphasis at overt,0.08333333333333333,0.0,0.2857142857142857,80
+single-slot sentences,Gemma 4 26B,,Δ(direct) − Δ(English chain),0.39492753623188415,0.13573131955484893,0.672742424242424,
+single-slot sentences,Gemma 4 26B,,positive transfer: direct − English chain,-0.14492753623188406,-0.23882173638848014,-0.056318466353677724,
+per sentence and person,GPT-OSS 120B,direct,retention,0.9583333333333334,0.8666666666666667,1.0,152
+per sentence and person,GPT-OSS 120B,direct,positive transfer,0.234375,0.16152542372881357,0.31251192748091594,152
+per sentence and person,GPT-OSS 120B,direct,Δ,0.7239583333333334,0.6050236220472441,0.8240000000000001,152
+per sentence and person,GPT-OSS 120B,English chain,retention,0.5416666666666666,0.3448275862068966,0.7407407407407407,152
+per sentence and person,GPT-OSS 120B,English chain,positive transfer,0.3203125,0.24166666666666667,0.40310077519379844,152
+per sentence and person,GPT-OSS 120B,English chain,Δ,0.22135416666666663,0.00505359954524645,0.43485139860139854,152
+per sentence and person,GPT-OSS 120B,English step 1,English emphasis at overt,0.20833333333333334,0.05256578947368421,0.375,152
+per sentence and person,GPT-OSS 120B,,Δ(direct) − Δ(English chain),0.5026041666666667,0.2859485762345309,0.7217101341281669,
+per sentence and person,GPT-OSS 120B,,positive transfer: direct − English chain,-0.0859375,-0.16666666666666669,-0.0078125,
+per sentence and person,Qwen 3.8 27B,direct,retention,0.7916666666666666,0.6190476190476191,0.95,151
+per sentence and person,Qwen 3.8 27B,direct,positive transfer,0.2440944881889764,0.1746031746031746,0.3203270755597014,151
+per sentence and person,Qwen 3.8 27B,direct,Δ,0.5475721784776902,0.3593598997493735,0.7142354637290318,151
+per sentence and person,Qwen 3.8 27B,English chain,retention,0.7083333333333334,0.5237577639751553,0.8846153846153846,152
+per sentence and person,Qwen 3.8 27B,English chain,positive transfer,0.3828125,0.2983701674464418,0.4732824427480916,152
+per sentence and person,Qwen 3.8 27B,English chain,Δ,0.32552083333333337,0.12206836477231768,0.5244930069930068,152
+per sentence and person,Qwen 3.8 27B,English step 1,English emphasis at overt,0.041666666666666664,0.0,0.1334090909090905,152
+per sentence and person,Qwen 3.8 27B,,Δ(direct) − Δ(English chain),0.22205134514435687,0.015492218919391582,0.43493031412879213,
+per sentence and person,Qwen 3.8 27B,,positive transfer: direct − English chain,-0.1387180118110236,-0.2109375,-0.0659634632665565,
+per sentence and person,Gemma 4 26B,direct,retention,0.8333333333333334,0.6771505376344086,0.9615740740740739,152
+per sentence and person,Gemma 4 26B,direct,positive transfer,0.1875,0.12121212121212122,0.2578557371183204,152
+per sentence and person,Gemma 4 26B,direct,Δ,0.6458333333333334,0.46817134541067523,0.7986146048196405,152
+per sentence and person,Gemma 4 26B,English chain,retention,0.6666666666666666,0.47619047619047616,0.857266009852216,152
+per sentence and person,Gemma 4 26B,English chain,positive transfer,0.2578125,0.18461538461538463,0.33587935353053433,152
+per sentence and person,Gemma 4 26B,English chain,Δ,0.40885416666666663,0.19651241830065358,0.613985906862745,152
+per sentence and person,Gemma 4 26B,English step 1,English emphasis at overt,0.125,0.0,0.27783333333333304,151
+per sentence and person,Gemma 4 26B,,Δ(direct) − Δ(English chain),0.23697916666666674,0.08029545454545445,0.4210696228760877,
+per sentence and person,Gemma 4 26B,,positive transfer: direct − English chain,-0.0703125,-0.14173228346456693,0.0,
+single-slot sentences,Shafi'-Beyk 2023,direct,retention,0.5833333333333334,0.3,0.8825163398692801,81
+single-slot sentences,Shafi'-Beyk 2023,direct,positive transfer,0.057971014492753624,0.013888888888888888,0.12121212121212122,81
+single-slot sentences,Shafi'-Beyk 2023,direct,Δ,0.5253623188405797,0.22283496732026145,0.83011583011583,81
+single-slot sentences,"Course final, primary",direct,retention,0.5454545454545454,0.23076923076923078,0.8571428571428571,78
+single-slot sentences,"Course final, primary",direct,positive transfer,0.04477611940298507,0.0,0.10294117647058823,78
+single-slot sentences,"Course final, primary",direct,Δ,0.5006784260515603,0.17873964803312628,0.8186815336463222,78
+single-slot sentences,"Course final, literal",direct,retention,0.8181818181818182,0.5383333333333333,1.0,78
+single-slot sentences,"Course final, literal",direct,positive transfer,0.04477611940298507,0.0,0.10294117647058823,78
+single-slot sentences,"Course final, literal",direct,Δ,0.7734056987788331,0.47296371714179936,0.9726027397260274,78
+single-slot sentences,"Course final, secondary",direct,retention,0.7272727272727273,0.44427083333333334,1.0,78
+single-slot sentences,"Course final, secondary",direct,positive transfer,0.029850746268656716,0.0,0.07692307692307693,78
+single-slot sentences,"Course final, secondary",direct,Δ,0.6974219810040706,0.40038200215787473,0.9718407668231611,78
+single-slot sentences,Jahanshahi 1989,indirect,retention,0.09090909090909091,0.0,0.3076923076923077,78
+single-slot sentences,Jahanshahi 1989,indirect,positive transfer,0.05970149253731343,0.014079616588419407,0.12070271682340641,78
+single-slot sentences,Jahanshahi 1989,indirect,Δ,0.03120759837177748,-0.10294117647058823,0.2564130434782608,78
+single-slot sentences,Golestan 2013,indirect,retention,0.4166666666666667,0.14285714285714285,0.7272727272727273,81
+single-slot sentences,Golestan 2013,indirect,positive transfer,0.13043478260869565,0.05555555555555555,0.21217532467532438,81
+single-slot sentences,Golestan 2013,indirect,Δ,0.28623188405797106,0.0028169014084507282,0.6050971673254281,81
+single-slot sentences,Lotfi 1979,indirect,retention,0.25,0.0,0.5333333333333333,79
+single-slot sentences,Lotfi 1979,indirect,positive transfer,0.014925373134328358,0.0,0.046875,79
+single-slot sentences,Lotfi 1979,indirect,Δ,0.23507462686567165,-0.013893779342723003,0.5006784260515603,79
+single-slot sentences,Foroughi 1938,indirect,retention,0.16666666666666666,0.0,0.4118872549019601,79
+single-slot sentences,Foroughi 1938,indirect,positive transfer,0.1044776119402985,0.030303030303030304,0.18181818181818182,79
+single-slot sentences,Foroughi 1938,indirect,Δ,0.062189054726368154,-0.1408953722334004,0.3254233297796728,79
+single-slot sentences,human translators,direct,positive transfer,0.04888600475881462,0.009910820388761565,0.10149347062768754,
+single-slot sentences,human translators,indirect,positive transfer,0.07738481505515898,0.046333485048548874,0.11181039698045457,
+single-slot sentences,open models,direct,positive transfer,0.15565501562944017,0.09256272401433693,0.22406431607251268,
+single-slot sentences,indirect − direct humans,,positive transfer,0.028498810296344365,-0.025520528403510732,0.07483356522351269,
+single-slot sentences,"open models, direct − direct humans",,positive transfer,0.10676901087062556,0.047929606940742275,0.16915903753147268,
+single-slot sentences,"open models, direct − indirect humans",,positive transfer,0.07827020057428119,0.01518877816855946,0.14810643769028375,
+single-slot sentences,human translators,direct,Δ,0.5912655103927005,0.34348033910533915,0.8379854988007162,
+single-slot sentences,human translators,indirect,Δ,0.1536757910054471,0.004874810995652795,0.32816039947437087,
+single-slot sentences,open models,direct,Δ,0.6221227621483376,0.4601541178253507,0.780084619399591,
+single-slot sentences,indirect − direct humans,,Δ,-0.4375897193872534,-0.6775535408179166,-0.18803263270711498,
+single-slot sentences,"open models, direct − direct humans",,Δ,0.03085725175563714,-0.17633679960172496,0.2717505506366394,
+single-slot sentences,"open models, direct − indirect humans",,Δ,0.4684469711428905,0.2277086517118874,0.6987107302993764,
+per sentence and person,Shafi'-Beyk 2023,direct,retention,0.7916666666666666,0.6086956521739131,0.9473684210526315,152
+per sentence and person,Shafi'-Beyk 2023,direct,positive transfer,0.0703125,0.031007751937984496,0.11628875968992243,152
+per sentence and person,Shafi'-Beyk 2023,direct,Δ,0.7213541666666666,0.5299314111277444,0.8797113752122241,152
+per sentence and person,"Course final, primary",direct,retention,0.7391304347826086,0.5384615384615384,0.9130434782608695,148
+per sentence and person,"Course final, primary",direct,positive transfer,0.08,0.03361344537815126,0.13114754098360656,148
+per sentence and person,"Course final, primary",direct,Δ,0.6591304347826087,0.45730903249162824,0.838701167544346,148
+per sentence and person,"Course final, literal",direct,retention,0.8260869565217391,0.6521739130434783,0.9615384615384616,148
+per sentence and person,"Course final, literal",direct,positive transfer,0.048,0.015621971899224806,0.08943089430894309,148
+per sentence and person,"Course final, literal",direct,Δ,0.7780869565217391,0.5957989226637368,0.9262321038251367,148
+per sentence and person,"Course final, secondary",direct,retention,0.8260869565217391,0.6499264705882353,0.9615740740740739,148
+per sentence and person,"Course final, secondary",direct,positive transfer,0.072,0.031496062992125984,0.12195121951219512,148
+per sentence and person,"Course final, secondary",direct,Δ,0.7540869565217392,0.5760228070175438,0.9044360191993462,148
+per sentence and person,Jahanshahi 1989,indirect,retention,0.34782608695652173,0.14814814814814814,0.5555555555555556,149
+per sentence and person,Jahanshahi 1989,indirect,positive transfer,0.0873015873015873,0.039992063492063495,0.14173228346456693,149
+per sentence and person,Jahanshahi 1989,indirect,Δ,0.2605244996549344,0.05778098677807981,0.4750793043655646,149
+per sentence and person,Golestan 2013,indirect,retention,0.4583333333333333,0.260829307568438,0.6666666666666666,152
+per sentence and person,Golestan 2013,indirect,positive transfer,0.21875,0.14960629921259844,0.291970802919708,152
+per sentence and person,Golestan 2013,indirect,Δ,0.23958333333333331,0.027640343527440294,0.46515208050655804,152
+per sentence and person,Lotfi 1979,indirect,retention,0.375,0.19047619047619047,0.5833333333333334,149
+per sentence and person,Lotfi 1979,indirect,positive transfer,0.088,0.03968253968253968,0.14166666666666666,149
+per sentence and person,Lotfi 1979,indirect,Δ,0.28700000000000003,0.09311651583710409,0.49517809139784935,149
+per sentence and person,Foroughi 1938,indirect,retention,0.3333333333333333,0.14814814814814814,0.5294117647058824,149
+per sentence and person,Foroughi 1938,indirect,positive transfer,0.112,0.060142343037079875,0.17188140368852456,149
+per sentence and person,Foroughi 1938,indirect,Δ,0.22133333333333333,0.02433011998973016,0.4295788653171509,149
+per sentence and person,human translators,direct,positive transfer,0.06848958333333333,0.03375917898073746,0.10934495812358395,
+per sentence and person,human translators,indirect,positive transfer,0.12651289682539682,0.09241422191651377,0.16354154835696014,
+per sentence and person,open models,direct,positive transfer,0.22198982939632547,0.1653331708536433,0.28198515830052484,
+per sentence and person,indirect − direct humans,,positive transfer,0.058023313492063494,0.018179211419597583,0.0963977897848445,
+per sentence and person,"open models, direct − direct humans",,positive transfer,0.15350024606299215,0.10534127600147776,0.20415898836171834,
+per sentence and person,"open models, direct − indirect humans",,positive transfer,0.09547693257092865,0.04391588432388188,0.14948396624393914,
+per sentence and person,human translators,direct,Δ,0.7258944746376811,0.5660578075217366,0.8595143424888186,
+per sentence and person,human translators,indirect,Δ,0.25211029158040027,0.1064532011492113,0.41263755275831404,
+per sentence and person,open models,direct,Δ,0.6391212817147857,0.5232681978159521,0.7466917355222059,
+per sentence and person,indirect − direct humans,,Δ,-0.4737841830572808,-0.6491567461687627,-0.2934624827124032,
+per sentence and person,"open models, direct − direct humans",,Δ,-0.08677319292289543,-0.21344897931496737,0.05897972155254589,
+per sentence and person,"open models, direct − indirect humans",,Δ,0.3870109901343854,0.22600083933879395,0.5508871339745135,
+single-slot sentences,Claude Opus,direct,retention,0.5833333333333334,0.3,0.8666666666666667,81
+single-slot sentences,Claude Opus,direct,positive transfer,0.043478260869565216,0.0,0.09859154929577464,81
+single-slot sentences,Claude Opus,direct,Δ,0.5398550724637682,0.24414349734772267,0.8273627038552408,81
+single-slot sentences,ChatGPT,direct,retention,0.5833333333333334,0.2857142857142857,0.875,81
+single-slot sentences,ChatGPT,direct,positive transfer,0.07246376811594203,0.014705882352941176,0.1388888888888889,81
+single-slot sentences,ChatGPT,direct,Δ,0.5108695652173914,0.2060292832167832,0.8166418041418039,81
+single-slot sentences,Gemini,direct,retention,0.6666666666666666,0.384375,0.9230769230769231,81
+single-slot sentences,Gemini,direct,positive transfer,0.08695652173913043,0.02857142857142857,0.15718253968253945,81
+single-slot sentences,Gemini,direct,Δ,0.5797101449275361,0.29470432838853894,0.8577464788732394,81
+single-slot sentences,DeepSeek,direct,retention,0.75,0.5,1.0,81
+single-slot sentences,DeepSeek,direct,positive transfer,0.043478260869565216,0.0,0.09859154929577464,81
+single-slot sentences,DeepSeek,direct,Δ,0.7065217391304348,0.44016233766233764,0.9577464788732395,81
+single-slot sentences,Claude,direct,retention,0.6363636363636364,0.3333333333333333,0.9166666666666666,79
+single-slot sentences,Claude,direct,positive transfer,0.07352941176470588,0.014925373134328358,0.14285714285714285,79
+single-slot sentences,Claude,direct,Δ,0.5628342245989305,0.23014479985542602,0.848507462686567,79
+single-slot sentences,web chats,direct,retention,0.6439393939393939,0.45,0.8416964285714283,
+single-slot sentences,open models,direct,retention,0.7777777777777777,0.6333333333333333,0.9166666666666666,
+single-slot sentences,human translators,direct,retention,0.6401515151515151,0.3939393939393939,0.8815277777777776,
+single-slot sentences,"web chats − open models, direct",,retention,-0.13383838383838376,-0.33453571428571427,0.07619047619047625,
+single-slot sentences,web chats − direct humans,,retention,0.0037878787878787845,-0.200953823953824,0.24763227513227518,
+single-slot sentences,web chats,direct,positive transfer,0.06398124467178176,0.020245798319327733,0.11952452112899871,
+single-slot sentences,"web chats − open models, direct",,positive transfer,-0.09167377095765841,-0.14763423086023175,-0.039759885567897967,
+single-slot sentences,web chats − direct humans,,positive transfer,0.015095239912967143,-0.022946864977875212,0.05577039899707806,
+single-slot sentences,web chats,direct,Δ,0.5799581492676122,0.37599064558629774,0.7759661352261917,
+single-slot sentences,"web chats − open models, direct",,Δ,-0.04216461288072537,-0.2555032772002082,0.17674570720568145,
+single-slot sentences,web chats − direct humans,,Δ,-0.011307361125088233,-0.2173663760073552,0.2362697235544164,
+per sentence and person,Claude Opus,direct,retention,0.7916666666666666,0.6153846153846154,0.9473684210526315,152
+per sentence and person,Claude Opus,direct,positive transfer,0.09375,0.04580152671755725,0.14845790578358198,152
+per sentence and person,Claude Opus,direct,Δ,0.6979166666666666,0.5132589802055451,0.85971113019417,152
+per sentence and person,ChatGPT,direct,retention,0.6666666666666666,0.4583333333333333,0.8461538461538461,152
+per sentence and person,ChatGPT,direct,positive transfer,0.125,0.06976744186046512,0.18604651162790697,152
+per sentence and person,ChatGPT,direct,Δ,0.5416666666666666,0.3281070601851852,0.7316451782325831,152
+per sentence and person,Gemini,direct,retention,0.7916666666666666,0.6086956521739131,0.95,152
+per sentence and person,Gemini,direct,positive transfer,0.140625,0.08208955223880597,0.20301045582706764,152
+per sentence and person,Gemini,direct,Δ,0.6510416666666666,0.4645507757864026,0.8122145999162128,152
+per sentence and person,DeepSeek,direct,retention,0.8333333333333334,0.6785714285714286,0.9629629629629629,152
+per sentence and person,DeepSeek,direct,positive transfer,0.109375,0.05736538717846195,0.1640625,152
+per sentence and person,DeepSeek,direct,Δ,0.7239583333333334,0.5618868087293285,0.8727997529720547,152
+per sentence and person,Claude,direct,retention,0.6956521739130435,0.5,0.8696002805049087,150
+per sentence and person,Claude,direct,positive transfer,0.11811023622047244,0.06502753737214792,0.178314821242624,150
+per sentence and person,Claude,direct,Δ,0.577541937692571,0.37444706709521897,0.7551559196617333,150
+per sentence and person,web chats,direct,retention,0.7557971014492754,0.629390756302521,0.8666666666666666,
+per sentence and person,open models,direct,retention,0.8611111111111112,0.7599814814814816,0.9473684210526315,
+per sentence and person,human translators,direct,retention,0.7943840579710144,0.6481175213675213,0.9236129385964913,
+per sentence and person,"web chats − open models, direct",,retention,-0.1053140096618358,-0.22407828282828285,0.003969728242173785,
+per sentence and person,web chats − direct humans,,retention,-0.038586956521739046,-0.15520745254969037,0.0919489468864469,
+per sentence and person,web chats,direct,positive transfer,0.11737204724409449,0.07227281757527841,0.16746975655028512,
+per sentence and person,"web chats − open models, direct",,positive transfer,-0.10461778215223098,-0.1520652464987269,-0.061818448326187055,
+per sentence and person,web chats − direct humans,,positive transfer,0.04888246391076116,0.012521645796064398,0.08701075676412821,
+per sentence and person,web chats,direct,Δ,0.6384250542051809,0.5017623947768171,0.7599264405179875,
+per sentence and person,"web chats − open models, direct",,Δ,-0.000696227509604741,-0.1281864147398603,0.11568327127219494,
+per sentence and person,web chats − direct humans,,Δ,-0.08746942043250017,-0.20781557530708877,0.04241816338795431,
+"added pronouns, by person",GPT-OSS 120B,direct,"positive transfer, person 1",0.23333333333333334,0.09367897727272728,0.391304347826087,
+"added pronouns, by person",GPT-OSS 120B,direct,"positive transfer, person 2",0.10256410256410256,0.024390243902439025,0.21052631578947367,
+"added pronouns, by person",GPT-OSS 120B,English chain,"positive transfer, person 1",0.3,0.13789184952978056,0.47628571428571376,
+"added pronouns, by person",GPT-OSS 120B,English chain,"positive transfer, person 2",0.2564102564102564,0.12195121951219512,0.400119047619047,
+"added pronouns, by person",Qwen 3.8 27B,direct,"positive transfer, person 1",0.3333333333333333,0.1724137931034483,0.5,
+"added pronouns, by person",Qwen 3.8 27B,direct,"positive transfer, person 2",0.13157894736842105,0.029411764705882353,0.25,
+"added pronouns, by person",Qwen 3.8 27B,English chain,"positive transfer, person 1",0.6333333333333333,0.45454545454545453,0.8055555555555556,
+"added pronouns, by person",Qwen 3.8 27B,English chain,"positive transfer, person 2",0.23076923076923078,0.1,0.37209302325581395,
+"added pronouns, by person",Gemma 4 26B,direct,"positive transfer, person 1",0.13333333333333333,0.030303030303030304,0.26666666666666666,
+"added pronouns, by person",Gemma 4 26B,direct,"positive transfer, person 2",0.05128205128205128,0.0,0.13157894736842105,
+"added pronouns, by person",Gemma 4 26B,English chain,"positive transfer, person 1",0.3,0.13886494252873563,0.4687959558823527,
+"added pronouns, by person",Gemma 4 26B,English chain,"positive transfer, person 2",0.1794871794871795,0.06379654255319149,0.3143233082706765,
+"added pronouns, where a human adds one",Shafi'-Beyk 2023,direct,share of added pronouns a human also adds,0.6666666666666666,0.3333333333333333,1.0,9
+"added pronouns, where a human adds one","Course final, primary",direct,share of added pronouns a human also adds,1.0,1.0,1.0,10
+"added pronouns, where a human adds one",Jahanshahi 1989,indirect,share of added pronouns a human also adds,0.7272727272727273,0.43727678571428574,1.0,11
+"added pronouns, where a human adds one",Golestan 2013,indirect,share of added pronouns a human also adds,0.42857142857142855,0.25,0.6086956521739131,28
+"added pronouns, where a human adds one",Lotfi 1979,indirect,share of added pronouns a human also adds,0.8181818181818182,0.5454545454545454,1.0,11
+"added pronouns, where a human adds one",Foroughi 1938,indirect,share of added pronouns a human also adds,0.2857142857142857,0.07692307692307693,0.5555555555555556,14
+"added pronouns, where a human adds one",GPT-OSS 120B,direct,share of added pronouns a human also adds,0.7,0.5185185185185185,0.8620689655172413,30
+"added pronouns, where a human adds one",GPT-OSS 120B,English chain,share of added pronouns a human also adds,0.5121951219512195,0.36358800773694394,0.6585365853658537,41
+"added pronouns, where a human adds one",Qwen 3.8 27B,direct,share of added pronouns a human also adds,0.6774193548387096,0.5161290322580645,0.8387096774193549,31
+"added pronouns, where a human adds one",Qwen 3.8 27B,English chain,share of added pronouns a human also adds,0.5306122448979592,0.391304347826087,0.6666666666666666,49
+"added pronouns, where a human adds one",Gemma 4 26B,direct,share of added pronouns a human also adds,0.7083333333333334,0.5217391304347826,0.8825163398692801,24
+"added pronouns, where a human adds one",Gemma 4 26B,English chain,share of added pronouns a human also adds,0.5757575757575758,0.38235294117647056,0.741958525345622,33
+"added pronouns, co-location",GPT-OSS 120B,direct,lift where own English chain adds,0.4087468460891506,0.24616739082304753,0.5728414351851852,
+"added pronouns, co-location",GPT-OSS 120B,direct,lift where Qwen 3.8 27B English chain adds,0.31464737793851716,0.16792723405223406,0.46916294257662516,
+"added pronouns, co-location",GPT-OSS 120B,direct,lift where Gemma 4 26B English chain adds,0.33748006379585327,0.14692535575024054,0.5268978830451332,
+"added pronouns, co-location",GPT-OSS 120B,direct,lift: own English − other models' English,0.08268312522196536,-0.10585640349227114,0.26664411057438575,
+"added pronouns, co-location",Qwen 3.8 27B,direct,lift where own English chain adds,0.499738356881214,0.347249783005597,0.6506229324710857,
+"added pronouns, co-location",Qwen 3.8 27B,direct,lift where GPT-OSS 120B English chain adds,0.26408045977011496,0.09276401131532884,0.4324695459579179,
+"added pronouns, co-location",Qwen 3.8 27B,direct,lift where Gemma 4 26B English chain adds,0.28433268858800775,0.0858082992720843,0.4760950071517967,
+"added pronouns, co-location",Qwen 3.8 27B,direct,lift: own English − other models' English,0.22553178270215263,0.063431030544146,0.3926913082905872,
+"added pronouns, co-location",Gemma 4 26B,direct,lift where own English chain adds,0.44146730462519934,0.2643592807556618,0.6230753464850963,
+"added pronouns, co-location",Gemma 4 26B,direct,lift where GPT-OSS 120B English chain adds,0.22652088589851418,0.07633399209486168,0.39205166367209904,
+"added pronouns, co-location",Gemma 4 26B,direct,lift where Qwen 3.8 27B English chain adds,0.25833118057349524,0.11564839985511437,0.41394266863016843,
+"added pronouns, co-location",Gemma 4 26B,direct,lift: own English − other models' English,0.19904127138919464,0.023294678748796507,0.38460147068563416,
