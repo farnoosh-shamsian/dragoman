@@ -1,0 +1,10 @@
+# The prompt as sent, to the open models and in the web chats. Each request was a new
+# conversation with a single user message (`user`) and no system prompt.
+# {{SOURCE}} is replaced by a chunk of the Greek, one numbered sentence per line.
+
+[chunk-direct]
+user = """
+Translate this Ancient Greek text into Persian. Each sentence starts with a number in brackets, like [1]; start each translated sentence with the same number. Give the Persian translation only, and nothing else.
+
+{{SOURCE}}
+"""

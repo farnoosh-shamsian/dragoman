@@ -1,0 +1,41 @@
+﻿dialogue,row,translation,group,MQM penalty per 100 Greek words
+Crito,system,Course secondary,Course finals,0.5
+Crito,system,Course primary,Course finals,1.6
+Crito,system,Course literal,Course finals,2.6
+Crito,system,Shafi'-Beyk,"Direct, published",7.8
+Crito,system,Claude Opus,Web chats,11.5
+Crito,system,ChatGPT,Web chats,15.1
+Crito,system,Gemini,Web chats,18.8
+Crito,system,Claude Sonnet,Web chats,20.8
+Crito,system,DeepSeek,Web chats,26.6
+Crito,system,Jahanshahi,"Indirect, published",26.0
+Crito,system,Golestan,"Indirect, published",34.9
+Crito,system,Lotfi,"Indirect, published",37.0
+Crito,system,Foroughi,"Indirect, published",44.8
+Crito,system,Gemma 4 26B,Open models,54.2
+Crito,system,Qwen 3.8 27B,Open models,56.8
+Crito,system,GPT-OSS 120B,Open models,103.6
+Crito,system,Mistral Small 24B,Open models,104.7
+Crito,system,GPT-OSS 20B,Open models,142.2
+Crito,group mean,Course finals,Course finals,1.6
+Crito,group mean,"Direct, published","Direct, published",7.8
+Crito,group mean,Web chats,Web chats,18.6
+Crito,group mean,"Indirect, published","Indirect, published",35.7
+Crito,group mean,Open models,Open models,92.3
+Euthyphro,system,Shafi'-Beyk,"Direct, published",5.5
+Euthyphro,system,Claude Opus,Web chats,11.6
+Euthyphro,system,ChatGPT,Web chats,24.4
+Euthyphro,system,Gemini,Web chats,34.1
+Euthyphro,system,Claude Sonnet,Web chats,34.1
+Euthyphro,system,DeepSeek,Web chats,59.1
+Euthyphro,system,Foroughi,"Indirect, published",49.4
+Euthyphro,system,Lotfi,"Indirect, published",54.3
+Euthyphro,system,Qwen 3.8 27B,Open models,70.1
+Euthyphro,system,Gemma 4 26B,Open models,78.0
+Euthyphro,system,GPT-OSS 120B,Open models,123.8
+Euthyphro,system,Mistral Small 24B,Open models,125.6
+Euthyphro,system,GPT-OSS 20B,Open models,165.2
+Euthyphro,group mean,"Direct, published","Direct, published",5.5
+Euthyphro,group mean,Web chats,Web chats,32.7
+Euthyphro,group mean,"Indirect, published","Indirect, published",51.8
+Euthyphro,group mean,Open models,Open models,112.6

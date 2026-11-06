@@ -1,25 +1,24 @@
 # Dragoman
 
 A dragoman was the interpreter who stood between languages. The word itself travelled from
-Arabic and Persian *tarjumān* (ترجمان) into Europe. Language models seem to be the dragomans of our times, standing between some of these languages too!
+Arabic and Persian _tarjumān_ (ترجمان) into Europe. Language models seem to be the dragomans of our times, standing between some of these languages too!
 Here I share some of my experiments on how they translate Ancient Greek into Persian, and especially whether they go straight from
 Greek to Persian or take a detour through English.
 The whole repo follows a general enquiry into this point rather than specific research questions. The specifics are declared in each experiment.
-
 
 ## Word-list experiment
 
 The first experiment gives eight open-weight models (GPT-OSS, Qwen, ALLaM, Llama, Mistral and
 Gemma) 200 Ancient Greek words, one at a time, and asks for Persian. Some of the words are
 traps: their usual English translation has a second meaning that the Greek word never has.
-φώκη is a seal, the animal, but English *seal* is also a stamp. A model that answers مهر
+φώκη is a seal, the animal, but English _seal_ is also a stamp. A model that answers مهر
 ("stamp") has probably gone through the English word.
 
 The traps rarely fire (under 1% of answers in every model), although the same models fall
 into them 29–80% of the time when they are made to go through their own English word. Still,
 English does leak in. Some
 Greek words get read as English words they sound like (πίσσα "pitch" becomes ادرار, via
-*piss*), some answers are English words written in Persian letters (فاکس, *fox*, for φοῖνιξ),
+_piss_), some answers are English words written in Persian letters (فاکس, _fox_, for φοῖνιξ),
 some start in Persian and finish in English (کilling for ἀποκτείνω), and now and then, mostly
 with more randomness in the sampling, an English-only meaning slips through.
 
@@ -40,8 +39,8 @@ every model answer and the results. A small kinship test (paused) sits in the sa
 
 Greek and Persian are both pro-drop languages: they can leave out the subject pronoun. English
 cannot. If a model relays through English, its Persian should lose the Greek difference between a
-bare verb and a stressed pronoun. Three models translated Plato's *Crito* directly and through
-their own English, and were compared with published human translations of the *Crito*.
+bare verb and a stressed pronoun. Three models translated Plato's _Crito_ directly and through
+their own English, and were compared with published human translations of the _Crito_.
 
 Going through English does wipe out most of the contrast, for the models and for the human
 translators who worked from a modern language. The models' direct Persian keeps it about as well
@@ -52,7 +51,7 @@ Data, results and limits are in [`pro-drop-test`](pro-drop-test/).
 
 ## Historical-present test
 
-*Ongoing: most of the work is still to be done.*
+_Ongoing: most of the work is still to be done._
 
 Greek, Persian and English use the historical present (the present tense for past events)
 differently. If a model relays through English, the Persian may carry traces of how English
@@ -74,22 +73,19 @@ into Persian, and whether their Persian shows the kind of problems that indirect
 through a third language, leaves behind. Whatever their cause, such traces matter to a reader of
 the Persian. The next step is to move from single words and sentences to much larger texts.
 
-## Whole dialogues
+## Plato's dialogues
 
-*Ongoing: the machine translations are done; the evaluation is being planned.*
+_Ongoing: the machine translations are done; the error annotation is under way._
 
-The larger aim is to have models translate a whole dialogue of Plato into Persian and to compare
-their translations at length. The first is the *Crito*. Six open-weight models and three web chats
-have translated the whole dialogue, sentence by sentence and in longer chunks. The *Crito* has
-also been translated into Persian by people, both indirectly (through English, French or German)
-and directly from the Greek, and these translations are collected in an earlier corpus
-([Shamsian et al. 2025](https://doi.org/10.5334/johd.398); data on
-[Zenodo](https://doi.org/10.5281/zenodo.17607620)). The goal is to compare the machine
-translations with the direct and the indirect human ones, with several methods: hand annotation
-of errors (MQM), key-term consistency, errors inherited from an intermediate translation,
-automatic metrics and a language model as judge. In [`crito-translation`](crito-translation/).
+Two dialogues, the _Crito_ and the _Euthyphro_ (2a–4b), translated into Persian by six open-weight
+models and five web chats, in chunks of about 250 Greek words. Four of the five printed Persian
+translations of the _Crito_ were made through English, French or German, and only one directly from
+the Greek, so the models' Persian can be compared with both kinds. I annotate the errors by hand
+(MQM). In the first units, the direct human translations make the fewest errors, then the web chats,
+then the indirect human translations, then the open models, in the same order in both dialogues.
+In [`plato-dialogues`](plato-dialogues/).
 
 ## Note
 
-The code and README files in this repository were generated with the assistance of Claude
+The code and README files in this repository were produced with the assistance of Claude
 Opus 5.5 (Anthropic).

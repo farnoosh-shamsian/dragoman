@@ -40,9 +40,9 @@ near zero.
   [Crito corpus](https://doi.org/10.5281/zenodo.17607620)) and translations made through a
   modern language (Foroughi 1938, Lotfi 1979, Jahanshahi 1989, Golestan 2013). Only the figures
   are published here, not the translations.
-- **Web chats** (direct only): ChatGPT, Gemini, DeepSeek, Claude Opus and Claude, given the same
+- **Web chats** (direct only): ChatGPT, Gemini, DeepSeek, Claude Opus and Claude Sonnet, given the same
   chunks with the same direct prompt, by hand in each web chat with its default settings. Their
-  translations come from the [Crito translation](../crito-translation/) workbook; we have no English
+  translations come from the [Plato's dialogues](../plato-dialogues/) folder; we have no English
   chain for them.
 - **Annotation:** the Greek side comes from the treebank. The Persian side is marked by a
   rule-based detector, which I checked by hand on 19 blinded rows (below).
@@ -131,8 +131,8 @@ about 18% (95% upper bound).
 - One text, one author: the *Crito*. Other texts and genres may behave differently.
 - The detector check is small (19 rows; above), and covers open-model rows only, not the web chats
   or the human translations.
-- Each web chat is one run with settings we can't see or set. "Claude (web chat)" does not record
-  which Claude model it was.
+- Each web chat is one run with settings we can't see or set (Claude Sonnet was Sonnet 5 at
+  medium effort; the other versions were not recorded).
 - The English chain translates twice. Part of what it loses may come from translating twice, not
   from English.
 - The human translations were transcribed from scans and have not all been proofread. The three

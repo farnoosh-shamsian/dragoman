@@ -137,9 +137,9 @@ single-slot sentences,Gemini,direct,Δ,0.5797101449275361,0.29470432838853894,0.
 single-slot sentences,DeepSeek,direct,retention,0.75,0.5,1.0,81
 single-slot sentences,DeepSeek,direct,positive transfer,0.043478260869565216,0.0,0.09859154929577464,81
 single-slot sentences,DeepSeek,direct,Δ,0.7065217391304348,0.44016233766233764,0.9577464788732395,81
-single-slot sentences,Claude,direct,retention,0.6363636363636364,0.3333333333333333,0.9166666666666666,79
-single-slot sentences,Claude,direct,positive transfer,0.07352941176470588,0.014925373134328358,0.14285714285714285,79
-single-slot sentences,Claude,direct,Δ,0.5628342245989305,0.23014479985542602,0.848507462686567,79
+single-slot sentences,Claude Sonnet,direct,retention,0.6363636363636364,0.3333333333333333,0.9166666666666666,79
+single-slot sentences,Claude Sonnet,direct,positive transfer,0.07352941176470588,0.014925373134328358,0.14285714285714285,79
+single-slot sentences,Claude Sonnet,direct,Δ,0.5628342245989305,0.23014479985542602,0.848507462686567,79
 single-slot sentences,web chats,direct,retention,0.6439393939393939,0.45,0.8416964285714283,
 single-slot sentences,open models,direct,retention,0.7777777777777777,0.6333333333333333,0.9166666666666666,
 single-slot sentences,human translators,direct,retention,0.6401515151515151,0.3939393939393939,0.8815277777777776,
@@ -163,9 +163,9 @@ per sentence and person,Gemini,direct,Δ,0.6510416666666666,0.4645507757864026,0
 per sentence and person,DeepSeek,direct,retention,0.8333333333333334,0.6785714285714286,0.9629629629629629,152
 per sentence and person,DeepSeek,direct,positive transfer,0.109375,0.05736538717846195,0.1640625,152
 per sentence and person,DeepSeek,direct,Δ,0.7239583333333334,0.5618868087293285,0.8727997529720547,152
-per sentence and person,Claude,direct,retention,0.6956521739130435,0.5,0.8696002805049087,150
-per sentence and person,Claude,direct,positive transfer,0.11811023622047244,0.06502753737214792,0.178314821242624,150
-per sentence and person,Claude,direct,Δ,0.577541937692571,0.37444706709521897,0.7551559196617333,150
+per sentence and person,Claude Sonnet,direct,retention,0.6956521739130435,0.5,0.8696002805049087,150
+per sentence and person,Claude Sonnet,direct,positive transfer,0.11811023622047244,0.06502753737214792,0.178314821242624,150
+per sentence and person,Claude Sonnet,direct,Δ,0.577541937692571,0.37444706709521897,0.7551559196617333,150
 per sentence and person,web chats,direct,retention,0.7557971014492754,0.629390756302521,0.8666666666666666,
 per sentence and person,open models,direct,retention,0.8611111111111112,0.7599814814814816,0.9473684210526315,
 per sentence and person,human translators,direct,retention,0.7943840579710144,0.6481175213675213,0.9236129385964913,
