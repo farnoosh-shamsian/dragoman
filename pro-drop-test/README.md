@@ -45,7 +45,8 @@ near zero.
   translations come from the [Plato's dialogues](../plato-dialogues/) folder; we have no English
   chain for them.
 - **Annotation:** the Greek side comes from the treebank. The Persian side is marked by a
-  rule-based detector, which I checked by hand on 19 blinded rows (below).
+  rule-based detector, checked by hand on 19 blinded rows, and every case it left unclear was
+  decided by hand (below).
 
 ### Prompts
 
@@ -77,42 +78,44 @@ pronoun, so the per sentence and person count (24 stressed, 128 left out) is the
 
 | | Sentences with one slot (81) | Per sentence and person (152) |
 |---|---|---|
-| GPT-OSS 120B, direct | **+76** | **+72** |
-| GPT-OSS 120B, English chain | +6 | +22 |
-| Qwen 3.8 27B, direct | **+45** | **+55** |
-| Qwen 3.8 27B, English chain | +9 | +33 |
-| Gemma 4 26B, direct | **+66** | **+65** |
-| Gemma 4 26B, English chain | +27 | +41 |
-| Web chats, direct (five, averaged) | **+58** | **+64** |
-| Human, direct from Greek | **+59** | **+73** |
-| Human, through another language | +15 | **+25** |
+| GPT-OSS 120B, direct | **+84** | **+75** |
+| GPT-OSS 120B, English chain | +22 | +31 |
+| Qwen 3.8 27B, direct | **+61** | **+63** |
+| Qwen 3.8 27B, English chain | +18 | +37 |
+| Gemma 4 26B, direct | **+83** | **+71** |
+| Gemma 4 26B, English chain | +52 | +55 |
+| Web chats, direct (five, averaged) | **+71** | **+72** |
+| Human, direct from Greek | **+79** | **+83** |
+| Human, through another language | +18 | **+28** |
 
 ## Answer
 
-**No trace of English, by this measure.** Going through English wipes out most of the Greek
-contrast, for the models' English chains and for the human translators who worked from a modern
-language alike. The models' direct Persian keeps it about as well as the direct human translations
-do (models − humans: −9 points, interval −21 to +6). In its pronouns, their direct translation
-looks like a direct translation, not like a pivot. The five web chats come out the same: +64 on
-average, from +54 (ChatGPT) to +72 (DeepSeek), no different from the open models (0 points,
-interval −13 to +12).
+**No trace of English, by this measure.** Going through English costs much of the Greek
+contrast: the human translators who worked from a modern language keep +28, the models' English
+chains +31 and +37 (Gemma's +55, closer to its direct +71). The models' direct Persian sits far
+above the indirect translations (+42 points, interval +26 to +58) and a little below the direct
+human translations (−13, interval −22 to −4; in sentences with one slot −3, interval −13 to +9).
+In its pronouns, their direct translation looks like a direct translation, not like a pivot. The
+five web chats come out the same: +72 on average, from +58 (ChatGPT) to +81 (DeepSeek), no
+different from the open models (+2 points, interval −9 to +12).
 
 **One reservation.** The models add pronouns the Greek doesn't have more often than human
-translators do: 19–24% of the empty Greek slots in the *Crito*, against 7% for the direct human
-translations and 13% for the indirect ones. The web chats add 12% on average, half as many as
-the open models (−10 points, interval −15 to −6), though still more than the direct human
-translations (+5, interval +1 to +9). So most of the excess belongs to the open models. They keep
+translators do: 20–25% of the empty Greek slots in the *Crito*, against 8% for the direct human
+translations and 15% for the indirect ones. The web chats add 12% on average, half as many as
+the open models (−11 points, interval −16 to −7), though still more than the direct human
+translations (+5, interval +1 to +8). So most of the excess belongs to the open models. They keep
 the gap as high as the web chats only because they also keep more of the Greek's own pronouns
-(86% against 76%). This test can't say why they add so many. The exploratory checks (the
+(93% against 84%). This test can't say why they add so many. The exploratory checks (the
 "added pronouns" rows of [`results.csv`](results.csv)) point both ways:
 
 - The added pronouns are mostly 1st person (13–33% of empty 1st-person slots, against 5–13% of
   2nd-person ones, in sentences with one slot).
-- About 70% of them sit where at least one human translator also adds a pronoun, as in most human
-  translations. For the English chains the figure is lower, 51–58%. This points away from English.
+- About 80–85% of them sit where at least one human translator also adds a pronoun, as in most
+  human translations. For the English chains the figure is lower, 59–67%. This points away from
+  English.
 - Qwen's and Gemma's direct translations add pronouns more often where their own English chain
-  adds one than where the other models' English chains do (+23 and +20 points). This may be each
-  model's own habit, or a trace of English. GPT-OSS shows no such difference (+8, not clear), but
+  adds one than where the other models' English chains do (+19 and +22 points). This may be each
+  model's own habit, or a trace of English. GPT-OSS shows no such difference (+5, not clear), but
   its direct translation adds 1st-person pronouns nearly as often as its English chain does (23%
   and 30%).
 
@@ -124,13 +127,23 @@ syntax differs from the Greek, with plural `شما` for a Greek singular). All 7
 right. The check is small: with no errors in 18 decided rows, the error rate could still be up to
 about 18% (95% upper bound).
 
+That check looked only at the pronouns the detector counted. The detector calls a free pronoun a
+subject only where a clause starts (the sentence start, punctuation, a conjunction); after an
+adverb or a noun, as in `نخست ما تو را … نبخشیدیم` or `از قضا من …`, it can't tell a subject from
+a possessive (`پولِ من`) and marks it `maybe`. A first count left every `maybe` out, which made all
+retention figures too low (Shafi'-Beyk 79% instead of 92%). So every *Crito* place where a `maybe`
+could change a count was read by hand: 275 cases in all systems and routes, of which 67 are
+subjects. These now count, and `hand_fix` in [`translations.csv`](translations.csv) marks them.
+The other pronouns the detector counted as subjects were not re-read for the human translations
+and the web chats.
+
 ## Limits
 
 - The test sees only what is on the surface of the output. A relay that leaves the pronouns as the
   Greek has them is invisible to it.
 - One text, one author: the *Crito*. Other texts and genres may behave differently.
-- The detector check is small (19 rows; above), and covers open-model rows only, not the web chats
-  or the human translations.
+- The blind detector check is small (19 rows; above), and covers open-model rows only, not the
+  web chats or the human translations. The unclear cases were decided by me, not blind.
 - Each web chat is one run with settings we can't see or set (Claude Sonnet was Sonnet 5 at
   medium effort; the other versions were not recorded).
 - The English chain translates twice. Part of what it loses may come from translating twice, not
@@ -163,7 +176,9 @@ three prompts as sent.
 - `translation`: the text. `English step 1` rows are the English that was sent back for step 2.
   Left empty for the human translations, which are counted but not published here.
 - `subj_1`, `subj_2`: overt 1st/2nd-person subject pronouns the detector found (in the
-  `English step 1` rows, English subject pronouns).
+  `English step 1` rows, English subject pronouns), with the hand decisions added.
+- `hand_fix`: the persons (`1`, `2`) whose subject pronoun the detector marked `maybe` and I
+  counted as a subject by hand (65 rows).
 - `pronouns`: every free pronoun the detector saw, as word:person:call (`subj`, `maybe`, `obj`,
   `obl`), for checking it.
 - `emphasis`: English emphatic forms (*I myself*, *for my part*) in the `English step 1` rows.
